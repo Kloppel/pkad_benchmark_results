@@ -1,0 +1,297 @@
+========================================================================
+PKAD benchmark — task 77
+PDB        : 1gzw  (crystal) — datasets: PKAD3
+Run name   : 1gzw
+PDB path   : /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/pkad_data/pdbs/heavy_atom/1gzw.pdb
+Repo root  : /net/work/jones/Karlsberg3
+Date UTC   : 2026-06-19 12:10:40
+========================================================================
+Conda env  : kb3
+Python     : /homes2/chemie/jones/.conda/envs/kb3/bin/python3
+APBS lib   : /net/work/jones/Karlsberg3/TARs/kb2plus_package/APBS-1.5-linux64/lib
+TAPBS lib  : /net/work/jones/Karlsberg3/TARs/kb2plus_package/lib_fort_gnu
+CHARMM     : /projects/biomodeling/charmm-lite/c46b1/ser/bin/charmm
+Results root: /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619
+Run name   : 1gzw
+PAC workers: 3
+========================================================================
+
+================================================================
+KB3 run : 1gzw
+Structure: /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/pkad_data/pdbs/heavy_atom/1gzw.pdb
+Parallel PACs: 3
+Protocol: [(-10, 'open_sb_acids'), (7, 'h_min'), (20, 'open_sb_bases')]
+Results : /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619
+================================================================
+
+[Stage 1] Stripping non-protein segments …
+[Stage 1] Removed 0 atoms (nothing to remove)
+[Stage 1] Retained 2044 atoms in ['C', 'N', 'O', 'S']
+
+[Stage 3] Running pKa calculation (3 PAC workers) …
+[Stage 3] PDB for calculation: /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/preprocessed/1gzw_stripped.pdb
+  Topology  : ['top.inp', 'converted_0.rtf', 'converted_1.rtf']
+  Parameters: ['par.inp', 'converted_0.prm', 'converted_1.prm', 'toppar_water_ions.str', 'par_all36m_prot_additions.prm', 'backfill.prm']
+
+Working directory: /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/1gzw_karlsberg/
+TAPBS binary location set at: /net/work/jones/Karlsberg3/bin/tapbs_1.3_cav_enere
+TAPBS LD LIBRARY PATH location set at: /net/work/jones/Karlsberg3/TARs/kb2plus_package/lib_fort_gnu
+No binary location set for CHARMM, instead the command /projects/biomodeling/charmm-lite/c46b1/ser/bin/charmm will be used.
+CHARMM command set too: /projects/biomodeling/charmm-lite/c46b1/ser/bin/charmm
+APBS binary location set at: /net/work/jones/Karlsberg3/bin/apbs
+COULOMB binary location set at: /net/work/jones/Karlsberg3/bin/coulomb
+Karlsberg binary location set at: /net/work/jones/Karlsberg3/bin/karlsberg2.x86_64_fixed
+Titratable yaml file location set at: /work/jones/Karlsberg3/src/kbp3/additional_files/titratable.yaml
+Starting calculations of pKa values for protein: 1gzw_stripped
+# Starting initial modelling
+ -Preoptimization: Dielectric constant will be set to 10 
+ Dielectric constant will be set to 10 after preoptimization
+Structure preparation (initial modelling) is done!
+Computed PAC timeout budget: 43080s  (mod=352s tapbs=1204s kb=500s)
+# Pac run for -10 open_sb_acids
+Warning in "read_par": NONBONDED entry for HT found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for OT found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for MG found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for POT found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for CAL found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for CES found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for ZN found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for CLA found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for ON3 found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/par_all36m_prot_additions.prm exists and will be overwritten.
+***Starting iteration 1***
+***Starting iteration 2***
+***Starting iteration 3***
+# Starting conformational energy calculation for pH -10
+Starting conformational energy calculation with APBS
+Start apbs job!
+Waiting for APBS to finish..
+APBS finished!
+Everything is fine! Here are the results:
+
+coulomb changed - CHARMM for MDs, APBS for crystal
+The method is 
+apbs
+# Pac run for 7 h_min
+Warning in "read_par": NONBONDED entry for HT found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for OT found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for MG found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for POT found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for CAL found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for CES found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for ZN found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for CLA found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for ON3 found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/par_all36m_prot_additions.prm exists and will be overwritten.
+***Starting iteration 1***
+***Starting iteration 2***
+***Starting iteration 3***
+# Starting conformational energy calculation for pH 7
+Starting conformational energy calculation with APBS
+Start apbs job!
+Waiting for APBS to finish..
+APBS finished!
+Everything is fine! Here are the results:
+
+coulomb changed - CHARMM for MDs, APBS for crystal
+The method is 
+apbs
+# Pac run for 20 open_sb_bases
+Warning in "read_par": NONBONDED entry for HT found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for OT found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for MG found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for POT found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for CAL found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for CES found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for ZN found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for CLA found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for ON3 found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/par_all36m_prot_additions.prm exists and will be overwritten.
+***Starting iteration 1***
+***Starting iteration 2***
+***Starting iteration 3***
+# Starting conformational energy calculation for pH 20
+Starting conformational energy calculation with APBS
+Start apbs job!
+Waiting for APBS to finish..
+APBS finished!
+Everything is fine! Here are the results:
+
+coulomb changed - CHARMM for MDs, APBS for crystal
+The method is 
+apbs
+NTE-1_A 6.513326585695006
+CYS-2_A 9.86718200983837
+LYS-12_A 12.02204955900882
+EPP-15_A 3.433369743309667
+ARG-18_A 15.151192778852353
+ARG-20_A 14.681283905967451
+EPP-22_A 3.3409270998415215
+DPP-26_A 3.8217334208798426
+LYS-28_A 11.152887537993921
+LYS-36_A 10.779294849637054
+DPP-37_A 1.702225519287834
+CYS-42_A 15.802484254723582
+HSP-44_A 5.682862903225806
+ARG-48_A 15.109387325795424
+HSP-52_A 6.427434754933164
+DPP-54_A 3.615057422373458
+CYS-60_A 17.147120055517004
+LYS-63_A 10.717326521924223
+DPP-64_A 3.735489721886336
+EPP-71_A 2.356193955496513
+ARG-73_A 13.154652032925917
+EPP-74_A 4.1074040219378425
+EPP-86_A 2.735148514851485
+CYS-88_A 13.323839662447257
+DPP-92_A 3.664869029275809
+LYS-99_A 11.7178
+DPP-102_A 4.1265356265356266
+TYR-104_A 11.42847075405215
+EPP-105_A 4.110300820419325
+LYS-107_A 12.099671412924424
+ARG-111_A 12.080942260007085
+EPP-115_A 4.545547945205479
+TYR-119_A 10.098579545454545
+DPP-123_A 0.04642966595157827
+DPP-125_A 4.646032405484005
+LYS-127_A 12.135063559322035
+LYS-129_A 13.98811659192825
+CYS-130_A 10.187836624775583
+CTE-134_A 0.8797319932998324
+DPP-134_A 5.5651076716016155
+NTE-1_B 5.574978759558199
+CYS-2_B 10.24611197511664
+LYS-12_B 11.374141876430206
+EPP-15_B 3.6215139442231075
+CYS-16_B 15.42948461845785
+ARG-18_B 17.232278734481376
+ARG-20_B 14.698946886446887
+EPP-22_B 3.414916885389326
+DPP-26_B 3.7376497005988023
+LYS-28_B 11.034455632473254
+LYS-36_B 11.419862518089724
+DPP-37_B 1.7362760834670947
+CYS-42_B 15.950495049504951
+HSP-44_B 5.452365308804205
+ARG-48_B 15.267147523135547
+HSP-52_B 6.230191972076788
+DPP-54_B 3.199778434268833
+CYS-60_B 18.937830687830687
+LYS-63_B 10.459613869188338
+DPP-64_B 3.75607353906763
+EPP-71_B 2.774274661508704
+ARG-73_B 13.251594700686947
+EPP-74_B 5.281021897810219
+EPP-86_B 1.4680499449136981
+CYS-88_B 13.04219204655674
+DPP-92_B 3.220881427072403
+LYS-99_B 11.347478474784747
+DPP-102_B 3.8216944345976605
+TYR-104_B 11.381499823134064
+EPP-105_B 4.376661129568106
+LYS-107_B 11.447927736450584
+ARG-111_B 13.340398608035432
+EPP-115_B 4.565316786414108
+TYR-119_B 10.585194174757282
+DPP-123_B -0.2728414442700158
+DPP-125_B 5.181528662420382
+LYS-127_B 12.76308199423156
+LYS-129_B 14.708114946683535
+CYS-130_B 11.587400681044269
+CTE-134_B 1.2017268445839875
+DPP-134_B 4.545853444493199
+Final results are combined, the pKa computation is done!
+
+[Stage 3] SUCCESS — results.dat:
+       NTE-1_A: 6.51 
+       CYS-2_A: 9.87 
+      LYS-12_A: 12.02 
+      GLU-15_A: 3.43 
+      ARG-18_A: 15.15 
+      ARG-20_A: 14.68 
+      GLU-22_A: 3.34 
+      ASP-26_A: 3.82 
+      LYS-28_A: 11.15 
+      LYS-36_A: 10.78 
+      ASP-37_A: 1.70 
+      CYS-42_A: 15.80 
+      HIS-44_A: 5.68 
+      ARG-48_A: 15.11 
+      HIS-52_A: 6.43 
+      ASP-54_A: 3.62 
+      CYS-60_A: 17.15 
+      LYS-63_A: 10.72 
+      ASP-64_A: 3.74 
+      GLU-71_A: 2.36 
+      ARG-73_A: 13.15 
+      GLU-74_A: 4.11 
+      GLU-86_A: 2.74 
+      CYS-88_A: 13.32 
+      ASP-92_A: 3.66 
+      LYS-99_A: 11.72 
+     ASP-102_A: 4.13 
+     TYR-104_A: 11.43 
+     GLU-105_A: 4.11 
+     LYS-107_A: 12.10 
+     ARG-111_A: 12.08 
+     GLU-115_A: 4.55 
+     TYR-119_A: 10.10 
+     ASP-123_A: 0.05 
+     ASP-125_A: 4.65 
+     LYS-127_A: 12.14 
+     LYS-129_A: 13.99 
+     CYS-130_A: 10.19 
+     CTE-134_A: 0.88 
+     ASP-134_A: 5.57 
+       NTE-1_B: 5.57 
+       CYS-2_B: 10.25 
+      LYS-12_B: 11.37 
+      GLU-15_B: 3.62 
+      CYS-16_B: 15.43 
+      ARG-18_B: 17.23 
+      ARG-20_B: 14.70 
+      GLU-22_B: 3.41 
+      ASP-26_B: 3.74 
+      LYS-28_B: 11.03 
+      LYS-36_B: 11.42 
+      ASP-37_B: 1.74 
+      CYS-42_B: 15.95 
+      HIS-44_B: 5.45 
+      ARG-48_B: 15.27 
+      HIS-52_B: 6.23 
+      ASP-54_B: 3.20 
+      CYS-60_B: 18.94 
+      LYS-63_B: 10.46 
+      ASP-64_B: 3.76 
+      GLU-71_B: 2.77 
+      ARG-73_B: 13.25 
+      GLU-74_B: 5.28 
+      GLU-86_B: 1.47 
+      CYS-88_B: 13.04 
+      ASP-92_B: 3.22 
+      LYS-99_B: 11.35 
+     ASP-102_B: 3.82 
+     TYR-104_B: 11.38 
+     GLU-105_B: 4.38 
+     LYS-107_B: 11.45 
+     ARG-111_B: 13.34 
+     GLU-115_B: 4.57 
+     TYR-119_B: 10.59 
+     ASP-123_B: -0.27 
+     ASP-125_B: 5.18 
+     LYS-127_B: 12.76 
+     LYS-129_B: 14.71 
+     CYS-130_B: 11.59 
+     CTE-134_B: 1.20 
+     ASP-134_B: 4.55 
+
+
+[Stage 4] Fitting titration curves and writing plots …
+[titration_analysis] skipped (non-fatal): No module named 'kbp3.titration_analysis'
+
+================================================================
+Run complete: 1gzw  SUCCESS
+Results written to: /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619
+================================================================
+
+========================================================================
+Task 77 (1gzw) finished: 2026-06-19 13:12:48 UTC
+========================================================================

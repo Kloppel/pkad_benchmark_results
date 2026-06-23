@@ -1,0 +1,50 @@
+
+### The following changes have been applied to the structure. ###
+# Some residues have been found that are not known to Charmm. (87xDA 87xDT 60xDC 60xDG)
+  Decision: delete_unknown
+  Options:  yes - Delete the residues. (default)
+            no  - Keep them.
+  Chosen:   yes
+
+# Capping of termini will be decided here. Should they be caped?
+  Decision: cap_termini
+  Options:  cap - Apply patches in Charmm to cap termini if not true termini. (default)
+            dont_cap  - Do nothing, apply regular termini patches!
+
+  Chosen:   cap for segname A
+
+  Chosen:   cap for segname B
+
+  Chosen:   cap for segname C
+
+  Chosen:   cap for segname D
+
+  Chosen:   cap for segname E
+
+  Chosen:   cap for segname F
+
+  Chosen:   cap for segname G
+
+  Chosen:   cap for segname H
+
+# There are 33 protein and 0 ligand atoms missing. Should they be modelled?:
+  Missing atoms: ARG-23_B:  CB  CG  CD  NE  CZ NH1 NH2 
+                 LYS-117_C:  CB  CG  CD  CE  NZ 
+                 LYS-118_C:  CB  CG  CD  CE  NZ 
+                 THR-119_C:  CB OG1 CG2 
+                 EPP-120_C:  CB  CG  CD OE1 OE2 
+                 LYS-118_G:  CB  CG  CD  CE  NZ 
+                 THR-119_G:  CB OG1 CG2 
+  Decision: missing_atoms
+  Options:  model - Model all missing atoms. (default)
+            [keep  - Do not model any (non hydrogen) atoms.] option currently not available
+  Chosen:   model
+
+# There are 6641 protein, 0 ligand and 0 water hydrogens missing. Should they be modelled?:
+  Decision: missing_hydrogens
+  Options:  model - Model and optimize all hydrogens. (default)
+            rebuild_all - Strip all present hydrogens first, then rebuild and optimize them.
+            rebuild_selected - Strip only selected hydrogens first, then rebuild and optimize them.
+            disabled - Do not rebuild hydrogens again after a one-shot rebuild.
+  Chosen:   model
+

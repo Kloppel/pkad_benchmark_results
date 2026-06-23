@@ -1,0 +1,665 @@
+*>>>> CHARMM36 All-Hydrogen Parameter File for Proteins <<<<<<<<<<
+*>>>>> Includes phi, psi cross term map (CMAP) correction <<<<<<<<
+*>>>>>>>>>>>>>>>>>>>>>>>>>> Jan. 2016 <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+* All comments to the CHARMM web site: www.charmm.org
+*             parameter set discussion forum
+*
+
+!references
+!
+!Huang, J., Rauscher, S., Nawrocki, G., Ran, T., Feig, M, de Groot, B.L.,
+!Grubmuller, H., and MacKerell, A.D., Jr., "CHARMM36m: An Improved Force
+!Field for Folded and Intrinsically Disordered Proteins,"
+!Nature Methods, 14:71-73, 2016, PMC5199616
+!
+!Robert B. Best, R.B., Xiao Zhu, X., Shim, J., Lopes, P.
+!Mittal, J., Feig, M. and MacKerell, A.D., Jr. "Optimization of the
+!additive CHARMM all-atom protein force field targeting improved
+!sampling of the backbone phi, psi and sidechain chi1 and chi2
+!dihedral angles," Journal of Chemical Theory and Computation, 8:
+!3257-3273, 2012, 10.1021/ct300400x, PMC3549273
+!
+!MacKerell, A.D., Jr., Feig, M. and Brooks, III, C.L. "Improved
+!treatment of the protein backbone in empirical force fields," Journal
+!of the American Chemical Society, 126: 698-699, 2004
+!
+!MacKerell, Jr., A. D.; Bashford, D.; Bellott, M.; Dunbrack Jr., R.L.;
+!Evanseck, J.D.; Field, M.J.; Fischer, S.; Gao, J.; Guo, H.; Ha, S.;
+!Joseph-McCarthy, D.; Kuchnir, L.; Kuczera, K.; Lau, F.T.K.; Mattos,
+!C.; Michnick, S.; Ngo, T.; Nguyen, D.T.; Prodhom, B.; Reiher, III,
+!W.E.; Roux, B.; Schlenkrich, M.; Smith, J.C.; Stote, R.; Straub, J.;
+!Watanabe, M.; Wiorkiewicz-Kuczera, J.; Yin, D.; Karplus, M.  All-atom
+!empirical potential for molecular modeling and dynamics Studies of
+!proteins.  Journal of Physical Chemistry B, 1998, 102, 3586-3616.
+
+BONDS
+!
+!V(bond) = Kb(b - b0)**2
+!
+!Kb: kcal/mole/A**2
+!b0: A
+!
+!atom type Kb          b0
+!
+
+!!!!!!heme parameters!!!!!!!!!!!!!!!!!!!!!!!
+
+CPB  C     450.000     1.3800 ! ALLOW HEM
+                ! Heme (6-liganded): substituents (KK 05/13/91)
+HA   C     330.000     1.1000 ! ALLOW ARO HEM
+                ! Heme vinyl substituent (KK, from propene (JCS))
+OC   H     545.000     0.9600 ! from OH1  H
+                ! for protonated propionic acid
+
+!!!!!!!!!!neu dimas addition neu!!!!!!!!!!!!!!
+OT  FE     250.000     1.8000 ! taken from  OM   FE
+CU  NR2     30.000     2.1000 ! taken from NPH FE
+CU  S       30.000     2.2500
+CU  NR1     30.000     2.1600 ! taken from NPH FE
+CU  O       30.000     2.7300
+CU  OT      30.000     2.2800 ! taken from OM  FE
+CU  CU      30.000     2.6400
+
+!!!!!!!!!! test arg-glu bond !!!!!!!!!!!!!!
+OC  NC2     250.000     3.2000 ! taken from  OM   FE
+
+!!!! addition for copper B!!!!!!!!!!!!!!!!!
+NX  CPH1  400.000     1.3800 ! ALLOW ARO
+                ! his, ADM JR., 7/20/89
+NX  CPH2  400.000     1.3200 ! ALLOW ARO
+                ! his, ADM JR., 7/20/89
+CU  NX     30.000     2.1000 ! taken from NPH FE
+
+!!!!!!!!addition for TYR-HIS-Patch!!!!!!!!!!!!!
+!CA  NR1   200.000    1.40 !values NOT verified cco_aa3 annalena
+CA   NR1   200.000    1.55 !values NOT verified cco_ba3 ankewa
+
+!!! Lipid params for DUM 1 from Charmm-GUI !!!
+!!!               JeJo                     !!!
+HA   CT1   309.000     1.1110 ! ALLOW   ALI
+                ! alkane update, adm jr., 3/2/92 from HA1 CT1
+HA   CT2   309.000     1.1110 ! ALLOW   ALI
+                ! alkane update, adm jr., 3/2/92 from HA2 CT2
+HA   CT3   322.000     1.1110 ! ALLOW   ALI
+                ! alkane update, adm jr., 3/2/92 from HA3 CT3
+HA   CP2   309.000     1.1110 ! ALLOW PRO
+                ! 6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93 from HA2 CP2
+HA   CP3   309.000     1.1110 ! ALLOW PRO
+                ! 6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93 from HA2 CP3
+
+!!! JJ2022 Additions !!!
+HA1  CT2   309.000     1.1110 ! ALLOW   ALI
+                ! alkane update, adm jr., 3/2/92
+HA1  CPM   367.600     1.0900 ! ALLOW HEM
+                ! Heme (6-liganded): porphyrin macrocycle (KK 05/13/91)
+HA1  C     330.000     1.1000 ! ALLOW ARO HEM
+                ! Heme vinyl substituent (KK, from propene (JCS))
+HA2  C     330.000     1.1000 ! ALLOW ARO HEM
+                ! Heme vinyl substituent (KK, from propene (JCS))
+HB2  CT1   309.000     1.1110 ! from HA1 CT1
+HB   CT1   330.000     1.0800 ! ALLOW   PEP ! C22 backbone alpha-H bond, from par.inp
+HB   CT2   330.000     1.0800 ! ALLOW   PEP ! C22 backbone alpha-H bond, from par.inp
+CN2  NN3G  200.000     1.5    ! like values NOT verified cco_ba3 ankewa
+CT1  NN3G  200.000     1.5    ! like values NOT verified cco_ba3 ankewa JJ 2026
+
+
+
+
+
+
+ANGLES
+!
+!V(angle) = Ktheta(Theta - Theta0)**2
+!
+!V(Urey-Bradley) = Kub(S - S0)**2
+!
+!Ktheta: kcal/mole/rad**2
+!Theta0: degrees
+!Kub: kcal/mole/A**2 (Urey-Bradley)
+!S0: A
+!
+!atom types     Ktheta    Theta0   Kub     S0
+
+!!!!NH2  CT1  HB    38.000    109.50   50.00   2.1400 ! From LSN NH2-CT2-HA
+!!!! Here the Atom name has changed HB -> HB1, maybe HB2       JJ2022
+!
+
+HA1  CT2  HA1   35.500    109.00    5.40   1.80200 ! TEST for test cpd
+                ! based on HA   CT2  HA
+HA1   CT2  C     33.000    109.50   30.00   2.16300 ! ALLOW   ALI PEP POL ARO
+                ! alanine dipeptide, LK, replaced, adm jr., 5/09/91
+HA1   CT2  CA     49.300   107.5000 ! ALLOW   ALI ARO
+                ! PARALLH19 (JES)
+HA1   CT2  CC    33.000    109.50   30.00   2.16300 ! ALLOW   ALI PEP POL ARO
+                ! adm jr. 4/05/91, for asn,asp,gln,glu and cters
+HA1   CT2  CD    33.000    109.50   30.00   2.16300 ! ALLOW   ALI PEP POL ARO
+                ! adm jr. 5/02/91, acetic acid pure solvent
+HA1   CT2  CE1    45.00    111.50   !
+		! for 1-butene; from propene, yin/adm jr., 12/95
+HA1   CT2  CPH1   33.430   109.5000 ! ALLOW ARO
+                ! his, ADM JR., 7/22/89, from CT2CT2HA, U-B OMITTED
+HA1   CT2  CT1   33.430    110.10   22.53   2.17900 ! ALLOW   ALI
+                ! alkane frequencies (MJF), alkane geometries (SF)
+HA1   CT2  CT2   26.500    110.10   22.53   2.17900 ! ALLOW   ALI
+                ! alkane update, adm jr., 3/2/92
+HB1   CT2  CT2   26.500    110.10   22.53   2.17900 ! ALLOW   ALI
+                ! Addition by Jesse Jones
+HA1   CT2  CT3   34.600    110.10   22.53   2.17900 ! ALLOW   ALI
+                ! alkane update, adm jr., 3/2/92
+HA1   CT2  CY     33.430   109.5000 ! ALLOW ARO
+HA1   CT2  CPB    50.000   109.5000 ! ALLOW HEM
+                ! Heme (6-liganded): substituents (KK 05/13/91)
+HB2  CT2  CT2   26.500    110.10   22.53   2.17900 ! ALLOW   ALI
+                ! JJ2022
+!SM   CT2  CT3    58.000   112.5000 ! ALLOW   ALI SUL ION
+                ! diethyldisulfide, as in expt.MeEtS & DALC crystal,  5/15/92
+
+!!! Lipid params for DUM 1 from Charmm-GUI !!!
+!!!               JeJo                     !!!
+HA   CT1  CT2   34.500    110.10   22.53   2.17900 ! ALLOW   ALI
+                ! alkane update, adm jr., 3/2/92 from HA1 CT1 CT2
+HA   CT1  HA    35.500    109.00    5.40   1.80200 ! TEST for test cpd
+                ! based on HA   CT2  HA, based on HA1 CT1 HA1
+HA   CT2  CA     49.300   107.5000 ! ALLOW   ALI ARO
+                ! PARALLH19 (JES) based on HA2 CT2 CA
+HA   CT2  HA    35.500    109.00    5.40   1.80200 ! ALLOW   ALI
+                ! alkane update, adm jr., 3/2/92 from HA2 CT2 HA2
+HA   CT2  CT1   26.500    110.10   22.53   2.17900 ! ALLOW   ALI
+                ! alkane frequencies (MJF), alkane geometries (SF) based on HA2 CT2 CT1
+HA   CT1  CT1   34.500    110.10   22.53   2.17900 ! ALLOW   ALI
+                ! alkane update, adm jr., 3/2/92 based on HA1 CT1 CT1
+HA   CT2  CT2   26.500    110.10   22.53   2.17900 ! ALLOW   ALI
+                ! alkane update, adm jr., 3/2/92 from HA2 CT2 CT2
+HA   CT1  CT3   34.500    110.10   22.53   2.17900 ! ALLOW   ALI
+                ! alkane update, adm jr., 3/2/92 based on HA1 CT1 CT3
+OH1  CT1  HA     45.900   108.8900 ! ALLOW   ALI ALC ARO
+                ! MeOH, EMB, 10/10/89 based on OH1 CT1 HA1
+HA   CT3  HA    35.500    108.40    5.40   1.80200 ! ALLOW   ALI
+                ! alkane update, adm jr., 3/2/92 from HA3 CT3 HA3
+!HA   CT1  CT3   34.500    110.10   22.53   2.17900 ! ALLOW   ALI                                      !!! Check duplicate
+                ! alkane update, adm jr., 3/2/92 based on HA1 CT1 CT3
+HA   CT2  CY    55.000    109.50 ! atm, methylindole, 1/17/04 based on HA2 CT2 CY
+S    CT2  HA     38.000   111.0000 ! ALLOW   ALI SUL ION
+                ! new S-S atom type 8/24/90 based on SM CT2 HA2
+S    CT3  HA     38.000   111.0000 ! ALLOW   ALI SUL ION
+                ! new S-S atom type 8/24/90 based on SM CT3 HA3
+OH1  CT2  HA     45.900   108.8900 ! ALLOW   ALI ALC ARO
+                ! MeOH, EMB, 10/10/89 based on OH1 CT2 HA2
+HA   CT2  CPH1   33.430   109.5000 ! ALLOW ARO
+                ! his, ADM JR., 7/22/89, from CT2CT2HA, U-B OMITTED from HA2 CT2 CPH1
+NH3  CT2  HA    45.000    107.50   35.00   2.10100 ! ALLOW   ALI POL
+                ! new stretch and bend; methylammonium (KK 03/10/92) from NH3 CT2 HA2
+HA   CT2  CD    33.000    109.50   30.00   2.16300 ! ALLOW   ALI PEP POL ARO
+                ! adm jr. 5/02/91, acetic acid pure solvent from HA2 CT2 CD
+!HA   CT3  CT1   33.430    110.10   22.53   2.17900 ! ALLOW   ALI                                           !!! Check duplicate
+                ! alkane frequencies (MJF), alkane geometries (SF) from HA3 CT3 CT1
+NC2  CT2  HA     56.500   107.5000 ! ALLOW   ALI POL
+                ! mp2/6-311g** mgua vib data, adm jr., 1/04 from NC2 CT2 HA2
+HA   CT2  CC    33.000    109.50   30.00   2.16300 ! ALLOW   ALI PEP POL ARO
+                ! adm jr. 4/05/91, for asn,asp,gln,glu and cters from HA2 CT2 CC
+HA   CT2  CT3   34.600    110.10   22.53   2.17900 ! ALLOW   ALI
+                ! alkane update, adm jr., 3/2/92 from HA2 CT2 CT3
+HA   CT3  CT1   33.430    110.10   22.53   2.17900 ! ALLOW   ALI
+                ! alkane frequencies (MJF), alkane geometries (SF) from HA3 CT3 CT1
+N    CP3  HA     48.000   108.0000 ! ALLOW PEP PRO
+                ! 6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93 from N CP3 HA2
+HA   CP3  HA    35.500    109.00    5.40   1.80200 ! ALLOW ALI PRO
+                ! 6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93 from HA2 CP3 HA2
+HA   CP3  CP2   26.500    110.10   22.53   2.17900 ! ALLOW ALI PRO
+                ! 6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93 from HA2 CP3 CP2
+HA   CP2  CP1   33.430    110.10   22.53   2.17900 ! ALLOW ALI PRO
+                ! 6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93 from HA2 CP2 CP1
+HA   CP2  HA    35.500    109.00    5.40   1.80200 ! ALLOW ALI PRO
+                ! 6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93 from HA2 CP2 HA2
+HA   CP2  CP2   26.500    110.10   22.53   2.17900 ! ALLOW ALI PRO
+                ! 6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93 from HA2 CP2 CP2
+HA   CP2  CP3   26.500    110.10   22.53   2.17900 ! ALLOW ALI PRO
+                ! 6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93 from HA2 CP2 CP3
+SM   CT2  HA     38.000   111.0000 ! ALLOW   ALI SUL ION
+                ! new S-S atom type 8/24/90 from SM CT2 HA2
+HA   CT3  CT2   34.600    110.10   22.53   2.17900 ! ALLOW   ALI
+                ! alkane update, adm jr., 3/2/92 from HA3 CT3 CT2
+HA   CT2  CPB    50.000   109.5000 ! ALLOW HEM
+                ! Heme (6-liganded): substituents (KK 05/13/91) from HA2 CT2 CPB
+HA   CT3  CPB    50.000   109.5000 ! ALLOW HEM
+                ! Heme (6-liganded): substituents (KK 05/13/91) from HA3 CT3 CPB
+HA   CT2  C     33.000    109.50   30.00   2.16300 ! ALLOW   ALI PEP POL ARO
+                ! alanine dipeptide, LK, replaced, adm jr., 5/09/91 from HA2 CT2 C
+HA   CT3  C     33.000    109.50   30.00   2.16300 ! ALLOW   ALI PEP POL ARO
+                ! alanine dipeptide, LK, replaced, adm jr., 5/09/91 from HA3 CT3 C
+
+!!!heme parameters from par_all22_prot_na.inp
+CPA  CPB  C      70.000   126.7400 ! ALLOW HEM
+                ! Heme (6-liganded): substituents (KK 05/13/91)
+CPB  C    C      70.000   121.5000 ! ALLOW HEM
+                ! Heme (6-liganded): substituents (KK 05/13/91)
+CPB  CPB  C      70.000   126.7500 ! ALLOW HEM
+                ! Heme (6-liganded): substituents (KK 05/13/91)
+HA   C    CPB    50.000   120.0000 ! ALLOW HEM
+                ! Heme (6-liganded): substituents (KK 05/13/91)
+HA   C    HA     50.000   118.0000 ! ALLOW   PEP POL ARO
+                ! Heme vinyl substituent (KK from propene (JCS))
+HA   C    C      50.000   120.5000 ! ALLOW   PEP POL ARO
+                ! Heme vinyl substituent (KK from propene (JCS))
+CPB  C    O      70.000   121.5000 ! from CPB  C    C
+                ! Heme (6-liganded): substituents (KK 05/13/91)
+CPB  C    CT2    70.000   121.5000 ! from CPB  C    C
+                ! Heme (6-liganded): substituents (KK 05/13/91)
+HA   C    CT2    33.000    109.50   30.00   2.16300 ! from HA   CT1  C
+                ! alanine dipeptide, LK, replaced, adm jr., 5/09/91
+C    C    CT2    52.000   108.0000 ! from CT2  CT1  C
+                ! Alanine Dipeptide ab initio calc's (LK)
+C    C    CT3    52.000   108.0000 ! from CT2  CT1  C
+                ! Alanine Dipeptide ab initio calc's (LK)
+CT3  C    CT2    53.350    114.00    8.00   2.56100 ! from CT3  CT1  CT2
+                ! alkane update, adm jr., 3/2/92
+CT3  C    CT3    53.350    114.00    8.00   2.56100 ! from CT3  CT1  CT2
+                ! alkane update, adm jr., 3/2/92
+HA   C    O      50.000   121.7000 ! from O    C    H
+                ! acetaldehyde (JCS)
+CC   OC   H      57.500   106.0000 ! from H    OH1  CT2
+                ! for protonated propionic acid
+CPB  CT2  OH1    70.000   113.0000 ! from CT2  CT2  CPB
+                ! Heme (6-liganded): substituents (KK 05/13/91)
+SM   CT2  CT2    58.000   112.5000 ! ALLOW   ALI SUL ION
+                ! as in expt.MeEtS & DALC crystal,  5/15/92 JJ2022
+!SM   CT2  CT3    58.000   112.5000 ! ALLOW   ALI SUL ION                           !!!! Check duplicate
+                ! as in expt.MeEtS & DALC crystal,  5/15/92 JJ2022
+
+!annalenawoelke paramters for CcO-MD
+HT   OT   FE     57.500   106.0000 ! from H    OH1  CT2 (serine OH-group)
+OT   CU   HT     57.500   106.0000 ! from H    OH1  CT2 (serine OH-group)
+CU   OT   HT     57.500   106.0000 ! from H    OH1  CT2 (serine OH-group)
+NR2  CU   NR2    57.500   145.0000 ! force constant as above, angle from crystal
+NR2  CU   OT     57.500    81.0000 ! force constant as above, angle from crystal
+S    CU   S      57.500   107.0000 ! force constant as above, angle from crystal structure
+NR2  CU   O      57.500    91.5000 ! force constant as above, angle from crystal structure
+NR2  CU   S      57.500   118.5000 ! force constant as above, angle from crystal structure
+S    CU   O      57.500   107.0000 ! force constant as above, angle from crystal structure
+!!!!!!!!!!!!!!!!!!!JJ2022 Params for CcO MD!!!!!!!!!!!!!!!!!!
+CPH2 NR2  CU     57.500   128.1700 ! force constant as above, angle from crystal structure
+CPH1 NR2  CU     57.500   121.9900 ! force constant as above, angle from crystal structure
+CT2  S    CU     57.500   138.7400 ! "
+CU   S    CU     57.500    68.6400 ! "
+CT3  S    CU     57.500    73.5400 ! "
+S    CU   CU     57.500   109.8500 ! "
+NR2  CU   CU     57.500   100.6800 ! "
+O    CU   CU     57.500   103.1300 ! "
+C    O    CU     57.500    87.3200 ! "
+CPH2 NR1  CU     57.500     0.0000 ! Angle guessed, Force constant from above. Use only with minimization
+CPH1 NR1  CU     57.500     0.0000 ! "
+N    NR1  CU     57.500     0.0000 ! "
+NR2  CU   NR1    57.500   145.0000 ! "
+NR1  CU   NR1    57.500   145.0000 ! "
+NR1  CU   OT     57.500    81.0000 ! "
+H    NR1  CU     57.500     0.0000 ! "
+HT   HT   OT     57.500     0.0000 ! "
+NH1  CT1  NN3G   57.500     0.0000 ! "
+CT2  CT1  NN3G   57.500     0.0000 ! "
+C    CT1  NN3G   57.500     0.0000 ! "
+CT1  CT2  HA     57.500     0.0000 ! "
+CT1  CT2  HA1    57.500     0.0000 ! "
+CT1  CT2  HA2    57.500     0.0000 ! "
+CT1  CT2  HA3    57.500     0.0000 ! "
+CT1  CT2  HA     57.500     0.0000 ! "
+NH1  CT1  NN3G   57.500   145.0000 ! "
+CT2  CT1  NN3G   57.500   145.0000 ! "
+
+
+
+
+
+!!!!!addition for copperB!!!!!!!!!!!
+CPH2 NX  CPH1  130.000   104.0000 ! ALLOW ARO
+                ! his, adm jr., 6/27/90
+NX  CPH1 CPH1  130.000   110.0000 ! ALLOW ARO
+                ! his, ADM JR., 7/20/89
+NX  CPH1 CT2    45.800   120.0000 ! ALLOW ARO
+                ! his, ADM JR., 7/22/89, FC FROM CA CT2CT
+NX  CPH1 HR3   25.000    120.00   20.00   2.14000 ! ALLOW ARO
+                ! adm jr., 3/24/92, maintain old aliphatic H VDW params
+NX  CPH2 HR1   25.000    125.00   20.00   2.12000 ! ALLOW ARO
+                ! his, adm jr., 6/27/90
+NX  CPH2 NR1   130.000   112.5000 ! ALLOW ARO
+                ! his, adm jr., 6/27/90
+NX  CU   NR2   57.500   105.0000 ! force constant as above, angle from crystal
+NX  CU   OT     57.500   150.0000 ! force constant as above, angle from crystal
+
+!!!!!!!!!!!!!addition for Tyr-His-Patch!!!!!!!!!!!!!!!!!!!
+CPH2  NR1  CA   0.00  120.00 !values NOT verified
+CPH1  NR1  CA   0.00  120.00 !values NOT verified
+NR1   CA   CA   0.00  120.00 !values NOT verified
+
+!!! Additions by JJ2022 Param Update !!!
+!!! Anpassungen von alten Parametern nur von HA1->HA2, HA->HA1, HA->HA2 !!!
+HA1  CPM  CPA    12.700   117.4400 ! ALLOW HEM
+                ! Original: Heme (6-liganded): porphyrin macrocycle (KK 05/13/91)
+!HA1  C    CPB    50.000   120.0000 ! ALLOW HEM                                              !!! Check duplicate
+                ! Original: Heme (6-liganded): substituents (KK 05/13/91)
+HA1  C    O      50.000   121.7000 ! from O    C    H
+                ! acetaldehyde (JCS)
+HA1  C    CPB    50.000   120.0000 ! ALLOW HEM
+                ! Heme (6-liganded): substituents (KK 05/13/91)
+HA1   C    C      50.000   120.5000 ! ALLOW   PEP POL ARO
+                ! Heme vinyl substituent (KK from propene (JCS))
+HA2   C    C      50.000   120.5000 ! ALLOW   PEP POL ARO
+                ! Heme vinyl substituent (KK from propene (JCS))
+HA2   C    HA2    50.000   118.0000 ! ALLOW   PEP POL ARO
+                ! Heme vinyl substituent (KK from propene (JCS))
+HA1   C    CT2    33.000    109.50   30.00   2.16300 ! from HA   CT1  C
+                ! alanine dipeptide, LK, replaced, adm jr., 5/09/91
+OH1  CT2  HA1    45.900   108.8900 ! ALLOW   ALI ALC ARO
+                ! MeOH, EMB, 10/10/89
+OH1  CD   OH1    50.000    123.00  210.00   2.26200 ! ALLOW   PEP POL ARO ALC
+                ! adm jr, 10/17/90, acetic acid vibrations
+NR2  FE   NR2    50.000    90.0000 ! ALLOW HEM
+                ! Heme (6-liganded): ligand links (KK 05/13/91)
+OT   FE   NR2     5.000    90.0000 ! ALLOW HEM
+                ! Heme (6-liganded): ligand links (KK 05/13/91)
+OT   FE   NPH     5.000    90.0000 ! ALLOW HEM
+                ! Heme (6-liganded): ligand links (KK 05/13/91)
+NH3  CT1  HB2    51.500   107.5000 ! HB1->HB2 changed
+HB2  CT1  C      50.000   109.5000 ! HB1->HB2 changed
+HB1  CT1  HB2    36.000    115.00              ! from HB2  CT2  HB2
+NH1  CT1  HB     48.000   108.0000 ! ALLOW PEP ! C22 backbone, from par.inp
+HB   CT1  C      50.000   109.5000 ! ALLOW  PEP ! C22 backbone, from par.inp
+HB   CT1  CC     50.000   109.5000 ! ALLOW  PEP POL ! C22 backbone, from par.inp
+HB   CT1  CD     50.000   109.5000 ! ALLOW  PEP POL ! C22 backbone, from par.inp
+HB   CT1  CT1    35.000   111.0000 ! ALLOW  PEP ! C22 backbone, from par.inp
+HB   CT1  CT2    35.000   111.0000 ! ALLOW  PEP ! C22 backbone, from par.inp
+HB   CT1  CT3    35.000   111.0000 ! ALLOW  PEP ! C22 backbone, from par.inp
+NH3  CT1  HB     51.500   107.5000 ! from NH3 CT1 HB2 (protonated N-term)
+H    NR2  CPH2   30.000    127.00   20.00   2.14000 ! from H NR1 CPH2
+H    NR2  CPH1   25.000    126.00   15.00   2.13000 ! from H NR3 CPH1
+H    NR2  FE      0.000    180.0000 ! from HA CPM FE
+OM   FE   NR2     5.000     90.0000 ! from OT FE NR2
+HT   OM   FE     57.500    106.0000 ! from HT OT FE
+CPH2 NX   CU      0.000      0.0000 ! made up
+CPH1 NX   CU      0.000      0.0000 ! made up
+
+
+
+
+
+
+DIHEDRALS
+!
+!V(dihedral) = Kchi(1 + cos(n(chi) - delta))
+!
+!Kchi: kcal/mole
+!n: multiplicity
+!delta: degrees
+!
+!atom types             Kchi    n   delta
+!!!!!!!!!!!!!!!heme parameters !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+X    CPB  C    X        3.0000  2   180.00 ! ALLOW HEM
+                ! Heme (6-liganded): substituents (KK 05/13/91)
+X    C    C    X        4.0000  2   180.00 ! ALLOW HEM
+                ! Heme (6-liganded): substituents (KK 05/13/91)
+X    CT2  C    X        0.0500  6   180.00 ! from X    CT1  CC   X
+                ! For side chains of asp,asn,glu,gln, (n=6) from KK(LK)
+X    CT3  C    X        0.0500  6   180.00 ! from X    CT1  CC   X
+                ! For side chains of asp,asn,glu,gln, (n=6) from KK(LK)
+X    CC   OC   X        0.1400  3     0.00 ! from X    CT2  OH1  X
+                ! for protonated propionic acid
+
+!!!!!!!!!!!!!!!addition for copper B!!!!!!!!!!!!!!!!!!!!!!!!
+CPH2 NX  CPH1 CPH1    14.0000  2   180.00 ! ALLOW ARO
+                ! his, ADM JR., 7/20/89
+CT2  CPH1 NX  CPH2     3.0000  2   180.00 ! ALLOW ARO
+                ! his, ADM JR., 7/22/89, FROM HA CPH1 NX CPH2
+HR1  CPH2 NX  CPH1     3.0000  2   180.00 ! ALLOW ARO
+                ! his, adm jr., 6/27/90
+HR3  CPH1 NX  CPH2     3.0000  2   180.00 ! ALLOW ARO
+                ! adm jr., 3/24/92, maintain old aliphatic H VDW params
+NR1  CPH2 NX  CPH1    14.0000  2   180.00 ! ALLOW ARO
+                ! his, ADM JR., 7/20/89
+NX  CPH1 CPH1 CT2      3.0000  2   180.00 ! ALLOW ARO
+                ! his, ADM JR., 7/22/89, FROM NX CPH1 CPH1 HA
+NX  CPH1 CPH1 CT3      3.0000  2   180.00 ! ALLOW ARO
+                ! his, ADM JR., 7/22/89, FROM NX CPH1 CPH1 HA
+NX  CPH1 CPH1 HR3      3.0000  2   180.00 ! ALLOW ARO
+                ! adm jr., 3/24/92, maintain old aliphatic H VDW params
+NX  CPH1 CPH1 NR1     14.0000  2   180.00 ! ALLOW ARO
+                ! his, ADM JR., 7/20/89
+NX  CPH1 CT2  CT1      0.1900  3     0.00 ! ALLOW ARO
+                ! HIS CB-CG TORSION,
+NX  CPH1 CT2  CT2      0.1900  3     0.00 ! ALLOW ARO
+                ! HIS CB-CG TORSION,
+NX  CPH1 CT2  CT3      0.1900  3     0.00 ! ALLOW ARO
+                ! HIS CB-CG TORSION,
+NX  CPH1 CT2  HA       0.1900  3     0.00 ! ALLOW ARO
+                ! 4-METHYLIMIDAZOLE 4-21G//6-31G* ROT BAR. ADM JR., 9/4/89
+NX  CPH1 CT3  HA       0.1900  3     0.00 ! ALLOW ARO
+                ! 4-METHYLIMIDAZOLE 4-21G//6-31G* ROT BAR. ADM JR., 9/4/89
+NX  CPH2 NR1  CPH1    14.0000  2   180.00 ! ALLOW ARO
+                ! his, ADM JR., 7/20/89
+NX  CPH2 NR1  H        1.0000  2   180.00 ! ALLOW ARO
+                ! his, ADM JR., 7/20/89
+
+!!!!!!!!!!addition for TYR-HIS-Patch!!!!!!!!!!!!!!!!!!!!!
+NR2   CPH2  NR1   CA   0.00   2   180.00! values NOT verified
+CPH1  CPH1  NR1   CA   0.00   2   180.00! values NOT verified
+CPH2  NR1   CA    CA   0.00   2   180.00! values NOT verified
+HR1   CPH2  NR1   CA   0.00   2   180.00! values NOT verified
+NR1   CA    CA    CA   0.00   2   180.00! values NOT verified
+NR1   CA    CA    OH1   0.00   2   180.00! values NOT verified
+NR1   CA    CA    HP   0.00   2   180.00! values NOT verified
+CPH1  NR1   CA    CA   0.00   2   180.00! values NOT verified
+HR3   CPH1  NR1   CA   0.00   2   180.00! values NOT verified
+
+!!! Lipid params for DUM 1 from Charmm-GUI !!!
+!!!               JeJo                     !!!
+HA   CT2  CY   CA       0.0100  3     0.00 ! atm, methylindole, 1/17/04 from HA2 CT2 CY CA
+HA   CT2  CY   CPT      0.2000  3     0.00 ! atm, methylindole, 1/17/04 from HA2 CT2 CY CPT
+!HA   CT2  S    CT3      0.2800  3     0.00 ! ALLOW   ALI SUL ION                                           !!!! Check duplicate
+                ! DTN 8/24/90 from HA2 CT2 S CT3
+HA   CT2  CPH1 CPH1     0.0000  3     0.00 ! ALLOW ARO
+                ! 4-methylimidazole 4-21G//6-31G* rot bar. adm jr., 9/4/89 from HA2 CT2 CPH1 CPH1
+!HA   CT2  S    CT3      0.2800  3     0.00 ! ALLOW   ALI SUL ION                                                !!!! Check duplicate
+                ! DTN 8/24/90 from HA2 CT2 S CT3
+!HB1  CP1  N    CP3      0.1000  3     0.00 ! ALLOW PRO
+!                ! 6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93
+HA   CP3  N    CP1      0.1000  3     0.00 ! ALLOW PRO from HA2 CP3 N CP1
+                ! 6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93
+SM   SM   CT2  HA       0.1580  3     0.00 ! ALLOW   ALI SUL ION
+                ! expt. dimethyldisulfide,    3/26/92 (FL) from SM SM CT2 HA2
+
+
+!!! par_all22_prot Parameters !!!
+!!!          JeJo             !!!
+HA   CT3  S    CT2      0.2800  3     0.00 ! ALLOW   ALI SUL ION
+                ! DTN 8/24/90
+!CT2  CPH1 NR3  CPH2     2.5000  2   180.00 ! ALLOW ARO                                          !!!! Check duplicate
+                ! his, adm jr., 6/27/90
+!HA   CT2  S    CT3      0.2800  3     0.00 ! ALLOW   ALI SUL ION                                !!!! Check duplicate
+                ! DTN 8/24/90
+NR3  CPH1 CT2  HA       0.1900  3     0.00 ! ALLOW ARO
+                ! 4-METHYLIMIDAZOLE 4-21G//6-31G* ROT BAR. ADM JR., 9/4/89
+HS   S    CT2  HA       0.2000  3     0.00 ! ALLOW   ALI SUL ION
+                ! methanethiol pure solvent, adm jr., 6/22/92
+NR1  CPH1 CT2  HA       0.1900  3     0.00 ! ALLOW ARO
+                ! 4-METHYLIMIDAZOLE 4-21G//6-31G* ROT BAR. ADM JR., 9/4/89
+HA   CP3  N    C        0.0000  3   180.00 ! ALLOW PRO PEP
+                ! 6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93
+NR2  CPH1 CT2  HA       0.1900  3     0.00 ! ALLOW ARO
+                ! 4-METHYLIMIDAZOLE 4-21G//6-31G* ROT BAR. ADM JR., 9/4/89
+NR1  CPH1 CT2  HA1      0.6000  2     0.00 ! ALLOW PEP PRO
+                ! 6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93
+                ! From N    C    CP1  HB1      0.6000  2     0.00 ! ALLOW PEP PRO
+HA1  CT2  CPH1 CPH1     0.0000  3     0.00 ! ALLOW ARO
+                ! 4-methylimidazole 4-21G//6-31G* rot bar. adm jr., 9/4/89
+                ! From HA2  CT2  CPH1 CPH1     0.0000  3     0.00 ! ALLOW ARO
+HR3  CPH1 NR2  FE       0.0000  2     0.00 ! Angle values from crystal structure
+HR1  CPH2 NR2  FE       0.0000  2     0.00 ! Angle values from crystal structure
+NR2  CU   OT   HT       0.0000  2  -127.35 ! Angle values from crystal structure
+HR1  CPH2 NR2  CU       0.0000  2    10.00 ! Angle values from crystal structure
+HR3  CPH1 NR2  CU       0.0000  2     0.00 ! Angle values from crystal structure
+NR2  FE   OT   HT       0.0000  2   180.00 ! Angle values from crystal structure
+HA2  CT2  S    CU       0.0000  2    82.14 ! Angle values from crystal structure
+HA3  CT3  S    CU       0.0000  2    82.14 ! Angle values from crystal structure
+NPH  FE   OT   HT       0.0000  2   180.00 ! Angle values from crystal structure
+NR1  CPH2 NR2  FE       0.0000  2     0.00 ! Angle values from crystal structure
+CPH1 CPH1 NR2  FE       0.0000  2     0.00 ! Angle values from crystal structure
+CT2  CPH1 NR2  CU       0.0000  2     0.00 ! "
+NR2  CU   NR2  CPH2     0.0000  2     0.00 ! "
+NR2  CU   NR2  CPH1     0.0000  2     0.00 ! "
+CPH1 NR2  CU   OT       0.0000  2     0.00 ! "
+CPH2 NR2  CU   OT       0.0000  2     0.00 ! "
+NR1  CPH2 NR2  CU       0.0000  2     0.00 ! "
+CPH1 CPH1 NR2  CU       0.0000  2     0.00 ! "
+NR2  CU   S    CT2      0.0000  2     0.00 ! "
+NR2  CU   S    CU       0.0000  2     0.00 ! "
+NR2  CU   S    CT3      0.0000  2     0.00 ! "
+NR2  CU   CU   S        0.0000  2     0.00 ! "
+NR2  CU   CU   O        0.0000  2     0.00 ! "
+NR2  CU   CU   NR2      0.0000  2     0.00 ! "
+CPH1 NR2  CU   S        0.0000  2     0.00 ! "
+CPH1 NR2  CU   CU       0.0000  2     0.00 ! "
+CPH2 NR2  CU   S        0.0000  2     0.00 ! "
+CPH2 NR2  CU   CU       0.0000  2     0.00 ! "
+CPH1 NR2  CU   NX       0.0000  2     0.00 ! CuB coord: NX type (from CBF2 patch); by analogy with CPH1 NR2 CU NR2/OT/S
+CPH2 NR2  CU   NX       0.0000  2     0.00 ! CuB coord: NX type (from CBF2 patch); by analogy with CPH2 NR2 CU NR2/OT/S
+CT1  CT2  S    CU       0.0000  2     0.00 ! "
+CT2  S    CU   O        0.0000  2     0.00 ! "
+CT2  S    CU   S        0.0000  2     0.00 ! "
+CT2  S    CU   CU       0.0000  2     0.00 ! "
+S    CU   O    C        0.0000  2     0.00 ! "
+S    CU   S    CU       0.0000  2     0.00 ! "
+S    CU   CU   S        0.0000  2     0.00 ! "
+S    CU   S    CT3      0.0000  2     0.00 ! "
+S    CU   CU   O        0.0000  2     0.00 ! "
+CT1  C    O    CU       0.0000  2     0.00 ! "
+C    O    CU   NR2      0.0000  2     0.00 ! "
+C    O    CU   CU       0.0000  2     0.00 ! "
+O    CU   S    CU       0.0000  2     0.00 ! "
+O    CU   NR2  CPH1     0.0000  2     0.00 ! "
+O    CU   NR2  CPH2     0.0000  2     0.00 ! "
+NH1  C    O    CU       0.0000  2     0.00 ! "
+CT2  CT2  S    CU       0.0000  2     0.00 ! "
+CT3  S    CU   CU       0.0000  2     0.00 ! "
+NH1  C    CT1  HB2      0.0000  3   180.00 ! from NH2 CC CT2 HA2
+O    C    CT1  HB2      0.0000  3   180.00 ! from O CC CT2 HA2
+NX   CU   OT   HT       0.0000  2  -127.35 !
+HT   HT   OT   HT       0.0000  2     0.00 ! "
+HT   OT   OT   HT       0.0000  2     0.00 ! "
+
+
+
+
+
+IMPROPER
+!
+!V(improper) = Kpsi(psi - psi0)**2
+!
+!Kpsi: kcal/mole/rad**2
+!psi0: degrees
+!note that the second column of numbers (0) is ignored
+!
+!atom types           Kpsi                   psi0
+!!!!!!!!!!!!!!!!!heme parameters!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+CPB  X    X    C      90.0000         0      0.0000 ! ALLOW HEM
+                ! Heme (6-liganded): substituents (KK 05/13/91)
+HA   C    C    HA     20.0000         0      0.0000 ! ALLOW   PEP POL ARO
+                ! Heme vinyl substituent (KK, from propene (JCS))
+HA   HA   C    C      20.0000         0    180.0000 ! ALLOW   PEP POL ARO
+                ! Heme vinyl substituent (KK, from propene (JCS))
+HA   CPB  C    C      20.0000         0      0.0000 ! ALLOW HEM ARO
+                ! Heme (6-liganded): substituents (KK 05/13/91)
+OH1   X    X    CD     96.0000         0      0.0000
+                !annalenawoelke from OC   X    X    CC
+
+!!!!!!!!!!!!!addition for copper B!!!!!!!!!!!!!
+HR1  NR1  NX  CPH2    0.5000         0      0.0000 ! ALLOW ARO
+                ! his, adm jr., 7/05/90
+HR1  NX  NR1  CPH2    0.5000         0      0.0000 ! ALLOW ARO
+                ! his, adm jr., 7/05/90
+HR3  CPH1 NX  CPH1    0.5000         0      0.0000 ! ALLOW ARO
+                ! adm jr., 3/24/92, maintain old aliphatic H VDW params
+HR3  NX  CPH1 CPH1    0.5000         0      0.0000 ! ALLOW ARO
+                ! adm jr., 3/24/92, maintain old aliphatic H VDW params
+
+!!!!!!!!!!! JeJo2022 !!!!!!!!!!!!!!!!!!!!!
+HA1  CPA  CPA  CPM    29.4000         0      0.0000 ! ALLOW HEM
+                ! Heme (6-liganded): porphyrin macrocycle (KK 05/13/91)
+HA1  CPB  C    C      20.0000         0      0.0000 ! ALLOW HEM ARO
+                ! Heme (6-liganded): substituents (KK 05/13/91)
+HA1  C    C    HA2    20.0000         0      0.0000 ! ALLOW   PEP POL ARO
+                ! Heme vinyl substituent (KK, from propene (JCS))
+HA2  HA2  C    C      20.0000         0    180.0000 ! ALLOW   PEP POL ARO
+                ! Heme vinyl substituent (KK, from propene (JCS))
+
+
+
+CMAP
+! 2D grid correction data.
+! Finalfix3, Feig/Best/MacKerell 2010
+
+! Jing Huang/Alex MacKerell adjustments to correct for
+! oversampling of alpha L conformation.  2016/1
+
+
+
+
+NONBONDED nbxmod  5 atom cdiel fshift vatom vdistance vfswitch -
+cutnb 14.0 ctofnb 12.0 ctonnb 10.0 eps 1.0 e14fac 1.0 wmin 1.5
+                !adm jr., 2013 correction
+!
+!V(Lennard-Jones) = Eps,i,j[(Rmin,i,j/ri,j)**12 - 2(Rmin,i,j/ri,j)**6]
+!
+!epsilon: kcal/mole, Eps,i,j = sqrt(eps,i * eps,j)
+!Rmin/2: A, Rmin,i,j = Rmin/2,i + Rmin/2,j
+!
+!atom  ignored    epsilon      Rmin/2   ignored   eps,1-4       Rmin/2,1-4
+! ions and miscellaneous types
+!CU     0.000000  -0.250000     1.090000 ! ALLOW  ION
+                ! annalena added, equal to ZN
+!MG       0.0       -0.0150    1.18500   ! Magnesium
+                   ! B. Roux dA = -441.65
+!CAL      0.0       -0.120      1.367    ! Calcium
+                   ! S. Marchand and B. Roux, dA = -384.8 kcal/mol
+!retinol model compounds
+!CC1A   0.000000  -0.068000     2.090000 !
+!CC1B   0.000000  -0.068000     2.090000 !
+!CC2    0.000000  -0.064000     2.080000 !
+!NS1    0.000000  -0.200000     1.850000 !N for deprotonated Schiff's base
+!NS2    0.000000  -0.200000     1.850000 !N for protonated Schiff's base
+
+!!!!!!!!!!!!!!!!addition for copperB annalenawoelke!!!!!!!!!!!!
+!NX     0.000000  -0.200000     1.850000 ! ALLOW ARO
+                ! His, adm jr., 9/4/89
+
+!!!              Additions by JJ2022                 !!!
+!!!                                                  !!!
+!CAP    0.000000  -0.070000     1.992400 !
+!CN     0.000000  -0.200000     1.750000 ! cyanopyridine
+!NC     0.000000  -0.600000     1.850000 ! cyanopyridine
+!COA    0.000000  -0.110000     2.000000 ! 3acp
+!OCA    0.000000  -0.120000     1.700000   0.000000  -0.120000 1.400000 ! 3acp
+!CU     0.000000  -0.250000     1.090000 ! ALLOW  ION
+!                ! annalena added, equal to ZN
+!NX     0.000000  -0.200000     1.850000 ! ALLOW ARO
+                ! His, adm jr., 9/4/89
+
+! ON3: nucleic-acid phosphate oxygen (MASS defined in converted_0.rtf, no C36 equivalent).
+! Without this entry heme_par.prm's NONBONDED reorganisation creates a null nonbond group
+! for ON3 which terminates CHARMM at bomlev -2 (level -3 warning).
+ON3      0.000000  -0.120000     1.700000 ! phosphate ester oxygen (from C22 par.inp)
+
+! sanitized for C36 Step07/CCO runtime: HA1    0.000000  -0.022000     1.320000 ! ALLOW PEP ALI POL SUL ARO PRO ALC
+                ! methane/ethane a.i. and ethane pure solvent, adm jr, 2/3/92
+! sanitized for C36 Step07/CCO runtime: HA2    0.000000  -0.022000     1.320000 ! ALLOW PEP ALI POL SUL ARO PRO ALC
+                ! methane/ethane a.i. and ethane pure solvent, adm jr, 2/3/92
+! sanitized for C36 Step07/CCO runtime: HB     0.000000  -0.022000     1.320000 ! ALLOW PEP ALI POL SUL ARO PRO ALC
+                ! C22 backbone alpha-H, from par.inp; same as C36 mean of HB1/HB2
+
+
+NBFIX
+!              Emin         Rmin
+!            (kcal/mol)     (A)
+
+HBOND CUTHB 0.5  ! If you want to do hbond analysis (only), then use
+                 ! READ PARAM APPEND CARD
+                 ! to append hbond parameters from the file: par_hbond.inp
+
+END

@@ -1,0 +1,33 @@
+* Step 07 runtime recovery overlay
+* test_name=test_cco
+* recovery_policy_version=2026-04-21
+*
+
+BONDS
+OT   HT    450.000     0.9572 ! ALLOW   WAT  ! recovery: tier=1; status=exact_applied; source_scope=kb_overlay; source_file=par.inp; reason=literal exact match with unique winning values; sweep=1
+
+ANGLES
+HT   OT   HT     55.000   104.5200 ! ALLOW WAT  ! recovery: tier=1; status=exact_applied; source_scope=kb_overlay; source_file=par.inp; reason=literal exact match with unique winning values; sweep=1
+
+NONBONDED nbxmod  5 atom cdiel fshift vatom vdistance vfswitch -
+cutnb 14.0 ctofnb 12.0 ctonnb 10.0 eps 1.0 e14fac 1.0 wmin 1.5
+CAL      0.0     -0.120     1.367     ! Calcium  ! recovery: tier=1; status=exact_applied; source_scope=kb_overlay; source_file=par.inp; reason=literal exact match with unique winning values; sweep=1
+CES      0.0     -0.1900    2.100  ! recovery: tier=1; status=exact_applied; source_scope=kb_overlay; source_file=par.inp; reason=literal exact match with unique winning values; sweep=1
+CLA      0.0     -0.150     2.27      ! chloride  ! recovery: tier=1; status=exact_applied; source_scope=kb_overlay; source_file=par.inp; reason=literal exact match with unique winning values; sweep=1
+CM     0.000000  -0.110000     2.100000 ! ALLOW HEM  ! recovery: tier=1; status=exact_applied; source_scope=kb_overlay; source_file=par.inp; reason=literal exact match with unique winning values; sweep=1
+CPA    0.000000  -0.090000     1.800000 ! ALLOW HEM  ! recovery: tier=1; status=exact_applied; source_scope=kb_overlay; source_file=par.inp; reason=literal exact match with unique winning values; sweep=1
+CPB    0.000000  -0.090000     1.800000 ! ALLOW HEM  ! recovery: tier=1; status=exact_applied; source_scope=kb_overlay; source_file=par.inp; reason=literal exact match with unique winning values; sweep=1
+CPM    0.000000  -0.090000     1.800000 ! ALLOW HEM  ! recovery: tier=1; status=exact_applied; source_scope=kb_overlay; source_file=par.inp; reason=literal exact match with unique winning values; sweep=1
+CST    0.000000  -0.058000     1.563000 !  ! recovery: tier=1; status=exact_applied; source_scope=kb_overlay; source_file=par.inp; reason=literal exact match with unique winning values; sweep=1
+FE     0.010000   0.000000     0.650000 ! ALLOW HEM  ! recovery: tier=1; status=exact_applied; source_scope=kb_overlay; source_file=par.inp; reason=literal exact match with unique winning values; sweep=1
+HT     0.000000  -0.046000     0.224500 ! ALLOW WAT  ! recovery: tier=1; status=exact_applied; source_scope=kb_overlay; source_file=par.inp; reason=literal exact match with unique winning values; sweep=1
+MG       0.0     -0.0150    1.18500   ! Magnesium  ! recovery: tier=1; status=exact_applied; source_scope=kb_overlay; source_file=par.inp; reason=literal exact match with unique winning values; sweep=1
+NPH    0.000000  -0.200000     1.850000 ! ALLOW HEM  ! recovery: tier=1; status=exact_applied; source_scope=kb_overlay; source_file=par.inp; reason=literal exact match with unique winning values; sweep=1
+OM     0.000000  -0.120000     1.700000 ! ALLOW HEM  ! recovery: tier=1; status=exact_applied; source_scope=kb_overlay; source_file=par.inp; reason=literal exact match with unique winning values; sweep=1
+OST    0.000000  -0.165000     1.692000 !  ! recovery: tier=1; status=exact_applied; source_scope=kb_overlay; source_file=par.inp; reason=literal exact match with unique winning values; sweep=1
+OT     0.000000  -0.152100     1.768200 ! ALLOW   WAT  ! recovery: tier=1; status=exact_applied; source_scope=kb_overlay; source_file=par.inp; reason=literal exact match with unique winning values; sweep=1
+P        0.0       -0.585     2.15  ! recovery: tier=1; status=exact_applied; source_scope=kb_overlay; source_file=par.inp; reason=literal exact match with unique winning values; sweep=1
+POT      0.0     -0.0870    1.76375   ! potassium  ! recovery: tier=1; status=exact_applied; source_scope=kb_overlay; source_file=par.inp; reason=literal exact match with unique winning values; sweep=1
+ZN     0.000000  -0.250000     1.090000 ! ALLOW  ION  ! recovery: tier=1; status=exact_applied; source_scope=kb_overlay; source_file=par.inp; reason=literal exact match with unique winning values; sweep=1
+
+END

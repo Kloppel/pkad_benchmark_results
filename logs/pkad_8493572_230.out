@@ -1,0 +1,196 @@
+========================================================================
+PKAD benchmark — task 230
+PDB        : 2rvq  (crystal) — datasets: PKAD-R
+Run name   : 2rvq
+PDB path   : /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/pkad_data/pdbs/heavy_atom/2rvq.pdb
+Repo root  : /net/work/jones/Karlsberg3
+Date UTC   : 2026-06-22 14:20:09
+========================================================================
+Conda env  : kb3
+Python     : /homes2/chemie/jones/.conda/envs/kb3/bin/python3
+APBS lib   : /net/work/jones/Karlsberg3/TARs/kb2plus_package/APBS-1.5-linux64/lib
+TAPBS lib  : /net/work/jones/Karlsberg3/TARs/kb2plus_package/lib_fort_gnu
+CHARMM     : /projects/biomodeling/charmm-lite/c46b1/ser/bin/charmm
+Results root: /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260622
+Run name   : 2rvq
+PAC workers: 3
+========================================================================
+
+================================================================
+KB3 run : 2rvq
+Structure: /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/pkad_data/pdbs/heavy_atom/2rvq.pdb
+Parallel PACs: 3
+Protocol: [(-10, 'open_sb_acids'), (7, 'h_min'), (20, 'open_sb_bases')]
+Results : /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260622
+================================================================
+
+[Stage 1] Stripping non-protein segments …
+[Stage 1] Removed 0 atoms (nothing to remove)
+[Stage 1] Retained 2003 atoms in ['C', 'N', 'O', 'S']
+
+[Stage 3] Running pKa calculation (3 PAC workers) …
+[Stage 3] PDB for calculation: /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260622/preprocessed/2rvq_stripped.pdb
+  Topology  : ['top.inp', 'converted_0.rtf', 'converted_1.rtf']
+  Parameters: ['par.inp', 'converted_0.prm', 'converted_1.prm', 'toppar_water_ions.str', 'par_all36m_prot_additions.prm', 'backfill.prm']
+
+Working directory: /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260622/2rvq_karlsberg/
+TAPBS binary location set at: /net/work/jones/Karlsberg3/bin/tapbs_1.3_cav_enere
+TAPBS LD LIBRARY PATH location set at: /net/work/jones/Karlsberg3/TARs/kb2plus_package/lib_fort_gnu
+No binary location set for CHARMM, instead the command /projects/biomodeling/charmm-lite/c46b1/ser/bin/charmm will be used.
+CHARMM command set too: /projects/biomodeling/charmm-lite/c46b1/ser/bin/charmm
+APBS binary location set at: /net/work/jones/Karlsberg3/bin/apbs
+COULOMB binary location set at: /net/work/jones/Karlsberg3/bin/coulomb
+Karlsberg binary location set at: /net/work/jones/Karlsberg3/bin/karlsberg2.x86_64_fixed
+Titratable yaml file location set at: /work/jones/Karlsberg3/src/kbp3/additional_files/titratable.yaml
+Starting calculations of pKa values for protein: 2rvq_stripped
+# Starting initial modelling
+ -Preoptimization: Dielectric constant will be set to 10 
+ Dielectric constant will be set to 10 after preoptimization
+*****          1         1  GLY       CAY            41.7283797563      -53.3108845068      100.2343893095  C         -3              0.0000000000
+
+*****          2         1  GLY       HY1            41.0835809736      -53.6131080556       99.3803746464  C         -3              0.0000000000
+
+*****          3         1  GLY       HY2            42.7769243598      -53.6022214776      100.0068832851  C         -3              0.0000000000
+
+*****          4         1  GLY       HY3            41.6803583102      -52.2050685294      100.3397984320  C         -3              0.0000000000
+
+*****          5         1  GLY       CY             41.2676309333      -53.9704374027      101.4885027413  C         -3              0.0000000000
+
+*****          6         1  GLY       OY             40.2974818364      -54.7265516206      101.4870817401  C         -3              0.0000000000
+
+*****          7         1  GLY       N              41.9660000000      -53.6930000000      102.6040000000  C         -3              0.0000000000
+
+*****          8         1  GLY       HN             42.7511167824      -53.0793119812      102.6098859011  C         -3              0.0000000000
+
+*****          9         1  GLY       CA             41.5750000000      -54.3070000000      103.8950000000  C         -3              0.0000000000
+
+*****         10         1  GLY       HA1            42.3058805387      -53.9439410863      104.5946687438  C         -3              0.0000000000
+
+*****         11         1  GLY       HA2            41.6163451637      -55.3811487346      103.7771545318  C         -3              0.0000000000
+
+*****         12         1  GLY       C              40.1500000000      -53.9290000000      104.2950000000  C         -3              0.0000000000
+
+*****         13         1  GLY       O              39.2530000000      -53.9760000000      103.4470000000  C         -3              0.0000000000
+
+*****         14         2  PRO       N              39.8970000000      -53.5820000000      105.5760000000  C         -2              0.0000000000
+
+*****         15         2  PRO       CD             40.8800000000      -53.4620000000      106.6490000000  C         -2              0.0000000000
+
+*****         16         2  PRO       HD1            41.7806420030      -52.9022916469      106.3151480522  C         -2              0.0000000000
+
+*****         17         2  PRO       HD2            41.1594046695      -54.4828316896      106.9876975609  C         -2              0.0000000000
+
+*****         18         2  PRO       CA             38.5600000000      -53.2550000000      106.0940000000  C         -2              0.0000000000
+
+*****         19         2  PRO       HA             37.9041718713      -54.0804951013      105.8537534989  C         -2              0.0000000000
+
+*****         20         2  PRO       CB             38.7270000000      -53.1130000000      107.6110000000  C         -2              0.0000000000
+
+*****         21         2  PRO       HB1            38.5883603475      -54.1100722770      108.0856076168  C         -2              0.0000000000
+
+*****         22         2  PRO       HB2            38.0204091751      -52.3946293937      108.0736495288  C         -2              0.0000000000
+
+*****         23         2  PRO       CG             40.1850000000      -52.6880000000      107.7670000000  C         -2              0.0000000000
+
+*****         24         2  PRO       HG1            40.2765442308      -51.5955345465      107.5777592018  C         -2              0.0000000000
+
+*****         25         2  PRO       HG2            40.5939718682      -52.9255473445      108.7691179221  C         -2              0.0000000000
+
+*****         26         2  PRO       C              37.9460000000      -51.9920000000      105.4570000000  C         -2              0.0000000000
+
+*****         27         2  PRO       O              38.6060000000      -50.9570000000      105.3210000000  C         -2              0.0000000000
+
+*****         28         3  GLY       N              36.6620000000      -52.0720000000      105.0930000000  C         -1              0.0000000000
+
+*****         29         3  GLY       HN             36.1672768793      -52.9324838603      105.1821622657  C         -1              0.0000000000
+
+*****         30         3  GLY       CA             35.8430000000      -50.9360000000      104.6430000000  C         -1              0.0000000000
+
+*****         31         3  GLY       HA1            34.9451295031      -51.3593306771      104.2181466084  C         -1              0.0000000000
+
+*****         32         3  GLY       HA2            36.4193582152      -50.3715917043      103.9226152895  C         -1              0.0000000000
+
+*****         33         3  GLY       C              35.4190000000      -49.9910000000      105.7800000000  C         -1              0.0000000000
+
+*****         34         3  GLY       O              35.3560000000      -50.3920000000      106.9470000000  C         -1              0.0000000000
+
+*****       2121       134  GLY       CAY           -17.9797312138      -95.6984525108       69.9896155451  D         -3              0.0000000000
+
+*****       2122       134  GLY       HY1           -17.7194207506      -94.6750279657       70.3378379747  D         -3              0.0000000000
+
+*****       2123       134  GLY       HY2           -18.5837512045      -96.1980301961       70.7780520482  D         -3              0.0000000000
+
+*****       2124       134  GLY       HY3           -18.5967282921      -95.6122818059       69.0685110740  D         -3              0.0000000000
+
+*****       2125       134  GLY       CY            -16.7422624681      -96.4801413072       69.7108078533  D         -3              0.0000000000
+
+*****       2126       134  GLY       OY            -15.6291363615      -95.9777389752       69.8572392973  D         -3              0.0000000000
+
+*****       2127       134  GLY       N             -16.9140000000      -97.7480000000       69.2960000000  D         -3              0.0000000000
+
+*****       2128       134  GLY       HN            -17.8140689951      -98.1578216997       69.1732874710  D         -3              0.0000000000
+
+*****       2129       134  GLY       CA            -15.7340000000      -98.5970000000       68.9960000000  D         -3              0.0000000000
+
+*****       2130       134  GLY       HA1           -16.1161971621      -99.5482423110       68.6565967217  D         -3              0.0000000000
+
+*****       2131       134  GLY       HA2           -15.1611826233      -98.6674227969       69.9102075846  D         -3              0.0000000000
+
+*****       2132       134  GLY       C             -14.8610000000      -98.0140000000       67.8860000000  D         -3              0.0000000000
+
+*****       2133       134  GLY       O             -15.3420000000      -97.2080000000       67.0850000000  D         -3              0.0000000000
+
+*****       2134       135  PRO       N             -13.5750000000      -98.4180000000       67.7990000000  D         -2              0.0000000000
+
+*****       2135       135  PRO       CD            -12.9630000000      -99.4800000000       68.5930000000  D         -2              0.0000000000
+
+*****       2136       135  PRO       HD1           -13.6551996825     -100.3410023430       68.7184836738  D         -2              0.0000000000
+
+*****       2137       135  PRO       HD2           -12.6897219439      -99.0601868361       69.5854136452  D         -2              0.0000000000
+
+*****       2138       135  PRO       CA            -12.5760000000      -97.8560000000       66.8700000000  D         -2              0.0000000000
+
+*****       2139       135  PRO       HA            -12.5266716908      -96.7937113720       67.0645085073  D         -2              0.0000000000
+
+*****       2140       135  PRO       CB            -11.2620000000      -98.5700000000       67.2150000000  D         -2              0.0000000000
+
+*****       2141       135  PRO       HB1           -10.7277588758      -97.9811007953       67.9940884828  D         -2              0.0000000000
+
+*****       2142       135  PRO       HB2           -10.5838713969      -98.7084792988       66.3488622828  D         -2              0.0000000000
+
+*****       2143       135  PRO       CG            -11.7140000000      -99.8950000000       67.8220000000  D         -2              0.0000000000
+
+*****       2144       135  PRO       HG1           -11.9901529312     -100.6052349837       67.0118712411  D         -2              0.0000000000
+
+*****       2145       135  PRO       HG2           -10.9420384666     -100.3528731048       68.4720259324  D         -2              0.0000000000
+
+*****       2146       135  PRO       C             -12.9220000000      -98.0070000000       65.3760000000  D         -2              0.0000000000
+
+*****       2147       135  PRO       O             -12.4360000000      -97.2280000000       64.5540000000  D         -2              0.0000000000
+
+*****       2148       136  GLY       N             -13.7540000000      -98.9920000000       65.0080000000  D         -1              0.0000000000
+
+*****       2149       136  GLY       HN            -14.1153075570      -99.6269679701       65.6857913953  D         -1              0.0000000000
+
+*****       2150       136  GLY       CA            -14.2530000000      -99.1880000000       63.6380000000  D         -1              0.0000000000
+
+*****       2151       136  GLY       HA1           -14.8565820635     -100.0828394341       63.6628671941  D         -1              0.0000000000
+
+*****       2152       136  GLY       HA2           -13.3930762416      -99.2852198029       62.9900027059  D         -1              0.0000000000
+
+*****       2153       136  GLY       C             -15.1350000000      -98.0510000000       63.0920000000  D         -1              0.0000000000
+
+*****       2154       136  GLY       O             -15.2780000000      -97.9220000000       61.8730000000  D         -1              0.0000000000
+
+Error in "read_crd": Could not find all expected atoms (4126 of 4194 in crd                     file /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260622/2rvq_karlsberg/initial_modelling/2rvq_stripped_out.crd
+Error in "write_pdb": Coordinates are missing, please read crd or pdb file first.
+Structure preparation (initial modelling) is done!
+Computed PAC timeout budget: 43874s  (mod=362s tapbs=1230s kb=502s)
+Error in "write_pdb": Coordinates are missing, please read crd or pdb file first.
+[Stage 3] ERROR: calc_pkas failed: MDAnalysis_ssp failed in-memory and fallback load. snapshot=/tmp/keep_PACs_tmp/kbp3_mda_i_8emkxf.pdb; inmemory=ValueError('setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (8252,) + inhomogeneous part.'); fallback=EOFError('Compressed file ended before the end-of-stream marker was reached')
+
+================================================================
+Run complete: 2rvq  FAILED
+Results written to: /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260622
+================================================================
+

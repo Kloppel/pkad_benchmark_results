@@ -1,0 +1,137 @@
+========================================================================
+PKAD benchmark — task 206
+PDB        : 2kix  (crystal) — datasets: PKAD3,PKAD-R
+Run name   : 2kix
+PDB path   : /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/pkad_data/pdbs/heavy_atom/2kix.pdb
+Repo root  : /net/work/jones/Karlsberg3
+Date UTC   : 2026-06-19 13:56:33
+========================================================================
+Conda env  : kb3
+Python     : /homes2/chemie/jones/.conda/envs/kb3/bin/python3
+APBS lib   : /net/work/jones/Karlsberg3/TARs/kb2plus_package/APBS-1.5-linux64/lib
+TAPBS lib  : /net/work/jones/Karlsberg3/TARs/kb2plus_package/lib_fort_gnu
+CHARMM     : /projects/biomodeling/charmm-lite/c46b1/ser/bin/charmm
+Results root: /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619
+Run name   : 2kix
+PAC workers: 3
+========================================================================
+
+================================================================
+KB3 run : 2kix
+Structure: /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/pkad_data/pdbs/heavy_atom/2kix.pdb
+Parallel PACs: 3
+Protocol: [(-10, 'open_sb_acids'), (7, 'h_min'), (20, 'open_sb_bases')]
+Results : /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619
+================================================================
+
+[Stage 1] Stripping non-protein segments …
+[Stage 1] Removed 0 atoms (nothing to remove)
+[Stage 1] Retained 1084 atoms in ['C', 'N', 'O', 'S']
+
+[Stage 3] Running pKa calculation (3 PAC workers) …
+[Stage 3] PDB for calculation: /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/preprocessed/2kix_stripped.pdb
+  Topology  : ['top.inp', 'converted_0.rtf', 'converted_1.rtf']
+  Parameters: ['par.inp', 'converted_0.prm', 'converted_1.prm', 'toppar_water_ions.str', 'par_all36m_prot_additions.prm', 'backfill.prm']
+
+Working directory: /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/2kix_karlsberg/
+TAPBS binary location set at: /net/work/jones/Karlsberg3/bin/tapbs_1.3_cav_enere
+TAPBS LD LIBRARY PATH location set at: /net/work/jones/Karlsberg3/TARs/kb2plus_package/lib_fort_gnu
+No binary location set for CHARMM, instead the command /projects/biomodeling/charmm-lite/c46b1/ser/bin/charmm will be used.
+CHARMM command set too: /projects/biomodeling/charmm-lite/c46b1/ser/bin/charmm
+APBS binary location set at: /net/work/jones/Karlsberg3/bin/apbs
+COULOMB binary location set at: /net/work/jones/Karlsberg3/bin/coulomb
+Karlsberg binary location set at: /net/work/jones/Karlsberg3/bin/karlsberg2.x86_64_fixed
+Titratable yaml file location set at: /work/jones/Karlsberg3/src/kbp3/additional_files/titratable.yaml
+Starting calculations of pKa values for protein: 2kix_stripped
+# Starting initial modelling
+ -Preoptimization: Dielectric constant will be set to 10 
+ Dielectric constant will be set to 10 after preoptimization
+Structure preparation (initial modelling) is done!
+Computed PAC timeout budget: 35311s  (mod=254s tapbs=941s kb=490s)
+WARNING: No salt bridges found, only one protocol (ph=7, method=h_min) will be used!
+WARNING: No salt bridges found, only one protocol (ph=7, method=h_min) will be used!!
+# Pac run for 7 h_min
+Warning in "read_par": NONBONDED entry for HT found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for OT found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for MG found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for POT found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for CAL found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for CES found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for ZN found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for CLA found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for ON3 found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/par_all36m_prot_additions.prm exists and will be overwritten.
+***Starting iteration 1***
+***Starting iteration 2***
+***Starting iteration 3***
+NTE-1_A 5.462207357859532
+EPP-3_A 3.9536161122978335
+HSP-19_A 2.086206896551724
+HSP-27_A 5.559822462369741
+LYS-32_A 10.768157967412318
+ARG-33_A 12.592673992673992
+CTE-33_A 2.470912738214644
+NTE-1_B 7.132915173237754
+EPP-3_B 4.173563218390805
+HSP-19_B 2.430728241563055
+HSP-27_B 5.426055109870945
+LYS-32_B 10.754120070629781
+ARG-33_B 12.78918439716312
+CTE-33_B 2.7626262626262625
+NTE-1_C 5.1791090629800305
+EPP-3_C 3.6029269861691864
+HSP-19_C 2.937587657784011
+HSP-27_C 6.115346858638744
+LYS-32_C 10.318364197530864
+ARG-33_C 12.731963765771594
+CTE-33_C 3.3372707491451665
+NTE-1_D 6.242820676451819
+EPP-3_D 4.258073735352958
+HSP-19_D 2.190830235439901
+HSP-27_D 4.891090909090909
+LYS-32_D 9.769299023957409
+ARG-33_D 12.309127351218008
+CTE-33_D 2.582150101419878
+Final results are combined, the pKa computation is done!
+
+[Stage 3] SUCCESS — results.dat:
+       NTE-1_A: 5.46 
+       GLU-3_A: 3.95 
+      HIS-19_A: 2.09 
+      HIS-27_A: 5.56 
+      LYS-32_A: 10.77 
+      ARG-33_A: 12.59 
+      CTE-33_A: 2.47 
+       NTE-1_B: 7.13 
+       GLU-3_B: 4.17 
+      HIS-19_B: 2.43 
+      HIS-27_B: 5.43 
+      LYS-32_B: 10.75 
+      ARG-33_B: 12.79 
+      CTE-33_B: 2.76 
+       NTE-1_C: 5.18 
+       GLU-3_C: 3.60 
+      HIS-19_C: 2.94 
+      HIS-27_C: 6.12 
+      LYS-32_C: 10.32 
+      ARG-33_C: 12.73 
+      CTE-33_C: 3.34 
+       NTE-1_D: 6.24 
+       GLU-3_D: 4.26 
+      HIS-19_D: 2.19 
+      HIS-27_D: 4.89 
+      LYS-32_D: 9.77 
+      ARG-33_D: 12.31 
+      CTE-33_D: 2.58 
+
+
+[Stage 4] Fitting titration curves and writing plots …
+[titration_analysis] skipped (non-fatal): No module named 'kbp3.titration_analysis'
+
+================================================================
+Run complete: 2kix  SUCCESS
+Results written to: /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619
+================================================================
+
+========================================================================
+Task 206 (2kix) finished: 2026-06-19 14:02:04 UTC
+========================================================================

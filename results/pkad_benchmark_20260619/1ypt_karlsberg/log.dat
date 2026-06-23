@@ -1,0 +1,35 @@
+Log file for pka calculation for the structure 1ypt_stripped 
+
+# Setup: 
+-pdb_file:/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/preprocessed/1ypt_stripped.pdb
+-workdir:/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/1ypt_karlsberg/
+-topology:
+ /net/work/jones/Karlsberg3/benchmarking/test/top_c36/top.inp
+ /net/work/jones/Karlsberg3/benchmarking/test/top_c36/converted_0.rtf
+ /net/work/jones/Karlsberg3/benchmarking/test/top_c36/converted_1.rtf
+-parameters:
+ /net/work/jones/Karlsberg3/benchmarking/test/par_c36/par.inp
+ /net/work/jones/Karlsberg3/benchmarking/test/par_c36/converted_0.prm
+ /net/work/jones/Karlsberg3/benchmarking/test/par_c36/converted_1.prm
+ /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str
+ /net/work/jones/Karlsberg3/benchmarking/test/par_c36/par_all36m_prot_additions.prm
+ /net/work/jones/Karlsberg3/benchmarking/test/par_c36/backfill.prm
+-yaml:/work/jones/Karlsberg3/src/kbp3/additional_files/titratable.yaml
+-protocol:
+ (-10, 'open_sb_acids')
+ (7, 'h_min')
+ (20, 'open_sb_bases')
+-preopt:
+ carb_oxi_relax: True
+ init_die_10: True
+ set_pdie_10: True
+-salt_bridge_cutoff:4
+
+# Starting initial modelling 
+ -Preoptimization: Minimization of carobxylic oxigens will be done 
+ -Preoptimization: Dielectric constant will be set to 10  
+ Dielectric constant will be set to 10 after preoptimization 
+Structure preparation (initial modelling) is done! 
+
+Computed PAC timeout budget: 57555s  (mod=534s tapbs=1699s kb=515s) 
+# Pac run for -10 open_sb_acids 

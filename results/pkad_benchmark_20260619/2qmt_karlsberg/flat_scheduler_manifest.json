@@ -1,0 +1,145 @@
+{
+  "pacs": {
+    "-10_open_sb_acids": {
+      "artifacts": {
+        "charmm_pickle": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/2qmt_karlsberg/pac_ph_-10_open_sb_acids/charmm_pac.pkl",
+        "pac_folder": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/2qmt_karlsberg/pac_ph_-10_open_sb_acids/",
+        "progress_log": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/2qmt_karlsberg/pac_ph_-10_open_sb_acids/progress.log",
+        "results_pickle": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/2qmt_karlsberg/pac_ph_-10_open_sb_acids/kbp2_res.pkl"
+      },
+      "reason": null,
+      "record": {
+        "artifact_paths": {
+          "charmm_pickle": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/2qmt_karlsberg/pac_ph_-10_open_sb_acids/charmm_pac.pkl",
+          "pac_folder": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/2qmt_karlsberg/pac_ph_-10_open_sb_acids/",
+          "progress_log": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/2qmt_karlsberg/pac_ph_-10_open_sb_acids/progress.log",
+          "results_pickle": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/2qmt_karlsberg/pac_ph_-10_open_sb_acids/kbp2_res.pkl"
+        },
+        "cpu_cost": 1,
+        "modelling_type": "open_sb_acids",
+        "pac_id": "-10_open_sb_acids",
+        "ph": -10,
+        "state_id": "2qmt_karlsberg",
+        "timeout_budget": 32211.527247723905,
+        "workdir": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/2qmt_karlsberg/pac_ph_-10_open_sb_acids/"
+      },
+      "status": "running",
+      "transitions": [
+        {
+          "reason": null,
+          "status": "running",
+          "timestamp": "2026-06-19T14:04:46.984844+00:00"
+        }
+      ]
+    },
+    "20_open_sb_bases": {
+      "artifacts": {
+        "charmm_pickle": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/2qmt_karlsberg/pac_ph_20_open_sb_bases/charmm_pac.pkl",
+        "pac_folder": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/2qmt_karlsberg/pac_ph_20_open_sb_bases/",
+        "progress_log": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/2qmt_karlsberg/pac_ph_20_open_sb_bases/progress.log",
+        "results_pickle": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/2qmt_karlsberg/pac_ph_20_open_sb_bases/kbp2_res.pkl"
+      },
+      "reason": null,
+      "record": {
+        "artifact_paths": {
+          "charmm_pickle": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/2qmt_karlsberg/pac_ph_20_open_sb_bases/charmm_pac.pkl",
+          "pac_folder": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/2qmt_karlsberg/pac_ph_20_open_sb_bases/",
+          "progress_log": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/2qmt_karlsberg/pac_ph_20_open_sb_bases/progress.log",
+          "results_pickle": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/2qmt_karlsberg/pac_ph_20_open_sb_bases/kbp2_res.pkl"
+        },
+        "cpu_cost": 1,
+        "modelling_type": "open_sb_bases",
+        "pac_id": "20_open_sb_bases",
+        "ph": 20,
+        "state_id": "2qmt_karlsberg",
+        "timeout_budget": 32211.527247723905,
+        "workdir": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/2qmt_karlsberg/pac_ph_20_open_sb_bases/"
+      },
+      "status": "pending",
+      "transitions": []
+    },
+    "7_h_min": {
+      "artifacts": {
+        "charmm_pickle": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/2qmt_karlsberg/pac_ph_7_h_min/charmm_pac.pkl",
+        "pac_folder": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/2qmt_karlsberg/pac_ph_7_h_min/",
+        "progress_log": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/2qmt_karlsberg/pac_ph_7_h_min/progress.log",
+        "results_pickle": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/2qmt_karlsberg/pac_ph_7_h_min/kbp2_res.pkl"
+      },
+      "reason": null,
+      "record": {
+        "artifact_paths": {
+          "charmm_pickle": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/2qmt_karlsberg/pac_ph_7_h_min/charmm_pac.pkl",
+          "pac_folder": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/2qmt_karlsberg/pac_ph_7_h_min/",
+          "progress_log": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/2qmt_karlsberg/pac_ph_7_h_min/progress.log",
+          "results_pickle": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/2qmt_karlsberg/pac_ph_7_h_min/kbp2_res.pkl"
+        },
+        "cpu_cost": 1,
+        "modelling_type": "h_min",
+        "pac_id": "7_h_min",
+        "ph": 7,
+        "state_id": "2qmt_karlsberg",
+        "timeout_budget": 32211.527247723905,
+        "workdir": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/2qmt_karlsberg/pac_ph_7_h_min/"
+      },
+      "status": "pending",
+      "transitions": []
+    }
+  },
+  "state": {
+    "artifacts": {
+      "initial_modelling_folder": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/2qmt_karlsberg/initial_modelling/",
+      "workdir": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/2qmt_karlsberg/"
+    },
+    "reason": null,
+    "record": {
+      "artifact_paths": {
+        "initial_modelling_folder": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/2qmt_karlsberg/initial_modelling/",
+        "manifest_path": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/2qmt_karlsberg/flat_scheduler_manifest.json",
+        "results_dat": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/2qmt_karlsberg/results.dat",
+        "results_pickle": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/2qmt_karlsberg/results.pkl"
+      },
+      "cpu_budget": 3,
+      "policy": {
+        "continue_after_pac_failure": false,
+        "initial_charmm_failure": "abort_state",
+        "pac_charmm_failure": "abort_state"
+      },
+      "protocol": [
+        [
+          -10,
+          "open_sb_acids"
+        ],
+        [
+          7,
+          "h_min"
+        ],
+        [
+          20,
+          "open_sb_bases"
+        ]
+      ],
+      "state_id": "2qmt_karlsberg",
+      "workdir": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/2qmt_karlsberg/"
+    },
+    "status": "running_pacs",
+    "transitions": [
+      {
+        "reason": null,
+        "status": "preparing",
+        "timestamp": "2026-06-19T14:04:46.977236+00:00"
+      },
+      {
+        "reason": null,
+        "status": "prepared",
+        "timestamp": "2026-06-19T14:04:46.979788+00:00"
+      },
+      {
+        "reason": null,
+        "status": "running_pacs",
+        "timestamp": "2026-06-19T14:04:46.982380+00:00"
+      }
+    ]
+  },
+  "updated_at": "2026-06-19T14:04:46.984852+00:00",
+  "version": 1
+}

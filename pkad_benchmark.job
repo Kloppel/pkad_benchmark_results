@@ -1,0 +1,244 @@
+#!/bin/bash --login
+# pkad_benchmark.job — SLURM job-array script for the PKAD2/PKAD3/PKAD-R benchmark.
+#
+# Each array element runs one KB3 pKa calculation for one entry from the job
+# manifest produced by prepare_benchmark.py.  The manifest has two structure
+# types: 'crystal' (original PDB) and 'af3' (AlphaFold DB prediction).
+#
+# Preparation
+# -----------
+#   1. conda activate kb3
+#   2. python3 download_pkad_data.py        # read tables + download PDB/AF3 files
+#   3. python3 prepare_benchmark.py         # build pkad_data/job_manifest.tsv
+#   4. python3 queue_all.py [--dry-run]     # submit (or preview) SLURM array
+#
+# Manual submission (counts rows automatically):
+#   N=$(tail -n +2 pkad_data/job_manifest.tsv | wc -l)
+#   mkdir -p logs
+#   sbatch --array=0-$((N-1))%50 pkad_benchmark.job
+#   (the %50 cap limits simultaneous jobs to 50)
+#
+# Environment overrides
+# ---------------------
+#   KB3_PARALLEL_PACS   — PAC workers per structure     [default: 3]
+#   KB3_RESULTS_ROOT    — root dir for all results      [default: results/pkad_benchmark_<date>]
+#   KB3_TAPBS_TIMEOUT   — TAPBS subprocess timeout (s)  [default: auto-scaled]
+#   KB3_PH7_ONLY        — if set to "1", run only the pH-7 PAC (no salt-bridge openers)
+#   APBS_LIB_DIR        — APBS shared-library directory
+#   TAPBS_LIB_DIR       — TAPBS lib_fort_gnu directory
+
+# ---------------------------------------------------------------------------
+# SLURM directives  (matches CCO 3HB3 profile: 4 CPUs, 32 GB, 12 h)
+# ---------------------------------------------------------------------------
+#SBATCH --job-name=pkad_kb3
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4          # 3 PAC workers + 1 coordinator
+#SBATCH --mem=32G
+#SBATCH --time=24:00:00
+#SBATCH --output=logs/pkad_%A_%a.out
+#SBATCH --error=logs/pkad_%A_%a.err
+
+set -euo pipefail
+
+# ---------------------------------------------------------------------------
+# Locate repo root
+# ---------------------------------------------------------------------------
+_find_repo_root() {
+    local current="$1"
+    while [[ "${current}" != "/" ]]; do
+        if [[ -d "${current}/src/kbp3" ]] && [[ -d "${current}/benchmarking" ]]; then
+            printf '%s\n' "${current}"
+            return 0
+        fi
+        current="$(dirname "${current}")"
+    done
+    printf '[ERROR] Could not locate repo root above %s\n' "$1" >&2
+    return 1
+}
+
+_prepend_path() {
+    local var="$1" val="$2"
+    local current="${!var:-}"
+    [[ -z "${val}" ]] && return 0
+    case ":${current}:" in
+        *":${val}:"*) ;;
+        *) export "${var}=${val}${current:+:${current}}" ;;
+    esac
+}
+
+if [[ -n "${SLURM_SUBMIT_DIR:-}" ]]; then
+    SCRIPT_DIR="${SLURM_SUBMIT_DIR}"
+else
+    SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+fi
+REPO_ROOT="$(_find_repo_root "${SCRIPT_DIR}")"
+BENCH_DIR="${SCRIPT_DIR}"
+
+# ---------------------------------------------------------------------------
+# Array index → manifest entry
+# ---------------------------------------------------------------------------
+MANIFEST="${BENCH_DIR}/pkad_data/job_manifest.tsv"
+if [[ ! -f "${MANIFEST}" ]]; then
+    echo "[ERROR] Job manifest not found: ${MANIFEST}" >&2
+    echo "        Run prepare_benchmark.py first." >&2
+    exit 1
+fi
+
+# SLURM_ARRAY_TASK_ID is 0-based; skip TSV header with tail -n +2.
+TASK_ID="${SLURM_ARRAY_TASK_ID:-0}"
+MANIFEST_LINE="$(tail -n +2 "${MANIFEST}" | sed -n "$((TASK_ID + 1))p")"
+
+if [[ -z "${MANIFEST_LINE}" ]]; then
+    echo "[ERROR] No manifest entry for task ID ${TASK_ID}" >&2
+    exit 1
+fi
+
+# Manifest columns (TSV):
+#   1:pdb_id  2:structure_type  3:pdb_path  4:datasets  5:n_experimental_pkas  6:uniprot_id
+PDB_ID="$(         echo "${MANIFEST_LINE}" | cut -f1)"
+STRUCTURE_TYPE="$( echo "${MANIFEST_LINE}" | cut -f2)"
+PDB_PATH="$(       echo "${MANIFEST_LINE}" | cut -f3)"
+DATASETS="$(       echo "${MANIFEST_LINE}" | cut -f4)"
+UNIPROT_ID="$(     echo "${MANIFEST_LINE}" | cut -f6)"
+
+# Distinguish crystal vs AF3 results directories
+RUN_NAME="${PDB_ID}"
+[[ "${STRUCTURE_TYPE}" == "af3" ]] && RUN_NAME="${PDB_ID}_af3"
+
+echo "========================================================================"
+echo "PKAD benchmark — task ${TASK_ID}"
+echo "PDB        : ${PDB_ID}  (${STRUCTURE_TYPE}) — datasets: ${DATASETS}"
+echo "Run name   : ${RUN_NAME}"
+echo "PDB path   : ${PDB_PATH}"
+echo "Repo root  : ${REPO_ROOT}"
+echo "Date UTC   : $(date -u +'%Y-%m-%d %H:%M:%S')"
+echo "========================================================================"
+
+# ---------------------------------------------------------------------------
+# Conda environment
+# ---------------------------------------------------------------------------
+conda activate kb3
+echo "Conda env  : ${CONDA_DEFAULT_ENV:-<not set>}"
+echo "Python     : $(which python3)"
+
+# ---------------------------------------------------------------------------
+# APBS / TAPBS shared libraries
+# ---------------------------------------------------------------------------
+_APBS_DEFAULT="${REPO_ROOT}/TARs/kb2plus_package/APBS-1.5-linux64"
+_APBS_FALLBACK="${REPO_ROOT}/APBS-1.5-linux64"
+_TAPBS_DEFAULT="${REPO_ROOT}/TARs/kb2plus_package/lib_fort_gnu"
+_TAPBS_FALLBACK="${REPO_ROOT}/lib_fort_gnu"
+
+if [[ -n "${APBS_LIB_DIR:-}" ]]; then
+    :
+elif [[ -n "${APBS_HOME:-}" ]]; then
+    APBS_LIB_DIR="${APBS_HOME%/}/lib"
+elif [[ -d "${_APBS_DEFAULT}/lib" ]]; then
+    APBS_HOME="${_APBS_DEFAULT}"; APBS_LIB_DIR="${_APBS_DEFAULT}/lib"
+elif [[ -d "${_APBS_FALLBACK}/lib" ]]; then
+    APBS_HOME="${_APBS_FALLBACK}"; APBS_LIB_DIR="${_APBS_FALLBACK}/lib"
+else
+    echo "[ERROR] Could not locate APBS lib directory." >&2; exit 1
+fi
+
+if [[ -n "${TAPBS_LIB_DIR:-}" ]]; then
+    :
+elif [[ -d "${_TAPBS_DEFAULT}" ]]; then
+    TAPBS_LIB_DIR="${_TAPBS_DEFAULT}"
+elif [[ -d "${_TAPBS_FALLBACK}" ]]; then
+    TAPBS_LIB_DIR="${_TAPBS_FALLBACK}"
+else
+    echo "[ERROR] Could not locate TAPBS lib_fort_gnu." >&2; exit 1
+fi
+
+export APBS_HOME
+_prepend_path LD_LIBRARY_PATH "${APBS_LIB_DIR}"
+_prepend_path LD_LIBRARY_PATH "${TAPBS_LIB_DIR}"
+echo "APBS lib   : ${APBS_LIB_DIR}"
+echo "TAPBS lib  : ${TAPBS_LIB_DIR}"
+
+# ---------------------------------------------------------------------------
+# CHARMM module
+# ---------------------------------------------------------------------------
+module load /projects/biomodeling/modules/charmm-lite/c46b1
+export KBP3_CHARMM_BIN="$(command -v charmm 2>/dev/null || true)"
+if [[ -z "${KBP3_CHARMM_BIN}" ]]; then
+    echo "[ERROR] charmm not found in PATH after module load." >&2; exit 1
+fi
+export KBP_CHARMM_LAUNCH_MODE="${KBP_CHARMM_LAUNCH_MODE:-cluster}"
+echo "CHARMM     : ${KBP3_CHARMM_BIN}"
+
+# ---------------------------------------------------------------------------
+# KBP3 binary paths
+# ---------------------------------------------------------------------------
+export KBP3_APBS_BIN="${REPO_ROOT}/bin/apbs"
+export KBP3_TAPBS_BIN="${REPO_ROOT}/bin/tapbs_1.3_cav_enere"
+export KBP3_TAPBS_LD="${TAPBS_LIB_DIR}"
+export KBP3_COULOMB_BIN="${REPO_ROOT}/bin/coulomb"
+export KBP3_KARLSBERG_BIN="${REPO_ROOT}/bin/karlsberg2.x86_64_fixed"
+
+# ---------------------------------------------------------------------------
+# Results directory
+# ---------------------------------------------------------------------------
+_DATE="$(date -u +'%Y%m%d')"
+RESULTS_ROOT="${KB3_RESULTS_ROOT:-${BENCH_DIR}/results/pkad_benchmark_${_DATE}}"
+RESULTS_DIR="${RESULTS_ROOT}"
+mkdir -p "${BENCH_DIR}/logs" "${RESULTS_DIR}"
+
+PARALLEL_PACS="${KB3_PARALLEL_PACS:-3}"
+
+# ---------------------------------------------------------------------------
+# Writable TMPDIR for MDAnalysis snapshot writes
+# ---------------------------------------------------------------------------
+# Cluster nodes often mount /tmp read-only or with per-user quotas.
+# Use SLURM's per-job scratch if available; otherwise fall back to the
+# results directory.  MDAnalysis_ssp respects TMPDIR via tempfile.mkdtemp().
+if [[ -z "${TMPDIR:-}" ]] || ! mkdir -p "${TMPDIR}" 2>/dev/null; then
+    export TMPDIR="${RESULTS_DIR}/.tmp_mda_${TASK_ID}"
+fi
+mkdir -p "${TMPDIR}"
+echo "TMPDIR     : ${TMPDIR}"
+
+# C36 force field directories
+TOP_DIR="${REPO_ROOT}/benchmarking/test/top_c36"
+PAR_DIR="${REPO_ROOT}/benchmarking/test/par_c36"
+
+for required_path in \
+    "${PDB_PATH}" \
+    "${TOP_DIR}" \
+    "${PAR_DIR}" \
+    "${REPO_ROOT}/bin/apbs" \
+    "${REPO_ROOT}/bin/coulomb" \
+    "${REPO_ROOT}/bin/karlsberg2.x86_64_fixed" \
+    "${REPO_ROOT}/bin/tapbs_1.3_cav_enere"; do
+    if [[ ! -e "${required_path}" ]]; then
+        echo "[ERROR] Required path not found: ${required_path}" >&2
+        exit 1
+    fi
+done
+
+echo "Results root: ${RESULTS_ROOT}"
+echo "Run name   : ${RUN_NAME}"
+echo "PAC workers: ${PARALLEL_PACS}"
+echo "========================================================================"
+
+# ---------------------------------------------------------------------------
+# Run KB3
+# ---------------------------------------------------------------------------
+cd "${BENCH_DIR}"
+_EXTRA_FLAGS=()
+[[ -n "${KB3_TAPBS_TIMEOUT:-}" ]] && _EXTRA_FLAGS+=( "--tapbs-timeout" "${KB3_TAPBS_TIMEOUT}" )
+[[ "${KB3_PH7_ONLY:-0}" == "1" ]]  && _EXTRA_FLAGS+=( "--ph7-only" )
+
+python3 ../run_kb3.py \
+    --pdb "${PDB_PATH}" \
+    --name "${RUN_NAME}" \
+    --top-dir "${TOP_DIR}" \
+    --par-dir "${PAR_DIR}" \
+    --parallel-pacs "${PARALLEL_PACS}" \
+    --results-dir "${RESULTS_DIR}" \
+    "${_EXTRA_FLAGS[@]}"
+
+echo "========================================================================"
+echo "Task ${TASK_ID} (${RUN_NAME}) finished: $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+echo "========================================================================"

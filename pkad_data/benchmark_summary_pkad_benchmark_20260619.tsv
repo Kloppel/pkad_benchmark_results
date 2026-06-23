@@ -1,0 +1,1911 @@
+pdb_id	chain	resname	resid	expt_pka	calc_pka	delta	status
+135l	A	ASP	18	2.68	2.27	-0.41	matched
+135l	A	ASP	52	3.78	4.73	+0.95	matched
+135l	A	ASP	87	2.13	2.72	+0.59	matched
+135l	A	ASP	119	3.35	3.33	-0.02	matched
+135l	A	GLU	7	2.68	2.43	-0.25	matched
+135l	A	GLU	35	6.06	3.97	-2.09	matched
+1a2j	A	CYS	30	3.4			missing
+1a2l	A	CYS	30	3.4	10.72	+7.32	matched
+1a2m	A	CYS	30	3.4			missing
+1a2p	C	ASP	8	3.1	2.44	-0.66	matched
+1a2p	C	ASP	12	3.8	3.24	-0.56	matched
+1a2p	C	ASP	22	3.3	3.46	+0.16	matched
+1a2p	C	ASP	44	3.6	3.42	-0.18	matched
+1a2p	C	ASP	54	2.2	-0.76	-2.96	matched
+1a2p	C	ASP	75	3.1	1.55	-1.55	matched
+1a2p	C	ASP	86	4.2	2.40	-1.80	matched
+1a2p	C	ASP	101	2.0	3.21	+1.21	matched
+1a2p	B	CTE	110	3.3	0.55	-2.75	matched
+1a2p	C	GLU	29	3.75	3.71	-0.04	matched
+1a2p	C	GLU	60	3.0	3.25	+0.25	matched
+1a2p	C	GLU	73	2.1	1.80	-0.30	matched
+1a2p	C	HIS	18	7.75	6.89	-0.86	matched
+1a2p	C	HIS	102	6.3	5.53	-0.77	matched
+1a42	A	HIS	64	6.0	6.19	+0.19	matched
+1a42	A	TYR	7	7.1	15.16	+8.06	matched
+1a6k	A	HIS	12	6.29	6.75	+0.46	matched
+1a6k	A	HIS	24	6.2	0.91	-5.29	matched
+1a6k	A	HIS	36	8.06	6.09	-1.97	matched
+1a6k	A	HIS	48	5.25	5.91	+0.66	matched
+1a6k	A	HIS	81	6.68	6.63	-0.05	matched
+1a6k	A	HIS	97	5.63	4.33	-1.30	matched
+1a6k	A	HIS	113	5.44	6.27	+0.83	matched
+1a6k	A	HIS	116	6.49	6.35	-0.14	matched
+1a6k	A	HIS	119	6.13	4.87	-1.26	matched
+1a6k	A	TYR	151	10.6	11.75	+1.15	matched
+1a6m	A	HIS	12	6.29	6.48	+0.19	matched
+1a6m	A	HIS	24	6.2	5.64	-0.56	matched
+1a6m	A	HIS	36	8.06	5.40	-2.66	matched
+1a6m	A	HIS	48	5.25	5.90	+0.65	matched
+1a6m	A	HIS	81	6.68	6.78	+0.10	matched
+1a6m	A	HIS	97	5.63	4.75	-0.88	matched
+1a6m	A	HIS	113	5.44	6.85	+1.41	matched
+1a6m	A	HIS	116	6.49	6.04	-0.45	matched
+1a6m	A	HIS	119	6.13	3.73	-2.40	matched
+1a91	A	ASP	7	5.6			missing
+1a91	A	ASP	44	5.6			missing
+1a91	A	ASP	61	7.1			missing
+1a91	A	GLU	2	5.5			missing
+1a91	A	GLU	37	5.5			missing
+1a93	A	HIS	29	6.85	6.86	+0.01	matched
+1ac1	A	CYS	30	4.4			missing
+1acv	A	CYS	30	4.9			missing
+1ans	A	CTE	27	3.3			missing
+1ans	A	GLU	20	5.4			missing
+1ans	A	TYR	7	9.7			missing
+1ans	A	TYR	18	10.1			missing
+1ao6	A	CYS	34	6.9			not_run
+1ars	A	LYS	258	6.87	8.26	+1.39	matched
+1axt	H	LYS	93	5.5			missing
+1azp	A	ASP	16	2.89	2.39	-0.50	matched
+1azp	A	ASP	35	3.42	3.14	-0.28	matched
+1azp	A	ASP	36	3.12	1.75	-1.37	matched
+1azp	A	ASP	49	3.55	3.14	-0.41	matched
+1azp	A	ASP	56	3.35	2.49	-0.86	matched
+1azp	A	GLU	11	4.19	4.43	+0.24	matched
+1azp	A	GLU	12	4.41	5.02	+0.61	matched
+1azp	A	GLU	14	4.0	4.37	+0.37	matched
+1azp	A	GLU	47	4.21	2.80	-1.41	matched
+1azp	A	GLU	53	3.53	3.91	+0.38	matched
+1azp	A	GLU	62	3.99	3.94	-0.05	matched
+1azp	A	GLU	64	4.23	4.37	+0.14	matched
+1b10	A	HIS	187	4.9			missing
+1b2v	A	HIS	32	7.3	6.74	-0.56	matched
+1b2v	A	HIS	83	5.6	6.23	+0.63	matched
+1b2v	A	HIS	128	7.1	7.35	+0.25	matched
+1b2v	A	HIS	179	7.1			missing
+1b2x	A	ASP	8	3.1	3.23	+0.13	matched
+1b2x	A	ASP	12	3.8	3.77	-0.03	matched
+1b2x	A	ASP	22	3.3	3.61	+0.31	matched
+1b2x	A	ASP	44	3.6	3.22	-0.38	matched
+1b2x	A	ASP	75	3.1	0.95	-2.15	matched
+1b2x	A	ASP	86	4.2	2.16	-2.04	matched
+1b2x	A	GLU	29	3.75	3.26	-0.49	matched
+1b2x	A	GLU	60	3.0	3.68	+0.68	matched
+1b2x	A	GLU	73	2.1	1.94	-0.16	matched
+1b2x	A	HIS	18	7.75	6.95	-0.80	matched
+1b2x	A	HIS	102	6.3	5.15	-1.15	matched
+1bcx	A	ASP	4	3.0	2.45	-0.55	matched
+1bcx	A	ASP	11	2.5	2.78	+0.28	matched
+1bcx	A	ASP	106	2.7	2.00	-0.70	matched
+1bcx	A	ASP	119	3.2	4.58	+1.38	matched
+1bcx	A	ASP	121	3.6	4.13	+0.53	matched
+1bcx	A	GLU	78	4.6	5.29	+0.69	matched
+1bcx	A	HIS	156	6.5	5.94	-0.56	matched
+1bed	A	CYS	30	5.1			missing
+1beg	A	ASP	21	2.49			missing
+1beg	A	ASP	30	2.51			missing
+1beg	A	ASP	72	2.61			missing
+1beg	A	CTE	98	3.51			missing
+1beg	A	LYS	61	10.1			missing
+1beg	A	LYS	94	9.4			missing
+1beg	A	NTE	1	7.43			missing
+1beg	A	TYR	85	10.35			missing
+1beo	A	ASP	21	2.49	2.95	+0.46	matched
+1beo	A	ASP	30	2.51	2.96	+0.45	matched
+1beo	A	ASP	72	2.61	3.22	+0.61	matched
+1beo	A	CTE	98	3.51	3.79	+0.28	matched
+1beo	A	LYS	61	10.1	10.34	+0.24	matched
+1beo	A	LYS	94	9.4	11.27	+1.87	matched
+1beo	A	NTE	1	7.43	7.90	+0.47	matched
+1beo	A	TYR	12	11.5	10.71	-0.79	matched
+1beo	A	TYR	85	10.35	9.80	-0.55	matched
+1bf4	A	ASP	16	2.9	3.38	+0.48	matched
+1bf4	A	ASP	35	2.6	3.83	+1.23	matched
+1bf4	A	ASP	50	3.0	3.34	+0.34	matched
+1bf4	A	GLU	11	3.5	4.18	+0.68	matched
+1bf4	A	GLU	12	3.5	4.03	+0.53	matched
+1bf4	A	GLU	36	5.4	4.17	-1.23	matched
+1bf4	A	GLU	48	3.5	3.06	-0.44	matched
+1bf4	A	GLU	54	3.2	4.70	+1.50	matched
+1bf4	A	GLU	60	4.1	3.35	-0.75	matched
+1bf4	A	NTE	1	7.0			missing
+1bg8	A	ASP	20	3.7	3.30	-0.40	matched
+1bg8	A	ASP	25	3.7	3.50	-0.20	matched
+1bg8	A	ASP	43	3.9	4.23	+0.33	matched
+1bg8	A	ASP	47	4.1	4.19	+0.09	matched
+1bg8	A	ASP	51	3.8	3.68	-0.12	matched
+1bg8	A	ASP	69	3.7	2.74	-0.96	matched
+1bg8	A	ASP	76	3.8	3.77	-0.03	matched
+1bg8	A	ASP	83	4.0	4.92	+0.92	matched
+1bg8	A	GLU	19	4.4	4.49	+0.09	matched
+1bg8	A	GLU	26	4.6	5.03	+0.43	matched
+1bg8	A	GLU	46	4.1	4.69	+0.59	matched
+1bg8	A	GLU	81	4.2	4.89	+0.69	matched
+1bhc	J	ASP	3	3.0			missing
+1bhc	J	ASP	50	3.4			missing
+1bhc	J	GLU	7	3.7			missing
+1bhc	J	GLU	49	3.8			missing
+1bhc	J	LYS	15	10.6			missing
+1bhc	J	LYS	26	10.6			missing
+1bhc	J	LYS	41	10.8			missing
+1bhc	J	LYS	46	10.6			missing
+1bi6	H	ASP	9	3.0	3.58	+0.58	matched
+1bi6	H	ASP	13	3.8	4.44	+0.64	matched
+1bi6	H	ASP	32	3.1	3.79	+0.69	matched
+1bi6	H	ASP	38	3.7	3.55	-0.15	matched
+1bi6	H	GLU	1	3.3	5.85	+2.55	matched
+1bi6	H	GLU	2	3.3	5.15	+1.85	matched
+1bi6	L	GLU	5	4.0	5.60	+1.60	matched
+1bi6	H	GLU	24	4.2	4.23	+0.03	matched
+1bmf	D	TYR	345	8.3			not_run
+1bmf	D	TYR	368	7.2			not_run
+1bni	B	HIS	102	6.3			not_run
+1bni	B	ASP	12	3.8			not_run
+1bni	B	HIS	18	7.75			not_run
+1bni	B	ASP	22	3.3			not_run
+1bni	B	GLU	29	3.75			not_run
+1bni	B	ASP	44	3.6			not_run
+1bni	B	GLU	60	3.0			not_run
+1bni	B	GLU	73	2.1			not_run
+1bni	B	ASP	75	3.1			not_run
+1bni	B	ASP	8	3.1			not_run
+1bni	B	ASP	86	4.2			not_run
+1bnj	A	HIS	102	6.3			not_run
+1bnj	A	ASP	12	3.8			not_run
+1bnj	A	HIS	18	7.75			not_run
+1bnj	A	ASP	22	3.3			not_run
+1bnj	A	GLU	29	3.75			not_run
+1bnj	A	ASP	44	3.6			not_run
+1bnj	A	GLU	60	3.0			not_run
+1bnj	A	GLU	73	2.1			not_run
+1bnj	A	ASP	75	3.1			not_run
+1bnj	A	ASP	8	3.1			not_run
+1bnj	A	ASP	86	4.2			not_run
+1bnr	A	ASP	8	3.1	3.09	-0.01	matched
+1bnr	A	ASP	12	3.8	2.39	-1.41	matched
+1bnr	A	ASP	22	3.3	3.81	+0.51	matched
+1bnr	A	ASP	44	3.6	3.86	+0.26	matched
+1bnr	A	ASP	75	3.1	0.78	-2.32	matched
+1bnr	A	ASP	86	4.2	3.97	-0.23	matched
+1bnr	A	GLU	29	3.75	4.38	+0.63	matched
+1bnr	A	GLU	60	3.0	5.16	+2.16	matched
+1bnr	A	GLU	73	2.1	0.99	-1.11	matched
+1bnr	A	HIS	18	7.75	6.26	-1.49	matched
+1bnr	A	HIS	102	6.3	4.25	-2.05	matched
+1bnz	A	ASP	16	2.62	3.36	+0.74	matched
+1bnz	A	ASP	35	2.67	3.23	+0.56	matched
+1bnz	A	ASP	50	3.55	3.31	-0.24	matched
+1bnz	A	CTE	64	3.4	1.43	-1.97	matched
+1bnz	A	GLU	11	4.17	3.51	-0.66	matched
+1bnz	A	GLU	12	4.33	4.13	-0.20	matched
+1bnz	A	GLU	36	4.89	3.67	-1.22	matched
+1bnz	A	GLU	48	4.03	2.21	-1.82	matched
+1bnz	A	GLU	54	3.56	4.37	+0.81	matched
+1bnz	A	GLU	60	4.24	4.13	-0.11	matched
+1bnz	A	NTE	1	7.0	7.47	+0.47	matched
+1bpi	A	ASP	3	3.0	3.23	+0.23	matched
+1bpi	A	ASP	50	3.4	1.95	-1.45	matched
+1bpi	A	CTE	58	2.9	3.51	+0.61	matched
+1bpi	A	GLU	7	3.7	4.48	+0.78	matched
+1bpi	A	GLU	49	3.8	4.57	+0.77	matched
+1bpi	A	LYS	15	10.6	10.38	-0.22	matched
+1bpi	A	LYS	26	10.6	10.50	-0.10	matched
+1bpi	A	LYS	41	10.8	11.38	+0.58	matched
+1bpi	A	LYS	46	10.6	10.29	-0.31	matched
+1bpi	A	NTE	1	8.1	6.64	-1.46	matched
+1bpi	A	TYR	10	9.46	9.19	-0.27	matched
+1bpi	A	TYR	21	10.0	10.15	+0.15	matched
+1bpi	A	TYR	23	11.0	9.87	-1.13	matched
+1bpi	A	TYR	35	10.6	8.35	-2.25	matched
+1bus	A	ASP	6	4.1	3.38	-0.72	matched
+1bus	A	ASP	12	3.6	3.57	-0.03	matched
+1bus	A	GLU	9	4.5	5.04	+0.54	matched
+1bus	A	GLU	20	4.4	3.52	-0.88	matched
+1bvc	A	HIS	36	8.2	7.00	-1.20	matched
+1bvc	A	HIS	48	5.2	6.17	+0.97	matched
+1bvc	A	HIS	116	6.6	6.05	-0.55	matched
+1bvc	A	HIS	119	5.6	2.87	-2.73	matched
+1bvi	B	ASP	3	3.54			missing
+1bvi	B	ASP	15	3.52			missing
+1bvi	B	ASP	29	4.26			missing
+1bvi	B	ASP	49	4.22			missing
+1bvi	B	ASP	66	3.9			missing
+1bvi	B	ASP	76	0.5			missing
+1bvi	B	GLU	28	5.61			missing
+1bvi	B	GLU	31	5.36			missing
+1bvi	B	GLU	46	3.62			missing
+1bvi	B	GLU	58	3.96			missing
+1bvi	B	GLU	82	3.27			missing
+1bvi	B	GLU	102	5.3			missing
+1bvi	B	HIS	27	7.57			missing
+1bvi	B	HIS	40	7.44			missing
+1bvi	B	HIS	92	7.31			missing
+1c8c	A	ASP	16	2.9	1.47	-1.43	matched
+1c8c	A	ASP	35	2.6	3.99	+1.39	matched
+1c8c	A	ASP	50	3.0	3.79	+0.79	matched
+1c8c	A	CTE	64	3.4	2.63	-0.77	matched
+1c8c	A	GLU	11	3.5	4.11	+0.61	matched
+1c8c	A	GLU	12	3.5	3.81	+0.31	matched
+1c8c	A	GLU	36	5.4	2.62	-2.78	matched
+1c8c	A	GLU	48	3.5	3.53	+0.03	matched
+1c8c	A	GLU	54	3.2	1.17	-2.03	matched
+1c8c	A	NTE	1	7.0	8.90	+1.90	matched
+1ca5	A	ASP	16	2.89	2.38	-0.51	matched
+1ca5	A	ASP	35	3.42	2.48	-0.94	matched
+1ca5	A	ASP	36	3.12	2.60	-0.52	matched
+1ca5	A	ASP	49	3.55	3.02	-0.53	matched
+1ca5	A	ASP	56	3.35	3.95	+0.60	matched
+1ca5	A	GLU	11	4.19	3.34	-0.85	matched
+1ca5	A	GLU	12	4.41	3.66	-0.75	matched
+1ca5	A	GLU	14	4.0	5.47	+1.47	matched
+1ca5	A	GLU	47	4.21	2.84	-1.37	matched
+1ca5	A	GLU	53	3.53	3.68	+0.15	matched
+1ca5	A	GLU	62	3.99	5.44	+1.45	matched
+1ca5	A	GLU	64	4.23	4.43	+0.20	matched
+1cdc	A	ASP	2	3.55			missing
+1cdc	A	ASP	25	3.53	3.63	+0.10	matched
+1cdc	A	ASP	26	3.58	4.74	+1.16	matched
+1cdc	A	ASP	28	3.57	0.76	-2.81	matched
+1cdc	A	ASP	62	4.15	5.07	+0.92	matched
+1cdc	A	ASP	71	3.18	3.13	-0.05	matched
+1cdc	A	ASP	72	4.14	3.15	-0.99	matched
+1cdc	A	ASP	94	3.87	3.95	+0.08	matched
+1cdc	A	CTE	176	3.11			missing
+1cdc	A	GLU	29	4.42	5.27	+0.85	matched
+1cdc	A	GLU	33	4.16	0.98	-3.18	matched
+1cdc	A	GLU	41	6.73	4.04	-2.69	matched
+1cdc	A	GLU	56	3.92	3.44	-0.48	matched
+1cdc	A	GLU	99	4.25	3.57	-0.68	matched
+1cvo	A	ASP	42	3.2			missing
+1cvo	A	ASP	59	2.3			missing
+1cvo	A	GLU	17	4.0			missing
+1cx6	A	ASP	20	3.6	2.51	-1.09	matched
+1cx6	A	ASP	47	3.0	2.75	-0.25	matched
+1cx6	A	ASP	61	3.6	3.63	+0.03	matched
+1cx6	A	ASP	72	3.5	3.56	+0.06	matched
+1cx6	A	ASP	89	4.0	2.91	-1.09	matched
+1cx6	A	ASP	92	2.5	2.12	-0.38	matched
+1cx6	A	ASP	127	3.5	3.10	-0.40	matched
+1cx6	A	ASP	159	3.5	2.86	-0.64	matched
+1cx6	A	GLU	11	5.4	1.82	-3.58	matched
+1cx6	A	GLU	62	2.8	2.90	+0.10	matched
+1cx6	A	HIS	31	9.1	8.24	-0.86	matched
+1d0d	B	ASP	3	3.0	3.49	+0.49	matched
+1d0d	B	ASP	50	3.4	3.38	-0.02	matched
+1d0d	B	CTE	58	2.9	0.96	-1.94	matched
+1d0d	B	GLU	7	3.7	3.13	-0.57	matched
+1d0d	B	GLU	49	3.8	4.28	+0.48	matched
+1d0d	B	LYS	15	10.6	10.34	-0.26	matched
+1d0d	B	LYS	26	10.6	11.28	+0.68	matched
+1d0d	B	LYS	41	10.8	10.90	+0.10	matched
+1d0d	B	LYS	46	10.6	10.36	-0.24	matched
+1d0d	B	NTE	1	8.1	8.56	+0.46	matched
+1de3	A	ASP	9	3.9	3.57	-0.33	matched
+1de3	A	ASP	57	4.3	3.66	-0.64	matched
+1de3	A	ASP	59	4.1	1.56	-2.54	matched
+1de3	A	ASP	75	3.9	2.00	-1.90	matched
+1de3	A	ASP	85	3.8	5.03	+1.23	matched
+1de3	A	ASP	109	3.7	2.87	-0.83	matched
+1de3	A	GLU	19	4.6	3.78	-0.82	matched
+1de3	A	GLU	31	4.6	3.56	-1.04	matched
+1de3	A	GLU	96	5.1	-0.38	-5.48	matched
+1de3	A	GLU	115	4.9	3.62	-1.28	matched
+1de3	A	GLU	140	4.3	2.32	-1.98	matched
+1de3	A	GLU	144	4.3	4.00	-0.30	matched
+1de3	A	HIS	35	6.3	6.84	+0.54	matched
+1de3	A	HIS	36	6.8	6.86	+0.06	matched
+1de3	A	HIS	50	7.7	6.76	-0.94	matched
+1de3	A	HIS	82	7.3	8.75	+1.45	matched
+1de3	A	HIS	92	6.9	5.45	-1.45	matched
+1de3	A	HIS	104	6.6	5.72	-0.88	matched
+1de3	A	HIS	137	5.8	4.98	-0.82	matched
+1de3	A	HIS	150	7.6	6.84	-0.76	matched
+1dg9	A	HIS	66	8.29	7.86	-0.43	matched
+1dg9	A	HIS	72	9.19	8.22	-0.97	matched
+1div	A	ASP	8	2.99	3.31	+0.32	matched
+1div	A	ASP	23	3.05	2.94	-0.11	matched
+1div	A	GLU	17	3.57	3.27	-0.30	matched
+1div	A	GLU	38	4.04	4.20	+0.16	matched
+1div	A	GLU	48	4.21	3.98	-0.23	matched
+1div	A	GLU	54	4.21	3.21	-1.00	matched
+1dsb	A	CYS	30	3.4			not_run
+1dui	A	HIS	64	7.2	8.70	+1.50	matched
+1duk	A	HIS	36	7.84	6.21	-1.63	matched
+1duk	A	HIS	81	6.58	6.72	+0.14	matched
+1duk	A	HIS	113	5.46	4.87	-0.59	matched
+1duk	A	HIS	116	6.63	6.43	-0.20	matched
+1duk	A	HIS	119	6.39	3.44	-2.95	matched
+1dwr	A	HIS	36	7.8	6.67	-1.13	matched
+1dwr	A	HIS	48	5.62	6.09	+0.47	matched
+1dwr	A	HIS	81	6.94	6.31	-0.63	matched
+1dwr	A	HIS	113	5.87	5.64	-0.23	matched
+1dwr	A	HIS	116	6.79	5.45	-1.34	matched
+1dwr	A	HIS	119	6.56	6.56	+0.00	matched
+1eej	A	CYS	98	4.1			missing
+1egf	A	ASP	11	3.9	4.24	+0.34	matched
+1egf	A	ASP	27	4.0	3.11	-0.89	matched
+1egf	A	ASP	40	3.6	3.69	+0.09	matched
+1egf	A	ASP	46	3.8	3.79	-0.01	matched
+1egf	A	CTE	53	3.5	3.49	-0.01	matched
+1egf	A	GLU	24	4.1	4.16	+0.06	matched
+1egf	A	HIS	22	6.8	7.91	+1.11	matched
+1egf	A	NTE	1	7.7	6.78	-0.92	matched
+1eh6	A	CYS	145	5.3	14.24	+8.94	matched
+1epg	A	ASP	11	3.9	4.11	+0.21	matched
+1epg	A	ASP	27	4.0	3.74	-0.26	matched
+1epg	A	ASP	40	3.6	3.52	-0.08	matched
+1epg	A	ASP	46	3.8	3.42	-0.38	matched
+1epg	A	GLU	24	4.1	3.85	-0.25	matched
+1eph	A	ASP	11	3.9	4.12	+0.22	matched
+1eph	A	ASP	27	4.0	4.25	+0.25	matched
+1eph	A	ASP	40	3.6	3.26	-0.34	matched
+1eph	A	ASP	46	3.8	3.34	-0.46	matched
+1eph	A	CTE	53	3.5	3.55	+0.05	matched
+1eph	A	GLU	24	4.1	2.96	-1.14	matched
+1eph	A	GLU	51	4.0	4.66	+0.66	matched
+1eph	A	HIS	22	6.8	7.59	+0.79	matched
+1eph	A	NTE	1	7.7	7.69	-0.01	matched
+1epi	A	ASP	11	3.9	4.36	+0.46	matched
+1epi	A	ASP	27	4.0	3.60	-0.40	matched
+1epi	A	ASP	40	3.6	3.53	-0.07	matched
+1epi	A	ASP	46	3.8	4.18	+0.38	matched
+1epi	A	CTE	53	3.5	3.11	-0.39	matched
+1epi	A	GLU	24	4.1	4.17	+0.07	matched
+1epi	A	HIS	22	6.8	7.51	+0.71	matched
+1epi	A	NTE	1	7.7	6.72	-0.98	matched
+1era	A	HIS	26	5.8	5.93	+0.13	matched
+1ert	A	ASP	16	3.7	4.17	+0.47	matched
+1ert	A	ASP	20	3.6	3.58	-0.02	matched
+1ert	A	ASP	26	9.9	7.31	-2.59	matched
+1ert	A	ASP	58	3.1	6.89	+3.79	matched
+1ert	A	ASP	60	4.2	4.41	+0.21	matched
+1ert	A	ASP	61	5.3	4.68	-0.62	matched
+1ert	A	ASP	64	3.1	3.86	+0.76	matched
+1ert	A	CTE	105	3.2	3.02	-0.18	matched
+1ert	A	CYS	32	6.3	12.45	+6.15	matched
+1ert	A	GLU	6	4.8	5.73	+0.93	matched
+1ert	A	GLU	13	4.8	4.66	-0.14	matched
+1ert	A	GLU	47	4.1	3.60	-0.50	matched
+1ert	A	GLU	56	5.0	4.41	-0.59	matched
+1ert	A	GLU	68	4.9	5.03	+0.13	matched
+1ert	A	GLU	70	4.6	4.37	-0.23	matched
+1ert	A	GLU	88	3.7	2.76	-0.94	matched
+1ert	A	GLU	95	4.1	4.74	+0.64	matched
+1ert	A	GLU	98	3.9	4.84	+0.94	matched
+1ert	A	GLU	103	4.4	4.88	+0.48	matched
+1ert	A	HIS	43	5.5	7.57	+2.07	matched
+1ert	A	NTE	1	7.3	6.73	-0.57	matched
+1eru	A	ASP	16	4.2	4.25	+0.05	matched
+1eru	A	ASP	20	3.8	3.53	-0.27	matched
+1eru	A	ASP	26	8.1	6.74	-1.36	matched
+1eru	A	ASP	58	2.7	7.55	+4.85	matched
+1eru	A	ASP	60	3.9	3.86	-0.04	matched
+1eru	A	ASP	61	5.2	4.53	-0.67	matched
+1eru	A	ASP	64	3.2	3.87	+0.67	matched
+1eru	A	GLU	6	4.9	5.91	+1.01	matched
+1eru	A	GLU	13	4.4	4.40	+0.00	matched
+1eru	A	GLU	47	4.3	3.41	-0.89	matched
+1eru	A	GLU	56	5.1	2.06	-3.04	matched
+1eru	A	GLU	68	5.1	5.00	-0.10	matched
+1eru	A	GLU	70	4.8	5.59	+0.79	matched
+1eru	A	GLU	88	3.6	3.52	-0.08	matched
+1eru	A	GLU	95	4.1	4.07	-0.03	matched
+1eru	A	GLU	98	3.9	2.99	-0.91	matched
+1eru	A	GLU	103	4.5	4.83	+0.33	matched
+1ex3	A	ASP	102	1.36	1.99	+0.63	matched
+1ex3	A	ASP	194	2.29	-0.56	-2.85	matched
+1ey0	A	HIS	8	6.52	7.16	+0.64	matched
+1ey0	A	HIS	46	5.86	5.20	-0.66	matched
+1ey0	A	HIS	121	5.3	6.56	+1.26	matched
+1ey0	A	HIS	124	5.73	5.69	-0.04	matched
+1ey7	A	HIS	8	6.53	6.57	+0.04	matched
+1ey7	A	HIS	46	6.49	3.47	-3.02	matched
+1ey7	A	HIS	121	5.25	6.18	+0.93	matched
+1ey7	A	HIS	124	5.71	5.83	+0.12	matched
+1fez	A	LYS	53	9.3			not_run
+1fks	A	HIS	87	6.51	6.08	-0.43	matched
+1fks	A	HIS	94	5.84	5.96	+0.12	matched
+1fmh	B	GLU	1	4.22			missing
+1fmh	A	GLU	6	4.82			missing
+1fmh	A	GLU	8	4.52			missing
+1fmh	A	GLU	13	4.37			missing
+1fmh	A	GLU	15	4.11			missing
+1fmh	A	GLU	20	4.41			missing
+1fmh	A	GLU	22	4.82			missing
+1fmh	A	GLU	27	4.65			missing
+1fmh	A	GLU	29	4.63			missing
+1fna	A	ASP	67	4.2	3.27	-0.93	matched
+1fna	A	ASP	80	3.4	3.68	+0.28	matched
+1fna	A	GLU	38	3.8	3.98	+0.18	matched
+1fna	A	GLU	47	3.9	4.33	+0.43	matched
+1fov	A	CYS	11	4.1			missing
+1fvj	A	CYS	30	3.75			missing
+1fw7	A	ASP	8	3.1	2.88	-0.22	matched
+1fw7	A	ASP	12	3.8	3.79	-0.01	matched
+1fw7	A	ASP	22	3.3	3.15	-0.15	matched
+1fw7	A	ASP	44	3.6	3.56	-0.04	matched
+1fw7	A	ASP	75	3.1	2.23	-0.87	matched
+1fw7	A	ASP	86	4.2	3.43	-0.77	matched
+1fw7	A	GLU	29	3.75	4.11	+0.36	matched
+1fw7	A	GLU	60	3.0	3.63	+0.63	matched
+1fw7	A	GLU	73	2.1	4.83	+2.73	matched
+1fw7	A	HIS	18	7.75	6.76	-0.99	matched
+1fw7	A	HIS	102	6.3	5.19	-1.11	matched
+1gb1	A	ASP	22	2.9			missing
+1gb1	A	ASP	36	3.8			missing
+1gb1	A	ASP	40	4.0			missing
+1gb1	A	ASP	46	3.6			missing
+1gb1	A	ASP	47	3.4			missing
+1gb1	A	GLU	15	4.4			missing
+1gb1	A	GLU	19	3.7			missing
+1gb1	A	GLU	27	4.5			missing
+1gb1	A	GLU	42	4.4			missing
+1gb1	A	GLU	56	4.0			missing
+1gb1	A	LYS	10	11.0			missing
+1gb1	A	LYS	28	10.9			missing
+1gb1	A	TYR	33	11.0			missing
+1gbg	A	GLU	109	7.0	6.26	-0.74	matched
+1gns	A	HIS	64	7.17	7.91	+0.74	matched
+1goa	A	ASP	10	6.1	6.50	+0.40	matched
+1goa	A	ASP	70	2.6	3.52	+0.92	matched
+1goa	A	ASP	94	3.2			missing
+1goa	A	ASP	108	3.2			missing
+1goa	A	ASP	134	4.1			missing
+1goa	A	GLU	6	4.5	3.03	-1.47	matched
+1goa	A	GLU	32	3.6	3.22	-0.38	matched
+1goa	A	GLU	48	4.4	3.14	-1.26	matched
+1goa	A	GLU	57	3.2	3.18	-0.02	matched
+1goa	A	GLU	61	3.9	3.89	-0.01	matched
+1goa	A	GLU	64	4.4	3.68	-0.72	matched
+1goa	A	GLU	119	4.1			missing
+1goa	A	GLU	129	3.6			missing
+1goa	A	GLU	131	4.3			missing
+1goa	A	GLU	135	4.3			missing
+1goa	A	GLU	147	4.2			missing
+1goa	A	GLU	154	4.4			missing
+1goa	A	HIS	62	7.0	6.88	-0.12	matched
+1goa	A	HIS	83	5.5			missing
+1goa	A	HIS	124	7.1			missing
+1goa	A	HIS	127	7.9			missing
+1gs9	A	LYS	1	10.5			missing
+1gs9	A	LYS	69	10.4	10.95	+0.55	matched
+1gs9	A	LYS	72	10.0	10.40	+0.40	matched
+1gs9	A	LYS	75	10.1	12.77	+2.67	matched
+1gs9	A	LYS	95	10.1	10.47	+0.37	matched
+1gs9	A	LYS	143	9.5	9.80	+0.30	matched
+1gs9	A	LYS	146	9.2	9.65	+0.45	matched
+1gs9	A	LYS	157	11.1	10.86	-0.24	matched
+1gu8	A	ASP	75	3.5	2.89	-0.61	matched
+1gym	A	HIS	32	7.6	13.52	+5.92	matched
+1gym	A	HIS	82	6.9	6.52	-0.38	matched
+1gym	A	HIS	92	5.4	5.02	-0.38	matched
+1gym	A	HIS	227	6.9	7.01	+0.11	matched
+1gzw	A	HIS	44	5.7	5.45	-0.25	matched
+1gzw	A	HIS	52	6.3	6.23	-0.07	matched
+1h4g	B	ASP	5	3.84	3.83	-0.01	matched
+1h4g	B	ASP	12	3.94	1.80	-2.14	matched
+1h4g	B	ASP	15	3.35	0.06	-3.29	matched
+1h4g	B	ASP	21	3.46	3.20	-0.26	matched
+1h4g	B	ASP	90	3.88	3.68	-0.20	matched
+1h4g	B	GLU	17	4.31	3.18	-1.13	matched
+1h4g	B	GLU	56	4.55	3.01	-1.54	matched
+1h4g	B	GLU	94	3.94	4.42	+0.48	matched
+1h4g	B	GLU	126	4.51	3.58	-0.93	matched
+1h4g	B	GLU	167	3.58	2.13	-1.45	matched
+1h4g	B	GLU	178	4.1	3.24	-0.86	matched
+1h4g	B	GLU	184	6.5	5.26	-1.24	matched
+1h4g	B	HIS	11	6.52	4.30	-2.22	matched
+1h4g	B	HIS	32	6.68	6.11	-0.57	matched
+1h4g	B	HIS	60	4.01	4.94	+0.93	matched
+1hho	B	HIS	2	6.7	5.61	-1.09	matched
+1hho	A	HIS	20	7.0	6.17	-0.83	matched
+1hho	A	HIS	50	7.1	6.17	-0.93	matched
+1hho	A	HIS	72	7.1	7.03	-0.07	matched
+1hho	B	HIS	77	7.8	6.69	-1.11	matched
+1hho	A	HIS	89	5.6	5.58	-0.02	matched
+1hho	A	HIS	112	8.1	5.92	-2.18	matched
+1hho	B	HIS	146	7.0	6.46	-0.54	matched
+1hho	B	NTE	1	7.0	5.02	-1.98	matched
+1hic	A	ASP	5	4.25			missing
+1hic	A	ASP	33	4.24			missing
+1hic	A	GLU	8	4.28			missing
+1hic	A	GLU	17	3.79			missing
+1hic	A	GLU	35	4.32			missing
+1hic	A	GLU	43	4.24			missing
+1hng	A	ASP	2	3.55	4.02	+0.47	matched
+1hng	A	ASP	25	3.53	2.60	-0.93	matched
+1hng	A	ASP	26	3.58	4.05	+0.47	matched
+1hng	A	ASP	28	3.57	3.40	-0.17	matched
+1hng	A	ASP	62	4.15	2.91	-1.24	matched
+1hng	A	ASP	71	3.18	3.54	+0.36	matched
+1hng	A	ASP	72	4.14	2.17	-1.97	matched
+1hng	A	ASP	94	3.87	3.72	-0.15	matched
+1hng	A	CTE	176	3.11	3.90	+0.79	matched
+1hng	A	GLU	29	4.42	5.77	+1.35	matched
+1hng	A	GLU	33	4.16	2.95	-1.21	matched
+1hng	A	GLU	41	6.73	2.58	-4.15	matched
+1hng	A	GLU	56	3.92	3.07	-0.85	matched
+1hng	A	GLU	99	4.25	2.41	-1.84	matched
+1hpx	A	ASP	29	3.19			missing
+1hpx	A	ASP	30	3.88			missing
+1hpx	A	ASP	60	2.99			missing
+1hrc	A	HIS	18	2.5	2.20	-0.30	matched
+1hrc	A	HIS	33	6.4	5.70	-0.70	matched
+1hrc	A	LYS	79	9.0	10.75	+1.75	matched
+1hrc	A	TYR	67	11.0	14.10	+3.10	matched
+1hv0	A	GLU	78	4.6	4.91	+0.31	matched
+1hv0	A	GLU	172	7.2	4.80	-2.40	matched
+1hv1	A	GLU	78	4.6	6.53	+1.93	matched
+1hv1	A	GLU	172	7.2	3.69	-3.51	matched
+1i0e	A	CYS	283	5.6			missing
+1i0v	A	ASP	3	3.54	3.90	+0.36	matched
+1i0v	A	ASP	15	3.52	4.56	+1.04	matched
+1i0v	A	ASP	29	4.26	3.64	-0.62	matched
+1i0v	A	ASP	49	4.22	4.53	+0.31	matched
+1i0v	A	ASP	66	3.9	4.14	+0.24	matched
+1i0v	A	ASP	76	0.5	3.79	+3.29	matched
+1i0v	A	GLU	28	5.61	5.85	+0.24	matched
+1i0v	A	GLU	31	5.36	4.74	-0.62	matched
+1i0v	A	GLU	46	3.62	3.77	+0.15	matched
+1i0v	A	GLU	58	3.96	2.06	-1.90	matched
+1i0v	A	GLU	82	3.27	3.06	-0.21	matched
+1i0v	A	GLU	102	5.3	5.57	+0.27	matched
+1i0v	A	HIS	27	7.57	7.30	-0.27	matched
+1i0v	A	HIS	40	7.44	8.73	+1.29	matched
+1i0v	A	HIS	92	7.31	6.82	-0.49	matched
+1i7k	A	CYS	102	10.9	20.00	+9.10	matched
+1ig5	A	ASP	47	3.04	2.04	-1.00	matched
+1ig5	A	GLU	4	3.77	4.45	+0.68	matched
+1ig5	A	GLU	5	3.4	3.16	-0.24	matched
+1ig5	A	GLU	11	4.74	4.61	-0.13	matched
+1ig5	A	GLU	17	3.62	4.96	+1.34	matched
+1ig5	A	GLU	26	4.08	4.35	+0.27	matched
+1ig5	A	GLU	48	4.62	5.03	+0.41	matched
+1ig5	A	GLU	64	3.84	4.48	+0.64	matched
+1ig5	A	LYS	1	10.59	11.03	+0.44	matched
+1ig5	A	LYS	7	11.36	11.77	+0.41	matched
+1ig5	A	LYS	12	11.06	12.08	+1.02	matched
+1ig5	A	LYS	16	11.06	11.33	+0.27	matched
+1ig5	A	LYS	25	11.81	12.94	+1.13	matched
+1ig5	A	LYS	29	11.28	10.81	-0.47	matched
+1ig5	A	LYS	41	10.93	10.38	-0.55	matched
+1ig5	A	LYS	55	12.12	12.39	+0.27	matched
+1ig5	A	LYS	71	10.73	10.13	-0.60	matched
+1ig5	A	LYS	72	11.33	11.06	-0.27	matched
+1igc	A	ASP	27	2.9	3.48	+0.58	matched
+1igc	A	ASP	41	3.9	4.26	+0.36	matched
+1igc	A	ASP	45	4.4	3.86	-0.54	matched
+1igc	A	ASP	51	3.6	3.68	+0.08	matched
+1igc	A	ASP	52	3.4	2.89	-0.51	matched
+1igc	A	GLU	20	4.3	3.33	-0.97	matched
+1igc	A	GLU	29	4.2	4.13	-0.07	matched
+1igc	A	GLU	32	4.6	5.54	+0.94	matched
+1igc	A	GLU	61	4.2	2.35	-1.85	matched
+1igd	A	ASP	27	2.9	2.76	-0.14	matched
+1igd	A	ASP	41	3.9	4.12	+0.22	matched
+1igd	A	ASP	45	4.4	3.88	-0.52	matched
+1igd	A	ASP	51	3.6	3.10	-0.50	matched
+1igd	A	ASP	52	3.4	3.25	-0.15	matched
+1igd	A	GLU	20	4.3	4.33	+0.03	matched
+1igd	A	GLU	29	4.2	3.91	-0.29	matched
+1igd	A	GLU	32	4.6	6.05	+1.45	matched
+1igd	A	GLU	61	4.2	3.66	-0.54	matched
+1igd	A	LYS	24	10.7	10.56	-0.14	matched
+1igv	A	ASP	47	3.04	2.13	-0.91	matched
+1igv	A	GLU	4	3.77	4.58	+0.81	matched
+1igv	A	GLU	5	3.4	2.79	-0.61	matched
+1igv	A	GLU	11	4.74	4.45	-0.29	matched
+1igv	A	GLU	17	3.62	5.21	+1.59	matched
+1igv	A	GLU	26	4.08	4.18	+0.10	matched
+1igv	A	GLU	48	4.62	5.17	+0.55	matched
+1igv	A	GLU	64	3.84	4.62	+0.78	matched
+1igv	A	LYS	1	10.59	11.41	+0.82	matched
+1igv	A	LYS	7	11.36	11.90	+0.54	matched
+1igv	A	LYS	12	11.06	10.89	-0.17	matched
+1igv	A	LYS	16	11.06	11.29	+0.23	matched
+1igv	A	LYS	25	11.81	12.70	+0.89	matched
+1igv	A	LYS	29	11.28	10.86	-0.42	matched
+1igv	A	LYS	41	10.93	10.49	-0.44	matched
+1igv	A	LYS	55	12.12	12.05	-0.07	matched
+1igv	A	LYS	71	10.73	10.21	-0.52	matched
+1igv	A	LYS	72	11.33	11.02	-0.31	matched
+1iw6	A	ASP	85	7.2			missing
+1iwg	A	ASP	408	7.4			not_run
+1j42	A	CYS	106	5.4	15.07	+9.67	matched
+1j6y	A	CYS	70	4.9	9.76	+4.86	matched
+1jas	A	CYS	88	10.2	12.63	+2.43	matched
+1jbb	A	CYS	87	11.1	15.79	+4.69	matched
+1jhb	A	CYS	23	3.6	7.35	+3.75	matched
+1jv8	A	ASP	3	3.55			missing
+1jv8	A	ASP	50	3.2			missing
+1jv8	A	GLU	7	3.85			missing
+1jv8	A	GLU	49	3.91			missing
+1jv8	A	LYS	15	10.4			missing
+1jv8	A	LYS	26	10.4			missing
+1jv8	A	LYS	41	10.8			missing
+1jv8	A	LYS	46	10.4			missing
+1jv8	A	TYR	10	9.46			missing
+1jv8	A	TYR	21	9.94			missing
+1jv8	A	TYR	23	11.0			missing
+1jv8	A	TYR	35	10.6			missing
+1kf3	A	ASP	38	2.1	2.66	+0.56	matched
+1kf3	A	ASP	53	3.7	3.85	+0.15	matched
+1kf3	A	ASP	83	3.3	1.79	-1.51	matched
+1kf3	A	ASP	121	3.0	1.78	-1.22	matched
+1kf3	A	GLU	2	2.7	1.63	-1.07	matched
+1kf3	A	GLU	9	4.0	4.29	+0.29	matched
+1kf3	A	GLU	49	4.3	3.54	-0.76	matched
+1kf3	A	GLU	86	4.0	4.16	+0.16	matched
+1kf3	A	GLU	111	3.5	3.62	+0.12	matched
+1kf3	A	HIS	12	6.0	3.01	-2.99	matched
+1kf3	A	HIS	105	6.5	6.86	+0.36	matched
+1kf3	A	HIS	119	6.5	5.60	-0.90	matched
+1kn6	A	HIS	40	6.3	6.08	-0.22	matched
+1kn6	A	HIS	45	5.6	6.02	+0.42	matched
+1kn6	A	HIS	48	6.0	4.53	-1.47	matched
+1kn6	A	HIS	58	5.9	4.70	-1.20	matched
+1kqv	A	ASP	47	3.0	2.78	-0.22	matched
+1kqv	A	GLU	4	3.8	3.85	+0.05	matched
+1kqv	A	GLU	5	3.4	3.38	-0.02	matched
+1kqv	A	GLU	11	4.7	4.34	-0.36	matched
+1kqv	A	GLU	17	3.62	4.61	+0.99	matched
+1kqv	A	GLU	26	4.1	4.61	+0.51	matched
+1kqv	A	GLU	48	4.6	4.77	+0.17	matched
+1kqv	A	GLU	64	3.8	5.52	+1.72	matched
+1kqv	A	LYS	1	10.6	10.68	+0.08	matched
+1kqv	A	LYS	7	11.4	11.04	-0.36	matched
+1kqv	A	LYS	12	11.1	11.19	+0.09	matched
+1kqv	A	LYS	16	10.1	10.68	+0.58	matched
+1kqv	A	LYS	25	11.7	12.35	+0.65	matched
+1kqv	A	LYS	29	11.4	9.83	-1.57	matched
+1kqv	A	LYS	41	10.9	10.59	-0.31	matched
+1kqv	A	LYS	55	12.1	11.57	-0.53	matched
+1kqv	A	LYS	71	10.7	10.67	-0.03	matched
+1kqv	A	LYS	72	11.3	12.19	+0.89	matched
+1ksm	A	ASP	47	3.0	4.01	+1.01	matched
+1ksm	A	GLU	4	3.8	3.95	+0.15	matched
+1ksm	A	GLU	5	3.4	3.37	-0.03	matched
+1ksm	A	GLU	11	4.7	4.49	-0.21	matched
+1ksm	A	GLU	17	3.62	5.05	+1.43	matched
+1ksm	A	GLU	26	4.1	4.21	+0.11	matched
+1ksm	A	GLU	48	4.6	4.95	+0.35	matched
+1ksm	A	GLU	64	3.8	6.21	+2.41	matched
+1ksm	A	LYS	1	10.6	10.57	-0.03	matched
+1ksm	A	LYS	7	11.4	11.44	+0.04	matched
+1ksm	A	LYS	12	11.1	10.99	-0.11	matched
+1ksm	A	LYS	16	10.1	10.81	+0.71	matched
+1ksm	A	LYS	25	11.7	11.36	-0.34	matched
+1ksm	A	LYS	29	11.4	10.53	-0.87	matched
+1ksm	A	LYS	41	10.9	10.53	-0.37	matched
+1ksm	A	LYS	55	12.1	11.21	-0.89	matched
+1ksm	A	LYS	71	10.7	10.62	-0.08	matched
+1ksm	A	LYS	72	11.3	11.05	-0.25	matched
+1kte	A	CYS	22	4.9			missing
+1kvr	A	TYR	149	6.71	8.21	+1.50	matched
+1kvs	A	TYR	149	6.28	8.72	+2.44	matched
+1kvt	A	TYR	149	6.86			not_run
+1kxi	A	ASP	42	3.2	2.88	-0.32	matched
+1kxi	A	ASP	59	2.3	2.03	-0.27	matched
+1kxi	A	GLU	17	4.0	4.13	+0.13	matched
+1kxi	A	HIS	4	5.6	4.73	-0.87	matched
+1l54	A	LYS	102	6.5	8.81	+2.31	matched
+1l98	A	GLU	105	6.0	5.35	-0.65	matched
+1le2	A	LYS	69	10.1	11.17	+1.07	matched
+1le2	A	LYS	72	10.0	9.76	-0.24	matched
+1le2	A	LYS	75	10.0	11.56	+1.56	matched
+1le2	A	LYS	95	10.2	10.57	+0.37	matched
+1le2	A	LYS	143	9.4	8.02	-1.38	matched
+1le2	A	LYS	146	9.9	9.40	-0.50	matched
+1le2	A	LYS	157	10.9	11.36	+0.46	matched
+1ljl	A	CYS	10	6.8	8.57	+1.77	matched
+1ljl	A	CYS	89	9.5	15.73	+6.23	matched
+1lju	A	CYS	10	6.8			missing
+1lkj	A	LYS	13	10.23	11.16	+0.93	matched
+1lkj	A	LYS	21	10.55	11.23	+0.68	matched
+1lkj	A	LYS	77	10.55	11.14	+0.59	matched
+1lkj	A	LYS	94	10.55	10.97	+0.42	matched
+1lni	A	ASP	1	3.44	3.01	-0.43	matched
+1lni	A	ASP	17	3.72	5.33	+1.61	matched
+1lni	A	ASP	25	4.87	4.55	-0.32	matched
+1lni	A	ASP	33	2.39	1.87	-0.52	matched
+1lni	A	ASP	79	7.37	3.93	-3.44	matched
+1lni	A	ASP	84	3.01	4.70	+1.69	matched
+1lni	A	ASP	93	3.09	3.70	+0.61	matched
+1lni	A	CTE	96	2.42	5.34	+2.92	matched
+1lni	A	GLU	14	5.02	5.10	+0.08	matched
+1lni	A	GLU	41	4.14	4.01	-0.13	matched
+1lni	A	GLU	54	2.26	2.90	+0.64	matched
+1lni	A	GLU	74	3.47	4.94	+1.47	matched
+1lni	A	GLU	78	3.13	4.56	+1.43	matched
+1lni	A	HIS	53	8.27	7.84	-0.43	matched
+1lni	A	HIS	85	6.35	5.72	-0.63	matched
+1lni	A	NTE	1	9.14	9.28	+0.14	matched
+1lni	A	TYR	30	11.3	11.53	+0.23	matched
+1lni	A	TYR	49	10.6	9.92	-0.68	matched
+1lse	A	ASP	18	2.66	1.54	-1.12	matched
+1lse	A	ASP	48	1.6	3.25	+1.65	matched
+1lse	A	ASP	52	3.68	4.44	+0.76	matched
+1lse	A	ASP	66	0.9	1.64	+0.74	matched
+1lse	A	ASP	87	2.07	1.39	-0.68	matched
+1lse	A	ASP	101	4.09	3.88	-0.21	matched
+1lse	A	ASP	119	3.2	4.18	+0.98	matched
+1lse	A	GLU	7	2.85	3.42	+0.57	matched
+1lse	A	GLU	35	6.2	3.79	-2.41	matched
+1lse	A	LYS	1	10.8	10.69	-0.11	matched
+1lse	A	LYS	13	10.5	11.13	+0.63	matched
+1lse	A	LYS	33	10.6	9.06	-1.54	matched
+1lse	A	LYS	96	10.8	11.23	+0.43	matched
+1lse	A	LYS	97	10.3	10.55	+0.25	matched
+1lse	A	LYS	116	10.4	9.22	-1.18	matched
+1lys	A	ASP	18	2.66	2.89	+0.23	matched
+1lys	A	ASP	48	1.6	3.18	+1.58	matched
+1lys	A	ASP	52	3.68	4.87	+1.19	matched
+1lys	A	ASP	66	0.9	3.48	+2.58	matched
+1lys	A	ASP	87	2.07	-0.21	-2.28	matched
+1lys	A	ASP	101	4.09	3.78	-0.31	matched
+1lys	A	ASP	119	3.2	3.68	+0.48	matched
+1lys	A	GLU	7	2.85	2.69	-0.16	matched
+1lys	A	GLU	35	6.2	3.15	-3.05	matched
+1lys	A	LYS	1	10.8	10.49	-0.31	matched
+1lys	A	LYS	13	10.5	10.38	-0.12	matched
+1lys	A	LYS	33	10.6	9.19	-1.41	matched
+1lys	A	LYS	96	10.8	11.60	+0.80	matched
+1lys	A	LYS	97	10.3	10.57	+0.27	matched
+1lys	A	LYS	116	10.4	10.71	+0.31	matched
+1lz1	A	HIS	78	7.12	6.40	-0.72	matched
+1lz3	A	ASP	119	3.35			not_run
+1lz3	A	ASP	18	2.68			not_run
+1lz3	A	GLU	35	6.06			not_run
+1lz3	A	ASP	52	3.78			not_run
+1lz3	A	GLU	7	2.68			not_run
+1lz3	A	ASP	87	2.13			not_run
+1m2c	A	HIS	9	6.6			missing
+1m2c	A	HIS	12	6.5			missing
+1m56	A	GLU	286	9.4			not_run
+1mbc	A	HIS	12	6.4	5.77	-0.63	matched
+1mbc	A	HIS	24	6.2	0.92	-5.28	matched
+1mbc	A	HIS	36	8.2	6.41	-1.79	matched
+1mbc	A	HIS	48	5.5	5.60	+0.10	matched
+1mbc	A	HIS	81	6.7	7.11	+0.41	matched
+1mbc	A	HIS	97	5.6	5.10	-0.50	matched
+1mbc	A	HIS	113	5.4	5.08	-0.32	matched
+1mbc	A	HIS	116	6.6	6.44	-0.16	matched
+1mbc	A	HIS	119	6.1	5.74	-0.36	matched
+1mbc	A	TYR	103	10.3	9.95	-0.35	matched
+1mbc	A	TYR	151	10.5	10.49	-0.01	matched
+1mek	A	CYS	36	4.5			missing
+1mgs	A	HIS	19	5.2	4.32	-0.88	matched
+1mgs	A	HIS	34	5.8	2.55	-3.25	matched
+1mh1	A	CYS	18	7.3			missing
+1mut	A	GLU	53	7.6	5.91	-1.69	matched
+1mut	A	LYS	39	8.4	11.34	+2.94	matched
+1n5u	A	CYS	34	5.0			missing
+1nfn	A	LYS	1	10.5			missing
+1nfn	A	LYS	69	10.4	11.13	+0.73	matched
+1nfn	A	LYS	72	10.0	10.85	+0.85	matched
+1nfn	A	LYS	75	10.1	12.17	+2.07	matched
+1nfn	A	LYS	95	10.1	10.29	+0.19	matched
+1nfn	A	LYS	143	9.5	9.84	+0.34	matched
+1nfn	A	LYS	146	9.2	9.45	+0.25	matched
+1nfn	A	LYS	157	11.1	11.36	+0.26	matched
+1ni7	A	CYS	61	6.5	11.99	+5.49	matched
+1nlx	A	GLU	103 (503)	3.65			not_run
+1nlx	A	HIS	105 (505)	6.5			not_run
+1nlx	A	GLU	13 (413)	3.8			not_run
+1nlx	A	ASP	14 (414)	3.5			not_run
+1nlx	A	ASP	33 (433)	3.38			not_run
+1nlx	A	GLU	39 (439)	4.84			not_run
+1nlx	A	GLU	407	4.25			not_run
+1nlx	A	GLU	408	3.19			not_run
+1nlx	A	GLU	413	3.8			not_run
+1nlx	A	ASP	414	3.5			not_run
+1nlx	A	ASP	433	3.38			not_run
+1nlx	A	GLU	439	4.84			not_run
+1nlx	A	ASP	452	2.4			not_run
+1nlx	A	ASP	465	4.8			not_run
+1nlx	A	GLU	466	4.06			not_run
+1nlx	A	ASP	476	3.5			not_run
+1nlx	A	HIS	477	7.4			not_run
+1nlx	A	GLU	481	3.52			not_run
+1nlx	A	ASP	482	3.06			not_run
+1nlx	A	GLU	485	4.59			not_run
+1nlx	A	HIS	490	7.3			not_run
+1nlx	A	GLU	493	4.21			not_run
+1nlx	A	GLU	503	3.65			not_run
+1nlx	A	HIS	505	6.5			not_run
+1nlx	A	ASP	52 (452)	2.4			not_run
+1nlx	A	ASP	65 (465)	4.8			not_run
+1nlx	A	GLU	66 (466)	4.06			not_run
+1nlx	A	ASP	76 (476)	3.5			not_run
+1nlx	A	HIS	77 (477)	7.4			not_run
+1nlx	A	GLU	8 (408)	3.19			not_run
+1nlx	A	GLU	81 (481)	3.52			not_run
+1nlx	A	ASP	82 (482)	3.06			not_run
+1nlx	A	GLU	85 (485)	4.59			not_run
+1nlx	A	HIS	90 (490)	7.3			not_run
+1nlx	A	GLU	93 (493)	4.21			not_run
+1nlx	A (SEQUENCE #'S DON’T MATCH RESEARCH EVENTHOUGH ARTICLE USES THIS EXACT PDB AND CHAIN)	GLU	7 (407)	4.25			not_run
+1nzp	A	LYS	248	10.27	10.38	+0.11	matched
+1nzp	A	LYS	259	10.07	9.78	-0.29	matched
+1nzp	A	LYS	265	10.23	10.59	+0.36	matched
+1nzp	A	LYS	273	10.07	10.69	+0.62	matched
+1nzp	A	LYS	281	10.01	10.13	+0.12	matched
+1nzp	A	LYS	287	10.65	11.90	+1.25	matched
+1nzp	A	LYS	291	10.26	10.55	+0.29	matched
+1nzp	A	LYS	307	10.16	10.69	+0.53	matched
+1nzp	A	LYS	312	9.58	13.04	+3.46	matched
+1nzp	A	LYS	324	10.27	10.48	+0.21	matched
+1o73	A	CYS	40	7.2			missing
+1p5f	A	CYS	106	5.4	14.72	+9.32	matched
+1pga	A	ASP	22	2.9	2.59	-0.31	matched
+1pga	A	ASP	36	3.8	4.64	+0.84	matched
+1pga	A	ASP	40	4.0	3.66	-0.34	matched
+1pga	A	ASP	46	3.6	3.32	-0.28	matched
+1pga	A	ASP	47	3.4	3.80	+0.40	matched
+1pga	A	GLU	15	4.4	4.34	-0.06	matched
+1pga	A	GLU	19	3.7	3.59	-0.11	matched
+1pga	A	GLU	27	4.5	4.26	-0.24	matched
+1pga	A	GLU	42	4.4	4.90	+0.50	matched
+1pga	A	GLU	56	4.0	3.61	-0.39	matched
+1pga	A	LYS	28	10.9	11.42	+0.52	matched
+1pgb	A	ASP	22	2.9	2.35	-0.55	matched
+1pgb	A	ASP	36	3.8	4.49	+0.69	matched
+1pgb	A	ASP	40	4.0	4.22	+0.22	matched
+1pgb	A	ASP	46	3.6	3.12	-0.48	matched
+1pgb	A	ASP	47	3.4	3.78	+0.38	matched
+1pgb	A	GLU	15	4.4	4.08	-0.32	matched
+1pgb	A	GLU	19	3.7	3.63	-0.07	matched
+1pgb	A	GLU	27	4.5	4.38	-0.12	matched
+1pgb	A	GLU	42	4.4	5.09	+0.69	matched
+1pgb	A	GLU	56	4.0	3.64	-0.36	matched
+1pgb	A	LYS	28	10.9	10.79	-0.11	matched
+1pgj	A	LYS	185	9.9			not_run
+1pgj	A	GLU	192	7.1			not_run
+1pnt	A	HIS	66	8.29	7.52	-0.77	matched
+1pnt	A	HIS	72	9.19	8.29	-0.90	matched
+1poh	A	HIS	76	6.0			missing
+1ppf	I	ASP	7	2.67	2.12	-0.55	matched
+1ppf	I	ASP	27	2.22	3.57	+1.35	matched
+1ppf	I	GLU	10	4.14	4.76	+0.62	matched
+1ppf	I	GLU	19	3.21	3.05	-0.16	matched
+1ppf	I	GLU	43	4.81	4.02	-0.79	matched
+1ppf	I	HIS	52	7.5	6.38	-1.12	matched
+1ppf	I	LYS	13	9.87	11.10	+1.23	matched
+1ppf	I	LYS	29	11.12	10.80	-0.32	matched
+1ppf	I	LYS	34	10.13	11.73	+1.60	matched
+1ppf	I	LYS	55	11.1	10.25	-0.85	matched
+1ppf	I	TYR	11	10.2	9.80	-0.40	matched
+1ppf	I	TYR	20	11.1	9.62	-1.48	matched
+1ppn	A	CYS	25	3.32	11.97	+8.65	matched
+1ppo	A	CYS	25	3.3	11.23	+7.93	matched
+1prw	A	LYS	13	10.09	12.12	+2.03	matched
+1prw	A	LYS	21	9.88	10.94	+1.06	matched
+1prw	A	LYS	30	9.84	10.90	+1.06	matched
+1prw	A	LYS	75	9.29	15.56	+6.27	matched
+1prw	A	LYS	77	10.23	11.08	+0.85	matched
+1prw	A	LYS	94	9.65	11.39	+1.74	matched
+1prw	A	LYS	148	10.0	11.46	+1.46	matched
+1ptd	A	HIS	227	6.9			not_run
+1ptd	A	HIS	32	7.6			not_run
+1ptd	A	HIS	82	6.9			not_run
+1ptd	A	HIS	92	5.4			not_run
+1q74	A	TYR	142	10.5			not_run
+1q74	A	ASP	15	7.3			not_run
+1qh7	A	HIS	11	6.52			not_run
+1qh7	A	ASP	12	3.94			not_run
+1qh7	A	GLU	126	4.51			not_run
+1qh7	A	ASP	15	3.35			not_run
+1qh7	A	GLU	167	3.58			not_run
+1qh7	A	GLU	17	4.31			not_run
+1qh7	A	GLU	178	4.1			not_run
+1qh7	A	GLU	184	6.5			not_run
+1qh7	A	CTE	207	3.9			not_run
+1qh7	A	ASP	21	3.46			not_run
+1qh7	A	HIS	32	6.68			not_run
+1qh7	A	ASP	5	3.84			not_run
+1qh7	A	GLU	56	4.55			not_run
+1qh7	A	HIS	60	4.01			not_run
+1qh7	A	ASP	90	3.88			not_run
+1qh7	A	GLU	94	3.94			not_run
+1qk1	A	CYS	278	5.6			not_run
+1qlp	A	CYS	232	6.8			not_run
+1qt8	A	ASP	20	1.5	1.02	-0.48	matched
+1qt8	A	ASP	47	3.1	2.76	-0.34	matched
+1qt8	A	ASP	61	3.6	3.48	-0.12	matched
+1qt8	A	ASP	72	3.3	3.56	+0.26	matched
+1qt8	A	ASP	89	4.0	3.73	-0.27	matched
+1qt8	A	ASP	92	2.7	2.46	-0.24	matched
+1qt8	A	ASP	127	3.5	3.12	-0.38	matched
+1qt8	A	ASP	159	3.4	1.66	-1.74	matched
+1qt8	A	GLU	5	3.7	3.71	+0.01	matched
+1qt8	A	GLU	11	4.7	0.81	-3.89	matched
+1qt8	A	GLU	22	4.3	4.31	+0.01	matched
+1qt8	A	GLU	45	3.8	3.76	-0.04	matched
+1qt8	A	GLU	62	2.9	3.83	+0.93	matched
+1qt8	A	GLU	64	4.4	4.59	+0.19	matched
+1qt8	A	GLU	108	4.2	4.24	+0.04	matched
+1qt8	A	GLU	128	4.4	3.90	-0.50	matched
+1qt8	A	HIS	26	6.8	7.27	+0.47	matched
+1qt8	A	HIS	31	8.9	8.33	-0.57	matched
+1rdd	A	ASP	10	6.1	8.95	+2.85	matched
+1rdd	A	ASP	70	2.6	3.61	+1.01	matched
+1rdd	A	ASP	94	3.2	3.06	-0.14	matched
+1rdd	A	ASP	108	3.2	3.32	+0.12	matched
+1rdd	A	ASP	134	4.3	4.25	-0.05	matched
+1rdd	A	GLU	6	4.5	5.07	+0.57	matched
+1rdd	A	GLU	32	3.6	2.03	-1.57	matched
+1rdd	A	GLU	48	4.4	5.63	+1.23	matched
+1rdd	A	GLU	57	3.2	3.36	+0.16	matched
+1rdd	A	GLU	61	3.9	2.66	-1.24	matched
+1rdd	A	GLU	64	4.4	4.47	+0.07	matched
+1rdd	A	GLU	119	4.1	2.70	-1.40	matched
+1rdd	A	GLU	129	3.6	2.66	-0.94	matched
+1rdd	A	GLU	131	4.3	5.40	+1.10	matched
+1rdd	A	GLU	135	4.3	3.61	-0.69	matched
+1rdd	A	GLU	147	4.2	4.53	+0.33	matched
+1rdd	A	GLU	154	4.4	5.17	+0.77	matched
+1rdd	A	HIS	62	7.0	6.27	-0.73	matched
+1rdd	A	HIS	124	7.1	6.27	-0.83	matched
+1rdd	A	HIS	127	7.9	8.00	+0.10	matched
+1rga	A	ASP	76	0.5	4.31	+3.81	matched
+1rga	A	GLU	28	5.61	5.54	-0.07	matched
+1rga	A	GLU	58	3.96	2.77	-1.19	matched
+1rga	A	HIS	27	7.57	7.25	-0.32	matched
+1rga	A	HIS	40	7.44	8.89	+1.45	matched
+1rga	A	HIS	92	7.31	6.97	-0.34	matched
+1rgg	A	ASP	1	3.44	3.18	-0.26	matched
+1rgg	A	ASP	17	3.72	5.27	+1.55	matched
+1rgg	A	ASP	25	4.87	4.55	-0.32	matched
+1rgg	A	ASP	33	2.39	1.29	-1.10	matched
+1rgg	A	ASP	79	7.37	4.39	-2.98	matched
+1rgg	A	ASP	84	3.01	2.75	-0.26	matched
+1rgg	A	ASP	93	3.09	3.90	+0.81	matched
+1rgg	A	CTE	96	2.42	2.91	+0.49	matched
+1rgg	A	GLU	14	5.02	5.20	+0.18	matched
+1rgg	A	GLU	41	4.14	4.51	+0.37	matched
+1rgg	A	GLU	54	3.42	2.56	-0.86	matched
+1rgg	A	GLU	74	3.47	5.07	+1.60	matched
+1rgg	A	GLU	78	3.13	3.26	+0.13	matched
+1rgg	A	HIS	53	8.27	7.95	-0.32	matched
+1rgg	A	HIS	85	6.35	5.36	-0.99	matched
+1rgg	A	NTE	1	9.14	9.89	+0.75	matched
+1rgg	A	TYR	30	11.3	11.31	+0.01	matched
+1rgg	A	TYR	49	10.6	9.79	-0.81	matched
+1rnh	A	ASP	10	6.1	8.73	+2.63	matched
+1rnh	A	ASP	70	2.6	5.11	+2.51	matched
+1rnh	A	ASP	94	3.2	2.76	-0.44	matched
+1rnh	A	ASP	108	3.2	1.98	-1.22	matched
+1rnh	A	ASP	134	4.1	5.24	+1.14	matched
+1rnh	A	GLU	6	4.5	2.82	-1.68	matched
+1rnh	A	GLU	32	3.6	2.57	-1.03	matched
+1rnh	A	GLU	48	4.4	4.22	-0.18	matched
+1rnh	A	GLU	57	3.2	2.64	-0.56	matched
+1rnh	A	GLU	61	3.9	3.65	-0.25	matched
+1rnh	A	GLU	64	4.4	3.71	-0.69	matched
+1rnh	A	GLU	119	4.1	3.27	-0.83	matched
+1rnh	A	GLU	129	3.6	4.18	+0.58	matched
+1rnh	A	GLU	131	4.3	3.54	-0.76	matched
+1rnh	A	GLU	135	4.3	4.42	+0.12	matched
+1rnh	A	GLU	147	4.2	4.48	+0.28	matched
+1rnh	A	HIS	62	7.0	6.68	-0.32	matched
+1rnh	A	HIS	83	5.5	4.95	-0.55	matched
+1rnh	A	HIS	124	7.1	7.92	+0.82	matched
+1rnh	A	HIS	127	7.9	7.68	-0.22	matched
+1rnz	A	ASP	38	2.1	3.10	+1.00	matched
+1rnz	A	ASP	53	3.7	4.07	+0.37	matched
+1rnz	A	ASP	83	3.3	1.63	-1.67	matched
+1rnz	A	ASP	121	3.0	1.37	-1.63	matched
+1rnz	A	GLU	2	2.7	0.75	-1.95	matched
+1rnz	A	GLU	9	4.0	4.17	+0.17	matched
+1rnz	A	GLU	49	4.3	3.75	-0.55	matched
+1rnz	A	GLU	86	4.0	3.09	-0.91	matched
+1rnz	A	GLU	111	3.5	4.27	+0.77	matched
+1rnz	A	HIS	12	6.0	2.76	-3.24	matched
+1rnz	A	HIS	105	6.5	7.21	+0.71	matched
+1rnz	A	HIS	119	6.5	5.51	-0.99	matched
+1sap	A	ASP	16	2.89	1.54	-1.35	matched
+1sap	A	ASP	35	3.42	3.17	-0.25	matched
+1sap	A	ASP	36	3.12	1.95	-1.17	matched
+1sap	A	ASP	49	3.55	3.24	-0.31	matched
+1sap	A	ASP	56	3.35	3.02	-0.33	matched
+1sap	A	GLU	11	4.19	4.23	+0.04	matched
+1sap	A	GLU	12	4.41	3.42	-0.99	matched
+1sap	A	GLU	14	4.0	5.49	+1.49	matched
+1sap	A	GLU	47	4.21	2.60	-1.61	matched
+1sap	A	GLU	53	3.53	5.83	+2.30	matched
+1sap	A	GLU	62	3.99	4.56	+0.57	matched
+1sap	A	GLU	64	4.23	3.91	-0.32	matched
+1sgz	A	ASP	32	5.2			missing
+1sgz	A	ASP	228	3.5			missing
+1sso	A	ASP	15	2.11	3.05	+0.94	matched
+1sso	A	ASP	34	2.16	2.42	+0.26	matched
+1sso	A	ASP	49	2.96	2.68	-0.28	matched
+1sso	A	GLU	10	3.78	4.34	+0.56	matched
+1sso	A	GLU	11	3.9	3.91	+0.01	matched
+1sso	A	GLU	35	4.33	3.95	-0.38	matched
+1sso	A	GLU	47	3.45	4.11	+0.66	matched
+1sso	A	GLU	53	3.01	3.75	+0.74	matched
+1sso	A	GLU	59	3.82	4.45	+0.63	matched
+1st9	A	CYS	73	8.8			not_run
+1stg	A	HIS	8	6.82	7.02	+0.20	matched
+1stg	A	HIS	46	5.8	6.18	+0.38	matched
+1stg	A	HIS	124	5.99	3.56	-2.43	matched
+1stn	A	ASP	40	3.87	3.78	-0.09	matched
+1stn	A	ASP	95	2.16	1.17	-0.99	matched
+1stn	A	ASP	143	3.8			missing
+1stn	A	ASP	146	3.86			missing
+1stn	A	GLU	10	2.82	3.21	+0.39	matched
+1stn	A	GLU	43	4.32	6.18	+1.86	matched
+1stn	A	GLU	52	3.93	4.53	+0.60	matched
+1stn	A	GLU	57	3.49	3.60	+0.11	matched
+1stn	A	GLU	67	3.76	3.43	-0.33	matched
+1stn	A	GLU	73	3.31	3.99	+0.68	matched
+1stn	A	GLU	75	3.26	-0.39	-3.65	matched
+1stn	A	GLU	101	3.81	4.00	+0.19	matched
+1stn	A	GLU	122	3.89	2.90	-0.99	matched
+1stn	A	GLU	129	3.75	2.13	-1.62	matched
+1stn	A	GLU	135	3.76	3.71	-0.05	matched
+1stn	A	GLU	142	4.49			missing
+1stn	A	HIS	8	6.52	6.68	+0.16	matched
+1stn	A	HIS	46	5.86	2.31	-3.55	matched
+1stn	A	HIS	121	5.3	5.83	+0.53	matched
+1stn	A	HIS	124	5.73	5.01	-0.72	matched
+1sty	A	HIS	8	6.52	6.94	+0.42	matched
+1sty	A	HIS	46	5.86	5.92	+0.06	matched
+1sty	A	HIS	121	5.3	6.75	+1.45	matched
+1sty	A	HIS	124	5.73	4.18	-1.55	matched
+1su9	A	CYS	76	8.2			missing
+1sux	A	CYS	15	9.3			not_run
+1tew	A	ASP	18	2.68	2.15	-0.53	matched
+1tew	A	ASP	52	3.78	3.67	-0.11	matched
+1tew	A	ASP	87	2.13	3.67	+1.54	matched
+1tew	A	ASP	119	3.35	3.44	+0.09	matched
+1tew	A	GLU	7	2.68	2.26	-0.42	matched
+1tew	A	GLU	35	6.06	3.96	-2.10	matched
+1tew	A	HIS	41	5.56	5.98	+0.42	matched
+1tew	A	HIS	121	5.25	5.73	+0.48	matched
+1tgu	A	LYS	22	10.3			not_run
+1tgu	A	LYS	236	10.3			not_run
+1tgu	A	LYS	448	10.4			not_run
+1tgu	A	LYS	456	10.6			not_run
+1tgu	A	LYS	467	10.5			not_run
+1tgu	A	LYS	476	10.2			not_run
+1tgu	A	LYS	498	10.4			not_run
+1the	A	HIS	110	6.9			not_run
+1the	A	HIS	111	7.7			not_run
+1the	A	HIS	199	8.6			not_run
+1the	A	CYS	29	3.6			not_run
+1tl4	A	CYS	12	8.5	9.89	+1.39	matched
+1trs	A	ASP	16	4.2	4.21	+0.01	matched
+1trs	A	ASP	20	3.8	3.74	-0.06	matched
+1trs	A	ASP	26	8.1	5.37	-2.73	matched
+1trs	A	ASP	58	2.7	1.34	-1.36	matched
+1trs	A	ASP	60	3.9	4.52	+0.62	matched
+1trs	A	ASP	61	5.2	5.46	+0.26	matched
+1trs	A	ASP	64	3.2	2.67	-0.53	matched
+1trs	A	GLU	6	4.9	5.02	+0.12	matched
+1trs	A	GLU	13	4.4	4.40	+0.00	matched
+1trs	A	GLU	47	4.3	4.01	-0.29	matched
+1trs	A	GLU	56	3.2	3.04	-0.16	matched
+1trs	A	GLU	68	5.1	4.28	-0.82	matched
+1trs	A	GLU	70	4.8	4.97	+0.17	matched
+1trs	A	GLU	88	3.6	3.90	+0.30	matched
+1trs	A	GLU	95	4.1	3.97	-0.13	matched
+1trs	A	GLU	98	3.9	4.00	+0.10	matched
+1trs	A	GLU	103	4.5	4.82	+0.32	matched
+1trw	A	ASP	16	4.0	4.16	+0.16	matched
+1trw	A	ASP	20	3.8	3.39	-0.41	matched
+1trw	A	ASP	26	9.9	6.30	-3.60	matched
+1trw	A	ASP	58	2.8	0.56	-2.24	matched
+1trw	A	ASP	60	4.2	4.39	+0.19	matched
+1trw	A	ASP	61	5.3	5.45	+0.15	matched
+1trw	A	ASP	64	3.2	2.90	-0.30	matched
+1trw	A	GLU	6	4.8	4.79	-0.01	matched
+1trw	A	GLU	13	4.4	4.50	+0.10	matched
+1trw	A	GLU	47	4.1	3.81	-0.29	matched
+1trw	A	GLU	56	3.1	3.16	+0.06	matched
+1trw	A	GLU	68	4.9	4.72	-0.18	matched
+1trw	A	GLU	70	4.6	4.32	-0.28	matched
+1trw	A	GLU	88	3.7	4.57	+0.87	matched
+1trw	A	GLU	95	4.1	4.14	+0.04	matched
+1trw	A	GLU	98	3.9	4.25	+0.35	matched
+1trw	A	GLU	103	4.4	4.64	+0.24	matched
+1tt2	A	LYS	92	5.3	4.92	-0.38	matched
+1u2u	A	GLU	1	4.1			missing
+1u2u	A	GLU	6	4.9			missing
+1u2u	A	GLU	8	4.89			missing
+1u2u	A	GLU	13	4.42			missing
+1u2u	A	GLU	15	4.09			missing
+1u2u	A	GLU	20	4.21			missing
+1u2u	A	GLU	22	4.83			missing
+1u2u	A	GLU	27	4.74			missing
+1u2u	A	GLU	29	4.63			missing
+1u2u	A	HIS	28	6.79			missing
+1u9r	A	GLU	66	8.5	6.98	-1.52	matched
+1ubq	A	ASP	21	3.1	2.83	-0.27	matched
+1ubq	A	ASP	32	3.8	3.99	+0.19	matched
+1ubq	A	ASP	39	3.6	3.71	+0.11	matched
+1ubq	A	ASP	52	3.4	1.62	-1.78	matched
+1ubq	A	ASP	58	3.6	4.37	+0.77	matched
+1ubq	A	CTE	76	3.3	3.52	+0.22	matched
+1ubq	A	GLU	16	3.9	4.01	+0.11	matched
+1ubq	A	GLU	18	4.3	3.67	-0.63	matched
+1ubq	A	GLU	24	4.3	4.84	+0.54	matched
+1ubq	A	GLU	34	4.5	2.49	-2.01	matched
+1ubq	A	GLU	51	3.8	3.23	-0.57	matched
+1ubq	A	GLU	64	4.5	3.86	-0.64	matched
+1v57	A	CYS	109	3.5			not_run
+1va3	A	CYS	599	8.3			missing
+1va3	A	CYS	602	8.2			missing
+1va3	A	GLU	601	4.3			missing
+1va3	A	HIS	611	6.2			missing
+1va3	A	HIS	615	6.1			missing
+1va3	A	HIS	619	6.2			missing
+1vii	A	ASP	44	3.1			missing
+1vii	A	ASP	46	3.5			missing
+1vii	A	CTE	76	2.91			missing
+1vii	A	GLU	45	4.0			missing
+1vii	A	GLU	72	4.4			missing
+1w4h	A	ASP	129	3.91	3.21	-0.70	matched
+1w4h	A	ASP	145	3.71	3.35	-0.36	matched
+1w4h	A	ASP	162	3.27	1.70	-1.57	matched
+1w4h	A	GLU	141	4.49	4.06	-0.43	matched
+1w4h	A	GLU	161	3.64	4.09	+0.45	matched
+1w4h	A	GLU	164	4.47	3.70	-0.77	matched
+1w4h	A	HIS	142	6.47	6.76	+0.29	matched
+1w4h	A	HIS	166	5.39	4.85	-0.54	matched
+1wla	A	HIS	113	5.87			not_run
+1wla	A	HIS	116	6.79			not_run
+1wla	A	HIS	119	6.56			not_run
+1wla	A	HIS	36	7.8			not_run
+1wla	A	HIS	48	5.62			not_run
+1wla	A	HIS	81	6.94			not_run
+1xnb	A	ASP	4	3.0	2.44	-0.56	matched
+1xnb	A	ASP	11	2.5	3.07	+0.57	matched
+1xnb	A	ASP	83	2.0	3.84	+1.84	matched
+1xnb	A	ASP	106	2.7	2.42	-0.28	matched
+1xnb	A	ASP	119	3.2	4.21	+1.01	matched
+1xnb	A	ASP	121	3.6	4.22	+0.62	matched
+1xnb	A	CTE	185	2.7	0.55	-2.15	matched
+1xnb	A	GLU	78	4.6	7.12	+2.52	matched
+1xnb	A	GLU	172	6.7	2.81	-3.89	matched
+1xnb	A	HIS	156	6.5	5.99	-0.51	matched
+1xoa	A	ASP	26	7.5	1.83	-5.67	matched
+1xob	A	ASP	26	7.4	1.13	-6.27	matched
+1xob	A	CYS	32	7.1	11.84	+4.74	matched
+1xob	A	HIS	6	6.0	5.18	-0.82	matched
+1xsn	A	LYS	248	10.27			not_run
+1xsn	A	LYS	259	10.07			not_run
+1xsn	A	LYS	265	10.23			not_run
+1xsn	A	LYS	273	10.07			not_run
+1xsn	A	LYS	281	10.01			not_run
+1xsn	A	LYS	287	10.65			not_run
+1xsn	A	LYS	291	10.26			not_run
+1xsn	A	LYS	307	10.16			not_run
+1xsn	A	LYS	312	9.58			not_run
+1xsn	A	LYS	324	10.27			not_run
+1ygw	A	ASP	3	3.54	3.85	+0.31	matched
+1ygw	A	ASP	15	3.52	3.18	-0.34	matched
+1ygw	A	ASP	29	4.26	4.77	+0.51	matched
+1ygw	A	ASP	49	4.22	4.56	+0.34	matched
+1ygw	A	ASP	66	3.9	4.27	+0.37	matched
+1ygw	A	GLU	28	5.61	4.76	-0.85	matched
+1ygw	A	GLU	31	5.36	4.89	-0.47	matched
+1ygw	A	GLU	46	3.62	4.25	+0.63	matched
+1ygw	A	GLU	58	3.96	2.19	-1.77	matched
+1ygw	A	GLU	82	3.27	4.05	+0.78	matched
+1ygw	A	GLU	102	5.3	5.87	+0.57	matched
+1ygw	A	HIS	27	7.57	6.33	-1.24	matched
+1ygw	A	HIS	40	7.44	7.58	+0.14	matched
+1ygw	A	HIS	92	7.31	5.21	-2.10	matched
+1ymb	A	HIS	113	5.51			not_run
+1ymb	A	HIS	116	6.7			not_run
+1ymb	A	HIS	119	6.37			not_run
+1ymb	A	HIS	36	7.98			not_run
+1ymb	A	HIS	48	5.61			not_run
+1ymb	A	HIS	81	6.72			not_run
+1yph	C	ASP	102	2.77			missing
+1yph	C	HIS	40	7.2			missing
+1yph	C	HIS	57	6.14			missing
+1ypi	A	HIS	103	7.29			not_run
+1ypt	A	CYS	403	4.67			not_run
+1yrf	A	ASP	44	3.04			missing
+1yrf	A	ASP	46	3.44			missing
+1yrf	A	GLU	45	3.95			missing
+1yrf	A	GLU	72	4.37			missing
+1z12	A	HIS	66	8.36			not_run
+1z12	A	HIS	72	9.19			not_run
+2bca	A	GLU	26	4.08	5.03	+0.95	matched
+2bca	A	LYS	1	10.59	9.94	-0.65	matched
+2bca	A	LYS	7	11.36	11.33	-0.03	matched
+2bca	A	LYS	12	11.06	10.49	-0.57	matched
+2bca	A	LYS	16	11.06	11.88	+0.82	matched
+2bca	A	LYS	29	11.28	10.16	-1.12	matched
+2bca	A	LYS	41	10.93	10.29	-0.64	matched
+2bca	A	LYS	55	12.12	11.67	-0.45	matched
+2bca	A	LYS	71	10.73	10.15	-0.58	matched
+2bca	A	LYS	72	11.33	11.66	+0.33	matched
+2bus	A	ASP	6	4.0			missing
+2bus	A	ASP	12	3.6			missing
+2bus	A	GLU	9	4.3			missing
+2bus	A	GLU	20	4.1			missing
+2ci2	I	ASP	42	3.3	2.82	-0.48	matched
+2ci2	I	ASP	64	3.8	3.75	-0.05	matched
+2ci2	I	ASP	71	2.8	2.64	-0.16	matched
+2ci2	I	ASP	74	5.0	4.67	-0.33	matched
+2ci2	I	GLU	23	3.2	3.99	+0.79	matched
+2ci2	I	GLU	26	3.3	3.69	+0.39	matched
+2ci2	I	GLU	33	4.2	4.28	+0.08	matched
+2ci2	I	GLU	34	3.8	4.22	+0.42	matched
+2ci2	I	GLU	45	3.9	4.06	+0.16	matched
+2ci2	I	GLU	60	3.5	3.52	+0.02	matched
+2cpl	A	HIS	126	6.34			not_run
+2cpl	A	HIS	54	4.2			not_run
+2cpl	A	HIS	70	5.84			not_run
+2cpl	A	HIS	92	4.2			not_run
+2duc	A	CYS	145	8.0			not_run
+2duc	A	HIS	41	6.3			not_run
+2fd3	A	CYS	32	6.34			not_run
+2fwf	A	CYS	461	10.5			not_run
+2gb1	A	ASP	22	2.9			missing
+2gb1	A	ASP	36	3.8			missing
+2gb1	A	ASP	40	4.0			missing
+2gb1	A	ASP	46	3.6			missing
+2gb1	A	ASP	47	3.4			missing
+2gb1	A	GLU	15	4.4			missing
+2gb1	A	GLU	19	3.7			missing
+2gb1	A	GLU	27	4.5			missing
+2gb1	A	GLU	42	4.4			missing
+2gb1	A	GLU	56	4.0			missing
+2gb1	A	LYS	28	10.9			missing
+2h19	A	CYS	74	8.48			missing
+2h1a	A	CYS	77	8.36			missing
+2h1b	A	CYS	77	7.4			missing
+2hba	A	ASP	8	2.94	2.56	-0.38	matched
+2hba	A	ASP	23	3.06	2.82	-0.24	matched
+2hba	A	GLU	17	3.69	3.65	-0.04	matched
+2hba	A	GLU	38	4.04	3.79	-0.25	matched
+2hba	A	GLU	48	4.21	3.85	-0.36	matched
+2hbb	A	ASP	8	2.99	2.93	-0.06	matched
+2hbb	A	ASP	23	3.05	2.67	-0.38	matched
+2hbb	A	GLU	17	3.57	3.85	+0.28	matched
+2hbb	A	GLU	38	4.04	4.19	+0.15	matched
+2hbb	A	GLU	48	4.21	3.84	-0.37	matched
+2hnp	A	CYS	215	5.57			not_run
+2igd	A	ASP	27	2.9	2.56	-0.34	matched
+2igd	A	ASP	41	3.9	4.05	+0.15	matched
+2igd	A	ASP	45	4.4	3.92	-0.48	matched
+2igd	A	ASP	51	3.6	2.95	-0.65	matched
+2igd	A	ASP	52	3.4	3.86	+0.46	matched
+2igd	A	GLU	20	4.3	4.41	+0.11	matched
+2igd	A	GLU	29	4.2	4.22	+0.02	matched
+2igd	A	GLU	32	4.6	5.53	+0.93	matched
+2igd	A	GLU	61	4.2	3.91	-0.29	matched
+2igh	A	ASP	27	2.9	3.35	+0.45	matched
+2igh	A	ASP	41	3.9	4.20	+0.30	matched
+2igh	A	ASP	45	4.4	2.76	-1.64	matched
+2igh	A	ASP	51	3.6	2.94	-0.66	matched
+2igh	A	ASP	52	3.4	3.52	+0.12	matched
+2igh	A	GLU	20	4.3	3.95	-0.35	matched
+2igh	A	GLU	29	4.2	4.80	+0.60	matched
+2igh	A	GLU	32	4.6	4.85	+0.25	matched
+2igh	A	GLU	61	4.2	5.55	+1.35	matched
+2igh	A	LYS	24	10.7	10.42	-0.28	matched
+2kix	A	HIS	19	6.5	2.19	-4.31	matched
+2kix	A	HIS	27	7.6	4.89	-2.71	matched
+2kt2	A	CYS	11	6.2	10.58	+4.38	matched
+2kt2	A	CYS	14	9.0	10.23	+1.23	matched
+2kt2	A	HIS	17	7.0	6.95	-0.05	matched
+2l6c	A	HIS	33	4.6			not_run
+2l6d	A	CYS	31	4.8			not_run
+2l6d	A	HIS	33	7.2			not_run
+2l6d	A	CYS	34	11.3			not_run
+2l6x	A	ASP	97	6.43			missing
+2l8l	A	ASP	121	6.1			not_run
+2l90	A	CYS	72	7.2			not_run
+2lzm	A	HIS	31	9.1			not_run
+2lzm	A	ASP	70	0.5			not_run
+2lzt	A	LYS	1	10.9			not_run
+2lzt	A	NTE	1	7.9			not_run
+2lzt	A	ASP	101	4.09			not_run
+2lzt	A	LYS	116	10.4			not_run
+2lzt	A	ASP	119	3.2			not_run
+2lzt	A	CTE	129	2.75			not_run
+2lzt	A	LYS	13	10.6			not_run
+2lzt	A	HIS	15	5.36			not_run
+2lzt	A	ASP	18	2.66			not_run
+2lzt	A	TYR	20	10.3			not_run
+2lzt	A	TYR	23	9.8			not_run
+2lzt	A	LYS	33	10.6			not_run
+2lzt	A	GLU	35	6.2			not_run
+2lzt	A	ASP	48	1.6			not_run
+2lzt	A	ASP	52	3.68			not_run
+2lzt	A	TYR	53	12.1			not_run
+2lzt	A	ASP	66	0.9			not_run
+2lzt	A	GLU	7	2.85			not_run
+2lzt	A	ASP	87	2.07			not_run
+2lzt	A	LYS	96	10.8			not_run
+2lzt	A	LYS	97	10.3			not_run
+2m5s	A	ASP	246	4.2			not_run
+2m5s	A	HIS	305	9.1			not_run
+2m5s	A	GLU	307	3.9			not_run
+2m5s	A	ASP	316	3.0			not_run
+2m5s	A	GLU	323	3.6			not_run
+2m5s	A	ASP	336	4.3			not_run
+2mb5	A	TYR	103	10.3			not_run
+2mb5	A	HIS	113	5.4			not_run
+2mb5	A	HIS	116	6.6			not_run
+2mb5	A	HIS	119	6.1			not_run
+2mb5	A	HIS	12	6.4			not_run
+2mb5	A	TYR	151	10.5			not_run
+2mb5	A	HIS	36	8.2			not_run
+2mb5	A	HIS	48	5.5			not_run
+2mb5	A	HIS	81	6.7			not_run
+2mb5	A	HIS	97	5.6			not_run
+2mi7	A	TYR	34	11.3			not_run
+2o89	A	CYS	29	6.4			not_run
+2oeo	A	ASP	92	8.1			not_run
+2ovo	A	GLU	10	4.14			not_run
+2ovo	A	TYR	11	10.16			not_run
+2ovo	A	LYS	13	9.86			not_run
+2ovo	A	GLU	19	3.21			not_run
+2ovo	A	TYR	20	11.07			not_run
+2ovo	A	ASP	27	2.3			not_run
+2ovo	A	LYS	29	11.12			not_run
+2ovo	A	TYR	31	12.5			not_run
+2ovo	A	LYS	34	10.13			not_run
+2ovo	A	GLU	43	4.81			not_run
+2ovo	A	HIS	52	7.5			not_run
+2ovo	A	LYS	55	11.1			not_run
+2ovo	A	ASP	7	2.67			not_run
+2oxp	A	ASP	66	8.7			not_run
+2ppt	A	CYS	73	5.2			missing
+2pyo	A	GLU	1	4.03			not_run
+2pyo	A	GLU	120	3.16			not_run
+2pyo	A	GLU	2	3.1			not_run
+2pyo	A	GLU	3	4.2			not_run
+2pyo	A	GLU	4	2.1			not_run
+2pyo	B	HIS	106	6.52			not_run
+2pyo	B	HIS	46	5.64			not_run
+2pyo	B	HIS	79	6.66			not_run
+2qdb	A	HIS	121	4.03			not_run
+2qdb	A	HIS	124	5.71			not_run
+2qdb	A	HIS	46	6.49			not_run
+2qdb	A	HIS	8	6.18			not_run
+2qmt	A	GLU	15	4.4			not_run
+2qmt	A	GLU	19	3.7			not_run
+2qmt	A	ASP	22	2.9			not_run
+2qmt	A	GLU	27	4.5			not_run
+2qmt	A	LYS	28	10.9			not_run
+2qmt	A	ASP	36	3.8			not_run
+2qmt	A	ASP	40	4.0			not_run
+2qmt	A	GLU	42	4.4			not_run
+2qmt	A	ASP	46	3.6			not_run
+2qmt	A	ASP	47	3.4			not_run
+2qmt	A	GLU	56	4.0			not_run
+2rbm	A	LYS	72	8.6			not_run
+2rdf	A	HIS	121	4.24			not_run
+2rdf	A	HIS	124	5.64			not_run
+2rdf	A	HIS	46	6.42			not_run
+2rdf	A	HIS	8	6.3			not_run
+2rks	A	GLU	10	3.1			not_run
+2rks	A	GLU	101	3.9			not_run
+2rks	A	GLU	122	3.9			not_run
+2rks	A	GLU	129	3.8			not_run
+2rks	A	GLU	135	3.9			not_run
+2rks	A	GLU	142	4.6			not_run
+2rks	A	ASP	143	4.0			not_run
+2rks	A	ASP	146	4.0			not_run
+2rks	A	ASP	21	6.5			not_run
+2rks	A	LYS	38	10.4			not_run
+2rks	A	ASP	40	3.8			not_run
+2rks	A	GLU	43	4.5			not_run
+2rks	A	GLU	52	4.1			not_run
+2rks	A	GLU	57	3.6			not_run
+2rks	A	GLU	67	3.9			not_run
+2rks	A	GLU	73	3.3			not_run
+2rks	A	ASP	95	2.1			not_run
+2rn2	A	ASP	10	6.1			not_run
+2rn2	A	ASP	108	3.2			not_run
+2rn2	A	HIS	114	5.0			not_run
+2rn2	A	GLU	119	4.1			not_run
+2rn2	A	HIS	124	7.1			not_run
+2rn2	A	HIS	127	7.9			not_run
+2rn2	A	GLU	129	3.6			not_run
+2rn2	A	GLU	131	4.3			not_run
+2rn2	A	ASP	134	4.3			not_run
+2rn2	A	GLU	135	4.3			not_run
+2rn2	A	GLU	147	4.2			not_run
+2rn2	A	GLU	154	4.4			not_run
+2rn2	A	GLU	32	3.6			not_run
+2rn2	A	GLU	48	4.4			not_run
+2rn2	A	GLU	57	3.2			not_run
+2rn2	A	GLU	6	4.5			not_run
+2rn2	A	GLU	61	3.9			not_run
+2rn2	A	HIS	62	7.0			not_run
+2rn2	A	GLU	64	4.4			not_run
+2rn2	A	ASP	70	2.6			not_run
+2rn2	A	HIS	83	5.5			not_run
+2rn2	A	ASP	94	3.2			not_run
+2rvq	C	GLU	56	4.3			not_run
+2rvq	C	ASP	90	5.3			not_run
+2rvq	C	GLU	92	4.4			not_run
+2rvq	D	HIS	109	6.5			not_run
+2rvq	D	HIS	49	5.9			not_run
+2sni	I	GLU	23	3.2			not_run
+2sni	I	GLU	26	3.3			not_run
+2sni	I	GLU	33	4.2			not_run
+2sni	I	GLU	34	3.8			not_run
+2sni	I	ASP	42	3.3			not_run
+2sni	I	GLU	45	3.9			not_run
+2sni	I	GLU	60	3.5			not_run
+2sni	I	ASP	64	3.8			not_run
+2sni	I	ASP	71	2.8			not_run
+2sni	I	ASP	74	5.0			not_run
+2snm	A	LYS	66	6.4			not_run
+2tga	A	ASP	102	1.4			not_run
+2tga	A	ASP	194	2.3			not_run
+2tga	A	HIS	40	4.57			not_run
+2tga	A	HIS	57	7.33			not_run
+2trx	A	NTE	1	7.4			not_run
+2trx	A	ASP	20	3.8			not_run
+2trx	A	ASP	26	7.5			not_run
+2trx	A	CYS	32	7.1			not_run
+2trx	A	CYS	35	9.9			not_run
+2trx	A	HIS	6	6.2			not_run
+2udp	A	TYR	149	6.08			not_run
+2v8n	A	GLU	325	10.5			not_run
+2xv0	A	HIS	115	5.2			not_run
+2xv2	A	HIS	115	5.2			not_run
+2zta	A	NTE	1	7.88			not_run
+2zta	A	GLU	10	3.94			not_run
+2zta	A	GLU	11	4.05			not_run
+2zta	A	LYS	15	10.62			not_run
+2zta	A	TYR	17	9.82			not_run
+2zta	A	HIS	18	6.24			not_run
+2zta	A	GLU	20	4.38			not_run
+2zta	A	GLU	22	4.2			not_run
+2zta	A	LYS	27	11.1			not_run
+2zta	A	LYS	28	10.64			not_run
+2zta	A	LYS	3	10.78			not_run
+2zta	A	CTE	31	4.03			not_run
+2zta	A	GLU	6	4.6			not_run
+2zta	A	ASP	7	3.48			not_run
+2zta	A	LYS	8	11.26			not_run
+3bdc	A	GLU	10	2.8			not_run
+3bdc	A	GLU	101	3.8			not_run
+3bdc	A	GLU	122	3.9			not_run
+3bdc	A	GLU	129	3.8			not_run
+3bdc	A	GLU	135	3.8			not_run
+3bdc	A	GLU	142	4.49			not_run
+3bdc	A	ASP	143	3.8			not_run
+3bdc	A	ASP	146	3.86			not_run
+3bdc	A	ASP	19	2.2			not_run
+3bdc	A	ASP	21	6.5			not_run
+3bdc	A	ASP	40	3.9			not_run
+3bdc	A	GLU	43	4.36			not_run
+3bdc	A	GLU	52	4.0			not_run
+3bdc	A	GLU	57	3.5			not_run
+3bdc	A	GLU	67	3.8			not_run
+3bdc	A	GLU	73	3.3			not_run
+3bdc	A	GLU	75	3.3			not_run
+3bdc	A	ASP	95	2.2			not_run
+3bh2	A	LYS	115	5.96			not_run
+3c1e	A	LYS	125	6.2			not_run
+3c1f	A	LYS	104	7.7			not_run
+3c71	A	CYS	74	6.3			not_run
+3c71	A	CYS	77	5.7			not_run
+3c73	A	CYS	74	7.4			not_run
+3c73	A	CYS	77	7.5			not_run
+3cyf	A	CYS	106	6.1			not_run
+3cz9	A	CYS	106	6.4			not_run
+3d4d	A	GLU	91	7.1			not_run
+3d6c	A	GLU	10	3.1			not_run
+3d6c	A	GLU	101	3.9			not_run
+3d6c	A	HIS	121	5.7			not_run
+3d6c	A	GLU	122	3.9			not_run
+3d6c	A	GLU	129	3.8			not_run
+3d6c	A	GLU	135	3.8			not_run
+3d6c	A	GLU	142	4.5			not_run
+3d6c	A	ASP	143	3.8			not_run
+3d6c	A	ASP	146	3.9			not_run
+3d6c	A	ASP	21	6.6			not_run
+3d6c	A	ASP	40	3.9			not_run
+3d6c	A	GLU	43	4.4			not_run
+3d6c	A	GLU	52	4.0			not_run
+3d6c	A	GLU	57	3.6			not_run
+3d6c	A	GLU	67	3.8			not_run
+3d6c	A	GLU	73	3.4			not_run
+3d6c	A	GLU	75	3.3			not_run
+3d6c	A	HIS	8	6.5			not_run
+3d6c	A	ASP	95	2.3			not_run
+3dmu	A	LYS	62	8.1			not_run
+3e5s	A	LYS	103	8.2			not_run
+3ebx	A	HIS	26	5.8			not_run
+3ebx	A	HIS	6	2.8			not_run
+3egf	A	ASP	11	3.9			not_run
+3egf	A	HIS	22	6.8			not_run
+3egf	A	GLU	24	4.1			not_run
+3egf	A	ASP	27	4.0			not_run
+3egf	A	ASP	40	3.6			not_run
+3egf	A	ASP	46	3.8			not_run
+3eji	A	LYS	36	7.2			not_run
+3ero	A	GLU	72	7.3			not_run
+3erq	A	LYS	25	6.3			not_run
+3erw	A	CYS	65	5.5			not_run
+3erw	A	CYS	68	7.8			not_run
+3evq	A	GLU	25	7.5			not_run
+3ezg	A	CYS	106	5.7			not_run
+3f71	A	CYS	106	6.1			not_run
+3ft7	B	CTE	0	3.23			not_run
+3ft7	B	NTE	1	7.76			not_run
+3ft7	B	LYS	12	10.83			not_run
+3ft7	B	TYR	16	9.67			not_run
+3ft7	B	GLU	20	4.12			not_run
+3ft7	B	HIS	22	4.79			not_run
+3ft7	B	ASP	23	2.45			not_run
+3ft7	B	GLU	27	3.52			not_run
+3ft7	B	LYS	30	11.18			not_run
+3ft7	B	GLU	31	3.91			not_run
+3ft7	B	LYS	32	10.43			not_run
+3ft7	B	ASP	38	2.92			not_run
+3ft7	B	LYS	45	11.84			not_run
+3ft7	B	GLU	46	2.97			not_run
+3ft7	B	ASP	49	2.62			not_run
+3ft7	B	TYR	5	9.66			not_run
+3ft7	B	HIS	51	6.94			not_run
+3ft7	B	ASP	52	2.88			not_run
+3ft7	B	LYS	53	10.38			not_run
+3ft7	B	LYS	55	11.77			not_run
+3ft7	B	CTE	55	3.23			not_run
+3ft7	B	LYS	56	11.44			not_run
+3ft7	B	LYS	6	10.78			not_run
+3fx5	A	ASP	29	3.19			not_run
+3fx5	A	ASP	30	3.88			not_run
+3fx5	A	ASP	60	2.99			not_run
+3fx5	B	ASP	129	3.65			not_run
+3fx5	B	ASP	130	3.78			not_run
+3fx5	B	ASP	160	2.99			not_run
+3fz9	A	CYS	29	2.84			not_run
+3fz9	A	CYS	87	5.63			not_run
+3gb1	A	GLU	15	4.4			not_run
+3gb1	A	GLU	19	3.7			not_run
+3gb1	A	ASP	22	2.9			not_run
+3gb1	A	GLU	27	4.5			not_run
+3gb1	A	LYS	28	10.9			not_run
+3gb1	A	ASP	36	3.8			not_run
+3gb1	A	ASP	40	4.0			not_run
+3gb1	A	GLU	42	4.4			not_run
+3gb1	A	ASP	46	3.6			not_run
+3gb1	A	ASP	47	3.4			not_run
+3gb1	A	GLU	56	4.0			not_run
+3gdk	A	LYS	93	7.7			not_run
+3h6m	A	GLU	104	9.4			not_run
+3hzx	A	LYS	66	5.6			not_run
+3icb	A	LYS	1	10.61			not_run
+3icb	A	GLU	11	4.74			not_run
+3icb	A	LYS	12	11.06			not_run
+3icb	A	LYS	16	10.06			not_run
+3icb	A	GLU	17	3.62			not_run
+3icb	A	LYS	25	11.72			not_run
+3icb	A	GLU	26	4.08			not_run
+3icb	A	LYS	29	11.05			not_run
+3icb	A	GLU	4	3.77			not_run
+3icb	A	LYS	41	10.95			not_run
+3icb	A	ASP	47	3.04			not_run
+3icb	A	GLU	48	4.62			not_run
+3icb	A	GLU	5	3.4			not_run
+3icb	A	LYS	55	11.43			not_run
+3icb	A	GLU	64	3.84			not_run
+3icb	A	LYS	7	11.39			not_run
+3icb	A	LYS	71	10.73			not_run
+3icb	A	LYS	72	11.01			not_run
+3icb	A	CTE	75	3.2			not_run
+3itp	A	LYS	34	7.1			not_run
+3kmf	A	HIS	20	7.23			not_run
+3kmf	A	HIS	50	7.25			not_run
+3kmf	A	HIS	89	6.88			not_run
+3mkh	A	ASP	399	5.9			not_run
+3nbs	A	HIS	18	2.5			not_run
+3nbs	A	HIS	26	2.9			not_run
+3nbs	A	HIS	33	6.4			not_run
+3o79	A	HIS	187	5.1			not_run
+3p75	A	ASP	104	9.7			not_run
+3qoj	A	LYS	23	7.3			not_run
+3qol	A	GLU	23	7.1			not_run
+3rn3	A	NTE	1	7.6			not_run
+3rn3	A	HIS	105	6.7			not_run
+3rn3	A	GLU	111	3.5			not_run
+3rn3	A	HIS	119	6.1			not_run
+3rn3	A	HIS	12	6.2			not_run
+3rn3	A	ASP	121	3.1			not_run
+3rn3	A	CTE	124	2.4			not_run
+3rn3	A	ASP	14	1.8			not_run
+3rn3	A	GLU	2	2.8			not_run
+3rn3	A	ASP	38	3.5			not_run
+3rn3	A	HIS	48	6.0			not_run
+3rn3	A	GLU	49	4.7			not_run
+3rn3	A	ASP	53	3.9			not_run
+3rn3	A	ASP	83	3.5			not_run
+3rn3	A	GLU	86	4.1			not_run
+3rn3	A	GLU	9	4.0			not_run
+3ruz	A	LYS	74	7.4			not_run
+3sk5	A	ASP	39	8.1			not_run
+3soa	A	CYS	289	9.2			not_run
+3srn	A	HIS	105	6.82			not_run
+3srn	A	HIS	12	6.03			not_run
+3srn	B	HIS	119	6.33			not_run
+3ssi	A	HIS	106	6.0			not_run
+3ssi	A	HIS	43	3.25			not_run
+3tp7	A	GLU	99	8.4			not_run
+3tp8	A	GLU	36	8.7			not_run
+3trx	A	NTE	1	7.3			not_run
+3vjo	A	CYS	797	5.5			not_run
+3vzj	A	HIS	172	5.2			not_run
+3vzj	A	GLU	78	3.4			not_run
+3vzk	A	GLU	172	8.0			not_run
+3vzk	A	GLU	35	3.4			not_run
+3vzk	A	GLU	78	5.3			not_run
+3vzl	A	GLU	172	3.4			not_run
+3vzl	A	HIS	35	7.5			not_run
+3vzl	A	GLU	78	5.5			not_run
+3wu2	O	GLU	114	3.81			not_run
+3wu2	O	ASP	141	4.89			not_run
+3wu2	O	GLU	145	4.52			not_run
+3wu2	O	ASP	205	3.45			not_run
+3wu2	O	GLU	210	2.66			not_run
+3wu2	O	GLU	216	3.91			not_run
+3wu2	O	GLU	218	5.13			not_run
+3wu2	O	ASP	23	3.41			not_run
+3wu2	O	GLU	232	4.2			not_run
+3wu2	O	ASP	24	3.06			not_run
+3wu2	O	GLU	244	4.97			not_run
+3wu2	O	ASP	33	3.47			not_run
+3wu2	O	GLU	54	4.47			not_run
+3wu2	O	GLU	64	4.17			not_run
+3wu2	O	GLU	74	3.37			not_run
+3wu2	O	GLU	84	4.64			not_run
+3wu2	O	ASP	90	1.56			not_run
+3wu2	O	GLU	98	4.99			not_run
+4bya	A	HIS	34	5.92			not_run
+4bya	A	HIS	71	6.79			not_run
+4eqo	A	ASP	99	8.5			not_run
+4eqp	A	ASP	72	7.6			not_run
+4ge0	A	CYS	111	5.54			not_run
+4ge3	A	CYS	111	5.23			not_run
+4hhb	B	NTE	1	6.91			not_run
+4hhb	A	HIS	112	8.1			not_run
+4hhb	A	HIS	20	7.6			not_run
+4hhb	A	HIS	50	7.2			not_run
+4hhb	A	HIS	72	7.3			not_run
+4hhb	A	HIS	89	7.2			not_run
+4hhb	B	HIS	143	5.6			not_run
+4hhb	B	HIS	146	8.1			not_run
+4hhb	B	HIS	2	6.7			not_run
+4hhb	B	HIS	77	7.8			not_run
+4hmi	A	LYS	99	6.5			not_run
+4hmj	A	ASP	36	7.9			not_run
+4icb	A	LYS	1	10.59			not_run
+4icb	A	GLU	11	4.74			not_run
+4icb	A	LYS	12	11.06			not_run
+4icb	A	LYS	16	10.06			not_run
+4icb	A	GLU	17	3.62			not_run
+4icb	A	LYS	25	11.81			not_run
+4icb	A	GLU	26	4.08			not_run
+4icb	A	LYS	29	11.28			not_run
+4icb	A	GLU	4	3.77			not_run
+4icb	A	LYS	41	10.93			not_run
+4icb	A	ASP	47	3.04			not_run
+4icb	A	GLU	48	4.62			not_run
+4icb	A	GLU	5	3.4			not_run
+4icb	A	LYS	55	12.12			not_run
+4icb	A	GLU	64	3.84			not_run
+4icb	A	LYS	7	11.36			not_run
+4icb	A	LYS	71	10.72			not_run
+4icb	A	LYS	72	11.33			not_run
+4icb	A	CTE	75	3.2			not_run
+4ky5	A	ASP	23	6.8			not_run
+4ky6	A	ASP	25	6.8			not_run
+4ky7	A	ASP	74	8.3			not_run
+4lds	A	ASP	22	8.5			not_run
+4lzt	A	NTE	0	7.9			not_run
+4lzt	A	LYS	1	10.9			not_run
+4lzt	A	ASP	101	4.09			not_run
+4lzt	A	LYS	116	10.4			not_run
+4lzt	A	ASP	119	3.2			not_run
+4lzt	A	CTE	129	2.75			not_run
+4lzt	A	LYS	13	10.6			not_run
+4lzt	A	HIS	15	5.36			not_run
+4lzt	A	ASP	18	2.66			not_run
+4lzt	A	TYR	20	10.6			not_run
+4lzt	A	TYR	23	10.2			not_run
+4lzt	A	LYS	33	10.6			not_run
+4lzt	A	GLU	35	6.2			not_run
+4lzt	A	ASP	48	1.6			not_run
+4lzt	A	ASP	52	3.68			not_run
+4lzt	A	TYR	53	11.7			not_run
+4lzt	A	ASP	66	0.9			not_run
+4lzt	A	GLU	7	2.85			not_run
+4lzt	A	ASP	87	2.07			not_run
+4lzt	A	LYS	96	10.8			not_run
+4lzt	A	LYS	97	10.3			not_run
+4ma9	A	CYS	46	5.94			not_run
+4mbn	A	HIS	113	5.51			not_run
+4mbn	A	HIS	116	6.66			not_run
+4mbn	A	HIS	119	6.38			not_run
+4mbn	A	HIS	12	6.49			not_run
+4mbn	A	HIS	36	7.83			not_run
+4mbn	A	HIS	48	5.57			not_run
+4mbn	A	HIS	81	6.89			not_run
+4myd	A	HIS	232	8.0			not_run
+4pti	A	NTE	1	8.1			not_run
+4pti	A	TYR	10	10.4			not_run
+4pti	A	LYS	15	10.6			not_run
+4pti	A	TYR	21	11.0			not_run
+4pti	A	TYR	23	11.7			not_run
+4pti	A	LYS	26	10.6			not_run
+4pti	A	ASP	3	3.0			not_run
+4pti	A	TYR	35	11.1			not_run
+4pti	A	LYS	41	10.8			not_run
+4pti	A	LYS	46	10.6			not_run
+4pti	A	GLU	49	3.8			not_run
+4pti	A	ASP	50	3.4			not_run
+4pti	A	CTE	58	2.9			not_run
+4pti	A	GLU	7	3.7			not_run
+4qyt	A	CYS	111	4.6			not_run
+4xll	A	CYS	104	5.0			not_run
+4yij	A	GLU	109	7.9			not_run
+5b6m	A	CYS	47	4.6			not_run
+5cce	A	GLU	12	5.6			not_run
+5deh	A	ASP	100	6.9			not_run
+5dfr	A	HIS	114	6.8			not_run
+5dfr	A	HIS	124	7.6			not_run
+5dfr	A	HIS	141	8.0			not_run
+5dfr	A	HIS	149	6.5			not_run
+5dfr	A	HIS	45	7.0			not_run
+5e1f	A	GLU	20	4.5			not_run
+5e3f	A	LYS	92	5.3			not_run
+5egt	A	GLU	66	8.5			not_run
+5g39	A	ASP	23	3.4			not_run
+5g39	A	ASP	24	3.1			not_run
+5g39	A	GLU	54	4.5			not_run
+5h3m	A	GLU	11	4.1			not_run
+5h3m	A	HIS	124	6.2			not_run
+5h3m	A	GLU	129	3.8			not_run
+5h3m	A	HIS	2	5.9			not_run
+5h3m	A	ASP	23	4.8			not_run
+5h3m	A	ASP	34	4.5			not_run
+5h3m	A	ASP	39	3.9			not_run
+5h3m	A	HIS	59	4.2			not_run
+5h3m	A	GLU	65	4.3			not_run
+5h3m	A	ASP	82	5.5			not_run
+5h3m	A	ASP	83	4.3			not_run
+5h3m	A	HIS	92	4.3			not_run
+5i6w	A	ASP	58	6.8			not_run
+5i6y	A	GLU	90	6.4			not_run
+5iif	A	ASP	62	8.7			not_run
+5isr	A	GLU	10	3.1			not_run
+5isr	A	GLU	101	3.9			not_run
+5isr	A	GLU	122	3.8			not_run
+5isr	A	GLU	129	3.9			not_run
+5isr	A	GLU	135	3.8			not_run
+5isr	A	ASP	21	6.6			not_run
+5isr	A	GLU	38	7.0			not_run
+5isr	A	ASP	40	3.9			not_run
+5isr	A	GLU	43	4.4			not_run
+5isr	A	GLU	52	4.0			not_run
+5isr	A	GLU	57	3.6			not_run
+5isr	A	GLU	67	3.8			not_run
+5isr	A	GLU	73	3.4			not_run
+5isr	A	GLU	75	3.3			not_run
+5isr	A	ASP	95	2.3			not_run
+5j1z	A	ASP	90	7.5			not_run
+5j22	A	ASP	103	8.7			not_run
+5jav	A	ASP	91	7.2			not_run
+5kgu	A	ASP	118	7.0			not_run
+5kix	A	GLU	92	9.0			not_run
+5x79	A	CYS	102	12.7			not_run
+5x79	A	CYS	15	10.2			not_run
+5x79	A	CYS	170	9.1			not_run
+5x79	A	CYS	48	3.7			not_run
+6ayw	A	CYS	273	7.4			not_run
+6ayw	A	CYS	290	9.7			not_run
+6eeg	A	GLU	62	7.7			not_run
+6gst	A	HIS	167	7.77			not_run
+6gst	A	HIS	83	5.18			not_run
+6gst	A	HIS	84	7.08			not_run
+6k5w	A	HIS	18	6.8			not_run
+6lyz	A	HIS	15	5.5			not_run
+6mz1	A	LYS	73	5.4			not_run
+6q46	A	CYS	36	6.6			not_run
+6q46	A	CYS	39	9.5			not_run
+6tim	A	CYS	14	10.5			not_run
+7b03	A	ASP	98	7.7			not_run
+7m2z	A	ASP	10	4.26			not_run
+7m2z	A	ASP	14	4.12			not_run
+7m2z	A	ASP	15	4.15			not_run
+7m2z	A	GLU	21	4.68			not_run
+7m2z	A	GLU	23	4.67			not_run
+7m2z	A	GLU	24	4.64			not_run
+7m2z	A	ASP	25	4.25			not_run
+7m2z	A	ASP	27	4.09			not_run
+7m2z	A	ASP	29	3.97			not_run
+7m2z	A	GLU	3	4.32			not_run
+7m2z	A	ASP	31	3.9			not_run
+7m2z	A	HIS	32	7.16			not_run
+7m2z	A	ASP	5	3.9			not_run
+7m2z	A	ASP	9	4.13			not_run
+7m2z	B	GLU	441	4.32			not_run
+7m2z	B	ASP	443	3.9			not_run
+7m2z	B	ASP	447	4.13			not_run
+7m2z	B	ASP	448	4.26			not_run
+7m2z	B	ASP	452	4.12			not_run
+7m2z	B	ASP	453	4.15			not_run
+7m2z	B	GLU	459	4.68			not_run
+7m2z	B	GLU	461	4.67			not_run
+7m2z	B	GLU	462	4.64			not_run
+7m2z	B	ASP	463	4.25			not_run
+7m2z	B	ASP	465	4.09			not_run
+7m2z	B	ASP	467	3.97			not_run
+7m2z	B	ASP	469	3.9			not_run
+7m2z	B	HIS	470	7.16			not_run
+7rsa	A	NTE	1	7.6			not_run
+7rsa	A	HIS	105	6.5			not_run
+7rsa	A	GLU	111	3.5			not_run
+7rsa	A	HIS	119	6.5			not_run
+7rsa	A	HIS	12	6.0			not_run
+7rsa	A	ASP	121	3.0			not_run
+7rsa	A	CTE	124	2.4			not_run
+7rsa	A	GLU	2	2.7			not_run
+7rsa	A	ASP	38	2.1			not_run
+7rsa	A	HIS	48	6.0			not_run
+7rsa	A	GLU	49	4.3			not_run
+7rsa	A	ASP	53	3.7			not_run
+7rsa	A	ASP	83	3.3			not_run
+7rsa	A	GLU	86	4.0			not_run
+7rsa	A	GLU	9	4.0			not_run
+7xjd	A	ASP	96	7.1			not_run
+8i41	A	GLU	181	5.5			not_run
+8i41	A	GLU	35	5.8			not_run
+8uoz	B	GLU	25	4.4			not_run
+9rat	A	HIS	105	6.5			not_run
+9rat	A	GLU	111	3.5			not_run
+9rat	A	HIS	119	6.5			not_run
+9rat	A	HIS	12	6.0			not_run
+9rat	A	ASP	121	3.0			not_run
+9rat	A	GLU	2	2.7			not_run
+9rat	A	ASP	38	2.1			not_run
+9rat	A	GLU	49	4.3			not_run
+9rat	A	ASP	53	3.7			not_run
+9rat	A	ASP	83	3.3			not_run
+9rat	A	GLU	86	4.0			not_run
+9rat	A	GLU	9	4.0			not_run
+9rnt	A	NTE	1	8.1			not_run
+9rnt	A	GLU	102	5.3			not_run
+9rnt	A	ASP	15	3.52			not_run
+9rnt	A	HIS	27	7.57			not_run
+9rnt	A	GLU	28	5.61			not_run
+9rnt	A	ASP	29	4.26			not_run
+9rnt	A	ASP	3	3.54			not_run
+9rnt	A	GLU	31	5.36			not_run
+9rnt	A	HIS	40	7.44			not_run
+9rnt	A	GLU	46	3.62			not_run
+9rnt	A	ASP	49	4.22			not_run
+9rnt	A	GLU	58	3.96			not_run
+9rnt	A	ASP	66	3.9			not_run
+9rnt	A	ASP	76	0.5			not_run
+9rnt	A	GLU	82	3.27			not_run
+9rnt	A	HIS	92	7.31			not_run
+k64g	A	LYS	66	7.1			not_run

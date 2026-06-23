@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Large binary Karlsberg calculation outputs
+*.pkl
+*.pkl.gz
+
+# Large APBS/TAPBS calculation subdirectories (hundreds of MB each)
+# These pattern names must use **/ to match at any depth
+**/iter*/
+**/snapshots/
+**/init_calc/
+**/apbs/
+
+# Very large Karlsberg internal log files (file_parser.log can be 50-125 MB)
+**/*_karlsberg/logs/
+
+# Large PAC run log files
+**/*_karlsberg/pac_ph_*/*_pac.log
+**/*_karlsberg/pac_ph_*/progress.log
+**/*_karlsberg/pac_ph_*/faulthandler.log
+
+# Large CHARMM binary-format outputs in initial_modelling
+**/*_karlsberg/initial_modelling/*.psf
+**/*_karlsberg/initial_modelling/*.xplor.psf
+**/*_karlsberg/initial_modelling/*.crd

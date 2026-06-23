@@ -1,0 +1,556 @@
+========================================================================
+PKAD benchmark — task 341
+PDB        : 7b03  (crystal) — datasets: PKAD3
+Run name   : 7b03
+PDB path   : /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/pkad_data/pdbs/heavy_atom/7b03.pdb
+Repo root  : /net/work/jones/Karlsberg3
+Date UTC   : 2026-06-22 15:33:19
+========================================================================
+Conda env  : kb3
+Python     : /homes2/chemie/jones/.conda/envs/kb3/bin/python3
+APBS lib   : /net/work/jones/Karlsberg3/TARs/kb2plus_package/APBS-1.5-linux64/lib
+TAPBS lib  : /net/work/jones/Karlsberg3/TARs/kb2plus_package/lib_fort_gnu
+CHARMM     : /projects/biomodeling/charmm-lite/c46b1/ser/bin/charmm
+Results root: /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260622
+Run name   : 7b03
+PAC workers: 3
+========================================================================
+
+================================================================
+KB3 run : 7b03
+Structure: /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/pkad_data/pdbs/heavy_atom/7b03.pdb
+Parallel PACs: 3
+Protocol: [(-10, 'open_sb_acids'), (7, 'h_min'), (20, 'open_sb_bases')]
+Results : /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260622
+================================================================
+
+[Stage 1] Stripping non-protein segments …
+[Stage 1] Removed 0 atoms (nothing to remove)
+[Stage 1] Retained 8570 atoms in ['C', 'N', 'O', 'S']
+
+[Stage 3] Running pKa calculation (3 PAC workers) …
+[Stage 3] PDB for calculation: /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260622/preprocessed/7b03_stripped.pdb
+  Topology  : ['top.inp', 'converted_0.rtf', 'converted_1.rtf']
+  Parameters: ['par.inp', 'converted_0.prm', 'converted_1.prm', 'toppar_water_ions.str', 'par_all36m_prot_additions.prm', 'backfill.prm']
+
+Working directory: /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260622/7b03_karlsberg/
+TAPBS binary location set at: /net/work/jones/Karlsberg3/bin/tapbs_1.3_cav_enere
+TAPBS LD LIBRARY PATH location set at: /net/work/jones/Karlsberg3/TARs/kb2plus_package/lib_fort_gnu
+No binary location set for CHARMM, instead the command /projects/biomodeling/charmm-lite/c46b1/ser/bin/charmm will be used.
+CHARMM command set too: /projects/biomodeling/charmm-lite/c46b1/ser/bin/charmm
+APBS binary location set at: /net/work/jones/Karlsberg3/bin/apbs
+COULOMB binary location set at: /net/work/jones/Karlsberg3/bin/coulomb
+Karlsberg binary location set at: /net/work/jones/Karlsberg3/bin/karlsberg2.x86_64_fixed
+Titratable yaml file location set at: /work/jones/Karlsberg3/src/kbp3/additional_files/titratable.yaml
+Starting calculations of pKa values for protein: 7b03_stripped
+# Starting initial modelling
+ -Preoptimization: Dielectric constant will be set to 10 
+ Dielectric constant will be set to 10 after preoptimization
+Structure preparation (initial modelling) is done!
+Computed PAC timeout budget: 78193s  (mod=791s tapbs=2417s kb=526s)
+# Pac run for -10 open_sb_acids
+Warning in "read_par": NONBONDED entry for HT found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for OT found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for MG found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for POT found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for CAL found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for CES found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for ZN found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for CLA found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for ON3 found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/par_all36m_prot_additions.prm exists and will be overwritten.
+***Starting iteration 1***
+***Starting iteration 2***
+***Starting iteration 3***
+***Starting iteration 4***
+# Starting conformational energy calculation for pH -10
+Starting conformational energy calculation with APBS
+Start apbs job!
+Waiting for APBS to finish..
+APBS finished!
+Everything is fine! Here are the results:
+
+coulomb changed - CHARMM for MDs, APBS for crystal
+The method is 
+apbs
+# Pac run for 7 h_min
+Warning in "read_par": NONBONDED entry for HT found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for OT found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for MG found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for POT found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for CAL found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for CES found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for ZN found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for CLA found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for ON3 found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/par_all36m_prot_additions.prm exists and will be overwritten.
+***Starting iteration 1***
+***Starting iteration 2***
+***Starting iteration 3***
+# Starting conformational energy calculation for pH 7
+Starting conformational energy calculation with APBS
+Start apbs job!
+Waiting for APBS to finish..
+APBS finished!
+Everything is fine! Here are the results:
+
+coulomb changed - CHARMM for MDs, APBS for crystal
+The method is 
+apbs
+# Pac run for 20 open_sb_bases
+Warning in "read_par": NONBONDED entry for HT found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for OT found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for MG found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for POT found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for CAL found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for CES found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for ZN found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for CLA found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/toppar_water_ions.str exists and will be overwritten.
+Warning in "read_par": NONBONDED entry for ON3 found in file /net/work/jones/Karlsberg3/benchmarking/test/par_c36/par_all36m_prot_additions.prm exists and will be overwritten.
+***Starting iteration 1***
+***Starting iteration 2***
+***Starting iteration 3***
+# Starting conformational energy calculation for pH 20
+Starting conformational energy calculation with APBS
+Start apbs job!
+Waiting for APBS to finish..
+APBS finished!
+Everything is fine! Here are the results:
+
+coulomb changed - CHARMM for MDs, APBS for crystal
+The method is 
+apbs
+DPP-25_A 4.657788267026298
+DPP-28_A 2.928611266034579
+TYR-29_A 11.009148936170213
+EPP-51_A -0.7328735632183908
+ARG-52_A 20
+DPP-53_A 1.4978466838931959
+ARG-54_A 14.871821305841925
+LYS-58_A 11.099921321793863
+LYS-60_A 12.51866600298656
+HSP-76_A 2.469169960474308
+TYR-77_A 20
+TYR-79_A 11.690137389597645
+ARG-81_A 14.490528414755733
+EPP-86_A 4.536036036036036
+DPP-89_A 4.250790861159929
+ARG-95_A 20
+TYR-96_A 20
+DPP-98_A -1.9927021696252465
+CYS-108_A 17.89170426935092
+EPP-109_A 5.593171534348005
+TYR-111_A 9.755454084221208
+LYS-126_A 10.670089285714285
+LYS-127_A 11.34935379644588
+TYR-140_A 12.83515625
+EPP-143_A 5.834005869405723
+CYS-157_A 12.756745871929118
+TYR-162_A 12.268934531450578
+TYR-165_A 10.389481165600568
+EPP-166_A 4.3770540782790555
+EPP-171_A 2.7246696035242293
+LYS-173_A 10.841282894736842
+CYS-176_A 15.122086769451416
+TYR-187_A 19.939677010766307
+TYR-192_A 9.720048476454293
+TYR-201_A 15.966342254663422
+TYR-205_A 17.219085060757685
+TYR-209_A 13.205479452054794
+TYR-224_A 14.873081841432224
+DPP-228_A 1.6778290993071594
+LYS-232_A 20
+LYS-245_A 10.88675
+EPP-246_A 3.96946046827282
+DPP-25_B 4.6495363214837715
+DPP-28_B 2.9570121951219512
+TYR-29_B 10.983047385620916
+EPP-51_B -0.6472922502334266
+ARG-52_B 20
+DPP-53_B 0.9500561167227832
+ARG-54_B 14.894611186903138
+LYS-58_B 11.094335859593139
+LYS-60_B 12.373401534526854
+HSP-76_B 2.481098430813124
+TYR-77_B 20
+TYR-79_B 11.660760143810991
+ARG-81_B 14.438314711359403
+EPP-86_B 4.511783733826247
+DPP-89_B 4.271063535911602
+ARG-95_B 20
+TYR-96_B 20
+DPP-98_B -1.9795249795249794
+CYS-108_B 17.939166666666665
+EPP-109_B 5.8664621676891615
+TYR-111_B 9.772459499263624
+LYS-126_B 10.629899726526892
+LYS-127_B 11.331960461285009
+TYR-140_B 12.85840188014101
+EPP-143_B 5.87228870605834
+CYS-157_B 12.744100580270793
+TYR-162_B 12.287032868077443
+TYR-165_B 10.383162725026473
+EPP-166_B 4.364071671300587
+EPP-171_B 2.758769322235434
+LYS-173_B 10.81060875756497
+CYS-176_B 15.130067028407277
+TYR-187_B 19.93345952242283
+TYR-192_B 9.704837490551776
+TYR-201_B 16.030549898167006
+TYR-205_B 17.18959801077497
+TYR-209_B 13.20316253002402
+TYR-224_B 14.81971303805365
+DPP-228_B 1.6417485773409208
+LYS-232_B 20
+LYS-245_B 10.896155899626269
+EPP-246_B 3.9796296296296294
+DPP-25_C 4.619834710743802
+DPP-28_C 2.943231441048035
+TYR-29_C 11.005360205831904
+EPP-51_C -0.5375191424196019
+ARG-52_C 20
+DPP-53_C 1.2189882189882189
+ARG-54_C 14.8750452079566
+LYS-58_C 11.068845047266748
+LYS-60_C 12.380377358490566
+HSP-76_C 2.5358539765319428
+TYR-77_C 20
+TYR-79_C 11.609857773418343
+ARG-81_C 14.503329171868497
+EPP-86_C 4.510699955416852
+DPP-89_C 4.263166836561332
+ARG-95_C 20
+TYR-96_C 20
+DPP-98_C -1.9914320685434517
+CYS-108_C 17.97798377752028
+EPP-109_C 5.882275711159737
+TYR-111_C 9.826157407407408
+LYS-126_C 10.666877637130801
+LYS-127_C 11.379932829554996
+TYR-140_C 12.750295159386068
+EPP-143_C 5.806426635694929
+CYS-157_C 12.753784693019345
+TYR-162_C 12.28161668839635
+TYR-165_C 10.372733612273361
+EPP-166_C 4.415328926660371
+EPP-171_C 2.740474703310431
+LYS-173_C 10.843931686046512
+CYS-176_C 15.105326049846363
+TYR-187_C 19.957981829980532
+TYR-192_C 9.699925953350611
+TYR-201_C 16.026615969581748
+TYR-205_C 17.17627401837928
+TYR-209_C 13.213487794786927
+TYR-224_C 14.862269938650307
+DPP-228_C 1.6757164404223228
+LYS-232_C 20
+LYS-245_C 10.875201288244767
+EPP-246_C 4.000505220613001
+DPP-25_D 4.568619246861925
+DPP-28_D 3.0504385964912277
+TYR-29_D 10.98982498982499
+EPP-51_D -0.5819196428571429
+ARG-52_D 20
+DPP-53_D 1.118383060635226
+ARG-54_D 14.866482186094776
+LYS-58_D 11.104592901878915
+LYS-60_D 12.272030651340996
+HSP-76_D 2.3761245674740485
+TYR-77_D 20
+TYR-79_D 11.715572033898304
+ARG-81_D 14.531806049822064
+EPP-86_D 4.537196876284423
+DPP-89_D 4.24136677571792
+ARG-95_D 20
+TYR-96_D 20
+DPP-98_D -1.9248643147896878
+CYS-108_D 18.029616148246195
+EPP-109_D 5.4662248824283886
+TYR-111_D 9.842578325629173
+LYS-126_D 10.639003294892916
+LYS-127_D 11.352916491817037
+TYR-140_D 13.018034265103697
+EPP-143_D 5.849876803942274
+CYS-157_D 12.715118616807398
+TYR-162_D 12.23582910321489
+TYR-165_D 10.378985258827562
+EPP-166_D 4.392469786179114
+EPP-171_D 2.745
+LYS-173_D 10.819026898734178
+CYS-176_D 15.161550888529886
+TYR-187_D 19.99634430043204
+TYR-192_D 9.718281313336036
+TYR-201_D 16.021236559139783
+TYR-205_D 17.195616550594018
+TYR-209_D 13.212190082644629
+TYR-224_D 14.864056720098644
+DPP-228_D 1.678397521027003
+LYS-232_D 20
+LYS-245_D 10.925108932461873
+EPP-246_D 4.014663805436338
+DPP-25_E 4.608056872037914
+DPP-28_E 2.9516728624535316
+TYR-29_E 10.963969171483622
+EPP-51_E -0.33704735376044576
+ARG-52_E 20
+DPP-53_E -0.5934803451581973
+ARG-54_E 15.05965697240865
+LYS-58_E 11.121805441055235
+LYS-60_E 12.325691166554282
+HSP-76_E 2.9725
+TYR-77_E 20
+TYR-79_E 11.545154743784881
+ARG-81_E 14.457083764219234
+EPP-86_E 4.562552831783601
+DPP-89_E 4.268963117606124
+ARG-95_E 20
+TYR-96_E 20
+DPP-98_E -2.463129496402878
+CYS-108_E 17.93527315914489
+EPP-109_E 5.991680194805195
+TYR-111_E 9.828481319747695
+LYS-126_E 10.654473336271485
+LYS-127_E 11.376414667270257
+TYR-140_E 12.969319562575942
+EPP-143_E 5.869655891553702
+CYS-157_E 12.782850337435491
+TYR-162_E 12.24421243758511
+TYR-165_E 10.372198059551689
+EPP-166_E 4.405558968058968
+EPP-171_E 2.7655688622754493
+LYS-173_E 10.826574803149606
+CYS-176_E 15.092501637197119
+TYR-187_E 20
+TYR-192_E 9.715093672675858
+TYR-201_E 17.1082910321489
+TYR-205_E 17.111678004535147
+TYR-209_E 13.219550038789759
+TYR-224_E 14.540694660445826
+DPP-228_E 1.929490124023886
+LYS-232_E 20
+LYS-245_E 10.943967693084302
+EPP-246_E 4.011684518013632
+Final results are combined, the pKa computation is done!
+
+[Stage 3] SUCCESS — results.dat:
+      ASP-25_A: 4.66 
+      ASP-28_A: 2.93 
+      TYR-29_A: 11.01 
+      GLU-51_A: -0.73 
+      ARG-52_A: 20.00 
+      ASP-53_A: 1.50 
+      ARG-54_A: 14.87 
+      LYS-58_A: 11.10 
+      LYS-60_A: 12.52 
+      HIS-76_A: 2.47 
+      TYR-77_A: 20.00 
+      TYR-79_A: 11.69 
+      ARG-81_A: 14.49 
+      GLU-86_A: 4.54 
+      ASP-89_A: 4.25 
+      ARG-95_A: 20.00 
+      TYR-96_A: 20.00 
+      ASP-98_A: -1.99 
+     CYS-108_A: 17.89 
+     GLU-109_A: 5.59 
+     TYR-111_A: 9.76 
+     LYS-126_A: 10.67 
+     LYS-127_A: 11.35 
+     TYR-140_A: 12.84 
+     GLU-143_A: 5.83 
+     CYS-157_A: 12.76 
+     TYR-162_A: 12.27 
+     TYR-165_A: 10.39 
+     GLU-166_A: 4.38 
+     GLU-171_A: 2.72 
+     LYS-173_A: 10.84 
+     CYS-176_A: 15.12 
+     TYR-187_A: 19.94 
+     TYR-192_A: 9.72 
+     TYR-201_A: 15.97 
+     TYR-205_A: 17.22 
+     TYR-209_A: 13.21 
+     TYR-224_A: 14.87 
+     ASP-228_A: 1.68 
+     LYS-232_A: 20.00 
+     LYS-245_A: 10.89 
+     GLU-246_A: 3.97 
+      ASP-25_B: 4.65 
+      ASP-28_B: 2.96 
+      TYR-29_B: 10.98 
+      GLU-51_B: -0.65 
+      ARG-52_B: 20.00 
+      ASP-53_B: 0.95 
+      ARG-54_B: 14.89 
+      LYS-58_B: 11.09 
+      LYS-60_B: 12.37 
+      HIS-76_B: 2.48 
+      TYR-77_B: 20.00 
+      TYR-79_B: 11.66 
+      ARG-81_B: 14.44 
+      GLU-86_B: 4.51 
+      ASP-89_B: 4.27 
+      ARG-95_B: 20.00 
+      TYR-96_B: 20.00 
+      ASP-98_B: -1.98 
+     CYS-108_B: 17.94 
+     GLU-109_B: 5.87 
+     TYR-111_B: 9.77 
+     LYS-126_B: 10.63 
+     LYS-127_B: 11.33 
+     TYR-140_B: 12.86 
+     GLU-143_B: 5.87 
+     CYS-157_B: 12.74 
+     TYR-162_B: 12.29 
+     TYR-165_B: 10.38 
+     GLU-166_B: 4.36 
+     GLU-171_B: 2.76 
+     LYS-173_B: 10.81 
+     CYS-176_B: 15.13 
+     TYR-187_B: 19.93 
+     TYR-192_B: 9.70 
+     TYR-201_B: 16.03 
+     TYR-205_B: 17.19 
+     TYR-209_B: 13.20 
+     TYR-224_B: 14.82 
+     ASP-228_B: 1.64 
+     LYS-232_B: 20.00 
+     LYS-245_B: 10.90 
+     GLU-246_B: 3.98 
+      ASP-25_C: 4.62 
+      ASP-28_C: 2.94 
+      TYR-29_C: 11.01 
+      GLU-51_C: -0.54 
+      ARG-52_C: 20.00 
+      ASP-53_C: 1.22 
+      ARG-54_C: 14.88 
+      LYS-58_C: 11.07 
+      LYS-60_C: 12.38 
+      HIS-76_C: 2.54 
+      TYR-77_C: 20.00 
+      TYR-79_C: 11.61 
+      ARG-81_C: 14.50 
+      GLU-86_C: 4.51 
+      ASP-89_C: 4.26 
+      ARG-95_C: 20.00 
+      TYR-96_C: 20.00 
+      ASP-98_C: -1.99 
+     CYS-108_C: 17.98 
+     GLU-109_C: 5.88 
+     TYR-111_C: 9.83 
+     LYS-126_C: 10.67 
+     LYS-127_C: 11.38 
+     TYR-140_C: 12.75 
+     GLU-143_C: 5.81 
+     CYS-157_C: 12.75 
+     TYR-162_C: 12.28 
+     TYR-165_C: 10.37 
+     GLU-166_C: 4.42 
+     GLU-171_C: 2.74 
+     LYS-173_C: 10.84 
+     CYS-176_C: 15.11 
+     TYR-187_C: 19.96 
+     TYR-192_C: 9.70 
+     TYR-201_C: 16.03 
+     TYR-205_C: 17.18 
+     TYR-209_C: 13.21 
+     TYR-224_C: 14.86 
+     ASP-228_C: 1.68 
+     LYS-232_C: 20.00 
+     LYS-245_C: 10.88 
+     GLU-246_C: 4.00 
+      ASP-25_D: 4.57 
+      ASP-28_D: 3.05 
+      TYR-29_D: 10.99 
+      GLU-51_D: -0.58 
+      ARG-52_D: 20.00 
+      ASP-53_D: 1.12 
+      ARG-54_D: 14.87 
+      LYS-58_D: 11.10 
+      LYS-60_D: 12.27 
+      HIS-76_D: 2.38 
+      TYR-77_D: 20.00 
+      TYR-79_D: 11.72 
+      ARG-81_D: 14.53 
+      GLU-86_D: 4.54 
+      ASP-89_D: 4.24 
+      ARG-95_D: 20.00 
+      TYR-96_D: 20.00 
+      ASP-98_D: -1.92 
+     CYS-108_D: 18.03 
+     GLU-109_D: 5.47 
+     TYR-111_D: 9.84 
+     LYS-126_D: 10.64 
+     LYS-127_D: 11.35 
+     TYR-140_D: 13.02 
+     GLU-143_D: 5.85 
+     CYS-157_D: 12.72 
+     TYR-162_D: 12.24 
+     TYR-165_D: 10.38 
+     GLU-166_D: 4.39 
+     GLU-171_D: 2.75 
+     LYS-173_D: 10.82 
+     CYS-176_D: 15.16 
+     TYR-187_D: 20.00 
+     TYR-192_D: 9.72 
+     TYR-201_D: 16.02 
+     TYR-205_D: 17.20 
+     TYR-209_D: 13.21 
+     TYR-224_D: 14.86 
+     ASP-228_D: 1.68 
+     LYS-232_D: 20.00 
+     LYS-245_D: 10.93 
+     GLU-246_D: 4.01 
+      ASP-25_E: 4.61 
+      ASP-28_E: 2.95 
+      TYR-29_E: 10.96 
+      GLU-51_E: -0.34 
+      ARG-52_E: 20.00 
+      ASP-53_E: -0.59 
+      ARG-54_E: 15.06 
+      LYS-58_E: 11.12 
+      LYS-60_E: 12.33 
+      HIS-76_E: 2.97 
+      TYR-77_E: 20.00 
+      TYR-79_E: 11.55 
+      ARG-81_E: 14.46 
+      GLU-86_E: 4.56 
+      ASP-89_E: 4.27 
+      ARG-95_E: 20.00 
+      TYR-96_E: 20.00 
+      ASP-98_E: -2.46 
+     CYS-108_E: 17.94 
+     GLU-109_E: 5.99 
+     TYR-111_E: 9.83 
+     LYS-126_E: 10.65 
+     LYS-127_E: 11.38 
+     TYR-140_E: 12.97 
+     GLU-143_E: 5.87 
+     CYS-157_E: 12.78 
+     TYR-162_E: 12.24 
+     TYR-165_E: 10.37 
+     GLU-166_E: 4.41 
+     GLU-171_E: 2.77 
+     LYS-173_E: 10.83 
+     CYS-176_E: 15.09 
+     TYR-187_E: 20.00 
+     TYR-192_E: 9.72 
+     TYR-201_E: 17.11 
+     TYR-205_E: 17.11 
+     TYR-209_E: 13.22 
+     TYR-224_E: 14.54 
+     ASP-228_E: 1.93 
+     LYS-232_E: 20.00 
+     LYS-245_E: 10.94 
+     GLU-246_E: 4.01 
+
+
+[Stage 4] Fitting titration curves and writing plots …
+[titration_analysis] skipped (non-fatal): No module named 'kbp3.titration_analysis'
+
+================================================================
+Run complete: 7b03  SUCCESS
+Results written to: /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260622
+================================================================
+
+========================================================================
+Task 341 (7b03) finished: 2026-06-22 19:52:10 UTC
+========================================================================

@@ -1,0 +1,1026 @@
+source_dataset,pdb_id,chain,resname,resid,expt_pka,expt_uncertainty,uniprot_id,uniprot_resid,expt_method,reference,notes
+PKAD-R,1eh6,A,CYS,145,5.3,0.2,,,UV spectrophotometry,https://www.ncbi.nlm.nih.gov/pubmed/12974631,
+PKAD-R,1qlp,A,CYS,232,6.86,0.05,,,Reaction kinetics,https://www.ncbi.nlm.nih.gov/pubmed/11991955,
+PKAD-R,1yph,C,HIS,40,7.2,0.03,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00615a008,
+PKAD-R,1yph,C,HIS,57,6.14,0.04,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00615a008,
+PKAD-R,1yph,C,ASP,102,2.77,0.25,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00615a008,
+PKAD-R,1gs9,A,LYS,1,10.5,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12588864,
+PKAD-R,1gs9,A,LYS,69,10.4,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12588864,
+PKAD-R,1le2,A,LYS,69,10.1,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/11369796,1LE2: R136C
+PKAD-R,1gs9,A,LYS,72,10.0,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12588864,
+PKAD-R,1le2,A,LYS,72,10.0,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/11369796,1LE2: R136C
+PKAD-R,1gs9,A,LYS,75,10.1,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12588864,
+PKAD-R,1le2,A,LYS,75,10.0,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/11369796,1LE2: R136C
+PKAD-R,1gs9,A,LYS,95,10.1,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12588864,
+PKAD-R,1le2,A,LYS,95,10.2,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/11369796,1LE2: R136C
+PKAD-R,1gs9,A,LYS,143,9.5,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12588864,
+PKAD-R,1le2,A,LYS,143,9.4,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/11369796,1LE2: R136C
+PKAD-R,1gs9,A,LYS,146,9.2,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12588864,
+PKAD-R,1le2,A,LYS,146,9.9,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/11369796,1LE2: R136C
+PKAD-R,1gs9,A,LYS,157,11.1,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12588864,
+PKAD-R,1le2,A,LYS,157,10.9,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/11369796,1LE2: R136C
+PKAD-R,1lju,A,CYS,10,6.8,,,,,https://doi.org/10.1089/ars.2012.4521,
+PKAD-R,1pgb,A,TYR,3,,,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi9630927,
+PKAD-R,1pgb,A,LYS,4,,,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi9630927,
+PKAD-R,1pgb,A,LYS,10,,,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi9630927,
+PKAD-R,1pgb,A,LYS,13,,,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi9630927,
+PKAD-R,1pgb,A,GLU,15,4.4,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi9630927,
+PKAD-R,1pgb,A,GLU,19,3.7,0.15,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi9630927,
+PKAD-R,1pgb,A,ASP,22,2.9,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi9630927,
+PKAD-R,1pgb,A,GLU,27,4.5,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi9630927,
+PKAD-R,1pgb,A,LYS,28,10.9,,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi9630927,
+PKAD-R,1pgb,A,TYR,33,,,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi9630927,
+PKAD-R,1pgb,A,ASP,36,3.8,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi9630927,
+PKAD-R,1pgb,A,ASP,40,4.0,0.2,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi9630927,
+PKAD-R,1pgb,A,GLU,42,4.4,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi9630927,
+PKAD-R,1pgb,A,TYR,45,,,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi9630927,
+PKAD-R,1pgb,A,ASP,46,3.6,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi9630927,
+PKAD-R,1pgb,A,ASP,47,3.4,0.3,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi9630927,
+PKAD-R,1pgb,A,GLU,56,4.0,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi9630927,
+PKAD-R,7xjd,A,ASP,96,,,,,\,https://www.pnas.org/doi/abs/10.1073/pnas.96.10.5498,Ground state
+PKAD-R,7xjd,A,ASP,96,7.1,0.2,,,ATR/FT-IR difference spectroscopy,https://www.pnas.org/doi/abs/10.1073/pnas.96.10.5498,N intermediate (there is no structure of the N intermediate).
+PKAD-R,1a2p,A,ASP,8,3.1,0.1,,,2D 1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00029a018,
+PKAD-R,1a2p,A,ASP,12,3.8,0.1,,,2D 1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00029a018,
+PKAD-R,1a2p,A,HIS,18,7.75,0.02,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00241a021,
+PKAD-R,1a2p,A,ASP,22,3.3,0.1,,,2D 1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00029a018,
+PKAD-R,1a2p,A,GLU,29,3.75,0.05,,,2D 1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00029a018,
+PKAD-R,1a2p,A,ASP,44,3.6,0.1,,,2D 1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00029a018,
+PKAD-R,1a2p,A,ASP,54,2.2,0.3,,,2D 1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00029a018,
+PKAD-R,1a2p,A,GLU,60,3.0,0.1,,,2D 1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00029a018,
+PKAD-R,1a2p,A,GLU,73,2.1,0.1,,,2D 1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00029a018,
+PKAD-R,1a2p,A,ASP,75,3.1,0.2,,,2D 1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00029a018,
+PKAD-R,1a2p,A,ASP,86,4.2,0.1,,,2D 1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00029a018,
+PKAD-R,1a2p,A,ASP,93,,,,,2D 1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00029a018,
+PKAD-R,1a2p,A,ASP,101,2.0,0.2,,,2D 1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00029a018,
+PKAD-R,1a2p,A,HIS,102,6.3,0.05,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/3173493,
+PKAD-R,1a2p,A,CTE,110,3.3,0.1,,,2D 1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00029a018,
+PKAD-R,2kix,A,HIS,27,7.9,,,,,https://www.sciencedirect.com/science/article/pii/S0021925820330465,
+PKAD-R,1bi6,H,GLU,1,3.3,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12674503,
+PKAD-R,1bi6,H,GLU,2,3.3,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12674503,
+PKAD-R,1bi6,L,GLU,5,4.0,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12674503,
+PKAD-R,1bi6,H,ASP,9,3.0,0.2,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12674503,
+PKAD-R,1bi6,H,ASP,13,3.8,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12674503,
+PKAD-R,1bi6,H,GLU,24,4.2,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12674503,
+PKAD-R,1bi6,H,ASP,32,3.1,0.2,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12674503,
+PKAD-R,1bi6,H,ASP,38,3.7,0.2,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12674503,
+PKAD-R,4icb,A,LYS,1,10.58,0.04,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/8683586,"Ca2+ loaded form, pKa from 13C NMR"
+PKAD-R,4icb,A,LYS,1,10.61,0.04,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/8683586,pKa from 1H NMR
+PKAD-R,4icb,A,LYS,1,10.59,0.04,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/8683586,"apo-form pKa, mean of 1H and 13C NMR"
+PKAD-R,4icb,A,GLU,4,3.77,0.02,,,NMR,https://onlinelibrary.wiley.com/doi/full/10.1002/%28SICI%291097-0134%2819991001%2937%3A1%3C106%3A%3AAID-PROT10%3E3.0.CO%3B2-M,Ca2+ loaded form
+PKAD-R,4icb,A,GLU,5,3.4,0.02,,,NMR,https://onlinelibrary.wiley.com/doi/full/10.1002/%28SICI%291097-0134%2819991001%2937%3A1%3C106%3A%3AAID-PROT10%3E3.0.CO%3B2-M,Ca2+ loaded form
+PKAD-R,4icb,A,LYS,7,11.31,0.03,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/8683586,"Ca2+ loaded form, pKa from 13C NMR"
+PKAD-R,4icb,A,LYS,7,11.39,0.03,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/8683586,pKa from 1H NMR
+PKAD-R,4icb,A,LYS,7,11.36,0.03,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/8683586,"apo-form pKa, mean of 1H and 13C NMR"
+PKAD-R,4icb,A,GLU,11,4.74,0.02,,,NMR,https://onlinelibrary.wiley.com/doi/full/10.1002/%28SICI%291097-0134%2819991001%2937%3A1%3C106%3A%3AAID-PROT10%3E3.0.CO%3B2-M,Ca2+ loaded form
+PKAD-R,4icb,A,LYS,12,11.06,0.07,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/8683586,"Ca2+ loaded form, pKa from 13C NMR"
+PKAD-R,4icb,A,LYS,16,10.12,0.05,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/8683586,"Ca2+ loaded form, pKa from 13C NMR"
+PKAD-R,4icb,A,LYS,16,11.06,0.03,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/8683586,
+PKAD-R,4icb,A,GLU,17,3.62,,,,NMR,https://onlinelibrary.wiley.com/doi/full/10.1002/%28SICI%291097-0134%2819991001%2937%3A1%3C106%3A%3AAID-PROT10%3E3.0.CO%3B2-M,Ca2+ loaded form
+PKAD-R,4icb,A,LYS,25,11.72,0.06,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/8683586,"Ca2+ loaded form, pKa from 13C NMR"
+PKAD-R,4icb,A,LYS,25,11.81,0.06,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/8683586,
+PKAD-R,4icb,A,GLU,26,4.08,0.04,,,NMR,https://onlinelibrary.wiley.com/doi/full/10.1002/%28SICI%291097-0134%2819991001%2937%3A1%3C106%3A%3AAID-PROT10%3E3.0.CO%3B2-M,Ca2+ loaded form
+PKAD-R,4icb,A,LYS,29,10.88,0.09,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/8683586,"Ca2+ loaded form, pKa from 13C NMR"
+PKAD-R,4icb,A,LYS,29,11.28,0.03,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/8683586,
+PKAD-R,4icb,A,LYS,41,10.83,0.06,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/8683586,"Ca2+ loaded form, pKa from 13C NMR"
+PKAD-R,4icb,A,LYS,41,10.93,0.02,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/8683586,
+PKAD-R,4icb,A,ASP,47,3.04,0.09,,,NMR,https://onlinelibrary.wiley.com/doi/full/10.1002/%28SICI%291097-0134%2819991001%2937%3A1%3C106%3A%3AAID-PROT10%3E3.0.CO%3B2-M,Ca2+ loaded form
+PKAD-R,4icb,A,GLU,48,4.62,0.06,,,NMR,https://onlinelibrary.wiley.com/doi/full/10.1002/%28SICI%291097-0134%2819991001%2937%3A1%3C106%3A%3AAID-PROT10%3E3.0.CO%3B2-M,Ca2+ loaded form
+PKAD-R,4icb,A,LYS,55,11.33,0.04,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/8683586,"Ca2+ loaded form, pKa from 13C NMR"
+PKAD-R,4icb,A,LYS,55,12.12,0.13,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/8683586,
+PKAD-R,4icb,A,GLU,64,3.84,0.02,,,NMR,https://onlinelibrary.wiley.com/doi/full/10.1002/%28SICI%291097-0134%2819991001%2937%3A1%3C106%3A%3AAID-PROT10%3E3.0.CO%3B2-M,Ca2+ loaded form
+PKAD-R,4icb,A,LYS,71,10.73,0.02,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/8683586,"Ca2+ loaded form, pKa from 13C NMR"
+PKAD-R,4icb,A,LYS,71,10.72,0.05,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/8683586,
+PKAD-R,4icb,A,LYS,72,10.91,0.07,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/8683586,"Ca2+ loaded form, pKa from 13C NMR"
+PKAD-R,4icb,A,LYS,72,11.01,0.05,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/8683586,pKa from 1H NMR
+PKAD-R,4icb,A,LYS,72,11.33,0.08,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/8683586,"apo-form pKa, mean of 1H and 13C NMR"
+PKAD-R,4icb,A,CTE,75,3.2,0.05,,,NMR,https://onlinelibrary.wiley.com/doi/full/10.1002/%28SICI%291097-0134%2819991001%2937%3A1%3C106%3A%3AAID-PROT10%3E3.0.CO%3B2-M,Ca2+ loaded form
+PKAD-R,4bya,A,HIS,34,5.92,0.02,,,NMR,https://onlinelibrary.wiley.com/doi/am-pdf/10.1002/prot.25321,"4BYA: M144H, only has A; resid 144 should be 71 in PDB"
+PKAD-R,4bya,A,HIS,71,6.79,0.02,,,NMR,https://onlinelibrary.wiley.com/doi/am-pdf/10.1002/prot.25321,"4BYA: M144H, only has A; resid 144 should be 71 in PDB"
+PKAD-R,1prw,A,LYS,13,10.09,0.1,,,"(1H,13C)-heteronuclear multiple quantum coherence (HMQC) NMR",https://pubmed.ncbi.nlm.nih.gov/8226750/,Ca2+ loaded form
+PKAD-R,1prw,A,LYS,21,9.88,0.1,,,"(1H,13C)-heteronuclear multiple quantum coherence (HMQC) NMR",https://pubmed.ncbi.nlm.nih.gov/8226750/,Ca2+ loaded form
+PKAD-R,1prw,A,LYS,30,9.84,0.1,,,"(1H,13C)-heteronuclear multiple quantum coherence (HMQC) NMR",https://pubmed.ncbi.nlm.nih.gov/8226750/,Ca2+ loaded form
+PKAD-R,1prw,A,LYS,75,9.29,0.1,,,"(1H,13C)-heteronuclear multiple quantum coherence (HMQC) NMR",https://pubmed.ncbi.nlm.nih.gov/8226750/,Ca2+ loaded form
+PKAD-R,1prw,A,LYS,77,10.23,0.1,,,"(1H,13C)-heteronuclear multiple quantum coherence (HMQC) NMR",https://pubmed.ncbi.nlm.nih.gov/8226750/,Ca2+ loaded form
+PKAD-R,1prw,A,LYS,94,9.65,0.1,,,"(1H,13C)-heteronuclear multiple quantum coherence (HMQC) NMR",https://pubmed.ncbi.nlm.nih.gov/8226750/,Ca2+ loaded form
+PKAD-R,1prw,A,LYS,148,10.0,0.1,,,"(1H,13C)-heteronuclear multiple quantum coherence (HMQC) NMR",https://pubmed.ncbi.nlm.nih.gov/8226750/,Ca2+ loaded form
+PKAD-R,1kxi,A,HIS,4,5.6,,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi960077t,
+PKAD-R,1kxi,A,GLU,17,4.0,,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi960077t,
+PKAD-R,1kxi,A,ASP,42,3.2,,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi960077t,
+PKAD-R,1kxi,A,ASP,59,2.3,,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi960077t,
+PKAD-R,1the,A,CYS,29,3.6,,,,Reaction kinetics,https://www.ncbi.nlm.nih.gov/pubmed/1537854,
+PKAD-R,1the,A,HIS,110,6.9,,,,Reaction kinetics,https://www.ncbi.nlm.nih.gov/pubmed/1537854,
+PKAD-R,1the,A,HIS,111,7.7,,,,Reaction kinetics,https://www.ncbi.nlm.nih.gov/pubmed/1537854,
+PKAD-R,1the,A,HIS,199,8.6,,,,Reaction kinetics,https://www.ncbi.nlm.nih.gov/pubmed/1537854,
+PKAD-R,1cdc,A,ASP,2,3.55,0.04,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi992209z,
+PKAD-R,1cdc,A,ASP,25,3.53,0.02,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi992209z,
+PKAD-R,1cdc,A,ASP,26,3.58,0.02,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi992209z,
+PKAD-R,1cdc,A,ASP,28,3.57,0.06,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi992209z,
+PKAD-R,1cdc,A,GLU,29,4.42,0.04,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi992209z,
+PKAD-R,1cdc,A,GLU,33,4.16,0.02,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi992209z,
+PKAD-R,1cdc,A,GLU,41,6.73,0.05,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi992209z,
+PKAD-R,1cdc,A,GLU,56,3.92,0.01,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi992209z,
+PKAD-R,1cdc,A,ASP,62,4.15,0.02,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi992209z,
+PKAD-R,1cdc,A,ASP,71,3.18,0.04,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi992209z,
+PKAD-R,1cdc,A,ASP,72,4.14,0.05,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi992209z,
+PKAD-R,1cdc,A,ASP,94,3.87,0.04,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi992209z,
+PKAD-R,1cdc,A,GLU,99,4.25,0.04,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi992209z,
+PKAD-R,1cdc,A,CTE,176,3.11,0.05,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi992209z,
+PKAD-R,1ex3,A,ASP,102,1.36,0.03,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00615a008,
+PKAD-R,1ex3,A,ASP,194,2.29,0.06,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00615a008,
+PKAD-R,1qk1,A,CYS,278,5.6,0.1,,,…,https://pubs.acs.org/doi/10.1021/acs.jcim.3c00004,
+PKAD-R,1i0e,A,CYS,283,5.6,0.05,,,Spectrophotometric titration,https://pubs.acs.org/doi/abs/10.1021/bi011208f,
+PKAD-R,2cpl,A,HIS,70,5.84,0.05,,,NMR,https://www.sciencedirect.com/science/article/pii/0167483894901325?via%3Dihub,
+PKAD-R,2cpl,A,HIS,126,6.34,0.01,,,NMR,https://www.sciencedirect.com/science/article/pii/0167483894901325?via%3Dihub,
+PKAD-R,1hrc,A,HIS,18,2.5,,,,Potentiometric titration,https://pubs.acs.org/doi/abs/10.1021/bi00654a018,
+PKAD-R,1hrc,A,HIS,26,,,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi00654a018,
+PKAD-R,1hrc,A,HIS,33,6.4,,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi00654a018,
+PKAD-R,1hrc,A,TYR,67,11.0,,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi00654a018,
+PKAD-R,1hrc,A,LYS,79,9.0,,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi00654a018,
+PKAD-R,4qyt,A,CYS,111,4.6,0.04,,,absorption of the thiolate anion at 240 nm as a function of pH,https://doi.org/10.1111/febs.12004,
+PKAD-R,4ge0,A,CYS,111,5.54,0.05,,,?,https://doi.org/10.1111/febs.12005,
+PKAD-R,4ge3,A,CYS,111,5.23,0.08,,,,https://doi.org/10.1111/febs.12006,
+PKAD-R,1p5f,A,CYS,106,5.4,0.1,,,Spectrophotometric titration,https://pubs.acs.org/doi/10.1021/bi800282d,
+PKAD-R,3f71,A,CYS,106,6.1,0.1,,,absorption of the thiolate anion at 240 nm,https://pubs.acs.org/doi/10.1021/bi800282d,
+PKAD-R,3cyf,A,CYS,106,6.1,0.2,,,absorption of the thiolate anion at 240 nm,https://pubs.acs.org/doi/10.1021/bi800282d,
+PKAD-R,3ezg,A,CYS,106,5.7,0.1,,,absorption of the thiolate anion at 240 nm,https://pubs.acs.org/doi/10.1021/bi800282d,
+PKAD-R,3cz9,A,CYS,106,6.4,0.1,,,absorption of the thiolate anion at 240 nm,https://pubs.acs.org/doi/10.1021/bi800282d,
+PKAD-R,4xll,A,CYS,104,5.0,0.1,,,absorption of the thiolate anion at 240 nm,https://doi.org/10.1128/mbio.02189-16,
+PKAD-R,1xsn,A,LYS,248,10.27,0.14,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi051856p,Not in PDB
+PKAD-R,1xsn,A,LYS,259,10.07,0.14,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi051856p,
+PKAD-R,1xsn,A,LYS,265,10.23,0.14,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi051856p,
+PKAD-R,1xsn,A,LYS,273,10.07,0.14,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi051856p,
+PKAD-R,1xsn,A,LYS,281,10.01,0.14,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi051856p,
+PKAD-R,1xsn,A,LYS,287,10.65,0.14,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi051856p,
+PKAD-R,1xsn,A,LYS,291,10.26,0.14,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi051856p,
+PKAD-R,1xsn,A,LYS,307,10.16,0.14,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi051856p,
+PKAD-R,1xsn,A,LYS,312,9.58,0.14,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi051856p,
+PKAD-R,1xsn,A,LYS,324,10.27,0.14,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi051856p,
+PKAD-R,2pyo,A,GLU,3,4.2,,,,NMR,https://scholarlypublications.universiteitleiden.nl/access/item%3A2905807/view,
+PKAD-R,2pyo,A,GLU,4,2.1,,,,NMR,https://scholarlypublications.universiteitleiden.nl/access/item%3A2905807/view,
+PKAD-R,1dsb,A,CYS,30,3.5,,,,Spectrophotometric titration,https://pubs.acs.org/doi/abs/10.1021/bi00185a039,
+PKAD-R,1fvj,A,CYS,30,3.75,,,,UV absorption at 240 nm during pH titration,https://doi.org/10.1089/ars.2012.4521,
+PKAD-R,1ac1,A,CYS,30,4.42,,,,UV absorption at 240 nm during pH titration,https://doi.org/10.1089/ars.2012.4521,
+PKAD-R,1bed,A,CYS,30,5.1,,,,Kinetics of oxidation of a substrate peptide monitored by tryptophan fluorescence,https://doi.org/10.1089/ars.2012.4521,"The resid is 49 in pKa paper, but 30 in PDB. The CPHC motif is at resid 30-33 in PDB. This species’ sequence is very different from E. Coli’s: 1BED & 1DSB only have a seq. identity of 40%."
+PKAD-R,1eej,A,CYS,98,4.35,,,,pH dependence of UV absorption at 240 nm,https://doi.org/10.1089/ars.2012.4521,"Manually-created ""Main"" entry, using average pKa of two values from two papers using the same method"
+PKAD-R,1eej,A,CYS,98,4.6,,,,pH dependence of UV absorption at 240 nm,https://doi.org/10.1089/ars.2012.4521,
+PKAD-R,1eej,A,CYS,98,4.1,,,,pH dependence of UV absorption at 240 nm,https://doi.org/10.1089/ars.2012.4521,
+PKAD-R,2fwf,A,CYS,461,10.5,,,,2D NMR,https://pubmed.ncbi.nlm.nih.gov/17544440/,"...reduced...This one is NMR; pKa in isolated C-terminal domain of DsbD; 2FWE: oxidized form, 2FWF: reduced form"
+PKAD-R,2fwf,A,CYS,461,9.3,,,,pH dependence of reaction with iodoacetamide and UV absorption at 240 nm,https://pubmed.ncbi.nlm.nih.gov/16545842/,"pKa in isolated C-terminal domain of DsbD; 2FWE: oxidized form, 2FWF: reduced form"
+PKAD-R,2fwf,A,CYS,464,,,,,2D NMR,https://pubmed.ncbi.nlm.nih.gov/17544440/,"...reduced...pKa in isolated C-terminal domain of DsbD; 2FWE: oxidized form, 2FWF: reduced form"
+PKAD-R,1v57,A,CYS,109,3.5,,,,pH dependence of UV absorption at 240 nm,https://doi.org/10.1089/ars.2012.4521,
+PKAD-R,8uoz,B,GLU,25,4.4,0.3,,,NMR,https://link.springer.com/content/pdf/10.1007/s10858-020-00323-z.pdf,3B61 = WT
+PKAD-R,1egf,A,NTE,1,7.7,0.1,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/2036358,
+PKAD-R,1egf,A,ASP,11,3.9,0.05,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/2036358,
+PKAD-R,1egf,A,HIS,22,6.8,0.1,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/2036358,
+PKAD-R,1egf,A,GLU,24,4.1,0.1,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/2036358,
+PKAD-R,1egf,A,ASP,27,4.0,0.1,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/2036358,
+PKAD-R,1egf,A,ASP,40,3.6,0.1,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/2036358,
+PKAD-R,1egf,A,ASP,46,3.8,0.1,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/2036358,
+PKAD-R,1egf,A,GLU,51,,,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/2036358,
+PKAD-R,1egf,A,CTE,53,3.5,0.1,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/2036358,
+PKAD-R,3ebx,A,HIS,6,2.8,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/710401,
+PKAD-R,3ebx,A,HIS,26,5.8,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/710401,
+PKAD-R,1a91,A,GLU,2,5.5,0.3,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi00049a034,
+PKAD-R,1a91,A,ASP,7,5.6,0.3,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi00049a034,
+PKAD-R,1a91,A,GLU,37,5.5,0.3,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi00049a034,
+PKAD-R,1a91,A,ASP,44,5.6,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi00049a034,
+PKAD-R,1a91,A,ASP,61,7.1,0.2,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi00049a034,
+PKAD-R,1fna,A,GLU,38,3.8,,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi010916y,
+PKAD-R,1fna,A,GLU,47,3.9,,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi010916y,
+PKAD-R,1fna,A,ASP,67,4.2,,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi010916y,
+PKAD-R,1fna,A,ASP,80,3.4,,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi010916y,
+PKAD-R,1fks,A,HIS,25,,,,,NMR,https://www.sciencedirect.com/science/article/pii/0167483894901325?via%3Dihub,
+PKAD-R,1fks,A,HIS,87,6.51,0.01,,,NMR,https://www.sciencedirect.com/science/article/pii/0167483894901325?via%3Dihub,
+PKAD-R,1fks,A,HIS,94,5.84,0.02,,,NMR,https://www.sciencedirect.com/science/article/pii/0167483894901325?via%3Dihub,
+PKAD-R,1beo,A,NTE,1,7.43,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/9862128,
+PKAD-R,1beo,A,TYR,12,,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/9862128,
+PKAD-R,1beo,A,ASP,21,2.49,0.05,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/9862128,
+PKAD-R,1beo,A,ASP,30,2.51,0.09,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/9862128,
+PKAD-R,1beo,A,TYR,33,,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/9862128,
+PKAD-R,1beo,A,TYR,47,,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/9862128,
+PKAD-R,1beo,A,LYS,61,10.1,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/9862128,
+PKAD-R,1beo,A,ASP,72,2.61,0.15,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/9862128,
+PKAD-R,1beo,A,TYR,85,10.35,0.15,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/9862128,
+PKAD-R,1beo,A,TYR,87,,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/9862128,
+PKAD-R,1beo,A,LYS,94,9.4,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/9862128,
+PKAD-R,1beo,A,CTE,98,3.51,0.01,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/9862128,
+PKAD-R,7m2z,B,GLU,441,4.32,0.04,,,NMR,https://onlinelibrary.wiley.com/doi/full/10.1002/pro.3618,
+PKAD-R,7m2z,B,ASP,443,3.9,0.05,,,NMR,https://onlinelibrary.wiley.com/doi/full/10.1002/pro.3618,
+PKAD-R,7m2z,B,ASP,447,4.13,0.05,,,NMR,https://onlinelibrary.wiley.com/doi/full/10.1002/pro.3618,
+PKAD-R,7m2z,B,ASP,448,4.26,0.04,,,NMR,https://onlinelibrary.wiley.com/doi/full/10.1002/pro.3618,
+PKAD-R,7m2z,B,ASP,452,4.12,0.05,,,NMR,https://onlinelibrary.wiley.com/doi/full/10.1002/pro.3618,
+PKAD-R,7m2z,B,ASP,453,4.15,0.04,,,NMR,https://onlinelibrary.wiley.com/doi/full/10.1002/pro.3618,
+PKAD-R,7m2z,B,GLU,459,4.68,0.04,,,NMR,https://onlinelibrary.wiley.com/doi/full/10.1002/pro.3618,PDB 7M2Z chain B only contains residues up to 453
+PKAD-R,7m2z,B,GLU,461,4.67,0.06,,,NMR,https://onlinelibrary.wiley.com/doi/full/10.1002/pro.3618,PDB 7M2Z chain B only contains residues up to 453
+PKAD-R,7m2z,B,GLU,462,4.64,0.04,,,NMR,https://onlinelibrary.wiley.com/doi/full/10.1002/pro.3618,PDB 7M2Z chain B only contains residues up to 453
+PKAD-R,7m2z,B,ASP,463,4.25,0.04,,,NMR,https://onlinelibrary.wiley.com/doi/full/10.1002/pro.3618,PDB 7M2Z chain B only contains residues up to 453
+PKAD-R,7m2z,B,ASP,465,4.09,0.06,,,NMR,https://onlinelibrary.wiley.com/doi/full/10.1002/pro.3618,PDB 7M2Z chain B only contains residues up to 453
+PKAD-R,7m2z,B,ASP,467,3.97,0.05,,,NMR,https://onlinelibrary.wiley.com/doi/full/10.1002/pro.3618,PDB 7M2Z chain B only contains residues up to 453
+PKAD-R,7m2z,B,ASP,469,3.9,0.04,,,NMR,https://onlinelibrary.wiley.com/doi/full/10.1002/pro.3618,PDB 7M2Z chain B only contains residues up to 453
+PKAD-R,7m2z,B,HIS,470,7.16,0.02,,,NMR,https://onlinelibrary.wiley.com/doi/full/10.1002/pro.3618,PDB 7M2Z chain B only contains residues up to 453
+PKAD-R,8i41,A,GLU,35,5.8,,,,,https://www.pnas.org/doi/full/10.1073/pnas.1813378116,
+PKAD-R,8i41,A,GLU,181,5.5,,,,,https://www.pnas.org/doi/full/10.1073/pnas.1813378116,
+PKAD-R,3c1r,A,CYS,27,,,,,pH dependence of iodoacetamide enzyme inactivation,https://doi.org/10.1089/ars.2012.4521,"Sequence CPYC is resid 26-29 in the pKa paper, but it's 27-30 in PDB. Yeast : Saccharomyces cerevisiae"
+PKAD-R,1ego,A,CYS,11,,,,,,https://onlinelibrary.wiley.com/doi/full/10.1002/prot.20660,
+PKAD-R,1ego,A,CYS,14,,,,,,https://onlinelibrary.wiley.com/doi/full/10.1002/prot.20660,
+PKAD-R,1kte,A,CYS,22,3.8,,,,pH dependence of reaction with iodoacetamide,https://doi.org/10.1089/ars.2012.4521,
+PKAD-R,1jhb,A,CYS,23,3.6,,,,pH dependence of iodoacetamide enzyme inactivation,https://doi.org/10.1089/ars.2012.4521,"This construct may be considered representative of the wild type, since the 3 mutated cysteines are far from the active site. The KPTC motif is resid 20-23 in PDB, but 19-22 in pKa paper."
+PKAD-R,1fov,A,CYS,11,4.1,,,,UV absorption at 240 nm during pH titration,https://doi.org/10.1089/ars.2012.4521,"This construct is a representative of the wild type, since the C65Y mutation is far from the -C-X-X-C- motif."
+PKAD-R,1fov,A,CYS,11,,,,,,https://doi.org/10.1089/ars.2012.4521,
+PKAD-R,1fov,A,CYS,14,,,,,,https://doi.org/10.1089/ars.2012.4521,
+PKAD-R,1b2v,A,HIS,17,,,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2373534/,
+PKAD-R,1b2v,A,HIS,32,7.3,,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2373534/,
+PKAD-R,1b2v,A,HIS,83,5.6,,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2373534/,
+PKAD-R,1b2v,A,HIS,128,7.1,,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2373534/,
+PKAD-R,1b2v,A,HIS,133,,,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2373534/,
+PKAD-R,1b2v,A,HIS,179,7.1,,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2373534/,PDB 1B2V only contains residues up to resid=174
+PKAD-R,4hhb,A,NTE,1,7.83,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi00560a010,Deoxyhaemoglobin. Cofactors: heme.
+PKAD-R,1hho,A,NTE,1,7.16,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi00560a010,Oxyhaemoglobin. Cofactors: heme and oxygen molecule.
+PKAD-R,4hhb,B,NTE,1,6.91,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi00560a010,Deoxyhaemoglobin. Cofactors: heme.
+PKAD-R,1hho,B,NTE,1,7.0,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi00560a010,Oxyhaemoglobin. Cofactors: heme and oxygen molecule.
+PKAD-R,4hhb,B,HIS,2,6.7,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi00560a010,Deoxyhaemoglobin. Cofactors: heme.
+PKAD-R,1hho,B,HIS,2,6.7,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi00560a010,Oxyhaemoglobin. Cofactors: heme and oxygen molecule.
+PKAD-R,4hhb,A,HIS,20,7.6,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi00560a010,Deoxyhaemoglobin. Cofactors: heme.
+PKAD-R,1hho,A,HIS,20,7.0,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi00560a010,Oxyhaemoglobin. Cofactors: heme and oxygen molecule.
+PKAD-R,4hhb,A,HIS,50,7.2,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi00560a010,Deoxyhaemoglobin. Cofactors: heme.
+PKAD-R,1hho,A,HIS,50,7.1,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi00560a010,Oxyhaemoglobin. Cofactors: heme and oxygen molecule.
+PKAD-R,4hhb,A,HIS,72,7.3,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi00560a010,Deoxyhaemoglobin. Cofactors: heme.
+PKAD-R,1hho,A,HIS,72,7.1,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi00560a010,Oxyhaemoglobin. Cofactors: heme and oxygen molecule.
+PKAD-R,4hhb,B,HIS,77,7.8,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi00560a010,Deoxyhaemoglobin. Cofactors: heme.
+PKAD-R,1hho,B,HIS,77,7.8,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi00560a010,Oxyhaemoglobin. Cofactors: heme and oxygen molecule.
+PKAD-R,4hhb,A,HIS,89,7.2,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi00560a010,Deoxyhaemoglobin. Cofactors: heme.
+PKAD-R,1hho,A,HIS,89,5.6,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi00560a010,Oxyhaemoglobin. Cofactors: heme and oxygen molecule.
+PKAD-R,4hhb,A,HIS,112,8.1,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi00560a010,Deoxyhaemoglobin. Cofactors: heme.
+PKAD-R,1hho,A,HIS,112,8.1,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi00560a010,Oxyhaemoglobin. Cofactors: heme and oxygen molecule.
+PKAD-R,4hhb,B,HIS,143,5.6,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi00560a010,Deoxyhaemoglobin. Cofactors: heme.
+PKAD-R,4hhb,B,HIS,146,8.1,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi00560a010,Deoxyhaemoglobin. Cofactors: heme.
+PKAD-R,1hho,B,HIS,146,7.0,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi00560a010,Oxyhaemoglobin. Cofactors: heme and oxygen molecule.
+PKAD-R,1hic,A,ASP,5,4.25,0.09,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/8049231,
+PKAD-R,1hic,A,GLU,8,4.28,0.17,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/8049231,
+PKAD-R,1hic,A,GLU,17,3.79,0.17,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/8049231,
+PKAD-R,1hic,A,ASP,33,4.24,0.17,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/8049231,
+PKAD-R,1hic,A,GLU,35,4.32,0.12,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/8049231,
+PKAD-R,1hic,A,GLU,43,4.24,0.07,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/8049231,
+PKAD-R,2rvq,D,HIS,49,5.9,,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8626509/pdf/41598_2021_Article_2436.pdf,
+PKAD-R,2rvq,C,GLU,56,4.3,,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8626509/pdf/41598_2021_Article_2436.pdf,"from 2 papers, diff conc pH; this is from Scientific Reports (impact factor = 3.8), Heyi Zhang, 2021"
+PKAD-R,2rvq,C,ASP,90,5.3,,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8626509/pdf/41598_2021_Article_2436.pdf,"from 2 papers, diff conc pH; this is from Scientific Reports (impact factor = 3.8), Heyi Zhang, 2021"
+PKAD-R,2rvq,C,GLU,92,4.4,,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8626509/pdf/41598_2021_Article_2436.pdf,"from 2 papers, diff conc pH; this is from Scientific Reports (impact factor = 3.8), Heyi Zhang, 2021"
+PKAD-R,2rvq,D,HIS,109,6.5,,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8626509/pdf/41598_2021_Article_2436.pdf,
+PKAD-R,3fx5,A,ASP,29,3.19,,,,NMR,https://pubs.acs.org/doi/10.1021/bi961268z,
+PKAD-R,3fx5,A,ASP,30,3.88,,,,NMR,https://pubs.acs.org/doi/10.1021/bi961268z,
+PKAD-R,3fx5,A,ASP,60,2.99,,,,NMR,https://pubs.acs.org/doi/10.1021/bi961268z,
+PKAD-R,3fx5,B,ASP,125,,,,,NMR,https://pubs.acs.org/doi/10.1021/bi961268z,
+PKAD-R,3fx5,B,ASP,129,3.65,,,,NMR,https://pubs.acs.org/doi/10.1021/bi961268z,
+PKAD-R,3fx5,B,ASP,130,3.78,,,,NMR,https://pubs.acs.org/doi/10.1021/bi961268z,
+PKAD-R,3fx5,B,ASP,160,2.99,,,,NMR,https://pubs.acs.org/doi/10.1021/bi961268z,
+PKAD-R,4ma9,A,CYS,46,5.94,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2645924/,
+PKAD-R,1igd,A,GLU,20,4.3,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi9630927,
+PKAD-R,1igd,A,LYS,24,10.7,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi9630927,
+PKAD-R,1igd,A,ASP,27,2.9,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi9630927,
+PKAD-R,1igd,A,GLU,29,4.2,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi9630927,
+PKAD-R,1igd,A,GLU,32,4.6,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi9630927,
+PKAD-R,1igd,A,ASP,41,3.9,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi9630927,
+PKAD-R,1igd,A,ASP,45,4.4,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi9630927,
+PKAD-R,1igd,A,ASP,51,3.6,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi9630927,
+PKAD-R,1igd,A,ASP,52,3.4,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi9630927,
+PKAD-R,1igd,A,GLU,61,4.2,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi9630927,
+PKAD-R,1mek,A,CYS,36,4.5,0.04,,,UV spectrophotometry,https://pubs.acs.org/doi/abs/10.1021/bi9617724,
+PKAD-R,2v8n,A,GLU,325,10.5,,,,,https://www.pnas.org/doi/epdf/10.1073/pnas.1820744116,
+PKAD-R,2zta,A,NTE,1,7.88,0.02,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2105789/,
+PKAD-R,2zta,A,LYS,3,10.78,0.03,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2105789/,
+PKAD-R,2zta,A,GLU,6,4.6,0.15,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2105789/,
+PKAD-R,2zta,A,ASP,7,3.48,0.02,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2105789/,
+PKAD-R,2zta,A,LYS,8,11.26,0.05,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2105789/,
+PKAD-R,2zta,A,GLU,10,3.94,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2105789/,
+PKAD-R,2zta,A,GLU,11,4.05,0.03,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2105789/,
+PKAD-R,2zta,A,LYS,15,10.62,0.06,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2105789/,
+PKAD-R,2zta,A,TYR,17,9.82,0.08,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2105789/,
+PKAD-R,2zta,A,HIS,18,6.24,0.06,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2105789/,
+PKAD-R,2zta,A,GLU,20,4.38,0.01,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2105789/,
+PKAD-R,2zta,A,GLU,22,4.2,0.08,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2105789/,
+PKAD-R,2zta,A,LYS,27,11.1,0.02,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2105789/,
+PKAD-R,2zta,A,LYS,28,10.64,0.12,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2105789/,
+PKAD-R,2zta,A,CTE,31,4.03,0.06,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2105789/,
+PKAD-R,1a93,A,HIS,29,6.85,0.03,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283685706341?via%3Dihub,
+PKAD-R,1fmh,A,GLU,1,4.14,0.02,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi001242e,1FMH & 1U2U are two very similar designed leucine zippers from the same lab; two sets of pKas are also similar; should use only one set of them
+PKAD-R,1u2u,A,GLU,1,4.1,0.04,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi048771t,1FMH & 1U2U are two very similar designed leucine zippers from the same lab; two sets of pKas are also similar; should use only one set of them
+PKAD-R,1fmh,B,GLU,1,4.22,0.02,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi001242e,1FMH & 1U2U are two very similar designed leucine zippers from the same lab; two sets of pKas are also similar; should use only one set of them
+PKAD-R,1fmh,A,GLU,6,4.82,0.07,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi001242e,1FMH & 1U2U are two very similar designed leucine zippers from the same lab; two sets of pKas are also similar; should use only one set of them
+PKAD-R,1u2u,A,GLU,6,4.9,0.05,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi048771t,1FMH & 1U2U are two very similar designed leucine zippers from the same lab; two sets of pKas are also similar; should use only one set of them
+PKAD-R,1fmh,A,GLU,8,4.52,0.01,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi001242e,1FMH & 1U2U are two very similar designed leucine zippers from the same lab; two sets of pKas are also similar; should use only one set of them
+PKAD-R,1u2u,A,GLU,8,4.89,0.05,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi048771t,1FMH & 1U2U are two very similar designed leucine zippers from the same lab; two sets of pKas are also similar; should use only one set of them
+PKAD-R,1fmh,A,GLU,13,4.37,0.03,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi001242e,1FMH & 1U2U are two very similar designed leucine zippers from the same lab; two sets of pKas are also similar; should use only one set of them
+PKAD-R,1u2u,A,GLU,13,4.42,0.08,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi048771t,1FMH & 1U2U are two very similar designed leucine zippers from the same lab; two sets of pKas are also similar; should use only one set of them
+PKAD-R,1fmh,A,GLU,15,4.11,0.02,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi001242e,1FMH & 1U2U are two very similar designed leucine zippers from the same lab; two sets of pKas are also similar; should use only one set of them
+PKAD-R,1u2u,A,GLU,15,4.09,0.03,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi048771t,1FMH & 1U2U are two very similar designed leucine zippers from the same lab; two sets of pKas are also similar; should use only one set of them
+PKAD-R,1fmh,A,GLU,20,4.41,0.07,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi001242e,1FMH & 1U2U are two very similar designed leucine zippers from the same lab; two sets of pKas are also similar; should use only one set of them
+PKAD-R,1u2u,A,GLU,20,4.21,0.04,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi048771t,1FMH & 1U2U are two very similar designed leucine zippers from the same lab; two sets of pKas are also similar; should use only one set of them
+PKAD-R,1fmh,A,GLU,22,4.82,0.03,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi001242e,1FMH & 1U2U are two very similar designed leucine zippers from the same lab; two sets of pKas are also similar; should use only one set of them
+PKAD-R,1u2u,A,GLU,22,4.83,0.04,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi048771t,1FMH & 1U2U are two very similar designed leucine zippers from the same lab; two sets of pKas are also similar; should use only one set of them
+PKAD-R,1fmh,A,GLU,27,4.65,0.04,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi001242e,1FMH & 1U2U are two very similar designed leucine zippers from the same lab; two sets of pKas are also similar; should use only one set of them
+PKAD-R,1u2u,A,GLU,27,4.74,0.01,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi048771t,1FMH & 1U2U are two very similar designed leucine zippers from the same lab; two sets of pKas are also similar; should use only one set of them
+PKAD-R,1u2u,A,HIS,28,6.79,0.01,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi048771t,This one only exists in 1U2U. 1FMH & 1U2U are two very similar designed leucine zippers from the same lab; two sets of pKas are also similar; should use only one set of them.
+PKAD-R,1fmh,A,GLU,29,4.63,0.03,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi001242e,1FMH & 1U2U are two very similar designed leucine zippers from the same lab; two sets of pKas are also similar; should use only one set of them
+PKAD-R,1u2u,A,GLU,29,4.63,0.02,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi048771t,1FMH & 1U2U are two very similar designed leucine zippers from the same lab; two sets of pKas are also similar; should use only one set of them
+PKAD-R,1lz1,A,HIS,78,7.12,0.04,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/1420975,
+PKAD-R,1qt8,A,GLU,5,3.7,0.1,,,C-NMR,https://onlinelibrary.wiley.com/doi/pdf/10.1002/pro.3562,"1QT8:T26H,only has chainA"
+PKAD-R,1qt8,A,GLU,11,4.7,0.1,,,C-NMR,https://onlinelibrary.wiley.com/doi/pdf/10.1002/pro.3562,"1QT8:T26H,only has chainA"
+PKAD-R,1qt8,A,GLU,22,4.3,0.1,,,C-NMR,https://onlinelibrary.wiley.com/doi/pdf/10.1002/pro.3562,"1QT8:T26H,only has chainA"
+PKAD-R,1qt8,A,HIS,26,6.8,0.1,,,C-NMR,https://onlinelibrary.wiley.com/doi/pdf/10.1002/pro.3562,"1QT8:T26H,only has chainA"
+PKAD-R,1qt8,A,HIS,31,8.9,0.1,,,C-NMR,https://onlinelibrary.wiley.com/doi/pdf/10.1002/pro.3562,"1QT8:T26H,only has chainA"
+PKAD-R,1qt8,A,GLU,45,3.8,0.1,,,C-NMR,https://onlinelibrary.wiley.com/doi/pdf/10.1002/pro.3562,"1QT8:T26H,only has chainA"
+PKAD-R,1qt8,A,ASP,47,3.1,0.1,,,C-NMR,https://onlinelibrary.wiley.com/doi/pdf/10.1002/pro.3562,"1QT8:T26H,only has chainA"
+PKAD-R,1qt8,A,ASP,61,3.6,0.1,,,C-NMR,https://onlinelibrary.wiley.com/doi/pdf/10.1002/pro.3562,"1QT8:T26H,only has chainA"
+PKAD-R,1qt8,A,GLU,62,2.9,0.1,,,C-NMR,https://onlinelibrary.wiley.com/doi/pdf/10.1002/pro.3562,"1QT8:T26H,only has chainA"
+PKAD-R,1qt8,A,GLU,64,4.4,0.1,,,C-NMR,https://onlinelibrary.wiley.com/doi/pdf/10.1002/pro.3562,"1QT8:T26H,only has chainA"
+PKAD-R,1qt8,A,ASP,72,3.3,0.1,,,C-NMR,https://onlinelibrary.wiley.com/doi/pdf/10.1002/pro.3562,"1QT8:T26H,only has chainA"
+PKAD-R,1qt8,A,ASP,89,4.0,0.1,,,C-NMR,https://onlinelibrary.wiley.com/doi/pdf/10.1002/pro.3562,"1QT8:T26H,only has chainA"
+PKAD-R,1qt8,A,ASP,92,2.7,0.1,,,C-NMR,https://onlinelibrary.wiley.com/doi/pdf/10.1002/pro.3562,"1QT8:T26H,only has chainA"
+PKAD-R,1l54,A,LYS,102,6.5,,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi00113a006,"1L54: mutated, M102K (CYS-54-THR,CYS-97-ALA)"
+PKAD-R,1l98,A,GLU,105,6.0,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/8460110,
+PKAD-R,1qt8,A,GLU,108,4.2,0.1,,,C-NMR,https://onlinelibrary.wiley.com/doi/pdf/10.1002/pro.3562,"1QT8:T26H,only has chainA"
+PKAD-R,1qt8,A,ASP,127,3.5,0.1,,,C-NMR,https://onlinelibrary.wiley.com/doi/pdf/10.1002/pro.3562,"1QT8:T26H,only has chainA"
+PKAD-R,1qt8,A,GLU,128,4.4,0.1,,,C-NMR,https://onlinelibrary.wiley.com/doi/pdf/10.1002/pro.3562,"1QT8:T26H,only has chainA"
+PKAD-R,1qt8,A,ASP,159,3.4,0.1,,,C-NMR,https://onlinelibrary.wiley.com/doi/pdf/10.1002/pro.3562,"1QT8:T26H,only has chainA"
+PKAD-R,2lzm,A,HIS,31,9.1,,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi00461a025,
+PKAD-R,2lzm,A,ASP,70,0.5,,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi00461a025,
+PKAD-R,4lzt,A,NTE,0,7.9,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/6771251,
+PKAD-R,4lzt,A,LYS,1,10.8,0.1,,,Potentiometric titration,https://www.ncbi.nlm.nih.gov/pubmed/6771251,Apparent pKa
+PKAD-R,4lzt,A,LYS,1,10.9,0.1,,,Potentiometric titration,https://www.ncbi.nlm.nih.gov/pubmed/6771251,Intrinsic pKa
+PKAD-R,4lzt,A,GLU,7,2.85,0.25,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1275825/,Hen pKa
+PKAD-R,4lzt,A,LYS,13,10.5,0.1,,,Potentiometric titration,https://www.ncbi.nlm.nih.gov/pubmed/6771251,Apparent pKa
+PKAD-R,4lzt,A,LYS,13,10.7,0.1,,,Potentiometric titration,https://www.ncbi.nlm.nih.gov/pubmed/6771251,Intrinsic pKa
+PKAD-R,4lzt,A,HIS,15,5.5,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/1420975,Using this pKa measured @ 296K in Taka1992 b/c this is a more moderate temperature
+PKAD-R,4lzt,A,HIS,15,5.36,0.07,,,Potentiometric titration,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1275825/,Hen pKa @ 308K
+PKAD-R,4lzt,A,ASP,18,2.66,0.08,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1275825/,Hen pKa
+PKAD-R,4lzt,A,TYR,20,10.6,,,,Potentiometric titration,https://www.ncbi.nlm.nih.gov/pubmed/6771251,
+PKAD-R,4lzt,A,TYR,23,10.2,,,,Potentiometric titration,https://www.ncbi.nlm.nih.gov/pubmed/6771251,
+PKAD-R,4lzt,A,LYS,33,10.6,0.1,,,Potentiometric titration,https://www.ncbi.nlm.nih.gov/pubmed/6771251,Apparent pKa @ 298K from Kura1980; use this b/c this is a more moderate temperature
+PKAD-R,4lzt,A,LYS,33,10.6,0.1,,,Potentiometric titration,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1275825/,Hen pKa @ 308K from Bart1994
+PKAD-R,4lzt,A,LYS,33,10.7,0.1,,,Potentiometric titration,https://www.ncbi.nlm.nih.gov/pubmed/6771251,Intrinsic pKa
+PKAD-R,4lzt,A,GLU,35,6.2,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1275825/,Hen pKa
+PKAD-R,4lzt,A,ASP,48,1.6,0.4,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1275825/,Hen pKa
+PKAD-R,4lzt,A,ASP,52,3.68,0.08,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1275825/,Hen pKa
+PKAD-R,4lzt,A,TYR,53,11.7,,,,Potentiometric titration,https://www.ncbi.nlm.nih.gov/pubmed/6771251,
+PKAD-R,4lzt,A,ASP,66,0.9,0.5,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1275825/,Hen pKa
+PKAD-R,4lzt,A,ASP,87,2.07,0.15,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1275825/,Hen pKa
+PKAD-R,4lzt,A,LYS,96,10.8,0.1,,,Potentiometric titration,https://www.ncbi.nlm.nih.gov/pubmed/6771251,Apparent pKa
+PKAD-R,4lzt,A,LYS,96,10.9,0.1,,,Potentiometric titration,https://www.ncbi.nlm.nih.gov/pubmed/6771251,Intrinsic pKa
+PKAD-R,4lzt,A,LYS,97,10.3,0.1,,,Potentiometric titration,https://www.ncbi.nlm.nih.gov/pubmed/6771251,Apparent pKa @ 298K from Kura1980; use this b/c this is a more moderate temperature
+PKAD-R,4lzt,A,LYS,97,10.3,0.1,,,Potentiometric titration,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1275825/,Hen pKa @ 308K from Bart1994
+PKAD-R,4lzt,A,LYS,97,10.5,0.1,,,Potentiometric titration,https://www.ncbi.nlm.nih.gov/pubmed/6771251,Intrinsic pKa
+PKAD-R,4lzt,A,ASP,101,5.4,0.07,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/6771251,Apparent pKa @ 298K from Kura1980; use this b/c this is a more moderate temperature
+PKAD-R,4lzt,A,ASP,101,4.09,0.07,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1275825/,Hen pKa @ 308K from Bart1994
+PKAD-R,4lzt,A,LYS,116,10.4,0.1,,,Potentiometric titration,https://www.ncbi.nlm.nih.gov/pubmed/6771251,Apparent pKa @ 298K from Kura1980; use this b/c this is a more moderate temperature
+PKAD-R,4lzt,A,LYS,116,10.4,0.1,,,Potentiometric titration,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1275825/,Hen pKa @ 308K from Bart1994
+PKAD-R,4lzt,A,LYS,116,10.6,0.1,,,Potentiometric titration,https://www.ncbi.nlm.nih.gov/pubmed/6771251,Intrinsic pKa
+PKAD-R,4lzt,A,ASP,119,3.2,0.09,,,Potentiometric titration,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1275825/,Hen pKa
+PKAD-R,4lzt,A,CTE,129,2.75,0.12,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1275825/,Hen pKa
+PKAD-R,135l,A,GLU,7,2.68,0.09,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1275825/,Turkey pKa
+PKAD-R,135l,A,ASP,18,2.68,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1275825/,Turkey pKa
+PKAD-R,135l,A,GLU,35,6.06,0.12,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1275825/,Turkey pKa
+PKAD-R,135l,A,ASP,48,,,,,1H NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1275825/,Turkey pKa
+PKAD-R,135l,A,ASP,52,3.78,0.08,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1275825/,Turkey pKa
+PKAD-R,135l,A,ASP,66,,,,,1H NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1275825/,Turkey pKa
+PKAD-R,135l,A,ASP,87,2.13,0.16,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1275825/,Turkey pKa
+PKAD-R,135l,A,ASP,119,3.35,0.11,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1275825/,Turkey pKa
+PKAD-R,6gst,A,HIS,83,5.18,0.05,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/1918058,
+PKAD-R,6gst,A,HIS,84,7.08,0.01,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/1918058,
+PKAD-R,6gst,A,HIS,167,7.77,0.03,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/1918058,
+PKAD-R,1mut,A,LYS,39,8.4,0.4,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi9918745,
+PKAD-R,1a6k,A,HIS,12,6.49,,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/10969024,"0.2 M, 298 K; Metaquomyoglobin (metMb), from Kao2000"
+PKAD-R,1a6k,A,HIS,12,6.4,0.2,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00143a018,"no salt, 298 K; Metaquomyoglobin (metMb), water-liganded form, from Cocco1992 Table3"
+PKAD-R,1a6k,A,HIS,12,6.4,,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/9414234,"no salt, 298 K; Metaquomyoglobin (metMb), from Bhat1997 (which cited Cocco1992)"
+PKAD-R,1mbc,A,HIS,12,6.3,,,,2D double quantum NMR,https://pubs.acs.org/doi/abs/10.1021/bi00082a027,"50 mM, 308 K; Carbon monoxy myoglobin (MbCO), from Bashford1993"
+PKAD-R,1a6k,A,HIS,24,,,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/9414234,"no salt, 298 K; Metaquomyoglobin (metMb), from Bhat1997 (which cited Cocco1992)"
+PKAD-R,1a6k,A,HIS,24,,0.2,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00143a018,"no salt, 298 K; Metaquomyoglobin (metMb), water-liganded form, from Cocco1992 Table3"
+PKAD-R,1bvc,A,HIS,24,,0.2,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00143a018,"no salt, 298 K; Apomyoglobin (apoMb), from Cocco1992 Table4"
+PKAD-R,1mbc,A,HIS,24,6.2,,,,2D double quantum NMR,https://pubs.acs.org/doi/abs/10.1021/bi00082a027,"50 mM, 308 K; Carbon monoxy myoglobin (MbCO), from Bashford1993"
+PKAD-R,1a6k,A,HIS,36,7.98,,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/10969024,"0.2 M, 298 K; Metaquomyoglobin (metMb), from Kao2000"
+PKAD-R,1a6k,A,HIS,36,8.18,0.2,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00143a018,"no salt, 298 K; Metaquomyoglobin (metMb), water-liganded form, from Cocco1992 Table3"
+PKAD-R,1a6k,A,HIS,36,8.2,,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/9414234,"no salt, 298 K; Metaquomyoglobin (metMb), from Bhat1997 (which cited Cocco1992)"
+PKAD-R,1mbc,A,HIS,36,8.0,,,,2D double quantum NMR,https://pubs.acs.org/doi/abs/10.1021/bi00082a027,"50 mM, 308 K; Carbon monoxy myoglobin (MbCO), from Bashford1993"
+PKAD-R,1bvc,A,HIS,36,8.2,0.2,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00143a018,"no salt, 298 K; Apomyoglobin (apoMb), from Cocco1992 Table4; original pKa in the paper are 8.21 (Cδ-H) and
+8.10 (Cε-H), use average here"
+PKAD-R,1a6k,A,HIS,48,5.55,,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/10969024,"0.2 M, 298 K; Metaquomyoglobin (metMb), from Kao2000"
+PKAD-R,1a6k,A,HIS,48,5.5,0.2,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00143a018,"no salt, 298 K; Metaquomyoglobin (metMb), water-liganded form, from Cocco1992 Table3"
+PKAD-R,1a6k,A,HIS,48,5.5,,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/9414234,"no salt, 298 K; Metaquomyoglobin (metMb), from Bhat1997 (which cited Cocco1992)"
+PKAD-R,1mbc,A,HIS,48,5.3,,,,2D double quantum NMR,https://pubs.acs.org/doi/abs/10.1021/bi00082a027,"50 mM, 308 K; Carbon monoxy myoglobin (MbCO), from Bashford1993"
+PKAD-R,1bvc,A,HIS,48,5.2,0.2,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00143a018,"no salt, 298 K; Apomyoglobin (apoMb), from Cocco1992 Table4"
+PKAD-R,1mbc,A,HIS,64,,,,,2D double quantum NMR,https://pubs.acs.org/doi/abs/10.1021/bi00082a027,"50 mM, 308 K; Carbon monoxy myoglobin (MbCO), from Bashford1993"
+PKAD-R,1a6k,A,HIS,81,6.88,0.01,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/10969024,"0.2 M, 298 K; Metaquomyoglobin (metMb), from Kao2000"
+PKAD-R,1a6k,A,HIS,81,6.7,0.2,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00143a018,"no salt, 298 K; Metaquomyoglobin (metMb), water-liganded form, from Cocco1992 Table3"
+PKAD-R,1a6k,A,HIS,81,6.7,,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/9414234,"no salt, 298 K; Metaquomyoglobin (metMb), from Bhat1997 (which cited Cocco1992)"
+PKAD-R,1mbc,A,HIS,81,6.6,,,,2D double quantum NMR,https://pubs.acs.org/doi/abs/10.1021/bi00082a027,"50 mM, 308 K; Carbon monoxy myoglobin (MbCO), from Bashford1993"
+PKAD-R,1a6k,A,HIS,82,,0.2,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00143a018,"no salt, 298 K; Metaquomyoglobin (metMb), water-liganded form, from Cocco1992 Table3"
+PKAD-R,1mbc,A,HIS,82,,,,,2D double quantum NMR,https://pubs.acs.org/doi/abs/10.1021/bi00082a027,"50 mM, 308 K; Carbon monoxy myoglobin (MbCO), from Bashford1993"
+PKAD-R,1mbc,A,HIS,93,,,,,2D double quantum NMR,https://pubs.acs.org/doi/abs/10.1021/bi00082a027,"50 mM, 308 K; Carbon monoxy myoglobin (MbCO), from Bashford1993"
+PKAD-R,1mbc,A,HIS,97,5.6,,,,2D double quantum NMR,https://pubs.acs.org/doi/abs/10.1021/bi00082a027,"50 mM, 308 K; Carbon monoxy myoglobin (MbCO), from Bashford1993"
+PKAD-R,1a6k,A,TYR,103,,,,,13C NMR,https://www.ncbi.nlm.nih.gov/pubmed/8455,Cyanoferrimyoglobin (MbCN); no MbCN PDB available
+PKAD-R,1a6k,A,HIS,113,5.51,0.02,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/10969024,"0.2 M, 298 K; Metaquomyoglobin (metMb), from Kao2000"
+PKAD-R,1a6k,A,HIS,113,,0.2,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00143a018,"no salt, 298 K; Metaquomyoglobin (metMb), water-liganded form, from Cocco1992 Table3"
+PKAD-R,1a6k,A,HIS,113,5.4,,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/9414234,"no salt, 298 K; Metaquomyoglobin (metMb), from Bhat1997 (which cited Cocco1992)"
+PKAD-R,1mbc,A,HIS,113,5.4,,,,2D double quantum NMR,https://pubs.acs.org/doi/abs/10.1021/bi00082a027,"50 mM, 308 K; Carbon monoxy myoglobin (MbCO), from Bashford1993"
+PKAD-R,1bvc,A,HIS,113,,0.2,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00143a018,"no salt, 298 K; Apomyoglobin (apoMb), from Cocco1992 Table4"
+PKAD-R,1a6k,A,HIS,116,6.7,0.01,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/10969024,"0.2 M, 298 K; Metaquomyoglobin (metMb), from Kao2000"
+PKAD-R,1a6k,A,HIS,116,6.6,0.2,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00143a018,"no salt, 298 K; Metaquomyoglobin (metMb), water-liganded form, from Cocco1992 Table3"
+PKAD-R,1a6k,A,HIS,116,6.6,,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/9414234,"no salt, 298 K; Metaquomyoglobin (metMb), from Bhat1997 (which cited Cocco1992)"
+PKAD-R,1mbc,A,HIS,116,6.5,,,,2D double quantum NMR,https://pubs.acs.org/doi/abs/10.1021/bi00082a027,"50 mM, 308 K; Carbon monoxy myoglobin (MbCO), from Bashford1993"
+PKAD-R,1bvc,A,HIS,116,6.6,0.2,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00143a018,"no salt, 298 K; Apomyoglobin (apoMb), from Cocco1992 Table4"
+PKAD-R,1a6k,A,HIS,119,6.26,0.01,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/10969024,"0.2 M, 298 K; Metaquomyoglobin (metMb), from Kao2000"
+PKAD-R,1a6k,A,HIS,119,6.1,0.2,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00143a018,"no salt, 298 K; Metaquomyoglobin (metMb), water-liganded form, from Cocco1992 Table3; original pKa in the paper are 6.20 (Cδ-H) and 6.09 (Cε-H), use average here"
+PKAD-R,1a6k,A,HIS,119,6.1,,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/9414234,"no salt, 298 K; Metaquomyoglobin (metMb), from Bhat1997 (which cited Cocco1992)"
+PKAD-R,1bvc,A,HIS,119,5.6,0.2,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00143a018,"no salt, 298 K; Apomyoglobin (apoMb), from Cocco1992 Table4; original pKa in the paper are 5.3 (Cδ-H) and 5.81 (Cε-H), use average here"
+PKAD-R,1mbc,A,HIS,119,6.1,,,,2D double quantum NMR,https://pubs.acs.org/doi/abs/10.1021/bi00082a027,"50 mM, 308 K; Carbon monoxy myoglobin (MbCO), from Bashford1993"
+PKAD-R,1a6k,A,TYR,146,,,,,13C NMR,https://www.ncbi.nlm.nih.gov/pubmed/8455,Cyanoferrimyoglobin (MbCN); no MbCN PDB available
+PKAD-R,1a6k,A,TYR,151,10.6,,,,13C NMR,https://www.ncbi.nlm.nih.gov/pubmed/8455,Cyanoferrimyoglobin (MbCN); no MbCN PDB available
+PKAD-R,1ymb,A,HIS,24,,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/10969024,"0.2 M, 298 K; Metaquomyoglobin (metMb), from Kao2000"
+PKAD-R,1ymb,A,HIS,24,,0.2,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00143a018,"no salt, 298 K; Metaquomyoglobin (metMb), from Cocco1992 Table3"
+PKAD-R,1ymb,A,HIS,24,,0.2,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00143a018,"no salt, 298 K; Apomyoglobin (apoMb), from Cocco1992 Table4; no apo form PDB available"
+PKAD-R,1ymb,A,HIS,36,7.8,0.02,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/10969024,"0.2 M, 298 K; Metaquomyoglobin (metMb), from Kao2000"
+PKAD-R,1ymb,A,HIS,36,7.75,0.05,,,1H NMR,https://pubmed.ncbi.nlm.nih.gov/9414235/,"no salt, 299.5K; Metaquomyoglobin (metMb), from Bhat & Lecomte 1997"
+PKAD-R,1ymb,A,HIS,36,7.84,0.2,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00143a018,"no salt, 298 K; Metaquomyoglobin (metMb), from Cocco1992 Table3"
+PKAD-R,1ymb,A,HIS,36,7.8,0.2,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00143a018,"no salt, 298 K; Apomyoglobin (apoMb), from Cocco1992 Table4; no apo form PDB available; original pKa in the paper are 7.87 (Cδ-H) and 7.80 (Cε-H), use average here"
+PKAD-R,1ymb,A,HIS,48,5.62,0.01,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/10969024,"0.2 M, 298 K; Metaquomyoglobin (metMb), from Kao2000"
+PKAD-R,1ymb,A,HIS,48,5.5,0.07,,,1H NMR,https://pubmed.ncbi.nlm.nih.gov/9414235/,"no salt, 299.5K; Metaquomyoglobin (metMb), from Bhat & Lecomte 1997"
+PKAD-R,1ymb,A,HIS,48,5.5,0.2,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00143a018,"no salt, 298 K; Metaquomyoglobin (metMb), from Cocco1992 Table3"
+PKAD-R,1ymb,A,HIS,48,5.3,0.2,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00143a018,"no salt, 298 K; Apomyoglobin (apoMb), from Cocco1992 Table4; no apo form PDB available"
+PKAD-R,1ymb,A,HIS,81,6.94,0.01,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/10969024,"0.2 M, 298 K; Metaquomyoglobin (metMb), from Kao2000"
+PKAD-R,1ymb,A,HIS,81,6.86,0.05,,,1H NMR,https://pubmed.ncbi.nlm.nih.gov/9414235/,"no salt, 299.5K; Metaquomyoglobin (metMb), from Bhat & Lecomte 1997"
+PKAD-R,1ymb,A,HIS,81,6.7,0.2,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00143a018,"no salt, 298 K; Metaquomyoglobin (metMb), from Cocco1992 Table3; original pKa in the paper are 6.58 (Cδ-H) and 6.74 (Cε-H), use average here"
+PKAD-R,1ymb,A,HIS,82,,0.2,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00143a018,"no salt, 298 K; Metaquomyoglobin (metMb), from Cocco1992 Table3"
+PKAD-R,1ymb,A,TYR,103,,,,,13C NMR,https://www.ncbi.nlm.nih.gov/pubmed/8455,Cyanoferrimyoglobin (MbCN); no MbCN PDB available
+PKAD-R,1ymb,A,HIS,113,5.87,0.02,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/10969024,"0.2 M, 298 K; Metaquomyoglobin (metMb), from Kao2000"
+PKAD-R,1ymb,A,HIS,113,5.76,0.07,,,1H NMR,https://pubmed.ncbi.nlm.nih.gov/9414235/,"no salt, 299.5K; Metaquomyoglobin (metMb), from Bhat & Lecomte 1997"
+PKAD-R,1ymb,A,HIS,113,5.4,0.2,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00143a018,"no salt, 298 K; Metaquomyoglobin (metMb), from Cocco1992 Table3; original pKa in the paper are 5.37 (Cδ-H) and 5.46 (Cε-H), use average here"
+PKAD-R,1ymb,A,HIS,113,,0.2,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00143a018,"no salt, 298 K; Apomyoglobin (apoMb), from Cocco1992 Table4; no apo form PDB available"
+PKAD-R,1ymb,A,HIS,116,6.79,0.01,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/10969024,"0.2 M, 298 K; Metaquomyoglobin (metMb), from Kao2000"
+PKAD-R,1ymb,A,HIS,116,6.72,0.05,,,1H NMR,https://pubmed.ncbi.nlm.nih.gov/9414235/,"no salt, 299.5K; Metaquomyoglobin (metMb), from Bhat & Lecomte 1997"
+PKAD-R,1ymb,A,HIS,116,6.7,0.2,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00143a018,"no salt, 298 K; Metaquomyoglobin (metMb), from Cocco1992 Table3; original pKa in the paper are 6.70 (Cδ-H) and 6.63 (Cε-H), use average here"
+PKAD-R,1ymb,A,HIS,116,6.8,0.2,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00143a018,"no salt, 298 K; Apomyoglobin (apoMb), from Cocco1992 Table4; no apo form PDB available"
+PKAD-R,1ymb,A,HIS,119,6.56,0.01,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/10969024,"0.2 M, 298 K; Metaquomyoglobin (metMb), from Kao2000"
+PKAD-R,1ymb,A,HIS,119,6.51,0.05,,,1H NMR,https://pubmed.ncbi.nlm.nih.gov/9414235/,"no salt, 299.5K; Metaquomyoglobin (metMb), from Bhat & Lecomte 1997"
+PKAD-R,1ymb,A,HIS,119,6.39,0.2,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00143a018,"no salt, 298 K; Metaquomyoglobin (metMb), from Cocco1992 Table3"
+PKAD-R,1ymb,A,HIS,119,6.2,0.2,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00143a018,"no salt, 298 K; Apomyoglobin (apoMb), from Cocco1992 Table4; no apo form PDB available; original pKa in the paper are 6.19 (Cδ-H) and 6.30 (Cε-H), use average here"
+PKAD-R,1ymb,A,TYR,146,,,,,13C NMR,https://www.ncbi.nlm.nih.gov/pubmed/8455,Cyanoferrimyoglobin (MbCN); no MbCN PDB available
+PKAD-R,2l90,A,CYS,72,7.2,0.2,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/22661719,
+PKAD-R,1ans,A,TYR,7,9.7,0.2,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/8102051,
+PKAD-R,1ans,A,TYR,18,10.1,0.2,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/8102051,
+PKAD-R,1ans,A,GLU,20,5.4,0.2,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/8102051,
+PKAD-R,1ans,A,CTE,27,3.3,0.3,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/8102051,
+PKAD-R,3ft7,B,CTE,0,3.23,0.03,,,NMR,https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/cbic.201800628,
+PKAD-R,3ft7,B,NTE,1,7.76,0.04,,,NMR,https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/cbic.201800628,
+PKAD-R,3ft7,B,TYR,5,9.66,0.11,,,NMR,https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/cbic.201800628,
+PKAD-R,3ft7,B,LYS,6,10.78,0.13,,,NMR,https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/cbic.201800628,
+PKAD-R,3ft7,B,LYS,12,10.83,0.1,,,NMR,https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/cbic.201800628,
+PKAD-R,3ft7,B,TYR,16,9.14,0.08,,,NMR,https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/cbic.201800628,
+PKAD-R,3ft7,B,GLU,20,4.12,0.04,,,NMR,https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/cbic.201800628,
+PKAD-R,3ft7,B,HIS,22,4.79,0.04,,,NMR,https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/cbic.201800628,
+PKAD-R,3ft7,B,ASP,23,2.41,0.04,,,NMR,https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/cbic.201800628,
+PKAD-R,3ft7,B,GLU,27,3.58,0.05,,,NMR,https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/cbic.201800628,"two entries for it are both wrong, should be 3.58; so one marked as ""pKa NOT found in paper"", one got manually modified to the right pKa"
+PKAD-R,3ft7,B,LYS,30,11.18,0.09,,,NMR,https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/cbic.201800628,
+PKAD-R,3ft7,B,GLU,31,4.59,0.04,,,NMR,https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/cbic.201800628,
+PKAD-R,3ft7,B,LYS,32,10.43,0.06,,,NMR,https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/cbic.201800628,
+PKAD-R,3ft7,B,ASP,38,2.8,0.03,,,NMR,https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/cbic.201800628,
+PKAD-R,3ft7,B,CYS,40,,,,,NMR,https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/cbic.201800628,
+PKAD-R,3ft7,B,LYS,45,11.84,0.09,,,NMR,https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/cbic.201800628,
+PKAD-R,3ft7,B,GLU,46,2.56,0.04,,,NMR,https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/cbic.201800628,
+PKAD-R,3ft7,B,ASP,49,2.56,0.04,,,NMR,https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/cbic.201800628,
+PKAD-R,3ft7,B,HIS,51,6.94,0.03,,,NMR,https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/cbic.201800628,
+PKAD-R,3ft7,B,ASP,52,2.88,0.03,,,NMR,https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/cbic.201800628,
+PKAD-R,3ft7,B,LYS,53,10.38,0.11,,,NMR,https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/cbic.201800628,
+PKAD-R,3ft7,B,LYS,55,11.77,0.1,,,NMR,https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/cbic.201800628,
+PKAD-R,3ft7,B,LYS,56,11.44,0.1,,,NMR,https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/cbic.201800628,
+PKAD-R,1ppf,I,ASP,7,2.67,0.06,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/7718577,
+PKAD-R,1ppf,I,GLU,10,4.14,0.06,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/7718577,
+PKAD-R,1ppf,I,TYR,11,10.16,0.05,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/9628726,
+PKAD-R,1ppf,I,LYS,13,9.87,0.04,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/9628726,
+PKAD-R,1ppf,I,GLU,19,3.21,0.02,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/7718577,
+PKAD-R,1ppf,I,TYR,20,11.07,0.11,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/9628726,
+PKAD-R,1ppf,I,ASP,27,2.3,0.06,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/7718577,
+PKAD-R,1ppf,I,LYS,29,11.12,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/9628726,
+PKAD-R,1ppf,I,TYR,31,,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/9628726,
+PKAD-R,1ppf,I,LYS,34,10.13,0.05,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/9628726,
+PKAD-R,1ppf,I,GLU,43,4.81,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/7718577,
+PKAD-R,1ppf,I,HIS,52,7.5,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/9628726,
+PKAD-R,1ppf,I,LYS,55,11.1,0.06,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/9628726,
+PKAD-R,1bpi,A,NTE,1,8.1,0.1,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283684713015?via%3Dihub,
+PKAD-R,1bpi,A,ASP,3,3.0,0.1,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283684713015?via%3Dihub,
+PKAD-R,1bpi,A,GLU,7,3.7,0.1,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283684713015?via%3Dihub,
+PKAD-R,1bpi,A,LYS,15,10.6,0.1,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283684713015?via%3Dihub,
+PKAD-R,1bpi,A,LYS,26,10.6,0.1,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283684713015?via%3Dihub,
+PKAD-R,1bpi,A,LYS,41,10.8,0.1,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283684713015?via%3Dihub,
+PKAD-R,1bpi,A,LYS,46,10.6,0.1,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283684713015?via%3Dihub,
+PKAD-R,1bpi,A,GLU,49,3.8,0.1,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283684713015?via%3Dihub,
+PKAD-R,1bpi,A,ASP,50,3.4,0.1,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283684713015?via%3Dihub,
+PKAD-R,1bpi,A,CTE,58,2.9,0.1,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283684713015?via%3Dihub,
+PKAD-R,1ppn,A,CYS,25,3.32,,,,Spectrophotometric titration,https://www.ncbi.nlm.nih.gov/pubmed/9254592,
+PKAD-R,1ppo,A,CYS,25,2.88,0.02,,,Reaction kinetics,https://pubs.acs.org/doi/abs/10.1021/bi9705974,
+PKAD-R,1nlx,A,GLU,407,4.25,,,,NMR,https://pubs.acs.org/doi/pdf/10.1021/acs.jctc.9b00540,
+PKAD-R,1nlx,A,GLU,408,3.19,,,,NMR,https://pubs.acs.org/doi/pdf/10.1021/acs.jctc.9b00540,
+PKAD-R,1nlx,A,GLU,413,3.8,,,,NMR,https://pubs.acs.org/doi/pdf/10.1021/acs.jctc.9b00540,
+PKAD-R,1nlx,A,ASP,414,3.5,,,,NMR,https://pubs.acs.org/doi/pdf/10.1021/acs.jctc.9b00540,
+PKAD-R,1nlx,A,ASP,433,3.38,,,,NMR,https://pubs.acs.org/doi/pdf/10.1021/acs.jctc.9b00540,
+PKAD-R,1nlx,A,GLU,439,4.84,,,,NMR,https://pubs.acs.org/doi/pdf/10.1021/acs.jctc.9b00540,
+PKAD-R,1nlx,A,ASP,452,2.4,,,,NMR,https://pubs.acs.org/doi/pdf/10.1021/acs.jctc.9b00540,
+PKAD-R,1nlx,A,ASP,465,4.8,,,,NMR,https://pubs.acs.org/doi/pdf/10.1021/acs.jctc.9b00540,
+PKAD-R,1nlx,A,GLU,466,4.06,,,,NMR,https://pubs.acs.org/doi/pdf/10.1021/acs.jctc.9b00540,
+PKAD-R,1nlx,A,ASP,476,3.5,,,,NMR,https://pubs.acs.org/doi/pdf/10.1021/acs.jctc.9b00540,
+PKAD-R,1nlx,A,HIS,477,7.4,,,,NMR,https://pubs.acs.org/doi/pdf/10.1021/acs.jctc.9b00540,
+PKAD-R,1nlx,A,GLU,481,3.52,,,,NMR,https://pubs.acs.org/doi/pdf/10.1021/acs.jctc.9b00540,
+PKAD-R,1nlx,A,ASP,482,3.06,,,,NMR,https://pubs.acs.org/doi/pdf/10.1021/acs.jctc.9b00540,
+PKAD-R,1nlx,A,GLU,485,4.59,,,,NMR,https://pubs.acs.org/doi/pdf/10.1021/acs.jctc.9b00540,
+PKAD-R,1nlx,A,HIS,490,7.3,,,,NMR,https://pubs.acs.org/doi/pdf/10.1021/acs.jctc.9b00540,
+PKAD-R,1nlx,A,GLU,493,4.21,,,,NMR,https://pubs.acs.org/doi/pdf/10.1021/acs.jctc.9b00540,
+PKAD-R,1nlx,A,GLU,503,3.65,,,,NMR,https://pubs.acs.org/doi/pdf/10.1021/acs.jctc.9b00540,
+PKAD-R,1nlx,A,HIS,505,6.5,,,,NMR,https://pubs.acs.org/doi/pdf/10.1021/acs.jctc.9b00540,
+PKAD-R,1poh,A,HIS,76,6.0,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/6809041,
+PKAD-R,1gym,A,HIS,32,7.6,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/9300493,
+PKAD-R,1gym,A,HIS,82,6.9,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/9300493,
+PKAD-R,1gym,A,HIS,92,5.4,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/9300493,
+PKAD-R,1gym,A,HIS,227,6.9,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/9300493,
+PKAD-R,1fez,A,LYS,53,9.3,,,,Potentiometric titration,https://pubs.acs.org/doi/abs/10.1021/bi026388n,
+PKAD-R,3wu2,O,ASP,23,3.41,0.05,,,NMR,https://chemistry-europe.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cbic.201900739,
+PKAD-R,3wu2,O,ASP,24,3.06,0.03,,,NMR,https://chemistry-europe.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cbic.201900739,
+PKAD-R,3wu2,O,ASP,33,3.47,0.05,,,NMR,https://chemistry-europe.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cbic.201900739,
+PKAD-R,3wu2,O,GLU,54,4.47,0.06,,,NMR,https://chemistry-europe.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cbic.201900739,
+PKAD-R,3wu2,O,GLU,64,4.17,0.04,,,NMR,https://chemistry-europe.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cbic.201900739,
+PKAD-R,3wu2,O,GLU,74,3.37,0.05,,,NMR,https://chemistry-europe.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cbic.201900739,
+PKAD-R,3wu2,O,GLU,84,4.64,0.07,,,NMR,https://chemistry-europe.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cbic.201900739,
+PKAD-R,3wu2,O,ASP,90,1.56,0.14,,,NMR,https://chemistry-europe.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cbic.201900739,
+PKAD-R,3wu2,O,GLU,98,4.99,0.04,,,NMR,https://chemistry-europe.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cbic.201900739,
+PKAD-R,3wu2,O,GLU,114,3.81,0.08,,,NMR,https://chemistry-europe.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cbic.201900739,
+PKAD-R,3wu2,O,ASP,141,4.89,0.03,,,NMR,https://chemistry-europe.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cbic.201900739,
+PKAD-R,3wu2,O,GLU,145,4.52,0.04,,,NMR,https://chemistry-europe.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cbic.201900739,
+PKAD-R,3wu2,O,ASP,205,3.45,0.09,,,NMR,https://chemistry-europe.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cbic.201900739,
+PKAD-R,3wu2,O,GLU,210,2.66,0.12,,,NMR,https://chemistry-europe.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cbic.201900739,
+PKAD-R,3wu2,O,GLU,216,3.91,0.1,,,NMR,https://chemistry-europe.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cbic.201900739,
+PKAD-R,3wu2,O,GLU,218,5.13,0.07,,,NMR,https://chemistry-europe.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cbic.201900739,
+PKAD-R,3wu2,O,GLU,232,4.2,0.1,,,NMR,https://chemistry-europe.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cbic.201900739,
+PKAD-R,3wu2,O,GLU,244,4.97,0.08,,,NMR,https://chemistry-europe.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cbic.201900739,
+PKAD-R,2bus,A,ASP,6,4.0,,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/6094827,"18°C; Both 1BUS and 2BUS are SOLUTION NMR structures, 2BUS is slightly better according to wwPDB Validation on RCSB PDB website."
+PKAD-R,2bus,A,ASP,6,4.1,,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/6094827,"45°C; Both 1BUS and 2BUS are SOLUTION NMR structures, 2BUS is slightly better according to wwPDB Validation on RCSB PDB website."
+PKAD-R,2bus,A,GLU,9,4.3,,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/6094827,"18°C; Both 1BUS and 2BUS are SOLUTION NMR structures, 2BUS is slightly better according to wwPDB Validation on RCSB PDB website."
+PKAD-R,2bus,A,GLU,9,4.5,,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/6094827,"45°C; Both 1BUS and 2BUS are SOLUTION NMR structures, 2BUS is slightly better according to wwPDB Validation on RCSB PDB website."
+PKAD-R,2bus,A,ASP,12,3.6,,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/6094827,"18°C; Both 1BUS and 2BUS are SOLUTION NMR structures, 2BUS is slightly better according to wwPDB Validation on RCSB PDB website."
+PKAD-R,2bus,A,GLU,20,4.1,,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/6094827,"18°C; Both 1BUS and 2BUS are SOLUTION NMR structures, 2BUS is slightly better according to wwPDB Validation on RCSB PDB website."
+PKAD-R,2bus,A,GLU,20,4.4,,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/6094827,"45°C; Both 1BUS and 2BUS are SOLUTION NMR structures, 2BUS is slightly better according to wwPDB Validation on RCSB PDB website."
+PKAD-R,3ssi,A,HIS,43,3.25,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/6998977,
+PKAD-R,3ssi,A,HIS,106,6.0,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/6998977,
+PKAD-R,2l6x,A,ASP,97,6.43,,,,NMR,https://pubmed.ncbi.nlm.nih.gov/32197061/,POPC/POPG (80/20); diff salt conc
+PKAD-R,2l6x,A,ASP,97,6.14,,,,NMR,https://pubmed.ncbi.nlm.nih.gov/32197061/,POPC/DOTAP (80/20); diff salt conc
+PKAD-R,2l6x,A,ASP,97,5.63,,,,NMR,https://pubmed.ncbi.nlm.nih.gov/32197061/,POPC/DOTAP (80/20); diff salt conc
+PKAD-R,2l6x,A,ASP,97,5.9,,,,NMR,https://pubmed.ncbi.nlm.nih.gov/32197061/,POPC/DOTAP (80/20); diff salt conc
+PKAD-R,2l6x,A,ASP,97,6.62,,,,NMR,https://pubmed.ncbi.nlm.nih.gov/32197061/,POPC/POPG (80/20); diff salt conc
+PKAD-R,2l6x,A,ASP,97,6.51,,,,NMR,https://pubmed.ncbi.nlm.nih.gov/32197061/,POPC/POPG (80/20); diff salt conc
+PKAD-R,2l6x,A,ASP,97,7.62,,,,NMR,https://pubmed.ncbi.nlm.nih.gov/32197061/,POPC/POPG (80/20); diff salt conc
+PKAD-R,2l6x,A,ASP,97,6.79,,,,NMR,https://pubmed.ncbi.nlm.nih.gov/32197061/,POPC/POPG (80/20); diff salt conc
+PKAD-R,2hnp,A,CYS,215,5.57,0.12,,,Reaction kinetics,https://pubs.acs.org/doi/abs/10.1021/bi963094r,
+PKAD-R,1ypt,A,CYS,403,4.67,0.15,,,Reaction kinetics,https://pubs.acs.org/doi/abs/10.1021/bi00087a012,
+PKAD-R,1dg9,A,HIS,66,8.33,,,,1H NMR,,"Manually-created ""Main"" entry, using avg pKa measured under very similar conditions from two papers (with one common author)"
+PKAD-R,1dg9,A,HIS,66,8.36,,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00171a031,"1H NMR, Davis1994 (one common author with Tish1997)"
+PKAD-R,1dg9,A,HIS,66,8.29,0.01,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi9712448,"1H NMR, Tish1997 (one common author with Davis1994)"
+PKAD-R,1dg9,A,HIS,72,9.19,0.01,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi9712448,from Tish1997
+PKAD-R,1dg9,A,HIS,72,9.19,,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi990381x,from Tabe1999
+PKAD-R,1st9,A,CYS,73,8.8,,,,pH dependence of reaction rate with alkylating agent badan - monitored by fluorescence,https://doi.org/10.1089/ars.2012.4521,"Note the the resid in pka paper is 74, it’s the same residue as its alternative entries though resid seems different"
+PKAD-R,3c71,A,CYS,74,6.3,,,,pH dependence of reaction rate with alkylating agent badan - monitored by fluorescence,https://doi.org/10.1089/ars.2012.4521,
+PKAD-R,3c73,A,CYS,74,7.4,,,,pH dependence of reaction rate with alkylating agent badan - monitored by fluorescence,https://doi.org/10.1089/ars.2012.4521,
+PKAD-R,2h19,A,CYS,74,8.48,,,,pH dependence of reaction rate with alkylating agent badan - monitored by fluorescence,https://doi.org/10.1089/ars.2012.4521,
+PKAD-R,1su9,A,CYS,76,8.2,,,,pH dependence of reaction of cysteine side chains with alkylating reagents,https://pubmed.ncbi.nlm.nih.gov/18422485/,"Note the the resid in pka paper is 77, it’s the same residue as its alternative entries though resid seems different"
+PKAD-R,1su9,A,CYS,76,8.2,,,,pH dependence of reaction rate with alkylating agent badan - monitored by fluorescence,https://pubmed.ncbi.nlm.nih.gov/16971393/,from another paper
+PKAD-R,3c71,A,CYS,77,5.7,,,,pH dependence of reaction rate with alkylating agent badan - monitored by fluorescence,https://doi.org/10.1089/ars.2012.4521,
+PKAD-R,3c73,A,CYS,77,7.5,,,,pH dependence of reaction rate with alkylating agent badan - monitored by fluorescence,https://doi.org/10.1089/ars.2012.4521,
+PKAD-R,2h1b,A,CYS,77,7.4,,,,pH dependence of reaction rate with alkylating agent badan - monitored by fluorescence,https://doi.org/10.1089/ars.2012.4521,
+PKAD-R,2h1a,A,CYS,77,8.36,0.05,,,pH dependence of reaction rate with alkylating agent badan - monitored by fluorescence,"https://doi.org/10.1089/ars.2012.4521, https://www.jbc.org/article/S0021-9258(19)35024-0/fulltext",
+PKAD-R,2h1a,A,CYS,77,8.3,0.1,,,pH dependence of reaction rate with iodoacetate,"https://doi.org/10.1089/ars.2012.4521, https://www.jbc.org/article/S0021-9258(19)35024-0/fulltext",
+PKAD-R,2rn2,A,GLU,6,4.5,,,,13C NMR,https://pubs.acs.org/doi/abs/10.1021/bi00183a034,
+PKAD-R,2rn2,A,ASP,10,6.1,,,,13C NMR,https://pubs.acs.org/doi/abs/10.1021/bi00183a034,
+PKAD-R,2rn2,A,GLU,32,3.6,,,,13C NMR,https://pubs.acs.org/doi/abs/10.1021/bi00183a034,
+PKAD-R,2rn2,A,GLU,48,4.4,,,,13C NMR,https://pubs.acs.org/doi/abs/10.1021/bi00183a034,
+PKAD-R,2rn2,A,GLU,57,3.2,,,,13C NMR,https://pubs.acs.org/doi/abs/10.1021/bi00183a034,
+PKAD-R,2rn2,A,GLU,61,3.9,,,,13C NMR,https://pubs.acs.org/doi/abs/10.1021/bi00183a034,
+PKAD-R,2rn2,A,HIS,62,7.0,,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/8380173,
+PKAD-R,2rn2,A,GLU,64,4.4,,,,13C NMR,https://pubs.acs.org/doi/abs/10.1021/bi00183a034,
+PKAD-R,2rn2,A,ASP,70,2.6,,,,13C NMR,https://pubs.acs.org/doi/abs/10.1021/bi00183a034,
+PKAD-R,2rn2,A,HIS,83,,,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/8380173,
+PKAD-R,2rn2,A,ASP,94,3.2,,,,13C NMR,https://pubs.acs.org/doi/abs/10.1021/bi00183a034,
+PKAD-R,2rn2,A,ASP,102,,,,,13C NMR,https://pubs.acs.org/doi/abs/10.1021/bi00183a034,
+PKAD-R,2rn2,A,ASP,108,3.2,,,,13C NMR,https://pubs.acs.org/doi/abs/10.1021/bi00183a034,
+PKAD-R,2rn2,A,HIS,114,,,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/8380173,
+PKAD-R,2rn2,A,GLU,119,4.1,,,,13C NMR,https://pubs.acs.org/doi/abs/10.1021/bi00183a034,
+PKAD-R,2rn2,A,HIS,124,7.1,,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/8380173,
+PKAD-R,2rn2,A,HIS,127,7.9,,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/8380173,
+PKAD-R,2rn2,A,GLU,129,3.6,,,,13C NMR,https://pubs.acs.org/doi/abs/10.1021/bi00183a034,
+PKAD-R,2rn2,A,GLU,131,4.3,,,,13C NMR,https://pubs.acs.org/doi/abs/10.1021/bi00183a034,
+PKAD-R,2rn2,A,ASP,134,4.1,,,,13C NMR,https://pubs.acs.org/doi/abs/10.1021/bi00183a034,
+PKAD-R,2rn2,A,GLU,135,4.3,,,,13C NMR,https://pubs.acs.org/doi/abs/10.1021/bi00183a034,
+PKAD-R,2rn2,A,GLU,147,4.2,,,,13C NMR,https://pubs.acs.org/doi/abs/10.1021/bi00183a034,
+PKAD-R,2rn2,A,ASP,148,,,,,13C NMR,https://pubs.acs.org/doi/abs/10.1021/bi00183a034,
+PKAD-R,2rn2,A,GLU,154,4.4,,,,13C NMR,https://pubs.acs.org/doi/abs/10.1021/bi00183a034,
+PKAD-R,9rnt,A,NTE,1,8.1,0.1,,,13C NMR,https://link.springer.com/article/10.1007/s002490100138,
+PKAD-R,9rnt,A,ASP,3,3.54,0.02,,,13C NMR,https://link.springer.com/article/10.1007/s002490100138,
+PKAD-R,9rnt,A,ASP,15,3.52,,,,13C NMR,https://link.springer.com/article/10.1007/s002490100138,
+PKAD-R,9rnt,A,HIS,27,7.57,0.12,,,13C NMR,https://link.springer.com/article/10.1007/s002490100138,
+PKAD-R,9rnt,A,GLU,28,5.61,0.03,,,13C NMR,https://link.springer.com/article/10.1007/s002490100138,
+PKAD-R,9rnt,A,ASP,29,4.26,0.03,,,13C NMR,https://link.springer.com/article/10.1007/s002490100138,
+PKAD-R,9rnt,A,GLU,31,5.36,0.07,,,13C NMR,https://link.springer.com/article/10.1007/s002490100138,
+PKAD-R,9rnt,A,HIS,40,7.44,,,,13C NMR,https://link.springer.com/article/10.1007/s002490100138,
+PKAD-R,9rnt,A,GLU,46,3.62,0.04,,,13C NMR,https://link.springer.com/article/10.1007/s002490100138,
+PKAD-R,9rnt,A,ASP,49,4.22,0.05,,,13C NMR,https://link.springer.com/article/10.1007/s002490100138,
+PKAD-R,9rnt,A,GLU,58,3.96,0.03,,,13C NMR,https://link.springer.com/article/10.1007/s002490100138,
+PKAD-R,9rnt,A,ASP,66,3.9,0.01,,,13C NMR,https://link.springer.com/article/10.1007/s002490100138,
+PKAD-R,9rnt,A,ASP,76,0.5,,,,13C NMR,https://pubs.acs.org/doi/10.1021/bi991422s,
+PKAD-R,9rnt,A,GLU,82,3.27,0.02,,,13C NMR,https://link.springer.com/article/10.1007/s002490100138,
+PKAD-R,9rnt,A,HIS,92,7.31,0.04,,,13C NMR,https://link.springer.com/article/10.1007/s002490100138,
+PKAD-R,9rnt,A,GLU,102,5.3,0.02,,,13C NMR,https://link.springer.com/article/10.1007/s002490100138,
+PKAD-R,1de3,A,ASP,9,3.9,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi981672t,
+PKAD-R,1de3,A,GLU,19,4.6,0.2,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi981672t,
+PKAD-R,1de3,A,GLU,31,4.6,0.2,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi981672t,
+PKAD-R,1de3,A,HIS,35,6.3,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi981672t,
+PKAD-R,1de3,A,HIS,36,6.8,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi981672t,
+PKAD-R,1de3,A,ASP,41,,,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi981672t,
+PKAD-R,1de3,A,HIS,50,7.7,0.2,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi981672t,
+PKAD-R,1de3,A,ASP,57,4.3,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi981672t,
+PKAD-R,1de3,A,ASP,59,4.1,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi981672t,
+PKAD-R,1de3,A,ASP,75,3.9,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi981672t,
+PKAD-R,1de3,A,ASP,77,,,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi981672t,
+PKAD-R,1de3,A,HIS,82,7.3,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi981672t,
+PKAD-R,1de3,A,ASP,85,3.8,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi981672t,
+PKAD-R,1de3,A,ASP,91,,,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi981672t,
+PKAD-R,1de3,A,HIS,92,6.9,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi981672t,
+PKAD-R,1de3,A,GLU,96,5.1,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi981672t,
+PKAD-R,1de3,A,ASP,102,,,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi981672t,
+PKAD-R,1de3,A,HIS,104,6.6,0.2,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi981672t,
+PKAD-R,1de3,A,ASP,105,,,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi981672t,
+PKAD-R,1de3,A,ASP,109,3.7,0.2,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi981672t,
+PKAD-R,1de3,A,GLU,115,4.9,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi981672t,
+PKAD-R,1de3,A,HIS,137,5.8,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi981672t,
+PKAD-R,1de3,A,GLU,140,4.3,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi981672t,
+PKAD-R,1de3,A,GLU,144,4.3,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi981672t,
+PKAD-R,1de3,A,HIS,150,7.6,0.2,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi981672t,
+PKAD-R,1lni,A,ASP,1,3.44,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12527309,
+PKAD-R,1lni,A,NTE,1,9.14,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12527309,
+PKAD-R,1lni,A,GLU,14,5.02,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12527309,
+PKAD-R,1lni,A,ASP,17,3.72,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12527309,
+PKAD-R,1lni,A,ASP,25,4.87,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12527309,
+PKAD-R,1lni,A,TYR,30,11.3,,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283602012731?via%3Dihub,
+PKAD-R,1lni,A,ASP,33,2.39,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12527309,
+PKAD-R,1lni,A,GLU,41,4.14,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12527309,
+PKAD-R,1lni,A,TYR,49,10.6,,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283602012731?via%3Dihub,
+PKAD-R,1lni,A,TYR,52,,,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283602012731?via%3Dihub,
+PKAD-R,1lni,A,HIS,53,8.27,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12527309,
+PKAD-R,1lni,A,GLU,54,3.42,,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283602012731?via%3Dihub,
+PKAD-R,1lni,A,TYR,55,,,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283602012731?via%3Dihub,
+PKAD-R,1lni,A,GLU,74,3.47,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12527309,
+PKAD-R,1lni,A,GLU,78,3.13,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12527309,
+PKAD-R,1lni,A,ASP,79,7.37,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12527309,
+PKAD-R,1lni,A,TYR,80,,,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283602012731?via%3Dihub,
+PKAD-R,1lni,A,TYR,81,,,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283602012731?via%3Dihub,
+PKAD-R,1lni,A,ASP,84,3.01,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12527309,
+PKAD-R,1lni,A,HIS,85,6.35,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12527309,
+PKAD-R,1lni,A,TYR,86,,,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283602012731?via%3Dihub,
+PKAD-R,1lni,A,ASP,93,3.09,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12527309,
+PKAD-R,1lni,A,CTE,96,2.42,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12527309,
+PKAD-R,7rsa,A,NTE,1,7.6,0.2,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283684713015?via%3Dihub,
+PKAD-R,7rsa,A,GLU,2,2.75,0.08,,,NMR,,This is an average pKa of values measured at two salt concentrations (30 mM and 1 M).
+PKAD-R,7rsa,A,GLU,2,2.8,0.2,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283684713015?via%3Dihub,
+PKAD-R,7rsa,A,GLU,2,2.7,0.08,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/8615690,
+PKAD-R,7rsa,A,GLU,9,4.0,,,,NMR,,This is an average pKa of values measured at two salt concentrations (30 mM and 1 M).
+PKAD-R,7rsa,A,GLU,9,4.0,0.2,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283684713015?via%3Dihub,from Anto1994
+PKAD-R,7rsa,A,GLU,9,4.0,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/8615690,from Baker1996
+PKAD-R,7rsa,A,HIS,12,6.08,0.1,,,NMR,,This is an average pKa of values measured at two salt concentrations (30 mM and 1 M).
+PKAD-R,7rsa,A,HIS,12,6.03,0.02,,,NMR,https://www.pnas.org/content/88/18/8116,
+PKAD-R,7rsa,A,HIS,12,6.2,0.2,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283684713015?via%3Dihub,
+PKAD-R,7rsa,A,HIS,12,6.0,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/8615690,
+PKAD-R,7rsa,A,ASP,14,,,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283684713015?via%3Dihub,
+PKAD-R,7rsa,A,ASP,38,2.8,0.1,,,NMR,,This is an average pKa of values measured at two salt concentrations (30 mM and 1 M).
+PKAD-R,7rsa,A,ASP,38,3.5,0.2,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283684713015?via%3Dihub,
+PKAD-R,7rsa,A,ASP,38,2.1,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/8615690,
+PKAD-R,7rsa,A,HIS,48,6.0,0.2,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283684713015?via%3Dihub,
+PKAD-R,7rsa,A,GLU,49,4.5,0.1,,,NMR,,This is an average pKa of values measured at two salt concentrations (30 mM and 1 M).
+PKAD-R,7rsa,A,GLU,49,4.7,0.2,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283684713015?via%3Dihub,
+PKAD-R,7rsa,A,GLU,49,4.3,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/8615690,
+PKAD-R,7rsa,A,ASP,53,3.8,0.1,,,NMR,,This is an average pKa of values measured at two salt concentrations (30 mM and 1 M).
+PKAD-R,7rsa,A,ASP,53,3.9,0.2,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283684713015?via%3Dihub,
+PKAD-R,7rsa,A,ASP,53,3.7,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/8615690,
+PKAD-R,7rsa,A,ASP,83,3.4,0.1,,,NMR,,This is an average pKa of values measured at two salt concentrations (30 mM and 1 M).
+PKAD-R,7rsa,A,ASP,83,3.5,0.2,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283684713015?via%3Dihub,
+PKAD-R,7rsa,A,ASP,83,3.3,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/8615690,
+PKAD-R,7rsa,A,GLU,86,4.05,0.1,,,NMR,,This is an average pKa of values measured at two salt concentrations (30 mM and 1 M).
+PKAD-R,7rsa,A,GLU,86,4.1,0.2,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283684713015?via%3Dihub,
+PKAD-R,7rsa,A,GLU,86,4.0,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/8615690,
+PKAD-R,7rsa,A,HIS,105,6.67,0.1,,,NMR,,This is an average pKa of values measured at two salt concentrations (30 mM and 1 M).
+PKAD-R,7rsa,A,HIS,105,6.82,0.01,,,NMR,https://www.pnas.org/content/88/18/8116,
+PKAD-R,7rsa,A,HIS,105,6.7,0.2,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283684713015?via%3Dihub,
+PKAD-R,7rsa,A,HIS,105,6.5,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/8615690,
+PKAD-R,7rsa,A,GLU,111,3.5,,,,NMR,,This is an average pKa of values measured at two salt concentrations (30 mM and 1 M).
+PKAD-R,7rsa,A,GLU,111,3.5,0.2,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283684713015?via%3Dihub,from Anto1994
+PKAD-R,7rsa,A,GLU,111,3.5,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/8615690,from Baker1996
+PKAD-R,7rsa,A,HIS,119,6.31,0.1,,,NMR,,This is an average pKa of values measured at two salt concentrations (30 mM and 1 M).
+PKAD-R,7rsa,A,HIS,119,6.33,0.01,,,NMR,https://www.pnas.org/content/88/18/8116,
+PKAD-R,7rsa,A,HIS,119,6.1,0.2,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283684713015?via%3Dihub,
+PKAD-R,7rsa,A,HIS,119,6.5,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/8615690,
+PKAD-R,7rsa,A,ASP,121,3.05,0.1,,,NMR,,This is an average pKa of values measured at two salt concentrations (30 mM and 1 M).
+PKAD-R,7rsa,A,ASP,121,3.1,0.2,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283684713015?via%3Dihub,
+PKAD-R,7rsa,A,ASP,121,3.0,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/8615690,
+PKAD-R,7rsa,A,CTE,124,2.4,0.2,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283684713015?via%3Dihub,
+PKAD-R,1div,A,ASP,8,2.99,0.05,,,NMR,https://pubmed.ncbi.nlm.nih.gov/10200179/,
+PKAD-R,1div,A,GLU,17,3.57,0.05,,,NMR,https://pubmed.ncbi.nlm.nih.gov/10200179/,
+PKAD-R,1div,A,ASP,23,3.05,0.04,,,NMR,https://pubmed.ncbi.nlm.nih.gov/10200179/,
+PKAD-R,1div,A,GLU,38,4.04,0.05,,,NMR,https://pubmed.ncbi.nlm.nih.gov/10200179/,
+PKAD-R,1div,A,GLU,48,4.21,0.08,,,NMR,https://pubmed.ncbi.nlm.nih.gov/10200179/,
+PKAD-R,1div,A,GLU,54,4.21,0.08,,,NMR,https://pubmed.ncbi.nlm.nih.gov/10200179/,
+PKAD-R,1azp,A,GLU,11,4.19,0.01,,,13C NMR,https://www.sciencedirect.com/science/article/pii/S0022283607008972,"13C NMR, no DNA in pKa experiment; 1AZP (Resolution: 1.60 Å) & 1CA5 (Resolution: 2.20 Å) are X-RAY structures but bound with DNA, 1SAP has no DNA but is SOLUTION NMR structure, so use 1AZP. Users should consider removing DNA from the PDB."
+PKAD-R,1azp,A,GLU,12,4.41,0.01,,,13C NMR,https://www.sciencedirect.com/science/article/pii/S0022283607008972,"13C NMR, no DNA in pKa experiment; 1AZP (Resolution: 1.60 Å) & 1CA5 (Resolution: 2.20 Å) are X-RAY structures but bound with DNA, 1SAP has no DNA but is SOLUTION NMR structure, so use 1AZP. Users should consider removing DNA from the PDB."
+PKAD-R,1azp,A,GLU,14,4.0,0.01,,,13C NMR,https://www.sciencedirect.com/science/article/pii/S0022283607008972,"13C NMR, no DNA in pKa experiment; 1AZP (Resolution: 1.60 Å) & 1CA5 (Resolution: 2.20 Å) are X-RAY structures but bound with DNA, 1SAP has no DNA but is SOLUTION NMR structure, so use 1AZP. Users should consider removing DNA from the PDB."
+PKAD-R,1azp,A,ASP,16,2.89,0.01,,,13C NMR,https://www.sciencedirect.com/science/article/pii/S0022283607008972,"13C NMR, no DNA in pKa experiment; 1AZP (Resolution: 1.60 Å) & 1CA5 (Resolution: 2.20 Å) are X-RAY structures but bound with DNA, 1SAP has no DNA but is SOLUTION NMR structure, so use 1AZP. Users should consider removing DNA from the PDB."
+PKAD-R,1azp,A,ASP,35,3.42,0.01,,,13C NMR,https://www.sciencedirect.com/science/article/pii/S0022283607008972,"13C NMR, no DNA in pKa experiment; 1AZP (Resolution: 1.60 Å) & 1CA5 (Resolution: 2.20 Å) are X-RAY structures but bound with DNA, 1SAP has no DNA but is SOLUTION NMR structure, so use 1AZP. Users should consider removing DNA from the PDB."
+PKAD-R,1azp,A,ASP,36,3.12,0.01,,,13C NMR,https://www.sciencedirect.com/science/article/pii/S0022283607008972,"13C NMR, no DNA in pKa experiment; 1AZP (Resolution: 1.60 Å) & 1CA5 (Resolution: 2.20 Å) are X-RAY structures but bound with DNA, 1SAP has no DNA but is SOLUTION NMR structure, so use 1AZP. Users should consider removing DNA from the PDB."
+PKAD-R,1azp,A,GLU,47,4.21,0.01,,,13C NMR,https://www.sciencedirect.com/science/article/pii/S0022283607008972,"13C NMR, no DNA in pKa experiment; 1AZP (Resolution: 1.60 Å) & 1CA5 (Resolution: 2.20 Å) are X-RAY structures but bound with DNA, 1SAP has no DNA but is SOLUTION NMR structure, so use 1AZP. Users should consider removing DNA from the PDB."
+PKAD-R,1azp,A,ASP,49,3.55,0.01,,,13C NMR,https://www.sciencedirect.com/science/article/pii/S0022283607008972,"13C NMR, no DNA in pKa experiment; 1AZP (Resolution: 1.60 Å) & 1CA5 (Resolution: 2.20 Å) are X-RAY structures but bound with DNA, 1SAP has no DNA but is SOLUTION NMR structure, so use 1AZP. Users should consider removing DNA from the PDB."
+PKAD-R,1azp,A,GLU,53,3.53,0.01,,,13C NMR,https://www.sciencedirect.com/science/article/pii/S0022283607008972,"13C NMR, no DNA in pKa experiment; 1AZP (Resolution: 1.60 Å) & 1CA5 (Resolution: 2.20 Å) are X-RAY structures but bound with DNA, 1SAP has no DNA but is SOLUTION NMR structure, so use 1AZP. Users should consider removing DNA from the PDB."
+PKAD-R,1azp,A,ASP,56,3.35,0.01,,,13C NMR,https://www.sciencedirect.com/science/article/pii/S0022283607008972,"13C NMR, no DNA in pKa experiment; 1AZP (Resolution: 1.60 Å) & 1CA5 (Resolution: 2.20 Å) are X-RAY structures but bound with DNA, 1SAP has no DNA but is SOLUTION NMR structure, so use 1AZP. Users should consider removing DNA from the PDB."
+PKAD-R,1azp,A,GLU,62,3.99,0.01,,,13C NMR,https://www.sciencedirect.com/science/article/pii/S0022283607008972,"13C NMR, no DNA in pKa experiment; 1AZP (Resolution: 1.60 Å) & 1CA5 (Resolution: 2.20 Å) are X-RAY structures but bound with DNA, 1SAP has no DNA but is SOLUTION NMR structure, so use 1AZP. Users should consider removing DNA from the PDB."
+PKAD-R,1azp,A,GLU,64,4.23,0.01,,,13C NMR,https://www.sciencedirect.com/science/article/pii/S0022283607008972,"13C NMR, no DNA in pKa experiment; 1AZP (Resolution: 1.60 Å) & 1CA5 (Resolution: 2.20 Å) are X-RAY structures but bound with DNA, 1SAP has no DNA but is SOLUTION NMR structure, so use 1AZP. Users should consider removing DNA from the PDB."
+PKAD-R,2ci2,I,GLU,23,3.2,,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283685706705?via%3Dihub,
+PKAD-R,2ci2,I,GLU,26,3.3,,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283685706705?via%3Dihub,
+PKAD-R,2ci2,I,GLU,33,4.2,,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283685706705?via%3Dihub,
+PKAD-R,2ci2,I,GLU,34,3.8,,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283685706705?via%3Dihub,
+PKAD-R,2ci2,I,ASP,42,3.3,,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283685706705?via%3Dihub,
+PKAD-R,2ci2,I,GLU,45,3.9,,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283685706705?via%3Dihub,
+PKAD-R,2ci2,I,GLU,60,3.5,,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283685706705?via%3Dihub,
+PKAD-R,2ci2,I,ASP,64,3.8,,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283685706705?via%3Dihub,
+PKAD-R,2ci2,I,ASP,71,2.8,,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283685706705?via%3Dihub,
+PKAD-R,2ci2,I,ASP,74,5.0,,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283685706705?via%3Dihub,
+PKAD-R,1ao6,A,CYS,34,6.9,,,,Fluorescence Spectroscopy,https://www.sciencedirect.com/science/article/pii/S0301462221000739?casa_token=hx5qv3O-wwEAAAAA:nsya3bqVtQ-WnxYVbMgWOV4vrB4bKfcOfMxzUIDezrkY-mZLcFTfAEdqIGWAf-7-cQWYdSGvuw,
+PKAD-R,1stn,A,HIS,8,6.52,0.03,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/11969427,
+PKAD-R,1stn,A,HIS,8,6.82,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi00406a051,alternative pKa in a different salt concentration 0.3 M
+PKAD-R,1ey7,A,HIS,8,6.53,0.02,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/18499123,
+PKAD-R,2qdb,A,HIS,8,6.18,0.03,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/18499123,
+PKAD-R,2rdf,A,HIS,8,6.3,0.01,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/18499123,
+PKAD-R,3d6c,A,HIS,8,6.5,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19324049,3D6C: L38E
+PKAD-R,3bdc,A,GLU,10,2.82,0.09,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19533744,
+PKAD-R,2rks,A,GLU,10,3.1,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19324049,
+PKAD-R,3d6c,A,GLU,10,3.1,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19324049,3D6C: L38E
+PKAD-R,3bdc,A,ASP,19,2.21,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19533744,keep only the major transition according to the paper
+PKAD-R,5e1f,A,GLU,20,4.5,0.2,,,NMR,https://doi.org/10.1073/pnas.1004213107,5E1F : Delta+PHS G20E
+PKAD-R,3bdc,A,ASP,21,6.54,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19533744,keep only the major transition according to the paper
+PKAD-R,2rks,A,ASP,21,6.5,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19324049,
+PKAD-R,3d6c,A,ASP,21,6.6,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19324049,3D6C: L38E
+PKAD-R,4ky5,A,ASP,23,6.8,,,,,https://github.com/sobolevnrm/pkacoop,
+PKAD-R,3qol,A,GLU,23,7.1,0.2,,,NMR,https://doi.org/10.1073/pnas.1004213107,
+PKAD-R,3qoj,A,LYS,23,7.3,0.2,,,NMR,https://www.pnas.org/content/108/13/5260,
+PKAD-R,4ky6,A,ASP,25,6.8,,,,,https://github.com/sobolevnrm/pkacoop,4KY6 DELTA+PHS L25D AT PH 6
+PKAD-R,3evq,A,GLU,25,7.5,0.2,,,NMR,https://doi.org/10.1073/pnas.1004213107,
+PKAD-R,3erq,A,LYS,25,6.3,0.2,,,NMR,https://www.pnas.org/content/108/13/5260,
+PKAD-R,3itp,A,LYS,34,7.1,0.2,,,NMR,https://www.pnas.org/content/108/13/5260,
+PKAD-R,4hmj,A,ASP,36,7.9,,,,,https://github.com/sobolevnrm/pkacoop,4HMJ DELTA+PHS L36D
+PKAD-R,3tp8,A,GLU,36,8.7,0.2,,,NMR,https://doi.org/10.1073/pnas.1004213107,
+PKAD-R,3eji,A,LYS,36,7.2,0.2,,,NMR,https://www.pnas.org/content/108/13/5260,
+PKAD-R,5isr,A,GLU,38,7.0,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19324049,"Harms2009, NMR, use this one"
+PKAD-R,5isr,A,GLU,38,6.8,0.2,,,pH-dependence thermodynamic stability analysis,https://doi.org/10.1073/pnas.1004213107,"Isom2010, pH-dependence thermodynamic stability analysis"
+PKAD-R,2rks,A,LYS,38,10.4,0.2,,,NMR,https://www.pnas.org/content/108/13/5260,
+PKAD-R,3sk5,A,ASP,39,8.1,,,,,"Cannon, B. R. Thermodynamic Consequences of Substitutions of Internal Positions in Proteins with Polar and Ionizable Residues; Johns Hopkins University, 2008.",
+PKAD-R,3bdc,A,ASP,40,3.87,0.09,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19533744,
+PKAD-R,2rks,A,ASP,40,3.8,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19324049,
+PKAD-R,3d6c,A,ASP,40,3.9,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19324049,3D6C: L38E
+PKAD-R,3bdc,A,GLU,43,4.32,0.04,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19533744,
+PKAD-R,2rks,A,GLU,43,4.5,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19324049,
+PKAD-R,3d6c,A,GLU,43,4.4,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19324049,3D6C: L38E
+PKAD-R,1stn,A,HIS,46,5.86,0.04,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/11969427,
+PKAD-R,1stn,A,HIS,46,5.8,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi00406a051,alternative pKa in a different salt concentration 0.3 M
+PKAD-R,1ey7,A,HIS,46,6.49,0.02,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/18499123,
+PKAD-R,2qdb,A,HIS,46,6.49,0.01,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/18499123,
+PKAD-R,2rdf,A,HIS,46,6.42,0.01,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/18499123,
+PKAD-R,3bdc,A,GLU,52,3.93,0.08,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19533744,
+PKAD-R,2rks,A,GLU,52,4.1,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19324049,
+PKAD-R,3d6c,A,GLU,52,4.0,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19324049,3D6C: L38E
+PKAD-R,3bdc,A,GLU,57,3.49,0.09,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19533744,
+PKAD-R,2rks,A,GLU,57,3.6,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19324049,
+PKAD-R,3d6c,A,GLU,57,3.6,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19324049,3D6C: L38E
+PKAD-R,5i6w,A,ASP,58,6.8,,,,,"Cannon, B. R. Thermodynamic Consequences of Substitutions of Internal Positions in Proteins with Polar and Ionizable Residues; Johns Hopkins University, 2008.",
+PKAD-R,5iif,A,ASP,62,8.8,,,,,"Cannon, B. R. Thermodynamic Consequences of Substitutions of Internal Positions in Proteins with Polar and Ionizable Residues; Johns Hopkins University, 2008.",
+PKAD-R,6eeg,A,GLU,62,7.7,0.2,,,NMR,https://doi.org/10.1073/pnas.1004213107,
+PKAD-R,3dmu,A,LYS,62,8.1,0.2,,,NMR,https://www.pnas.org/content/108/13/5260,
+PKAD-R,2oxp,A,ASP,66,8.7,0.03,,,Potentiometric titration,https://www.ncbi.nlm.nih.gov/pubmed/17172297,
+PKAD-R,5egt,A,GLU,66,8.5,0.2,,,NMR,https://doi.org/10.1073/pnas.1004213107,
+PKAD-R,3hzx,A,LYS,66,5.6,0.2,,,NMR,https://www.pnas.org/content/108/13/5260,
+PKAD-R,3bdc,A,GLU,67,3.76,0.07,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19533744,
+PKAD-R,2rks,A,GLU,67,3.9,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19324049,
+PKAD-R,3d6c,A,GLU,67,3.8,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19324049,3D6C: L38E
+PKAD-R,4eqp,A,ASP,72,7.7,,,,,"Cannon, B. R. Thermodynamic Consequences of Substitutions of Internal Positions in Proteins with Polar and Ionizable Residues; Johns Hopkins University, 2008.",
+PKAD-R,3ero,A,GLU,72,7.3,0.2,,,NMR,https://doi.org/10.1073/pnas.1004213107,
+PKAD-R,2rbm,A,LYS,72,8.6,0.2,,,NMR,https://www.pnas.org/content/108/13/5260,
+PKAD-R,3bdc,A,GLU,73,3.31,0.01,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19533744,
+PKAD-R,2rks,A,GLU,73,3.3,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19324049,
+PKAD-R,3d6c,A,GLU,73,3.4,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19324049,3D6C: L38E
+PKAD-R,4ky7,A,ASP,74,8.3,,,,,"Cannon, B. R. Thermodynamic Consequences of Substitutions of Internal Positions in Proteins with Polar and Ionizable Residues; Johns Hopkins University, 2008.",
+PKAD-R,3ruz,A,LYS,74,7.4,0.2,,,NMR,https://www.pnas.org/content/108/13/5260,
+PKAD-R,3bdc,A,GLU,75,3.26,0.05,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19533744,
+PKAD-R,3d6c,A,GLU,75,3.3,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19324049,3D6C: L38E
+PKAD-R,3bdc,A,ASP,77,,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19533744,
+PKAD-R,3bdc,A,ASP,83,,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19533744,
+PKAD-R,5j1z,A,ASP,90,7.5,,,,,"Cannon, B. R. Thermodynamic Consequences of Substitutions of Internal Positions in Proteins with Polar and Ionizable Residues; Johns Hopkins University, 2008.",
+PKAD-R,5i6y,A,GLU,90,6.4,0.2,,,NMR,https://doi.org/10.1073/pnas.1004213107,5I6Y : Delta+PHS A90E
+PKAD-R,5jav,A,ASP,91,6.6,,,,,"Cannon, B. R. Thermodynamic Consequences of Substitutions of Internal Positions in Proteins with Polar and Ionizable Residues; Johns Hopkins University, 2008.",
+PKAD-R,3d4d,A,GLU,91,7.1,0.2,,,NMR,https://doi.org/10.1073/pnas.1004213107,
+PKAD-R,2oeo,A,ASP,92,7.5,,,,,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3213318/,
+PKAD-R,5kix,A,GLU,92,9.0,0.2,,,NMR,https://doi.org/10.1073/pnas.1004213107,"1TQO,1TR5,5KIX : DELTA+PHS I92E, 5KIX is the latest"
+PKAD-R,5e3f,A,LYS,92,5.3,0.2,,,NMR,https://www.pnas.org/content/108/13/5260,
+PKAD-R,3bdc,A,ASP,95,2.16,0.07,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19533744,
+PKAD-R,2rks,A,ASP,95,2.1,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19324049,
+PKAD-R,3d6c,A,ASP,95,2.3,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19324049,3D6C: L38E
+PKAD-R,3tp7,A,GLU,99,8.4,0.2,,,NMR,https://doi.org/10.1073/pnas.1004213107,
+PKAD-R,4hmi,A,LYS,99,6.5,0.2,,,NMR,https://www.pnas.org/content/108/13/5260,
+PKAD-R,5deh,A,ASP,100,6.8,,,,,"Cannon, B. R. Thermodynamic Consequences of Substitutions of Internal Positions in Proteins with Polar and Ionizable Residues; Johns Hopkins University, 2008.",
+PKAD-R,3bdc,A,GLU,101,3.81,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19533744,
+PKAD-R,2rks,A,GLU,101,3.9,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19324049,
+PKAD-R,3d6c,A,GLU,101,3.9,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19324049,3D6C: L38E
+PKAD-R,3e5s,A,LYS,103,8.2,0.2,,,NMR,https://www.pnas.org/content/108/13/5260,
+PKAD-R,3p75,A,ASP,104,9.7,,,,,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3213318/,
+PKAD-R,3h6m,A,GLU,104,9.4,0.2,,,NMR,https://doi.org/10.1073/pnas.1004213107,
+PKAD-R,3c1f,A,LYS,104,7.7,0.2,,,NMR,https://www.pnas.org/content/108/13/5260,
+PKAD-R,4yij,A,GLU,109,7.9,0.2,,,NMR,https://doi.org/10.1073/pnas.1004213107,4YIJ : Delta+PHS A109E
+PKAD-R,5kgu,A,ASP,118,7.0,,,,,"Cannon, B. R. Thermodynamic Consequences of Substitutions of Internal Positions in Proteins with Polar and Ionizable Residues; Johns Hopkins University, 2008.",
+PKAD-R,1stn,A,HIS,121,5.3,0.06,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/11969427,
+PKAD-R,1ey7,A,HIS,121,5.25,0.03,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/18499123,
+PKAD-R,2qdb,A,HIS,121,4.03,0.2,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/18499123,
+PKAD-R,2rdf,A,HIS,121,4.24,0.02,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/18499123,
+PKAD-R,3d6c,A,HIS,121,5.7,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19324049,3D6C: L38E
+PKAD-R,3bdc,A,GLU,122,3.89,0.09,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19533744,
+PKAD-R,2rks,A,GLU,122,3.9,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19324049,
+PKAD-R,3d6c,A,GLU,122,3.9,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19324049,3D6C: L38E
+PKAD-R,1stn,A,HIS,124,5.73,0.02,,,1H NMR,https://www.ncbi.nlm.nih.gov/pubmed/11969427,
+PKAD-R,1stn,A,HIS,124,5.99,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi00406a051,alternative pKa in a different salt concentration 0.3 M
+PKAD-R,1ey7,A,HIS,124,5.71,0.03,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/18499123,
+PKAD-R,2qdb,A,HIS,124,5.71,0.03,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/18499123,
+PKAD-R,2rdf,A,HIS,124,5.64,0.03,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/18499123,
+PKAD-R,3c1e,A,LYS,125,6.2,0.2,,,NMR,https://www.pnas.org/content/108/13/5260,
+PKAD-R,3bdc,A,GLU,129,3.75,0.09,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19533744,
+PKAD-R,2rks,A,GLU,129,3.8,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19324049,
+PKAD-R,3d6c,A,GLU,129,3.8,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19324049,3D6C: L38E
+PKAD-R,3bdc,A,GLU,135,3.76,0.08,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19533744,
+PKAD-R,2rks,A,GLU,135,3.9,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19324049,
+PKAD-R,3d6c,A,GLU,135,3.8,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19324049,3D6C: L38E
+PKAD-R,3bdc,A,GLU,142,4.49,0.04,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19533744,
+PKAD-R,2rks,A,GLU,142,4.6,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19324049,
+PKAD-R,3d6c,A,GLU,142,4.5,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19324049,3D6C: L38E
+PKAD-R,3bdc,A,ASP,143,3.8,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19533744,
+PKAD-R,2rks,A,ASP,143,4.0,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19324049,
+PKAD-R,3d6c,A,ASP,143,3.8,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19324049,3D6C: L38E
+PKAD-R,3bdc,A,ASP,146,3.86,0.05,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19533744,
+PKAD-R,2rks,A,ASP,146,4.0,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19324049,
+PKAD-R,3d6c,A,ASP,146,3.9,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/19324049,3D6C: L38E
+PKAD-R,1bnz,A,NTE,1,7.0,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12578354,"1H NMR. No DNA in pKa experiments. 1BNZ is wildtype, alternative PDBs: 1C8C (E14Q/E60A), 1BF4 (mutations x10); they are all X-RAY structures bound to DNA. Users should consider removing DNA from the PDB."
+PKAD-R,1bnz,A,LYS,7,,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12578354,"1H NMR. No DNA in pKa experiments. 1BNZ is wildtype, alternative PDBs: 1C8C (E14Q/E60A), 1BF4 (mutations x10); they are all X-RAY structures bound to DNA. Users should consider removing DNA from the PDB."
+PKAD-R,1bnz,A,TYR,8,,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12578354,"1H NMR. No DNA in pKa experiments. 1BNZ is wildtype, alternative PDBs: 1C8C (E14Q/E60A), 1BF4 (mutations x10); they are all X-RAY structures bound to DNA. Users should consider removing DNA from the PDB."
+PKAD-R,1bnz,A,GLU,11,4.17,0.01,,,13C NMR,https://www.sciencedirect.com/science/article/pii/S0022283607008972,"13C NMR. No DNA in pKa experiments. 1BNZ is wildtype, alternative PDBs: 1C8C (E14Q/E60A), 1BF4 (mutations x10); they are all X-RAY structures bound to DNA. Users should consider removing DNA from the PDB."
+PKAD-R,1bnz,A,GLU,11,3.5,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12578354,"1H NMR. No DNA in pKa experiments. 1BNZ is wildtype, alternative PDBs: 1C8C (E14Q/E60A), 1BF4 (mutations x10); they are all X-RAY structures bound to DNA. Users should consider removing DNA from the PDB."
+PKAD-R,1bnz,A,GLU,12,4.33,0.01,,,13C NMR,https://www.sciencedirect.com/science/article/pii/S0022283607008972,"13C NMR. No DNA in pKa experiments. 1BNZ is wildtype, alternative PDBs: 1C8C (E14Q/E60A), 1BF4 (mutations x10); they are all X-RAY structures bound to DNA. Users should consider removing DNA from the PDB."
+PKAD-R,1bnz,A,GLU,12,3.5,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12578354,"1H NMR. No DNA in pKa experiments. 1BNZ is wildtype, alternative PDBs: 1C8C (E14Q/E60A), 1BF4 (mutations x10); they are all X-RAY structures bound to DNA. Users should consider removing DNA from the PDB."
+PKAD-R,1bnz,A,LYS,13,,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12578354,"1H NMR. No DNA in pKa experiments. 1BNZ is wildtype, alternative PDBs: 1C8C (E14Q/E60A), 1BF4 (mutations x10); they are all X-RAY structures bound to DNA. Users should consider removing DNA from the PDB."
+PKAD-R,1bnz,A,ASP,16,2.62,0.01,,,13C NMR,https://www.sciencedirect.com/science/article/pii/S0022283607008972,"13C NMR. No DNA in pKa experiments. 1BNZ is wildtype, alternative PDBs: 1C8C (E14Q/E60A), 1BF4 (mutations x10); they are all X-RAY structures bound to DNA. Users should consider removing DNA from the PDB."
+PKAD-R,1bnz,A,ASP,16,2.9,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12578354,"1H NMR. No DNA in pKa experiments. 1BNZ is wildtype, alternative PDBs: 1C8C (E14Q/E60A), 1BF4 (mutations x10); they are all X-RAY structures bound to DNA. Users should consider removing DNA from the PDB."
+PKAD-R,1bnz,A,LYS,19,,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12578354,"1H NMR. No DNA in pKa experiments. 1BNZ is wildtype, alternative PDBs: 1C8C (E14Q/E60A), 1BF4 (mutations x10); they are all X-RAY structures bound to DNA. Users should consider removing DNA from the PDB."
+PKAD-R,1bnz,A,TYR,34,,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12578354,"1H NMR. No DNA in pKa experiments. 1BNZ is wildtype, alternative PDBs: 1C8C (E14Q/E60A), 1BF4 (mutations x10); they are all X-RAY structures bound to DNA. Users should consider removing DNA from the PDB."
+PKAD-R,1bnz,A,ASP,35,2.67,0.01,,,13C NMR,https://www.sciencedirect.com/science/article/pii/S0022283607008972,"13C NMR. No DNA in pKa experiments. 1BNZ is wildtype, alternative PDBs: 1C8C (E14Q/E60A), 1BF4 (mutations x10); they are all X-RAY structures bound to DNA. Users should consider removing DNA from the PDB."
+PKAD-R,1bnz,A,ASP,35,2.6,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12578354,"1H NMR. No DNA in pKa experiments. 1BNZ is wildtype, alternative PDBs: 1C8C (E14Q/E60A), 1BF4 (mutations x10); they are all X-RAY structures bound to DNA. Users should consider removing DNA from the PDB."
+PKAD-R,1bnz,A,GLU,36,4.89,0.01,,,13C NMR,https://www.sciencedirect.com/science/article/pii/S0022283607008972,"13C NMR. No DNA in pKa experiments. 1BNZ is wildtype, alternative PDBs: 1C8C (E14Q/E60A), 1BF4 (mutations x10); they are all X-RAY structures bound to DNA. Users should consider removing DNA from the PDB."
+PKAD-R,1bnz,A,GLU,36,5.4,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12578354,"1H NMR. No DNA in pKa experiments. 1BNZ is wildtype, alternative PDBs: 1C8C (E14Q/E60A), 1BF4 (mutations x10); they are all X-RAY structures bound to DNA. Users should consider removing DNA from the PDB."
+PKAD-R,1bnz,A,GLU,48,4.03,0.01,,,13C NMR,https://www.sciencedirect.com/science/article/pii/S0022283607008972,"13C NMR. No DNA in pKa experiments. 1BNZ is wildtype, alternative PDBs: 1C8C (E14Q/E60A), 1BF4 (mutations x10); they are all X-RAY structures bound to DNA. Users should consider removing DNA from the PDB."
+PKAD-R,1bnz,A,GLU,48,3.5,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12578354,"1H NMR. No DNA in pKa experiments. 1BNZ is wildtype, alternative PDBs: 1C8C (E14Q/E60A), 1BF4 (mutations x10); they are all X-RAY structures bound to DNA. Users should consider removing DNA from the PDB."
+PKAD-R,1bnz,A,ASP,50,3.55,0.01,,,13C NMR,https://www.sciencedirect.com/science/article/pii/S0022283607008972,"13C NMR. No DNA in pKa experiments. 1BNZ is wildtype, alternative PDBs: 1C8C (E14Q/E60A), 1BF4 (mutations x10); they are all X-RAY structures bound to DNA. Users should consider removing DNA from the PDB."
+PKAD-R,1bnz,A,ASP,50,3.0,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12578354,"1H NMR. No DNA in pKa experiments. 1BNZ is wildtype, alternative PDBs: 1C8C (E14Q/E60A), 1BF4 (mutations x10); they are all X-RAY structures bound to DNA. Users should consider removing DNA from the PDB."
+PKAD-R,1bnz,A,GLU,54,3.56,0.01,,,13C NMR,https://www.sciencedirect.com/science/article/pii/S0022283607008972,"13C NMR. No DNA in pKa experiments. 1BNZ is wildtype, alternative PDBs: 1C8C (E14Q/E60A), 1BF4 (mutations x10); they are all X-RAY structures bound to DNA. Users should consider removing DNA from the PDB."
+PKAD-R,1bnz,A,GLU,54,3.2,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12578354,"1H NMR. No DNA in pKa experiments. 1BNZ is wildtype, alternative PDBs: 1C8C (E14Q/E60A), 1BF4 (mutations x10); they are all X-RAY structures bound to DNA. Users should consider removing DNA from the PDB."
+PKAD-R,1bnz,A,GLU,60,4.24,0.01,,,13C NMR,https://www.sciencedirect.com/science/article/pii/S0022283607008972,"13C NMR. No DNA in pKa experiments. 1BNZ is wildtype, alternative PDBs: 1C8C (E14Q/E60A), 1BF4 (mutations x10); they are all X-RAY structures bound to DNA. Users should consider removing DNA from the PDB."
+PKAD-R,1bnz,A,GLU,60,4.1,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12578354,"1H NMR. No DNA in pKa experiments. 1BNZ is wildtype, alternative PDBs: 1C8C (E14Q/E60A), 1BF4 (mutations x10); they are all X-RAY structures bound to DNA. Users should consider removing DNA from the PDB."
+PKAD-R,1bnz,A,CTE,64,3.4,,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/12578354,"1H NMR. No DNA in pKa experiments. 1BNZ is wildtype, alternative PDBs: 1C8C (E14Q/E60A), 1BF4 (mutations x10); they are all X-RAY structures bound to DNA. Users should consider removing DNA from the PDB."
+PKAD-R,2trx,A,NTE,1,7.4,,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi961801a,
+PKAD-R,2trx,A,HIS,6,6.2,,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi961801a,
+PKAD-R,2trx,A,ASP,20,3.8,,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi961801a,
+PKAD-R,2trx,A,ASP,26,7.5,,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi961801a,
+PKAD-R,2fd3,A,CYS,32,6.34,,,,pH dependence of reaction with iodoacetamide,https://doi.org/10.1089/ars.2012.4521,
+PKAD-R,2trx,A,CYS,32,7.1,,,,UV spectrophotometry,https://pubs.acs.org/doi/abs/10.1021/bi961801a,
+PKAD-R,2trx,A,CYS,35,9.9,,,,UV spectrophotometry,https://pubs.acs.org/doi/abs/10.1021/bi961801a,
+PKAD-R,1ert,A,NTE,1,7.3,0.2,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi00128a019,Reduced pKa from Forman1992
+PKAD-R,1ert,A,GLU,6,4.8,0.08,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi952299h,"Reduced pKa from Qin1996; 1ERT is X-RAY structure in REDUCED form, 1TRW is NMR structure, so use 1ERT"
+PKAD-R,1eru,A,GLU,6,4.9,0.04,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi952299h,"Oxidized pKa from Qin1996; 1ERU is X-RAY structure in OXIDIZED form, 1TRS is SOLUTION NMR structure, so use 1ERU"
+PKAD-R,1ert,A,GLU,13,4.4,0.07,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi952299h,"Reduced pKa from Qin1996; Forman1992 & Qin1996 are from the same lab (Gronenborn), Forman1992 used 2D 1H and 15N NMR, Qin1996 used triple-resonance NMR ->> when there is pKa in the later paper, use the later pKa value in Qin1996; 1ERT is X-RAY structure in REDUCED form, 1TRW is NMR structure, so use 1ERT"
+PKAD-R,1ert,A,GLU,13,4.8,0.2,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00128a019,"Reduced pKa from Forman1992; Forman1992 & Qin1996 are from the same lab (Gronenborn), Forman1992 used 2D 1H and 15N NMR, Qin1996 used triple-resonance NMR ->> when there is pKa in the later paper, use the later pKa value in Qin1996; 1ERT is X-RAY structure in REDUCED form, 1TRW is NMR structure, so use 1ERT"
+PKAD-R,1eru,A,GLU,13,4.4,0.07,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi952299h,"Oxidized pKa from Qin1996; 1ERU is X-RAY structure in OXIDIZED form, 1TRS is SOLUTION NMR structure, so use 1ERU"
+PKAD-R,1ert,A,ASP,16,4.0,0.06,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi952299h,"Reduced pKa from Qin1996; Forman1992 & Qin1996 are from the same lab (Gronenborn), Forman1992 used 2D 1H and 15N NMR, Qin1996 used triple-resonance NMR ->> when there is pKa in the later paper, use the later pKa value in Qin1996; 1ERT is X-RAY structure in REDUCED form, 1TRW is NMR structure, so use 1ERT"
+PKAD-R,1ert,A,ASP,16,3.7,0.1,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00128a019,"Reduced pKa from Forman1992; Forman1992 & Qin1996 are from the same lab (Gronenborn), Forman1992 used 2D 1H and 15N NMR, Qin1996 used triple-resonance NMR ->> when there is pKa in the later paper, use the later pKa value in Qin1996; 1ERT is X-RAY structure in REDUCED form, 1TRW is NMR structure, so use 1ERT"
+PKAD-R,1eru,A,ASP,16,4.2,0.03,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi952299h,"Oxidized pKa from Qin1996; 1ERU is X-RAY structure in OXIDIZED form, 1TRS is SOLUTION NMR structure, so use 1ERU"
+PKAD-R,1ert,A,ASP,20,3.8,0.05,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi952299h,"Reduced pKa from Qin1996; Forman1992 & Qin1996 are from the same lab (Gronenborn), Forman1992 used 2D 1H and 15N NMR, Qin1996 used triple-resonance NMR ->> when there is pKa in the later paper, use the later pKa value in Qin1996; 1ERT is X-RAY structure in REDUCED form, 1TRW is NMR structure, so use 1ERT"
+PKAD-R,1ert,A,ASP,20,3.6,0.1,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00128a019,"Reduced pKa from Forman1992; Forman1992 & Qin1996 are from the same lab (Gronenborn), Forman1992 used 2D 1H and 15N NMR, Qin1996 used triple-resonance NMR ->> when there is pKa in the later paper, use the later pKa value in Qin1996; 1ERT is X-RAY structure in REDUCED form, 1TRW is NMR structure, so use 1ERT"
+PKAD-R,1eru,A,ASP,20,3.8,0.03,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi952299h,"Oxidized pKa from Qin1996; 1ERU is X-RAY structure in OXIDIZED form, 1TRS is SOLUTION NMR structure, so use 1ERU"
+PKAD-R,1ert,A,ASP,26,9.9,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi952299h,"Reduced pKa from Qin1996; 1ERT is X-RAY structure in REDUCED form, 1TRW is NMR structure, so use 1ERT"
+PKAD-R,1eru,A,ASP,26,8.1,0.02,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi952299h,"Oxidized pKa from Qin1996; 1ERU is X-RAY structure in OXIDIZED form, 1TRS is SOLUTION NMR structure, so use 1ERU"
+PKAD-R,1ert,A,CYS,32,6.3,0.1,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00128a019,Reduced pKa from Forman1992
+PKAD-R,1ert,A,HIS,43,5.5,0.1,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00128a019,Reduced pKa from Forman1992
+PKAD-R,1ert,A,GLU,47,4.1,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi952299h,"Reduced pKa from Qin1996; 1ERT is X-RAY structure in REDUCED form, 1TRW is NMR structure, so use 1ERT"
+PKAD-R,1eru,A,GLU,47,4.3,0.05,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi952299h,"Oxidized pKa from Qin1996; 1ERU is X-RAY structure in OXIDIZED form, 1TRS is SOLUTION NMR structure, so use 1ERU"
+PKAD-R,1ert,A,GLU,56,,0.04,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi952299h,"Reduced pKa from Qin1996, two pKa model"
+PKAD-R,1eru,A,GLU,56,,0.05,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi952299h,"Oxidized pKa from Qin1996; 1ERU is X-RAY structure in OXIDIZED form, 1TRS is SOLUTION NMR structure, so use 1ERU"
+PKAD-R,1ert,A,ASP,58,2.8,0.1,,,,https://pubs.acs.org/doi/10.1021/bi952299h,"Reduced pKa from Qin1996; Forman1992 & Qin1996 are from the same lab (Gronenborn), Forman1992 used 2D 1H and 15N NMR, Qin1996 used triple-resonance NMR ->> when there is pKa in the later paper, use the later pKa value in Qin1996; 1ERT is X-RAY structure in REDUCED form, 1TRW is NMR structure, so use 1ERT"
+PKAD-R,1ert,A,ASP,58,3.1,0.2,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00128a019,Reduced pKa from Forman1992
+PKAD-R,1ert,A,ASP,60,4.2,0.2,,,,https://pubs.acs.org/doi/10.1021/bi952299h,Reduced Recombinant form of the thioredoxin from Qin1996
+PKAD-R,1ert,A,ASP,61,5.3,0.3,,,,https://pubs.acs.org/doi/10.1021/bi952299h,Reduced Recombinant form of the thioredoxin from Qin1996
+PKAD-R,1ert,A,ASP,64,3.2,0.06,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi952299h,"Reduced pKa from Qin1996; Forman1992 & Qin1996 are from the same lab (Gronenborn), Forman1992 used 2D 1H and 15N NMR, Qin1996 used triple-resonance NMR ->> when there is pKa in the later paper, use the later pKa value in Qin1996; 1ERT is X-RAY structure in REDUCED form, 1TRW is NMR structure, so use 1ERT"
+PKAD-R,1ert,A,ASP,64,3.1,0.2,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00128a019,"Reduced pKa from Forman1992; Forman1992 & Qin1996 are from the same lab (Gronenborn), Forman1992 used 2D 1H and 15N NMR, Qin1996 used triple-resonance NMR ->> when there is pKa in the later paper, use the later pKa value in Qin1996; 1ERT is X-RAY structure in REDUCED form, 1TRW is NMR structure, so use 1ERT"
+PKAD-R,1eru,A,ASP,64,3.2,0.05,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi952299h,"Oxidized pKa from Qin1996; 1ERU is X-RAY structure in OXIDIZED form, 1TRS is SOLUTION NMR structure, so use 1ERU"
+PKAD-R,1ert,A,GLU,68,4.9,0.07,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi952299h,"Reduced pKa from Qin1996; 1ERT is X-RAY structure in REDUCED form, 1TRW is NMR structure, so use 1ERT"
+PKAD-R,1eru,A,GLU,68,5.1,0.04,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi952299h,"Oxidized pKa from Qin1996; 1ERU is X-RAY structure in OXIDIZED form, 1TRS is SOLUTION NMR structure, so use 1ERU"
+PKAD-R,1ert,A,GLU,70,4.6,0.08,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi952299h,"Reduced pKa from Qin1996; 1ERT is X-RAY structure in REDUCED form, 1TRW is NMR structure, so use 1ERT"
+PKAD-R,1eru,A,GLU,70,4.8,0.05,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi952299h,"Oxidized pKa from Qin1996; 1ERU is X-RAY structure in OXIDIZED form, 1TRS is SOLUTION NMR structure, so use 1ERU"
+PKAD-R,1ert,A,GLU,88,3.7,0.08,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi952299h,"Reduced pKa from Qin1996; 1ERT is X-RAY structure in REDUCED form, 1TRW is NMR structure, so use 1ERT"
+PKAD-R,1eru,A,GLU,88,3.6,0.05,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi952299h,"Oxidized pKa from Qin1996; 1ERU is X-RAY structure in OXIDIZED form, 1TRS is SOLUTION NMR structure, so use 1ERU"
+PKAD-R,1ert,A,GLU,95,4.1,0.02,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi952299h,"Reduced pKa from Qin1996; 1ERT is X-RAY structure in REDUCED form, 1TRW is NMR structure, so use 1ERT"
+PKAD-R,1eru,A,GLU,95,4.1,0.04,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi952299h,"Oxidized pKa from Qin1996; 1ERU is X-RAY structure in OXIDIZED form, 1TRS is SOLUTION NMR structure, so use 1ERU"
+PKAD-R,1ert,A,GLU,98,3.9,0.02,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi952299h,"Reduced pKa from Qin1996; 1ERT is X-RAY structure in REDUCED form, 1TRW is NMR structure, so use 1ERT"
+PKAD-R,1eru,A,GLU,98,3.9,0.04,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi952299h,"Oxidized pKa from Qin1996; 1ERU is X-RAY structure in OXIDIZED form, 1TRS is SOLUTION NMR structure, so use 1ERU"
+PKAD-R,1ert,A,GLU,103,4.4,0.07,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi952299h,"Reduced pKa from Qin1996; 1ERT is X-RAY structure in REDUCED form, 1TRW is NMR structure, so use 1ERT"
+PKAD-R,1eru,A,GLU,103,4.5,0.06,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi952299h,"Oxidized pKa from Qin1996; 1ERU is X-RAY structure in OXIDIZED form, 1TRS is SOLUTION NMR structure, so use 1ERU"
+PKAD-R,1ert,A,CTE,105,3.2,0.1,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00128a019,Reduced pKa from Forman1992
+PKAD-R,2o89,A,CYS,29,6.4,,,,,https://doi.org/10.1089/ars.2012.4521,
+PKAD-R,1xob,A,CYS,32,7.1,,,,,https://doi.org/10.1089/ars.2012.4521,
+PKAD-R,2ppt,A,CYS,73,5.2,,,,,https://doi.org/10.1089/ars.2012.4521,"2PPT is Rhodobacter capsulatus Trx2, diff from pKa's species"
+PKAD-R,1ypi,A,HIS,95,,,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi00067a024,"The gene encoding triosephosphate isomerase was from baker’s yeast, so use 1YPI."
+PKAD-R,1ypi,A,HIS,103,7.29,,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi00067a024,
+PKAD-R,1o73,A,CYS,40,7.2,,,,pH dependence of UV absorption at 240 nm,https://doi.org/10.1089/ars.2012.4521,
+PKAD-R,4pti,A,NTE,1,8.1,0.1,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283684713015?via%3Dihub,
+PKAD-R,4pti,A,ASP,3,3.0,0.1,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283684713015?via%3Dihub,
+PKAD-R,4pti,A,GLU,7,3.7,0.1,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283684713015?via%3Dihub,
+PKAD-R,4pti,A,TYR,10,10.4,0.2,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00688a008,
+PKAD-R,4pti,A,LYS,15,10.6,0.1,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283684713015?via%3Dihub,
+PKAD-R,4pti,A,TYR,21,11.1,0.2,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00688a008,
+PKAD-R,4pti,A,TYR,23,11.7,0.2,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00688a008,
+PKAD-R,4pti,A,LYS,26,10.6,0.1,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283684713015?via%3Dihub,
+PKAD-R,4pti,A,TYR,35,11.1,0.2,,,1H NMR,https://pubs.acs.org/doi/abs/10.1021/bi00688a008,
+PKAD-R,4pti,A,LYS,41,10.8,0.1,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283684713015?via%3Dihub,
+PKAD-R,4pti,A,LYS,46,10.6,0.1,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283684713015?via%3Dihub,
+PKAD-R,4pti,A,GLU,49,3.8,0.1,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283684713015?via%3Dihub,
+PKAD-R,4pti,A,ASP,50,3.4,0.1,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283684713015?via%3Dihub,
+PKAD-R,4pti,A,CTE,58,2.9,0.1,,,NMR,https://www.sciencedirect.com/science/article/pii/S0022283684713015?via%3Dihub,
+PKAD-R,2tga,A,HIS,40,4.57,0.02,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi00615a008,
+PKAD-R,2tga,A,HIS,57,7.33,0.02,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi00615a008,
+PKAD-R,1i7k,A,CYS,102,10.9,0.2,,,UV spectrophotometry,https://pubs.acs.org/doi/abs/10.1021/bi0514459,"1I7K: C114S, CYS-114-SER"
+PKAD-R,1ubq,A,GLU,16,3.9,0.1,,,NMR,https://pubs.acs.org/doi/10.1021/bi025571d,
+PKAD-R,1ubq,A,ASP,21,3.1,0.1,,,NMR,https://pubs.acs.org/doi/10.1021/bi025571d,
+PKAD-R,1ubq,A,GLU,24,4.3,0.1,,,NMR,https://pubs.acs.org/doi/10.1021/bi025571d,
+PKAD-R,1ubq,A,ASP,32,3.8,0.1,,,NMR,https://pubs.acs.org/doi/10.1021/bi025571d,
+PKAD-R,1ubq,A,GLU,34,4.5,0.1,,,NMR,https://pubs.acs.org/doi/10.1021/bi025571d,
+PKAD-R,1ubq,A,ASP,39,3.6,0.1,,,NMR,https://pubs.acs.org/doi/10.1021/bi025571d,
+PKAD-R,1ubq,A,GLU,51,3.8,0.1,,,NMR,https://pubs.acs.org/doi/10.1021/bi025571d,
+PKAD-R,1ubq,A,ASP,52,3.4,0.1,,,NMR,https://pubs.acs.org/doi/10.1021/bi025571d,
+PKAD-R,1ubq,A,ASP,58,3.6,0.1,,,NMR,https://pubs.acs.org/doi/10.1021/bi025571d,
+PKAD-R,1ubq,A,GLU,64,4.5,0.1,,,NMR,https://pubs.acs.org/doi/10.1021/bi025571d,
+PKAD-R,1ubq,A,CTE,76,3.3,0.1,,,NMR,https://pubs.acs.org/doi/10.1021/bi025571d,
+PKAD-R,1jbb,A,CYS,87,11.1,0.1,,,UV spectrophotometry,https://www.ncbi.nlm.nih.gov/pubmed/16342931,
+PKAD-R,1jas,A,CYS,88,10.2,0.2,,,UV spectrophotometry,https://www.ncbi.nlm.nih.gov/pubmed/16342931,
+PKAD-R,1kvr,A,TYR,149,6.71,0.06,,,Potentiometric titration,https://www.ncbi.nlm.nih.gov/pubmed/9271498,
+PKAD-R,1kvt,A,TYR,149,6.86,0.17,,,Potentiometric titration,https://www.ncbi.nlm.nih.gov/pubmed/9271498,
+PKAD-R,1kvs,A,TYR,149,6.28,0.08,,,Potentiometric titration,https://www.ncbi.nlm.nih.gov/pubmed/9271498,
+PKAD-R,1vii,A,ASP,44,3.04,0.12,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8197028/pdf/nihms-1705730.pdf,1YRF: N68H
+PKAD-R,1vii,A,GLU,45,3.95,0.2,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8197028/pdf/nihms-1705730.pdf,1YRF: N68H
+PKAD-R,1vii,A,ASP,46,3.44,0.11,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8197028/pdf/nihms-1705730.pdf,1YRF: N68H
+PKAD-R,1vii,A,GLU,72,4.37,0.03,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8197028/pdf/nihms-1705730.pdf,1YRF: N68H
+PKAD-R,1vii,A,CTE,76,2.91,0.08,,,NMR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8197028/pdf/nihms-1705730.pdf,
+PKAD-R,1qh7,A,ASP,5,3.84,0.02,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi049948m,
+PKAD-R,1qh7,A,HIS,11,6.52,0.26,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi049948m,
+PKAD-R,1qh7,A,ASP,12,3.94,0.14,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi049948m,
+PKAD-R,1qh7,A,ASP,15,3.35,0.14,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi049948m,
+PKAD-R,1qh7,A,GLU,17,4.31,0.07,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi049948m,
+PKAD-R,1qh7,A,ASP,21,3.46,0.13,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi049948m,
+PKAD-R,1qh7,A,HIS,32,6.68,0.03,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi049948m,
+PKAD-R,1qh7,A,GLU,56,4.55,0.02,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi049948m,
+PKAD-R,1qh7,A,HIS,60,4.01,0.02,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi049948m,
+PKAD-R,1qh7,A,ASP,90,3.88,0.07,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi049948m,
+PKAD-R,1qh7,A,GLU,94,3.94,0.04,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi049948m,
+PKAD-R,1qh7,A,ASP,99,,,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi049948m,
+PKAD-R,1qh7,A,ASP,118,,,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi049948m,
+PKAD-R,1qh7,A,ASP,123,,,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi049948m,
+PKAD-R,1qh7,A,GLU,126,4.51,0.02,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi049948m,
+PKAD-R,1qh7,A,HIS,162,,,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi049948m,
+PKAD-R,1qh7,A,GLU,167,3.58,0.13,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi049948m,
+PKAD-R,1qh7,A,GLU,178,4.1,0.2,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi049948m,
+PKAD-R,1qh7,A,GLU,184,6.5,0.2,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi049948m,
+PKAD-R,1qh7,A,CTE,207,3.9,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi049948m,
+PKAD-R,1xnb,A,ASP,4,3.0,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/9416621,
+PKAD-R,1xnb,A,ASP,11,2.5,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/9416621,
+PKAD-R,1xnb,A,GLU,78,4.6,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/9416621,
+PKAD-R,1hv1,A,GLU,78,4.2,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi0105429,
+PKAD-R,1hv0,A,GLU,78,5.0,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi0105429,
+PKAD-R,1xnb,A,ASP,83,,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/9416621,
+PKAD-R,1xnb,A,ASP,101,,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/9416621,
+PKAD-R,1xnb,A,ASP,106,2.7,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/9416621,
+PKAD-R,1xnb,A,ASP,119,3.2,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/9416621,
+PKAD-R,1xnb,A,ASP,121,3.6,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/9416621,
+PKAD-R,1xnb,A,HIS,149,,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/9416621,
+PKAD-R,1xnb,A,HIS,156,,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/9416621,
+PKAD-R,1xnb,A,GLU,172,7.2,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/9416621,
+PKAD-R,1xnb,A,GLU,172,6.7,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi0105429,
+PKAD-R,1hv1,A,GLU,172,7.3,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi0105429,
+PKAD-R,1hv0,A,GLU,172,7.9,0.1,,,NMR,https://pubs.acs.org/doi/abs/10.1021/bi0105429,
+PKAD-R,1xnb,A,CTE,185,2.7,0.1,,,NMR,https://www.ncbi.nlm.nih.gov/pubmed/9416621,

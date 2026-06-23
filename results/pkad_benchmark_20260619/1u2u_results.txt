@@ -1,0 +1,12 @@
+calc_pkas failed: CHARMM ABNORMAL TERMINATION in /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/1u2u_karlsberg/initial_modelling/1u2u_stripped_charmm.out
+Relevant lines:
+PARRDR> Error: Repeated ANGLE parameter (   392): CT1   CT2   HA   is replaced
+PARRDR> Error: Repeated ANGLE parameter (   381): CT1   CT2   HA1  is replaced
+PARRDR> Error: Repeated ANGLE parameter (   148): CT1   CT2   HA2  is replaced
+PARRDR> Error: Repeated ANGLE parameter (   392): CT1   CT2   HA   is replaced
+PARRDR> Error: Repeated ANGLE parameter (   372): OH1   CD    OH1  is replaced
+PARRDR> Error: Repeated IMPH parameter (    11): OH1   X     X     CD   is replaced
+PARRDR> Error: Repeated BOND parameter (   133): OT    HT   is replaced
+PARRDR> Error: Repeated ANGLE parameter (   370): HT    OT    HT   is replaced
+Execution terminated due to the detection of a fatal error.
+ABNORMAL TERMINATION

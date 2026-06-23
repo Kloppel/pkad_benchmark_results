@@ -1,0 +1,1 @@
+calc_pkas failed: TAPBS timed out after 1461s in /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/1bvi_karlsberg/pac_ph_-10_open_sb_acids/iter1/tapbs/

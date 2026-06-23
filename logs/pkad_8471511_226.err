@@ -1,0 +1,20 @@
+charmm-lite c46b1 loaded
+Traceback (most recent call last):
+  File "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/../run_kb3.py", line 540, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/../run_kb3.py", line 535, in main
+    success = run(config)
+  File "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/../run_kb3.py", line 408, in run
+    JobHelper.write_results(config.results_dir, name, success, message)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/jones/Karlsberg3/src/kbp3/job_helper.py", line 308, in write_results
+    (results_dir / f"{name}_results.txt").write_text(message)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/homes2/chemie/jones/.conda/envs/kb3/lib/python3.14/pathlib/__init__.py", line 809, in write_text
+    with self.open(mode='w', encoding=encoding, errors=errors, newline=newline) as f:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/homes2/chemie/jones/.conda/envs/kb3/lib/python3.14/pathlib/__init__.py", line 771, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 122] Disk quota exceeded: '/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/2rbm_results.txt'

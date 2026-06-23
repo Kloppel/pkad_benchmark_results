@@ -1,0 +1,37 @@
+============================================================
+PKAD Benchmark Statistics
+============================================================
+
+--- Overall ---
+  N=2754  RMSE=1.78  MAE=1.028  MeanDelta=-0.037
+
+--- By run ---
+  pkad_benchmark_20260619: N=1015  RMSE=1.498  MAE=0.926  MeanDelta=-0.068
+  pkad_benchmark_20260622: N=362  RMSE=2.399  MAE=1.317  MeanDelta=0.051
+  pkad_benchmark_20260623_combined: N=1377  RMSE=1.78  MAE=1.028  MeanDelta=-0.037
+
+--- By dataset ---
+  PKAD-R: N=1174  RMSE=2.053  MAE=1.214  MeanDelta=0.024
+  PKAD2: N=2154  RMSE=1.471  MAE=0.915  MeanDelta=-0.114
+  PKAD3: N=2664  RMSE=1.713  MAE=0.999  MeanDelta=-0.068
+
+--- By residue type ---
+  ASP: N=808  RMSE=1.298  MAE=0.849  MeanDelta=-0.232
+  CTE: N=40  RMSE=1.338  MAE=0.953  MeanDelta=-0.38
+  CYS: N=68  RMSE=6.6  MAE=5.53  MeanDelta=5.469
+  GLU: N=872  RMSE=1.499  MAE=0.898  MeanDelta=-0.253
+  HIS: N=532  RMSE=1.391  MAE=0.971  MeanDelta=-0.449
+  LYS: N=336  RMSE=1.755  MAE=0.932  MeanDelta=0.504
+  NTE: N=38  RMSE=1.22  MAE=1.019  MeanDelta=-0.172
+  TYR: N=60  RMSE=2.041  MAE=1.347  MeanDelta=0.43
+
+--- By run × dataset ---
+  pkad_benchmark_20260619 | PKAD-R: N=400  RMSE=1.761  MAE=1.07  MeanDelta=-0.044
+  pkad_benchmark_20260619 | PKAD2: N=815  RMSE=1.361  MAE=0.879  MeanDelta=-0.145
+  pkad_benchmark_20260619 | PKAD3: N=996  RMSE=1.481  MAE=0.911  MeanDelta=-0.086
+  pkad_benchmark_20260622 | PKAD-R: N=187  RMSE=2.568  MAE=1.524  MeanDelta=0.169
+  pkad_benchmark_20260622 | PKAD2: N=262  RMSE=1.77  MAE=1.027  MeanDelta=-0.019
+  pkad_benchmark_20260622 | PKAD3: N=336  RMSE=2.264  MAE=1.261  MeanDelta=-0.016
+  pkad_benchmark_20260623_combined | PKAD-R: N=587  RMSE=2.053  MAE=1.214  MeanDelta=0.024
+  pkad_benchmark_20260623_combined | PKAD2: N=1077  RMSE=1.471  MAE=0.915  MeanDelta=-0.114
+  pkad_benchmark_20260623_combined | PKAD3: N=1332  RMSE=1.713  MAE=0.999  MeanDelta=-0.068

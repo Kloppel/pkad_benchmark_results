@@ -1,0 +1,49 @@
+
+### The following changes have been applied to the structure. ###
+# Some residues have been found that are not known to Charmm. (6xDG 6xDC 5xDA 3xDT)
+  Decision: delete_unknown
+  Options:  yes - Delete the residues. (default)
+            no  - Keep them.
+  Chosen:   yes
+
+# Capping of termini will be decided here. Should they be caped?
+  Decision: cap_termini
+  Options:  cap - Apply patches in Charmm to cap termini if not true termini. (default)
+            dont_cap  - Do nothing, apply regular termini patches!
+
+  Chosen:   cap for segname A
+
+# There are 73 protein and 0 ligand atoms missing. Should they be modelled?:
+  Missing atoms: HSP-255_A: CD2  CG NE2 ND1 CE1 
+                 ILE-256_A: CG2 CG1  CD 
+                 EPP-258_A:  CG  CD OE1 OE2 
+                 LYS-259_A:  CG  CD  CE  NZ 
+                 LYS-287_A:  CG  CD  CE  NZ 
+                 LYS-291_A:  CG  CD  CE  NZ 
+                 THR-294_A: OG1 CG2 
+                 SER-295_A:  OG 
+                 GLN-297_A:  CG  CD OE1 NE2 
+                 EPP-298_A:  CG  CD OE1 OE2 
+                 LYS-307_A:  CG  CD  CE  NZ 
+                 ILE-314_A: CG2 CG1  CD 
+                 ILE-316_A: CG2 CG1  CD 
+                 EPP-318_A:  CG  CD OE1 OE2 
+                 ARG-323_A:  CG  CD  NE  CZ NH1 NH2 
+                 DPP-326_A:  CG OD1 OD2 
+                 ARG-438_A:  CG  CD  NE  CZ NH1 NH2 
+                 ARG-441_A:  CG  CD  NE  CZ NH1 NH2 
+                 SER-445_A:  OG 
+                 VAL-545_A: CG1 CG2 
+  Decision: missing_atoms
+  Options:  model - Model all missing atoms. (default)
+            [keep  - Do not model any (non hydrogen) atoms.] option currently not available
+  Chosen:   model
+
+# There are 2637 protein, 0 ligand and 0 water hydrogens missing. Should they be modelled?:
+  Decision: missing_hydrogens
+  Options:  model - Model and optimize all hydrogens. (default)
+            rebuild_all - Strip all present hydrogens first, then rebuild and optimize them.
+            rebuild_selected - Strip only selected hydrogens first, then rebuild and optimize them.
+            disabled - Do not rebuild hydrogens again after a one-shot rebuild.
+  Chosen:   model
+

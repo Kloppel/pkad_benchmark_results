@@ -1,0 +1,63 @@
+# Initial energy calculation for this PAC! 
+Starting prot_energy job to determine protonation 
+Starting Karlsbergg 
+/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/2fwf_karlsberg/pac_ph_-10_open_sb_acids/init_calc/karlsberg/ 
+
+# Starting self-consistent-cycle! 
+
+***Starting iteration 1*** 
+previous_protonation 
+{('HSP', 428, 'A'): None, ('LYS', 435, 'A'): None, ('DPP', 438, 'A'): None, ('EPP', 439, 'A'): None, ('EPP', 446, 'A'): None, ('LYS', 448, 'A'): None, ('LYS', 450, 'A'): None, ('DPP', 455, 'A'): None, ('TYR', 457, 'A'): None, ('DPP', 459, 'A'): None, ('CYS', 461, 'A'): None, ('CYS', 464, 'A'): None, ('LYS', 465, 'A'): None, ('EPP', 466, 'A'): None, ('EPP', 468, 'A'): None, ('LYS', 469, 'A'): None, ('TYR', 470, 'A'): None, ('DPP', 474, 'A'): None, ('LYS', 479, 'A'): None, ('DPP', 483, 'A'): None, ('DPP', 495, 'A'): None, ('DPP', 498, 'A'): None, ('LYS', 503, 'A'): None, ('HSP', 504, 'A'): None, ('DPP', 517, 'A'): None, ('EPP', 522, 'A'): None, ('HSP', 523, 'A'): None, ('ARG', 527, 'A'): None, ('DPP', 533, 'A'): None, ('EPP', 535, 'A'): None, ('HSP', 540, 'A'): None, ('ARG', 542, 'A'): None, ('DPP', 543, 'A'): None, ('ARG', 544, 'A'): None, ('HSP', 547, 'A'): None, ('HSP', 548, 'A'): None, ('HSP', 549, 'A'): None, ('HSP', 550, 'A'): None} 
+current_protonation 
+{('HSP', 428, 'A'): 1, ('LYS', 435, 'A'): 1, ('DPP', 438, 'A'): 2, ('EPP', 439, 'A'): 2, ('EPP', 446, 'A'): 2, ('LYS', 448, 'A'): 1, ('LYS', 450, 'A'): 1, ('DPP', 455, 'A'): 0, ('TYR', 457, 'A'): 0, ('DPP', 459, 'A'): 2, ('CYS', 461, 'A'): 0, ('CYS', 464, 'A'): 0, ('LYS', 465, 'A'): 1, ('EPP', 466, 'A'): 2, ('EPP', 468, 'A'): 2, ('LYS', 469, 'A'): 1, ('TYR', 470, 'A'): 0, ('DPP', 474, 'A'): 2, ('LYS', 479, 'A'): 1, ('DPP', 483, 'A'): 0, ('DPP', 495, 'A'): 2, ('DPP', 498, 'A'): 2, ('LYS', 503, 'A'): 1, ('HSP', 504, 'A'): 1, ('DPP', 517, 'A'): 2, ('EPP', 522, 'A'): 0, ('HSP', 523, 'A'): 1, ('ARG', 527, 'A'): 1, ('DPP', 533, 'A'): 2, ('EPP', 535, 'A'): 0, ('HSP', 540, 'A'): 1, ('ARG', 542, 'A'): 1, ('DPP', 543, 'A'): 0, ('ARG', 544, 'A'): 1, ('HSP', 547, 'A'): 1, ('HSP', 548, 'A'): 1, ('HSP', 549, 'A'): 1, ('HSP', 550, 'A'): 1} 
+Residues that have changed the protonation state are: 
+[('HSP', 428, 'A'), ('LYS', 435, 'A'), ('DPP', 438, 'A'), ('EPP', 439, 'A'), ('EPP', 446, 'A'), ('LYS', 448, 'A'), ('LYS', 450, 'A'), ('DPP', 455, 'A'), ('TYR', 457, 'A'), ('DPP', 459, 'A'), ('CYS', 461, 'A'), ('CYS', 464, 'A'), ('LYS', 465, 'A'), ('EPP', 466, 'A'), ('EPP', 468, 'A'), ('LYS', 469, 'A'), ('TYR', 470, 'A'), ('DPP', 474, 'A'), ('LYS', 479, 'A'), ('DPP', 483, 'A'), ('DPP', 495, 'A'), ('DPP', 498, 'A'), ('LYS', 503, 'A'), ('HSP', 504, 'A'), ('DPP', 517, 'A'), ('EPP', 522, 'A'), ('HSP', 523, 'A'), ('ARG', 527, 'A'), ('DPP', 533, 'A'), ('EPP', 535, 'A'), ('HSP', 540, 'A'), ('ARG', 542, 'A'), ('DPP', 543, 'A'), ('ARG', 544, 'A'), ('HSP', 547, 'A'), ('HSP', 548, 'A'), ('HSP', 549, 'A'), ('HSP', 550, 'A')] 
+# Snapshot saved: /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/2fwf_karlsberg/pac_ph_-10_open_sb_acids/snapshots/iter1_start.pkl 
+# Starting PAC modelling 
+Salt bridge opening acids! Iteration 1 
+Salt bridges Are below 
+['LYS-435_A', 'TYR-457_A', 'DPP-459_A', 'LYS-465_A', 'EPP-468_A', 'DPP-483_A', 'DPP-495_A', 'DPP-498_A', 'DPP-517_A', 'EPP-522_A', 'HSP-523_A', 'ARG-527_A', 'HSP-548_A'] 
+Starting prot_energy job to determine protonation 
+Starting Karlsbergg 
+/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/2fwf_karlsberg/pac_ph_-10_open_sb_acids/iter1/karlsberg/ 
+
+
+***Starting iteration 2*** 
+previous_protonation 
+{('HSP', 428, 'A'): 1, ('LYS', 435, 'A'): 1, ('DPP', 438, 'A'): 2, ('EPP', 439, 'A'): 2, ('EPP', 446, 'A'): 2, ('LYS', 448, 'A'): 1, ('LYS', 450, 'A'): 1, ('DPP', 455, 'A'): 0, ('TYR', 457, 'A'): 0, ('DPP', 459, 'A'): 2, ('CYS', 461, 'A'): 0, ('CYS', 464, 'A'): 0, ('LYS', 465, 'A'): 1, ('EPP', 466, 'A'): 2, ('EPP', 468, 'A'): 2, ('LYS', 469, 'A'): 1, ('TYR', 470, 'A'): 0, ('DPP', 474, 'A'): 2, ('LYS', 479, 'A'): 1, ('DPP', 483, 'A'): 0, ('DPP', 495, 'A'): 2, ('DPP', 498, 'A'): 2, ('LYS', 503, 'A'): 1, ('HSP', 504, 'A'): 1, ('DPP', 517, 'A'): 2, ('EPP', 522, 'A'): 0, ('HSP', 523, 'A'): 1, ('ARG', 527, 'A'): 1, ('DPP', 533, 'A'): 2, ('EPP', 535, 'A'): 0, ('HSP', 540, 'A'): 1, ('ARG', 542, 'A'): 1, ('DPP', 543, 'A'): 0, ('ARG', 544, 'A'): 1, ('HSP', 547, 'A'): 1, ('HSP', 548, 'A'): 1, ('HSP', 549, 'A'): 1, ('HSP', 550, 'A'): 1} 
+current_protonation 
+{('HSP', 428, 'A'): 1, ('LYS', 435, 'A'): 1, ('DPP', 438, 'A'): 2, ('EPP', 439, 'A'): 2, ('EPP', 446, 'A'): 2, ('LYS', 448, 'A'): 1, ('LYS', 450, 'A'): 1, ('DPP', 455, 'A'): 0, ('TYR', 457, 'A'): 0, ('DPP', 459, 'A'): 2, ('CYS', 461, 'A'): 0, ('CYS', 464, 'A'): 0, ('LYS', 465, 'A'): 1, ('EPP', 466, 'A'): 2, ('EPP', 468, 'A'): 0, ('LYS', 469, 'A'): 1, ('TYR', 470, 'A'): 0, ('DPP', 474, 'A'): 2, ('LYS', 479, 'A'): 1, ('DPP', 483, 'A'): 0, ('DPP', 495, 'A'): 2, ('DPP', 498, 'A'): 2, ('LYS', 503, 'A'): 1, ('HSP', 504, 'A'): 1, ('DPP', 517, 'A'): 0, ('EPP', 522, 'A'): 0, ('HSP', 523, 'A'): 1, ('ARG', 527, 'A'): 1, ('DPP', 533, 'A'): 2, ('EPP', 535, 'A'): 2, ('HSP', 540, 'A'): 1, ('ARG', 542, 'A'): 1, ('DPP', 543, 'A'): 2, ('ARG', 544, 'A'): 1, ('HSP', 547, 'A'): 1, ('HSP', 548, 'A'): 1, ('HSP', 549, 'A'): 1, ('HSP', 550, 'A'): 1} 
+Residues that have changed the protonation state are: 
+[('EPP', 468, 'A'), ('DPP', 517, 'A'), ('EPP', 535, 'A'), ('DPP', 543, 'A')] 
+# Snapshot saved: /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/2fwf_karlsberg/pac_ph_-10_open_sb_acids/snapshots/iter2_start.pkl 
+# Starting PAC modelling 
+Salt bridge opening acids! Iteration 2 
+Regular modelling -> Only hydrogens will be minimized in this iteration! 
+Starting prot_energy job to determine protonation 
+Starting Karlsbergg 
+/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/2fwf_karlsberg/pac_ph_-10_open_sb_acids/iter2/karlsberg/ 
+
+
+***Starting iteration 3*** 
+previous_protonation 
+{('HSP', 428, 'A'): 1, ('LYS', 435, 'A'): 1, ('DPP', 438, 'A'): 2, ('EPP', 439, 'A'): 2, ('EPP', 446, 'A'): 2, ('LYS', 448, 'A'): 1, ('LYS', 450, 'A'): 1, ('DPP', 455, 'A'): 0, ('TYR', 457, 'A'): 0, ('DPP', 459, 'A'): 2, ('CYS', 461, 'A'): 0, ('CYS', 464, 'A'): 0, ('LYS', 465, 'A'): 1, ('EPP', 466, 'A'): 2, ('EPP', 468, 'A'): 0, ('LYS', 469, 'A'): 1, ('TYR', 470, 'A'): 0, ('DPP', 474, 'A'): 2, ('LYS', 479, 'A'): 1, ('DPP', 483, 'A'): 0, ('DPP', 495, 'A'): 2, ('DPP', 498, 'A'): 2, ('LYS', 503, 'A'): 1, ('HSP', 504, 'A'): 1, ('DPP', 517, 'A'): 0, ('EPP', 522, 'A'): 0, ('HSP', 523, 'A'): 1, ('ARG', 527, 'A'): 1, ('DPP', 533, 'A'): 2, ('EPP', 535, 'A'): 2, ('HSP', 540, 'A'): 1, ('ARG', 542, 'A'): 1, ('DPP', 543, 'A'): 2, ('ARG', 544, 'A'): 1, ('HSP', 547, 'A'): 1, ('HSP', 548, 'A'): 1, ('HSP', 549, 'A'): 1, ('HSP', 550, 'A'): 1} 
+current_protonation 
+{('HSP', 428, 'A'): 1, ('LYS', 435, 'A'): 1, ('DPP', 438, 'A'): 2, ('EPP', 439, 'A'): 2, ('EPP', 446, 'A'): 2, ('LYS', 448, 'A'): 1, ('LYS', 450, 'A'): 1, ('DPP', 455, 'A'): 0, ('TYR', 457, 'A'): 0, ('DPP', 459, 'A'): 2, ('CYS', 461, 'A'): 0, ('CYS', 464, 'A'): 0, ('LYS', 465, 'A'): 1, ('EPP', 466, 'A'): 2, ('EPP', 468, 'A'): 0, ('LYS', 469, 'A'): 1, ('TYR', 470, 'A'): 0, ('DPP', 474, 'A'): 2, ('LYS', 479, 'A'): 1, ('DPP', 483, 'A'): 0, ('DPP', 495, 'A'): 2, ('DPP', 498, 'A'): 0, ('LYS', 503, 'A'): 1, ('HSP', 504, 'A'): 1, ('DPP', 517, 'A'): 0, ('EPP', 522, 'A'): 0, ('HSP', 523, 'A'): 1, ('ARG', 527, 'A'): 1, ('DPP', 533, 'A'): 2, ('EPP', 535, 'A'): 2, ('HSP', 540, 'A'): 1, ('ARG', 542, 'A'): 1, ('DPP', 543, 'A'): 2, ('ARG', 544, 'A'): 1, ('HSP', 547, 'A'): 1, ('HSP', 548, 'A'): 1, ('HSP', 549, 'A'): 1, ('HSP', 550, 'A'): 1} 
+Residues that have changed the protonation state are: 
+[('DPP', 498, 'A')] 
+# Snapshot saved: /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/2fwf_karlsberg/pac_ph_-10_open_sb_acids/snapshots/iter3_start.pkl 
+# Starting PAC modelling 
+Salt bridge opening acids! Iteration 3 
+Regular modelling -> Only hydrogens will be minimized in this iteration! 
+Starting prot_energy job to determine protonation 
+Starting Karlsbergg 
+/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260619/2fwf_karlsberg/pac_ph_-10_open_sb_acids/iter3/karlsberg/ 
+
+
+***Starting iteration 4*** 
+previous_protonation 
+{('HSP', 428, 'A'): 1, ('LYS', 435, 'A'): 1, ('DPP', 438, 'A'): 2, ('EPP', 439, 'A'): 2, ('EPP', 446, 'A'): 2, ('LYS', 448, 'A'): 1, ('LYS', 450, 'A'): 1, ('DPP', 455, 'A'): 0, ('TYR', 457, 'A'): 0, ('DPP', 459, 'A'): 2, ('CYS', 461, 'A'): 0, ('CYS', 464, 'A'): 0, ('LYS', 465, 'A'): 1, ('EPP', 466, 'A'): 2, ('EPP', 468, 'A'): 0, ('LYS', 469, 'A'): 1, ('TYR', 470, 'A'): 0, ('DPP', 474, 'A'): 2, ('LYS', 479, 'A'): 1, ('DPP', 483, 'A'): 0, ('DPP', 495, 'A'): 2, ('DPP', 498, 'A'): 0, ('LYS', 503, 'A'): 1, ('HSP', 504, 'A'): 1, ('DPP', 517, 'A'): 0, ('EPP', 522, 'A'): 0, ('HSP', 523, 'A'): 1, ('ARG', 527, 'A'): 1, ('DPP', 533, 'A'): 2, ('EPP', 535, 'A'): 2, ('HSP', 540, 'A'): 1, ('ARG', 542, 'A'): 1, ('DPP', 543, 'A'): 2, ('ARG', 544, 'A'): 1, ('HSP', 547, 'A'): 1, ('HSP', 548, 'A'): 1, ('HSP', 549, 'A'): 1, ('HSP', 550, 'A'): 1} 
+current_protonation 
+{('HSP', 428, 'A'): 1, ('LYS', 435, 'A'): 1, ('DPP', 438, 'A'): 2, ('EPP', 439, 'A'): 2, ('EPP', 446, 'A'): 2, ('LYS', 448, 'A'): 1, ('LYS', 450, 'A'): 1, ('DPP', 455, 'A'): 0, ('TYR', 457, 'A'): 0, ('DPP', 459, 'A'): 2, ('CYS', 461, 'A'): 0, ('CYS', 464, 'A'): 0, ('LYS', 465, 'A'): 1, ('EPP', 466, 'A'): 2, ('EPP', 468, 'A'): 0, ('LYS', 469, 'A'): 1, ('TYR', 470, 'A'): 0, ('DPP', 474, 'A'): 2, ('LYS', 479, 'A'): 1, ('DPP', 483, 'A'): 0, ('DPP', 495, 'A'): 2, ('DPP', 498, 'A'): 0, ('LYS', 503, 'A'): 1, ('HSP', 504, 'A'): 1, ('DPP', 517, 'A'): 0, ('EPP', 522, 'A'): 0, ('HSP', 523, 'A'): 1, ('ARG', 527, 'A'): 1, ('DPP', 533, 'A'): 2, ('EPP', 535, 'A'): 2, ('HSP', 540, 'A'): 1, ('ARG', 542, 'A'): 1, ('DPP', 543, 'A'): 2, ('ARG', 544, 'A'): 1, ('HSP', 547, 'A'): 1, ('HSP', 548, 'A'): 1, ('HSP', 549, 'A'): 1, ('HSP', 550, 'A'): 1} 
+
+Pac -10_open_sb_acids completed! 
