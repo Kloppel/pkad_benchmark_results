@@ -1,0 +1,29 @@
+# Initial energy calculation for this PAC! 
+Starting prot_energy job to determine protonation 
+Starting Karlsbergg 
+/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1bus_karlsberg/pac_ph_7_h_min/init_calc/karlsberg/ 
+
+# Starting self-consistent-cycle! 
+
+***Starting iteration 1*** 
+previous_protonation 
+{('DPP', 6, 'A'): None, ('EPP', 9, 'A'): None, ('LYS', 11, 'A'): None, ('DPP', 12, 'A'): None, ('LYS', 14, 'A'): None, ('TYR', 16, 'A'): None, ('ARG', 19, 'A'): None, ('EPP', 20, 'A'): None, ('HSP', 24, 'A'): None, ('EPP', 30, 'A'): None, ('TYR', 32, 'A'): None, ('LYS', 35, 'A'): None, ('LYS', 40, 'A'): None, ('LYS', 44, 'A'): None, ('LYS', 48, 'A'): None, ('LYS', 52, 'A'): None, ('HSP', 53, 'A'): None, ('ARG', 54, 'A'): None, ('LYS', 56, 'A'): None, ('CTE', 57, 'A'): None} 
+current_protonation 
+{('DPP', 6, 'A'): 1, ('EPP', 9, 'A'): 1, ('LYS', 11, 'A'): 1, ('DPP', 12, 'A'): 1, ('LYS', 14, 'A'): 1, ('TYR', 16, 'A'): 0, ('ARG', 19, 'A'): 1, ('EPP', 20, 'A'): 1, ('HSP', 24, 'A'): 2, ('EPP', 30, 'A'): 1, ('TYR', 32, 'A'): 0, ('LYS', 35, 'A'): 1, ('LYS', 40, 'A'): 1, ('LYS', 44, 'A'): 1, ('LYS', 48, 'A'): 1, ('LYS', 52, 'A'): 1, ('HSP', 53, 'A'): 2, ('ARG', 54, 'A'): 1, ('LYS', 56, 'A'): 1, ('CTE', 57, 'A'): 1} 
+Residues that have changed the protonation state are: 
+[('DPP', 6, 'A'), ('EPP', 9, 'A'), ('LYS', 11, 'A'), ('DPP', 12, 'A'), ('LYS', 14, 'A'), ('TYR', 16, 'A'), ('ARG', 19, 'A'), ('EPP', 20, 'A'), ('HSP', 24, 'A'), ('EPP', 30, 'A'), ('TYR', 32, 'A'), ('LYS', 35, 'A'), ('LYS', 40, 'A'), ('LYS', 44, 'A'), ('LYS', 48, 'A'), ('LYS', 52, 'A'), ('HSP', 53, 'A'), ('ARG', 54, 'A'), ('LYS', 56, 'A'), ('CTE', 57, 'A')] 
+# Snapshot saved: /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1bus_karlsberg/pac_ph_7_h_min/snapshots/iter1_start.pkl 
+# Starting PAC modelling 
+Only hydrogens are minimzied! Iteration 1 
+Starting prot_energy job to determine protonation 
+Starting Karlsbergg 
+/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1bus_karlsberg/pac_ph_7_h_min/iter1/karlsberg/ 
+
+
+***Starting iteration 2*** 
+previous_protonation 
+{('DPP', 6, 'A'): 1, ('EPP', 9, 'A'): 1, ('LYS', 11, 'A'): 1, ('DPP', 12, 'A'): 1, ('LYS', 14, 'A'): 1, ('TYR', 16, 'A'): 0, ('ARG', 19, 'A'): 1, ('EPP', 20, 'A'): 1, ('HSP', 24, 'A'): 2, ('EPP', 30, 'A'): 1, ('TYR', 32, 'A'): 0, ('LYS', 35, 'A'): 1, ('LYS', 40, 'A'): 1, ('LYS', 44, 'A'): 1, ('LYS', 48, 'A'): 1, ('LYS', 52, 'A'): 1, ('HSP', 53, 'A'): 2, ('ARG', 54, 'A'): 1, ('LYS', 56, 'A'): 1, ('CTE', 57, 'A'): 1} 
+current_protonation 
+{('DPP', 6, 'A'): 1, ('EPP', 9, 'A'): 1, ('LYS', 11, 'A'): 1, ('DPP', 12, 'A'): 1, ('LYS', 14, 'A'): 1, ('TYR', 16, 'A'): 0, ('ARG', 19, 'A'): 1, ('EPP', 20, 'A'): 1, ('HSP', 24, 'A'): 2, ('EPP', 30, 'A'): 1, ('TYR', 32, 'A'): 0, ('LYS', 35, 'A'): 1, ('LYS', 40, 'A'): 1, ('LYS', 44, 'A'): 1, ('LYS', 48, 'A'): 1, ('LYS', 52, 'A'): 1, ('HSP', 53, 'A'): 2, ('ARG', 54, 'A'): 1, ('LYS', 56, 'A'): 1, ('CTE', 57, 'A'): 1} 
+
+Pac 7_h_min completed! 

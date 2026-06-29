@@ -1,0 +1,47 @@
+# Initial energy calculation for this PAC! 
+Starting prot_energy job to determine protonation 
+Starting Karlsbergg 
+/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1b2v_karlsberg/pac_ph_-10_open_sb_acids/init_calc/karlsberg/ 
+
+# Starting self-consistent-cycle! 
+
+***Starting iteration 1*** 
+previous_protonation 
+{('TYR', 7, 'A'): None, ('DPP', 8, 'A'): None, ('TYR', 14, 'A'): None, ('HSP', 17, 'A'): None, ('DPP', 18, 'A'): None, ('TYR', 19, 'A'): None, ('DPP', 29, 'A'): None, ('HSP', 32, 'A'): None, ('DPP', 39, 'A'): None, ('TYR', 46, 'A'): None, ('TYR', 55, 'A'): None, ('TYR', 75, 'A'): None, ('EPP', 80, 'A'): None, ('HSP', 83, 'A'): None, ('TYR', 86, 'A'): None, ('DPP', 90, 'A'): None, ('DPP', 96, 'A'): None, ('DPP', 102, 'A'): None, ('TYR', 106, 'A'): None, ('DPP', 112, 'A'): None, ('HSP', 128, 'A'): None, ('DPP', 129, 'A'): None, ('HSP', 133, 'A'): None, ('TYR', 137, 'A'): None, ('DPP', 143, 'A'): None, ('EPP', 148, 'A'): None, ('DPP', 156, 'A'): None, ('DPP', 157, 'A'): None, ('TYR', 158, 'A'): None, ('DPP', 167, 'A'): None} 
+current_protonation 
+{('TYR', 7, 'A'): 0, ('DPP', 8, 'A'): 2, ('TYR', 14, 'A'): 0, ('HSP', 17, 'A'): 1, ('DPP', 18, 'A'): 2, ('TYR', 19, 'A'): 0, ('DPP', 29, 'A'): 2, ('HSP', 32, 'A'): 1, ('DPP', 39, 'A'): 2, ('TYR', 46, 'A'): 0, ('TYR', 55, 'A'): 0, ('TYR', 75, 'A'): 0, ('EPP', 80, 'A'): 2, ('HSP', 83, 'A'): 1, ('TYR', 86, 'A'): 0, ('DPP', 90, 'A'): 2, ('DPP', 96, 'A'): 2, ('DPP', 102, 'A'): 2, ('TYR', 106, 'A'): 0, ('DPP', 112, 'A'): 0, ('HSP', 128, 'A'): 1, ('DPP', 129, 'A'): 0, ('HSP', 133, 'A'): 1, ('TYR', 137, 'A'): 0, ('DPP', 143, 'A'): 0, ('EPP', 148, 'A'): 2, ('DPP', 156, 'A'): 2, ('DPP', 157, 'A'): 0, ('TYR', 158, 'A'): 0, ('DPP', 167, 'A'): 2} 
+Residues that have changed the protonation state are: 
+[('TYR', 7, 'A'), ('DPP', 8, 'A'), ('TYR', 14, 'A'), ('HSP', 17, 'A'), ('DPP', 18, 'A'), ('TYR', 19, 'A'), ('DPP', 29, 'A'), ('HSP', 32, 'A'), ('DPP', 39, 'A'), ('TYR', 46, 'A'), ('TYR', 55, 'A'), ('TYR', 75, 'A'), ('EPP', 80, 'A'), ('HSP', 83, 'A'), ('TYR', 86, 'A'), ('DPP', 90, 'A'), ('DPP', 96, 'A'), ('DPP', 102, 'A'), ('TYR', 106, 'A'), ('DPP', 112, 'A'), ('HSP', 128, 'A'), ('DPP', 129, 'A'), ('HSP', 133, 'A'), ('TYR', 137, 'A'), ('DPP', 143, 'A'), ('EPP', 148, 'A'), ('DPP', 156, 'A'), ('DPP', 157, 'A'), ('TYR', 158, 'A'), ('DPP', 167, 'A')] 
+# Snapshot saved: /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1b2v_karlsberg/pac_ph_-10_open_sb_acids/snapshots/iter1_start.pkl 
+# Starting PAC modelling 
+Salt bridge opening acids! Iteration 1 
+Salt bridges Are below 
+['TYR-7_A', 'HSP-17_A', 'TYR-19_A', 'DPP-112_A', 'EPP-148_A', 'DPP-167_A', 'TYR-75_A', 'HSP-83_A'] 
+Starting prot_energy job to determine protonation 
+Starting Karlsbergg 
+/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1b2v_karlsberg/pac_ph_-10_open_sb_acids/iter1/karlsberg/ 
+
+
+***Starting iteration 2*** 
+previous_protonation 
+{('TYR', 7, 'A'): 0, ('DPP', 8, 'A'): 2, ('TYR', 14, 'A'): 0, ('HSP', 17, 'A'): 1, ('DPP', 18, 'A'): 2, ('TYR', 19, 'A'): 0, ('DPP', 29, 'A'): 2, ('HSP', 32, 'A'): 1, ('DPP', 39, 'A'): 2, ('TYR', 46, 'A'): 0, ('TYR', 55, 'A'): 0, ('TYR', 75, 'A'): 0, ('EPP', 80, 'A'): 2, ('HSP', 83, 'A'): 1, ('TYR', 86, 'A'): 0, ('DPP', 90, 'A'): 2, ('DPP', 96, 'A'): 2, ('DPP', 102, 'A'): 2, ('TYR', 106, 'A'): 0, ('DPP', 112, 'A'): 0, ('HSP', 128, 'A'): 1, ('DPP', 129, 'A'): 0, ('HSP', 133, 'A'): 1, ('TYR', 137, 'A'): 0, ('DPP', 143, 'A'): 0, ('EPP', 148, 'A'): 2, ('DPP', 156, 'A'): 2, ('DPP', 157, 'A'): 0, ('TYR', 158, 'A'): 0, ('DPP', 167, 'A'): 2} 
+current_protonation 
+{('TYR', 7, 'A'): 0, ('DPP', 8, 'A'): 2, ('TYR', 14, 'A'): 0, ('HSP', 17, 'A'): 1, ('DPP', 18, 'A'): 2, ('TYR', 19, 'A'): 0, ('DPP', 29, 'A'): 2, ('HSP', 32, 'A'): 1, ('DPP', 39, 'A'): 2, ('TYR', 46, 'A'): 0, ('TYR', 55, 'A'): 0, ('TYR', 75, 'A'): 0, ('EPP', 80, 'A'): 0, ('HSP', 83, 'A'): 1, ('TYR', 86, 'A'): 0, ('DPP', 90, 'A'): 2, ('DPP', 96, 'A'): 2, ('DPP', 102, 'A'): 2, ('TYR', 106, 'A'): 0, ('DPP', 112, 'A'): 0, ('HSP', 128, 'A'): 1, ('DPP', 129, 'A'): 0, ('HSP', 133, 'A'): 1, ('TYR', 137, 'A'): 0, ('DPP', 143, 'A'): 0, ('EPP', 148, 'A'): 0, ('DPP', 156, 'A'): 2, ('DPP', 157, 'A'): 2, ('TYR', 158, 'A'): 0, ('DPP', 167, 'A'): 2} 
+Residues that have changed the protonation state are: 
+[('EPP', 80, 'A'), ('EPP', 148, 'A'), ('DPP', 157, 'A')] 
+# Snapshot saved: /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1b2v_karlsberg/pac_ph_-10_open_sb_acids/snapshots/iter2_start.pkl 
+# Starting PAC modelling 
+Salt bridge opening acids! Iteration 2 
+Regular modelling -> Only hydrogens will be minimized in this iteration! 
+Starting prot_energy job to determine protonation 
+Starting Karlsbergg 
+/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1b2v_karlsberg/pac_ph_-10_open_sb_acids/iter2/karlsberg/ 
+
+
+***Starting iteration 3*** 
+previous_protonation 
+{('TYR', 7, 'A'): 0, ('DPP', 8, 'A'): 2, ('TYR', 14, 'A'): 0, ('HSP', 17, 'A'): 1, ('DPP', 18, 'A'): 2, ('TYR', 19, 'A'): 0, ('DPP', 29, 'A'): 2, ('HSP', 32, 'A'): 1, ('DPP', 39, 'A'): 2, ('TYR', 46, 'A'): 0, ('TYR', 55, 'A'): 0, ('TYR', 75, 'A'): 0, ('EPP', 80, 'A'): 0, ('HSP', 83, 'A'): 1, ('TYR', 86, 'A'): 0, ('DPP', 90, 'A'): 2, ('DPP', 96, 'A'): 2, ('DPP', 102, 'A'): 2, ('TYR', 106, 'A'): 0, ('DPP', 112, 'A'): 0, ('HSP', 128, 'A'): 1, ('DPP', 129, 'A'): 0, ('HSP', 133, 'A'): 1, ('TYR', 137, 'A'): 0, ('DPP', 143, 'A'): 0, ('EPP', 148, 'A'): 0, ('DPP', 156, 'A'): 2, ('DPP', 157, 'A'): 2, ('TYR', 158, 'A'): 0, ('DPP', 167, 'A'): 2} 
+current_protonation 
+{('TYR', 7, 'A'): 0, ('DPP', 8, 'A'): 2, ('TYR', 14, 'A'): 0, ('HSP', 17, 'A'): 1, ('DPP', 18, 'A'): 2, ('TYR', 19, 'A'): 0, ('DPP', 29, 'A'): 2, ('HSP', 32, 'A'): 1, ('DPP', 39, 'A'): 2, ('TYR', 46, 'A'): 0, ('TYR', 55, 'A'): 0, ('TYR', 75, 'A'): 0, ('EPP', 80, 'A'): 0, ('HSP', 83, 'A'): 1, ('TYR', 86, 'A'): 0, ('DPP', 90, 'A'): 2, ('DPP', 96, 'A'): 2, ('DPP', 102, 'A'): 2, ('TYR', 106, 'A'): 0, ('DPP', 112, 'A'): 0, ('HSP', 128, 'A'): 1, ('DPP', 129, 'A'): 0, ('HSP', 133, 'A'): 1, ('TYR', 137, 'A'): 0, ('DPP', 143, 'A'): 0, ('EPP', 148, 'A'): 0, ('DPP', 156, 'A'): 2, ('DPP', 157, 'A'): 2, ('TYR', 158, 'A'): 0, ('DPP', 167, 'A'): 2} 
+
+Pac -10_open_sb_acids completed! 

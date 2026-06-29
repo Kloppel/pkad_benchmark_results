@@ -1,0 +1,50 @@
+
+### The following changes have been applied to the structure. ###
+# A gap has been found in the resid numbering AND in the structure.
+  Decision: gap__ARG-46_A__EPP-48_A
+  Options:  keep       - Do nothing, the gap remains in the structure.
+            model/keep - Try to extract the missing sequence from the PDB header.
+                         If possible and if the length of the missing sequence is
+                         smaller than 10, the gap will be modelled. Otherwise the gap 
+                         will be kept.(default)
+            <sequence> - Model the missing residues with the given sequence. 
+                         The sequence must be space separated three letter codes. 
+  Chosen:   model/keep
+
+# A gap has been found in the resid numbering AND in the structure.
+  Decision: gap__LEU-49_A__ALA-51_A
+  Options:  keep       - Do nothing, the gap remains in the structure.
+            model/keep - Try to extract the missing sequence from the PDB header.
+                         If possible and if the length of the missing sequence is
+                         smaller than 10, the gap will be modelled. Otherwise the gap 
+                         will be kept.(default)
+            <sequence> - Model the missing residues with the given sequence. 
+                         The sequence must be space separated three letter codes. 
+  Chosen:   model/keep
+
+# A gap has been found in the resid numbering AND in the structure.
+  Decision: gap__ALA-141_A__ASN-143_A
+  Options:  keep       - Do nothing, the gap remains in the structure.
+            model/keep - Try to extract the missing sequence from the PDB header.
+                         If possible and if the length of the missing sequence is
+                         smaller than 10, the gap will be modelled. Otherwise the gap 
+                         will be kept.(default)
+            <sequence> - Model the missing residues with the given sequence. 
+                         The sequence must be space separated three letter codes. 
+  Chosen:   model/keep
+
+# Capping of termini will be decided here. Should they be caped?
+  Decision: cap_termini
+  Options:  cap - Apply patches in Charmm to cap termini if not true termini. (default)
+            dont_cap  - Do nothing, apply regular termini patches!
+
+  Chosen:   cap for segname A
+
+# There are 1195 protein, 0 ligand and 0 water hydrogens missing. Should they be modelled?:
+  Decision: missing_hydrogens
+  Options:  model - Model and optimize all hydrogens. (default)
+            rebuild_all - Strip all present hydrogens first, then rebuild and optimize them.
+            rebuild_selected - Strip only selected hydrogens first, then rebuild and optimize them.
+            disabled - Do not rebuild hydrogens again after a one-shot rebuild.
+  Chosen:   model
+

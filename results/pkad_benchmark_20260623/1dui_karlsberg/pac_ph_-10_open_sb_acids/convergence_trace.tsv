@@ -1,0 +1,4 @@
+iteration	changed_residues_count	hamming_distance	signature_hash	stop_reason
+1	45	45	0577cea7768070f6	
+2	1	1	97413dfd91246210	
+3	1	1	0577cea7768070f6	converged

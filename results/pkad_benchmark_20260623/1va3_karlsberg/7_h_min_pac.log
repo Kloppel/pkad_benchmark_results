@@ -1,0 +1,44 @@
+# Initial energy calculation for this PAC! 
+Starting prot_energy job to determine protonation 
+Starting Karlsbergg 
+/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1va3_karlsberg/pac_ph_7_h_min/init_calc/karlsberg/ 
+
+# Starting self-consistent-cycle! 
+
+***Starting iteration 1*** 
+previous_protonation 
+{('LYS', 595, 'A'): None, ('LYS', 596, 'A'): None, ('CYS', 599, 'A'): None, ('EPP', 601, 'A'): None, ('CYS', 602, 'A'): None, ('LYS', 604, 'A'): None, ('ARG', 605, 'A'): None, ('ARG', 608, 'A'): None, ('DPP', 610, 'A'): None, ('HSP', 611, 'A'): None, ('LYS', 614, 'A'): None, ('HSP', 615, 'A'): None, ('LYS', 617, 'A'): None, ('HSP', 619, 'A'): None, ('LYS', 622, 'A'): None, ('LYS', 623, 'A'): None, ('CTE', 623, 'A'): None} 
+current_protonation 
+{('LYS', 595, 'A'): 1, ('LYS', 596, 'A'): 1, ('CYS', 599, 'A'): 0, ('EPP', 601, 'A'): 1, ('CYS', 602, 'A'): 0, ('LYS', 604, 'A'): 1, ('ARG', 605, 'A'): 1, ('ARG', 608, 'A'): 1, ('DPP', 610, 'A'): 1, ('HSP', 611, 'A'): 2, ('LYS', 614, 'A'): 1, ('HSP', 615, 'A'): 2, ('LYS', 617, 'A'): 1, ('HSP', 619, 'A'): 2, ('LYS', 622, 'A'): 1, ('LYS', 623, 'A'): 1, ('CTE', 623, 'A'): 1} 
+Residues that have changed the protonation state are: 
+[('LYS', 595, 'A'), ('LYS', 596, 'A'), ('CYS', 599, 'A'), ('EPP', 601, 'A'), ('CYS', 602, 'A'), ('LYS', 604, 'A'), ('ARG', 605, 'A'), ('ARG', 608, 'A'), ('DPP', 610, 'A'), ('HSP', 611, 'A'), ('LYS', 614, 'A'), ('HSP', 615, 'A'), ('LYS', 617, 'A'), ('HSP', 619, 'A'), ('LYS', 622, 'A'), ('LYS', 623, 'A'), ('CTE', 623, 'A')] 
+# Snapshot saved: /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1va3_karlsberg/pac_ph_7_h_min/snapshots/iter1_start.pkl 
+# Starting PAC modelling 
+Only hydrogens are minimzied! Iteration 1 
+Starting prot_energy job to determine protonation 
+Starting Karlsbergg 
+/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1va3_karlsberg/pac_ph_7_h_min/iter1/karlsberg/ 
+
+
+***Starting iteration 2*** 
+previous_protonation 
+{('LYS', 595, 'A'): 1, ('LYS', 596, 'A'): 1, ('CYS', 599, 'A'): 0, ('EPP', 601, 'A'): 1, ('CYS', 602, 'A'): 0, ('LYS', 604, 'A'): 1, ('ARG', 605, 'A'): 1, ('ARG', 608, 'A'): 1, ('DPP', 610, 'A'): 1, ('HSP', 611, 'A'): 2, ('LYS', 614, 'A'): 1, ('HSP', 615, 'A'): 2, ('LYS', 617, 'A'): 1, ('HSP', 619, 'A'): 2, ('LYS', 622, 'A'): 1, ('LYS', 623, 'A'): 1, ('CTE', 623, 'A'): 1} 
+current_protonation 
+{('LYS', 595, 'A'): 1, ('LYS', 596, 'A'): 1, ('CYS', 599, 'A'): 0, ('EPP', 601, 'A'): 1, ('CYS', 602, 'A'): 0, ('LYS', 604, 'A'): 1, ('ARG', 605, 'A'): 1, ('ARG', 608, 'A'): 1, ('DPP', 610, 'A'): 1, ('HSP', 611, 'A'): 2, ('LYS', 614, 'A'): 1, ('HSP', 615, 'A'): 2, ('LYS', 617, 'A'): 1, ('HSP', 619, 'A'): 0, ('LYS', 622, 'A'): 1, ('LYS', 623, 'A'): 1, ('CTE', 623, 'A'): 1} 
+Residues that have changed the protonation state are: 
+[('HSP', 619, 'A')] 
+# Snapshot saved: /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1va3_karlsberg/pac_ph_7_h_min/snapshots/iter2_start.pkl 
+# Starting PAC modelling 
+Only hydrogens are minimzied! Iteration 2 
+Starting prot_energy job to determine protonation 
+Starting Karlsbergg 
+/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1va3_karlsberg/pac_ph_7_h_min/iter2/karlsberg/ 
+
+
+***Starting iteration 3*** 
+previous_protonation 
+{('LYS', 595, 'A'): 1, ('LYS', 596, 'A'): 1, ('CYS', 599, 'A'): 0, ('EPP', 601, 'A'): 1, ('CYS', 602, 'A'): 0, ('LYS', 604, 'A'): 1, ('ARG', 605, 'A'): 1, ('ARG', 608, 'A'): 1, ('DPP', 610, 'A'): 1, ('HSP', 611, 'A'): 2, ('LYS', 614, 'A'): 1, ('HSP', 615, 'A'): 2, ('LYS', 617, 'A'): 1, ('HSP', 619, 'A'): 0, ('LYS', 622, 'A'): 1, ('LYS', 623, 'A'): 1, ('CTE', 623, 'A'): 1} 
+current_protonation 
+{('LYS', 595, 'A'): 1, ('LYS', 596, 'A'): 1, ('CYS', 599, 'A'): 0, ('EPP', 601, 'A'): 1, ('CYS', 602, 'A'): 0, ('LYS', 604, 'A'): 1, ('ARG', 605, 'A'): 1, ('ARG', 608, 'A'): 1, ('DPP', 610, 'A'): 1, ('HSP', 611, 'A'): 2, ('LYS', 614, 'A'): 1, ('HSP', 615, 'A'): 2, ('LYS', 617, 'A'): 1, ('HSP', 619, 'A'): 0, ('LYS', 622, 'A'): 1, ('LYS', 623, 'A'): 1, ('CTE', 623, 'A'): 1} 
+
+Pac 7_h_min completed! 

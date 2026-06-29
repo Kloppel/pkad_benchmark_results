@@ -1,0 +1,3 @@
+iteration	changed_residues_count	hamming_distance	signature_hash	stop_reason
+1	36	36	e3c90960e74aac1f	
+2	0	0	e3c90960e74aac1f	converged

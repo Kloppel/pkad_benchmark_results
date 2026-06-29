@@ -1,0 +1,44 @@
+# Initial energy calculation for this PAC! 
+Starting prot_energy job to determine protonation 
+Starting Karlsbergg 
+/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1m2c_karlsberg/pac_ph_7_h_min/init_calc/karlsberg/ 
+
+# Starting self-consistent-cycle! 
+
+***Starting iteration 1*** 
+previous_protonation 
+{('HSP', 9, 'A'): None, ('EPP', 11, 'A'): None, ('HSP', 12, 'A'): None, ('NTE', 1, 'A'): None} 
+current_protonation 
+{('HSP', 9, 'A'): 2, ('EPP', 11, 'A'): 1, ('HSP', 12, 'A'): 2, ('NTE', 1, 'A'): 1} 
+Residues that have changed the protonation state are: 
+[('HSP', 9, 'A'), ('EPP', 11, 'A'), ('HSP', 12, 'A'), ('NTE', 1, 'A')] 
+# Snapshot saved: /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1m2c_karlsberg/pac_ph_7_h_min/snapshots/iter1_start.pkl 
+# Starting PAC modelling 
+Only hydrogens are minimzied! Iteration 1 
+Starting prot_energy job to determine protonation 
+Starting Karlsbergg 
+/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1m2c_karlsberg/pac_ph_7_h_min/iter1/karlsberg/ 
+
+
+***Starting iteration 2*** 
+previous_protonation 
+{('HSP', 9, 'A'): 2, ('EPP', 11, 'A'): 1, ('HSP', 12, 'A'): 2, ('NTE', 1, 'A'): 1} 
+current_protonation 
+{('HSP', 9, 'A'): 0, ('EPP', 11, 'A'): 1, ('HSP', 12, 'A'): 2, ('NTE', 1, 'A'): 1} 
+Residues that have changed the protonation state are: 
+[('HSP', 9, 'A')] 
+# Snapshot saved: /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1m2c_karlsberg/pac_ph_7_h_min/snapshots/iter2_start.pkl 
+# Starting PAC modelling 
+Only hydrogens are minimzied! Iteration 2 
+Starting prot_energy job to determine protonation 
+Starting Karlsbergg 
+/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1m2c_karlsberg/pac_ph_7_h_min/iter2/karlsberg/ 
+
+
+***Starting iteration 3*** 
+previous_protonation 
+{('HSP', 9, 'A'): 0, ('EPP', 11, 'A'): 1, ('HSP', 12, 'A'): 2, ('NTE', 1, 'A'): 1} 
+current_protonation 
+{('HSP', 9, 'A'): 0, ('EPP', 11, 'A'): 1, ('HSP', 12, 'A'): 2, ('NTE', 1, 'A'): 1} 
+
+Pac 7_h_min completed! 

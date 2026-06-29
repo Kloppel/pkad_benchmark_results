@@ -1,0 +1,31 @@
+# Initial energy calculation for this PAC! 
+Starting prot_energy job to determine protonation 
+Starting Karlsbergg 
+/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1w4h_karlsberg/pac_ph_20_open_sb_bases/init_calc/karlsberg/ 
+
+# Starting self-consistent-cycle! 
+
+***Starting iteration 1*** 
+previous_protonation 
+{('DPP', 129, 'A'): None, ('ARG', 136, 'A'): None, ('ARG', 137, 'A'): None, ('EPP', 141, 'A'): None, ('HSP', 142, 'A'): None, ('DPP', 145, 'A'): None, ('LYS', 150, 'A'): None, ('ARG', 157, 'A'): None, ('ARG', 160, 'A'): None, ('EPP', 161, 'A'): None, ('DPP', 162, 'A'): None, ('EPP', 164, 'A'): None, ('LYS', 165, 'A'): None, ('HSP', 166, 'A'): None, ('LYS', 169, 'A'): None, ('CTE', 170, 'A'): None} 
+current_protonation 
+{('DPP', 129, 'A'): 1, ('ARG', 136, 'A'): 0, ('ARG', 137, 'A'): 0, ('EPP', 141, 'A'): 1, ('HSP', 142, 'A'): 2, ('DPP', 145, 'A'): 1, ('LYS', 150, 'A'): 0, ('ARG', 157, 'A'): 0, ('ARG', 160, 'A'): 0, ('EPP', 161, 'A'): 1, ('DPP', 162, 'A'): 1, ('EPP', 164, 'A'): 1, ('LYS', 165, 'A'): 0, ('HSP', 166, 'A'): 2, ('LYS', 169, 'A'): 0, ('CTE', 170, 'A'): 1} 
+Residues that have changed the protonation state are: 
+[('DPP', 129, 'A'), ('ARG', 136, 'A'), ('ARG', 137, 'A'), ('EPP', 141, 'A'), ('HSP', 142, 'A'), ('DPP', 145, 'A'), ('LYS', 150, 'A'), ('ARG', 157, 'A'), ('ARG', 160, 'A'), ('EPP', 161, 'A'), ('DPP', 162, 'A'), ('EPP', 164, 'A'), ('LYS', 165, 'A'), ('HSP', 166, 'A'), ('LYS', 169, 'A'), ('CTE', 170, 'A')] 
+# Snapshot saved: /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1w4h_karlsberg/pac_ph_20_open_sb_bases/snapshots/iter1_start.pkl 
+# Starting PAC modelling 
+Salt bridge opening bases! Iteration 1 
+Salt bridges Are below 
+['DPP-129_A', 'ARG-136_A'] 
+Starting prot_energy job to determine protonation 
+Starting Karlsbergg 
+/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1w4h_karlsberg/pac_ph_20_open_sb_bases/iter1/karlsberg/ 
+
+
+***Starting iteration 2*** 
+previous_protonation 
+{('DPP', 129, 'A'): 1, ('ARG', 136, 'A'): 0, ('ARG', 137, 'A'): 0, ('EPP', 141, 'A'): 1, ('HSP', 142, 'A'): 2, ('DPP', 145, 'A'): 1, ('LYS', 150, 'A'): 0, ('ARG', 157, 'A'): 0, ('ARG', 160, 'A'): 0, ('EPP', 161, 'A'): 1, ('DPP', 162, 'A'): 1, ('EPP', 164, 'A'): 1, ('LYS', 165, 'A'): 0, ('HSP', 166, 'A'): 2, ('LYS', 169, 'A'): 0, ('CTE', 170, 'A'): 1} 
+current_protonation 
+{('DPP', 129, 'A'): 1, ('ARG', 136, 'A'): 0, ('ARG', 137, 'A'): 0, ('EPP', 141, 'A'): 1, ('HSP', 142, 'A'): 2, ('DPP', 145, 'A'): 1, ('LYS', 150, 'A'): 0, ('ARG', 157, 'A'): 0, ('ARG', 160, 'A'): 0, ('EPP', 161, 'A'): 1, ('DPP', 162, 'A'): 1, ('EPP', 164, 'A'): 1, ('LYS', 165, 'A'): 0, ('HSP', 166, 'A'): 2, ('LYS', 169, 'A'): 0, ('CTE', 170, 'A'): 1} 
+
+Pac 20_open_sb_bases completed! 

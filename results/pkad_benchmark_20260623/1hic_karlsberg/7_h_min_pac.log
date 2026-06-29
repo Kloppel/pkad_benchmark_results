@@ -1,0 +1,29 @@
+# Initial energy calculation for this PAC! 
+Starting prot_energy job to determine protonation 
+Starting Karlsbergg 
+/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1hic_karlsberg/pac_ph_7_h_min/init_calc/karlsberg/ 
+
+# Starting self-consistent-cycle! 
+
+***Starting iteration 1*** 
+previous_protonation 
+{('TYR', 3, 'A'): None, ('DPP', 5, 'A'): None, ('EPP', 8, 'A'): None, ('EPP', 17, 'A'): None, ('LYS', 27, 'A'): None, ('DPP', 33, 'A'): None, ('EPP', 35, 'A'): None, ('LYS', 36, 'A'): None, ('EPP', 43, 'A'): None, ('LYS', 47, 'A'): None, ('HSP', 51, 'A'): None, ('NTE', 1, 'A'): None} 
+current_protonation 
+{('TYR', 3, 'A'): 0, ('DPP', 5, 'A'): 1, ('EPP', 8, 'A'): 1, ('EPP', 17, 'A'): 1, ('LYS', 27, 'A'): 1, ('DPP', 33, 'A'): 1, ('EPP', 35, 'A'): 1, ('LYS', 36, 'A'): 1, ('EPP', 43, 'A'): 1, ('LYS', 47, 'A'): 1, ('HSP', 51, 'A'): 2, ('NTE', 1, 'A'): 1} 
+Residues that have changed the protonation state are: 
+[('TYR', 3, 'A'), ('DPP', 5, 'A'), ('EPP', 8, 'A'), ('EPP', 17, 'A'), ('LYS', 27, 'A'), ('DPP', 33, 'A'), ('EPP', 35, 'A'), ('LYS', 36, 'A'), ('EPP', 43, 'A'), ('LYS', 47, 'A'), ('HSP', 51, 'A'), ('NTE', 1, 'A')] 
+# Snapshot saved: /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1hic_karlsberg/pac_ph_7_h_min/snapshots/iter1_start.pkl 
+# Starting PAC modelling 
+Only hydrogens are minimzied! Iteration 1 
+Starting prot_energy job to determine protonation 
+Starting Karlsbergg 
+/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1hic_karlsberg/pac_ph_7_h_min/iter1/karlsberg/ 
+
+
+***Starting iteration 2*** 
+previous_protonation 
+{('TYR', 3, 'A'): 0, ('DPP', 5, 'A'): 1, ('EPP', 8, 'A'): 1, ('EPP', 17, 'A'): 1, ('LYS', 27, 'A'): 1, ('DPP', 33, 'A'): 1, ('EPP', 35, 'A'): 1, ('LYS', 36, 'A'): 1, ('EPP', 43, 'A'): 1, ('LYS', 47, 'A'): 1, ('HSP', 51, 'A'): 2, ('NTE', 1, 'A'): 1} 
+current_protonation 
+{('TYR', 3, 'A'): 0, ('DPP', 5, 'A'): 1, ('EPP', 8, 'A'): 1, ('EPP', 17, 'A'): 1, ('LYS', 27, 'A'): 1, ('DPP', 33, 'A'): 1, ('EPP', 35, 'A'): 1, ('LYS', 36, 'A'): 1, ('EPP', 43, 'A'): 1, ('LYS', 47, 'A'): 1, ('HSP', 51, 'A'): 2, ('NTE', 1, 'A'): 1} 
+
+Pac 7_h_min completed! 

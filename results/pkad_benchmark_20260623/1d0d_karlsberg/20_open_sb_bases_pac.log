@@ -1,0 +1,31 @@
+# Initial energy calculation for this PAC! 
+Starting prot_energy job to determine protonation 
+Starting Karlsbergg 
+/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1d0d_karlsberg/pac_ph_20_open_sb_bases/init_calc/karlsberg/ 
+
+# Starting self-consistent-cycle! 
+
+***Starting iteration 1*** 
+previous_protonation 
+{('TYR', 1, 'A'): None, ('ARG', 3, 'A'): None, ('LYS', 7, 'A'): None, ('ARG', 9, 'A'): None, ('DPP', 10, 'A'): None, ('DPP', 13, 'A'): None, ('EPP', 14, 'A'): None, ('DPP', 16, 'A'): None, ('EPP', 19, 'A'): None, ('EPP', 22, 'A'): None, ('ARG', 23, 'A'): None, ('TYR', 25, 'A'): None, ('ARG', 27, 'A'): None, ('LYS', 30, 'A'): None, ('DPP', 34, 'A'): None, ('EPP', 41, 'A'): None, ('DPP', 42, 'A'): None, ('HSP', 43, 'A'): None, ('DPP', 47, 'A'): None, ('TYR', 48, 'A'): None, ('TYR', 49, 'A'): None, ('TYR', 52, 'A'): None, ('ARG', 53, 'A'): None, ('DPP', 54, 'A'): None, ('ARG', 1, 'B'): None, ('DPP', 3, 'B'): None, ('EPP', 7, 'B'): None, ('TYR', 10, 'B'): None, ('LYS', 15, 'B'): None, ('ARG', 17, 'B'): None, ('ARG', 20, 'B'): None, ('TYR', 21, 'B'): None, ('TYR', 23, 'B'): None, ('LYS', 26, 'B'): None, ('TYR', 35, 'B'): None, ('ARG', 39, 'B'): None, ('LYS', 41, 'B'): None, ('ARG', 42, 'B'): None, ('LYS', 46, 'B'): None, ('EPP', 49, 'B'): None, ('DPP', 50, 'B'): None, ('ARG', 53, 'B'): None, ('NTE', 1, 'A'): None, ('CTE', 60, 'A'): None, ('NTE', 1, 'B'): None, ('CTE', 58, 'B'): None} 
+current_protonation 
+{('TYR', 1, 'A'): 1, ('ARG', 3, 'A'): 0, ('LYS', 7, 'A'): 0, ('ARG', 9, 'A'): 0, ('DPP', 10, 'A'): 1, ('DPP', 13, 'A'): 1, ('EPP', 14, 'A'): 1, ('DPP', 16, 'A'): 1, ('EPP', 19, 'A'): 1, ('EPP', 22, 'A'): 1, ('ARG', 23, 'A'): 0, ('TYR', 25, 'A'): 1, ('ARG', 27, 'A'): 0, ('LYS', 30, 'A'): 0, ('DPP', 34, 'A'): 1, ('EPP', 41, 'A'): 1, ('DPP', 42, 'A'): 1, ('HSP', 43, 'A'): 2, ('DPP', 47, 'A'): 1, ('TYR', 48, 'A'): 1, ('TYR', 49, 'A'): 1, ('TYR', 52, 'A'): 1, ('ARG', 53, 'A'): 0, ('DPP', 54, 'A'): 1, ('ARG', 1, 'B'): 0, ('DPP', 3, 'B'): 1, ('EPP', 7, 'B'): 1, ('TYR', 10, 'B'): 1, ('LYS', 15, 'B'): 0, ('ARG', 17, 'B'): 0, ('ARG', 20, 'B'): 0, ('TYR', 21, 'B'): 1, ('TYR', 23, 'B'): 1, ('LYS', 26, 'B'): 0, ('TYR', 35, 'B'): 1, ('ARG', 39, 'B'): 0, ('LYS', 41, 'B'): 0, ('ARG', 42, 'B'): 0, ('LYS', 46, 'B'): 0, ('EPP', 49, 'B'): 1, ('DPP', 50, 'B'): 1, ('ARG', 53, 'B'): 0, ('NTE', 1, 'A'): 0, ('CTE', 60, 'A'): 1, ('NTE', 1, 'B'): 0, ('CTE', 58, 'B'): 1} 
+Residues that have changed the protonation state are: 
+[('TYR', 1, 'A'), ('ARG', 3, 'A'), ('LYS', 7, 'A'), ('ARG', 9, 'A'), ('DPP', 10, 'A'), ('DPP', 13, 'A'), ('EPP', 14, 'A'), ('DPP', 16, 'A'), ('EPP', 19, 'A'), ('EPP', 22, 'A'), ('ARG', 23, 'A'), ('TYR', 25, 'A'), ('ARG', 27, 'A'), ('LYS', 30, 'A'), ('DPP', 34, 'A'), ('EPP', 41, 'A'), ('DPP', 42, 'A'), ('HSP', 43, 'A'), ('DPP', 47, 'A'), ('TYR', 48, 'A'), ('TYR', 49, 'A'), ('TYR', 52, 'A'), ('ARG', 53, 'A'), ('DPP', 54, 'A'), ('ARG', 1, 'B'), ('DPP', 3, 'B'), ('EPP', 7, 'B'), ('TYR', 10, 'B'), ('LYS', 15, 'B'), ('ARG', 17, 'B'), ('ARG', 20, 'B'), ('TYR', 21, 'B'), ('TYR', 23, 'B'), ('LYS', 26, 'B'), ('TYR', 35, 'B'), ('ARG', 39, 'B'), ('LYS', 41, 'B'), ('ARG', 42, 'B'), ('LYS', 46, 'B'), ('EPP', 49, 'B'), ('DPP', 50, 'B'), ('ARG', 53, 'B'), ('NTE', 1, 'A'), ('CTE', 60, 'A'), ('NTE', 1, 'B'), ('CTE', 58, 'B')] 
+# Snapshot saved: /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1d0d_karlsberg/pac_ph_20_open_sb_bases/snapshots/iter1_start.pkl 
+# Starting PAC modelling 
+Salt bridge opening bases! Iteration 1 
+Salt bridges Are below 
+['EPP-22_A', 'HSP-43_A', 'DPP-50_B', 'ARG-53_B', 'TYR-1_A', 'ARG-23_A', 'TYR-25_A', 'ARG-27_A', 'ARG-1_B', 'TYR-23_B'] 
+Starting prot_energy job to determine protonation 
+Starting Karlsbergg 
+/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1d0d_karlsberg/pac_ph_20_open_sb_bases/iter1/karlsberg/ 
+
+
+***Starting iteration 2*** 
+previous_protonation 
+{('TYR', 1, 'A'): 1, ('ARG', 3, 'A'): 0, ('LYS', 7, 'A'): 0, ('ARG', 9, 'A'): 0, ('DPP', 10, 'A'): 1, ('DPP', 13, 'A'): 1, ('EPP', 14, 'A'): 1, ('DPP', 16, 'A'): 1, ('EPP', 19, 'A'): 1, ('EPP', 22, 'A'): 1, ('ARG', 23, 'A'): 0, ('TYR', 25, 'A'): 1, ('ARG', 27, 'A'): 0, ('LYS', 30, 'A'): 0, ('DPP', 34, 'A'): 1, ('EPP', 41, 'A'): 1, ('DPP', 42, 'A'): 1, ('HSP', 43, 'A'): 2, ('DPP', 47, 'A'): 1, ('TYR', 48, 'A'): 1, ('TYR', 49, 'A'): 1, ('TYR', 52, 'A'): 1, ('ARG', 53, 'A'): 0, ('DPP', 54, 'A'): 1, ('ARG', 1, 'B'): 0, ('DPP', 3, 'B'): 1, ('EPP', 7, 'B'): 1, ('TYR', 10, 'B'): 1, ('LYS', 15, 'B'): 0, ('ARG', 17, 'B'): 0, ('ARG', 20, 'B'): 0, ('TYR', 21, 'B'): 1, ('TYR', 23, 'B'): 1, ('LYS', 26, 'B'): 0, ('TYR', 35, 'B'): 1, ('ARG', 39, 'B'): 0, ('LYS', 41, 'B'): 0, ('ARG', 42, 'B'): 0, ('LYS', 46, 'B'): 0, ('EPP', 49, 'B'): 1, ('DPP', 50, 'B'): 1, ('ARG', 53, 'B'): 0, ('NTE', 1, 'A'): 0, ('CTE', 60, 'A'): 1, ('NTE', 1, 'B'): 0, ('CTE', 58, 'B'): 1} 
+current_protonation 
+{('TYR', 1, 'A'): 1, ('ARG', 3, 'A'): 0, ('LYS', 7, 'A'): 0, ('ARG', 9, 'A'): 0, ('DPP', 10, 'A'): 1, ('DPP', 13, 'A'): 1, ('EPP', 14, 'A'): 1, ('DPP', 16, 'A'): 1, ('EPP', 19, 'A'): 1, ('EPP', 22, 'A'): 1, ('ARG', 23, 'A'): 0, ('TYR', 25, 'A'): 1, ('ARG', 27, 'A'): 0, ('LYS', 30, 'A'): 0, ('DPP', 34, 'A'): 1, ('EPP', 41, 'A'): 1, ('DPP', 42, 'A'): 1, ('HSP', 43, 'A'): 2, ('DPP', 47, 'A'): 1, ('TYR', 48, 'A'): 1, ('TYR', 49, 'A'): 1, ('TYR', 52, 'A'): 1, ('ARG', 53, 'A'): 0, ('DPP', 54, 'A'): 1, ('ARG', 1, 'B'): 0, ('DPP', 3, 'B'): 1, ('EPP', 7, 'B'): 1, ('TYR', 10, 'B'): 1, ('LYS', 15, 'B'): 0, ('ARG', 17, 'B'): 0, ('ARG', 20, 'B'): 0, ('TYR', 21, 'B'): 1, ('TYR', 23, 'B'): 1, ('LYS', 26, 'B'): 0, ('TYR', 35, 'B'): 1, ('ARG', 39, 'B'): 0, ('LYS', 41, 'B'): 0, ('ARG', 42, 'B'): 0, ('LYS', 46, 'B'): 0, ('EPP', 49, 'B'): 1, ('DPP', 50, 'B'): 1, ('ARG', 53, 'B'): 0, ('NTE', 1, 'A'): 0, ('CTE', 60, 'A'): 1, ('NTE', 1, 'B'): 0, ('CTE', 58, 'B'): 1} 
+
+Pac 20_open_sb_bases completed! 

@@ -1,0 +1,105 @@
+
+### The following changes have been applied to the structure. ###
+# A gap has been found in the resid numbering AND in the structure.
+  Decision: gap__THR-322_A__SER-332_A
+  Options:  keep       - Do nothing, the gap remains in the structure.
+            model/keep - Try to extract the missing sequence from the PDB header.
+                         If possible and if the length of the missing sequence is
+                         smaller than 10, the gap will be modelled. Otherwise the gap 
+                         will be kept.(default)
+            <sequence> - Model the missing residues with the given sequence. 
+                         The sequence must be space separated three letter codes. 
+  Chosen:   model/keep
+
+# A gap has been found in the resid numbering AND in the structure.
+  Decision: gap__THR-322_B__SER-332_B
+  Options:  keep       - Do nothing, the gap remains in the structure.
+            model/keep - Try to extract the missing sequence from the PDB header.
+                         If possible and if the length of the missing sequence is
+                         smaller than 10, the gap will be modelled. Otherwise the gap 
+                         will be kept.(default)
+            <sequence> - Model the missing residues with the given sequence. 
+                         The sequence must be space separated three letter codes. 
+  Chosen:   model/keep
+
+# A gap has been found in the resid numbering AND in the structure.
+  Decision: gap__THR-322_C__SER-332_C
+  Options:  keep       - Do nothing, the gap remains in the structure.
+            model/keep - Try to extract the missing sequence from the PDB header.
+                         If possible and if the length of the missing sequence is
+                         smaller than 10, the gap will be modelled. Otherwise the gap 
+                         will be kept.(default)
+            <sequence> - Model the missing residues with the given sequence. 
+                         The sequence must be space separated three letter codes. 
+  Chosen:   model/keep
+
+# A gap has been found in the resid numbering AND in the structure.
+  Decision: gap__THR-322_D__SER-332_D
+  Options:  keep       - Do nothing, the gap remains in the structure.
+            model/keep - Try to extract the missing sequence from the PDB header.
+                         If possible and if the length of the missing sequence is
+                         smaller than 10, the gap will be modelled. Otherwise the gap 
+                         will be kept.(default)
+            <sequence> - Model the missing residues with the given sequence. 
+                         The sequence must be space separated three letter codes. 
+  Chosen:   model/keep
+
+# Capping of termini will be decided here. Should they be caped?
+  Decision: cap_termini
+  Options:  cap - Apply patches in Charmm to cap termini if not true termini. (default)
+            dont_cap  - Do nothing, apply regular termini patches!
+
+  Chosen:   cap for segname A
+
+  Chosen:   cap for segname B
+
+  Chosen:   cap for segname C
+
+  Chosen:   cap for segname D
+
+# There are 100 protein and 0 ligand atoms missing. Should they be modelled?:
+  Missing atoms: PHE-10_A:  CG CD1 CE1  CZ CD2 CE2 
+                 EPP-37_A:  CG  CD OE1 OE2 
+                 EPP-83_A:  CG  CD OE1 OE2 
+                 SER-94_A:  OG 
+                 TYR-100_A:  OH 
+                 ASN-124_A:  CG OD1 ND2 
+                 LYS-182_A:  CG  CD  CE  NZ 
+                 VAL-336_A: CG1 CG2 
+                 PHE-10_B:  CG CD1 CE1  CZ CD2 CE2 
+                 EPP-37_B:  CG  CD OE1 OE2 
+                 EPP-83_B:  CG  CD OE1 OE2 
+                 SER-94_B:  OG 
+                 TYR-100_B:  OH 
+                 ASN-124_B:  CG OD1 ND2 
+                 LYS-182_B:  CG  CD  CE  NZ 
+                 VAL-336_B: CG1 CG2 
+                 PHE-10_C:  CG CD1 CE1  CZ CD2 CE2 
+                 EPP-37_C:  CG  CD OE1 OE2 
+                 EPP-83_C:  CG  CD OE1 OE2 
+                 SER-94_C:  OG 
+                 TYR-100_C:  OH 
+                 ASN-124_C:  CG OD1 ND2 
+                 LYS-182_C:  CG  CD  CE  NZ 
+                 VAL-336_C: CG1 CG2 
+                 PHE-10_D:  CG CD1 CE1  CZ CD2 CE2 
+                 EPP-37_D:  CG  CD OE1 OE2 
+                 EPP-83_D:  CG  CD OE1 OE2 
+                 SER-94_D:  OG 
+                 TYR-100_D:  OH 
+                 ASN-124_D:  CG OD1 ND2 
+                 LYS-182_D:  CG  CD  CE  NZ 
+                 VAL-336_D: CG1 CG2 
+  Decision: missing_atoms
+  Options:  model - Model all missing atoms. (default)
+            [keep  - Do not model any (non hydrogen) atoms.] option currently not available
+  Chosen:   model
+
+# There are 12136 protein, 0 ligand and 0 water hydrogens missing. Should they be modelled?:
+  Decision: missing_hydrogens
+  Options:  model - Model and optimize all hydrogens. (default)
+            rebuild_all - Strip all present hydrogens first, then rebuild and optimize them.
+            rebuild_selected - Strip only selected hydrogens first, then rebuild and optimize them.
+            disabled - Do not rebuild hydrogens again after a one-shot rebuild.
+  Chosen:   model
+

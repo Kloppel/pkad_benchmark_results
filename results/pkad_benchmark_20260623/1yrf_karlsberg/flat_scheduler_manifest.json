@@ -1,0 +1,103 @@
+{
+  "pacs": {
+    "7_h_min": {
+      "artifacts": {
+        "charmm_pickle": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1yrf_karlsberg/pac_ph_7_h_min/charmm_pac.pkl",
+        "pac_folder": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1yrf_karlsberg/pac_ph_7_h_min/",
+        "progress_log": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1yrf_karlsberg/pac_ph_7_h_min/progress.log",
+        "results_pickle": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1yrf_karlsberg/pac_ph_7_h_min/kbp2_res.pkl"
+      },
+      "reason": null,
+      "record": {
+        "artifact_paths": {
+          "charmm_pickle": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1yrf_karlsberg/pac_ph_7_h_min/charmm_pac.pkl",
+          "pac_folder": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1yrf_karlsberg/pac_ph_7_h_min/",
+          "progress_log": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1yrf_karlsberg/pac_ph_7_h_min/progress.log",
+          "results_pickle": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1yrf_karlsberg/pac_ph_7_h_min/kbp2_res.pkl"
+        },
+        "cpu_cost": 1,
+        "modelling_type": "h_min",
+        "pac_id": "7_h_min",
+        "ph": 7,
+        "state_id": "1yrf_karlsberg",
+        "timeout_budget": 30952.41065956193,
+        "workdir": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1yrf_karlsberg/pac_ph_7_h_min/"
+      },
+      "status": "succeeded",
+      "transitions": [
+        {
+          "reason": null,
+          "status": "running",
+          "timestamp": "2026-06-23T14:35:21.511935+00:00"
+        },
+        {
+          "reason": null,
+          "status": "succeeded",
+          "timestamp": "2026-06-23T14:37:05.707183+00:00"
+        }
+      ]
+    }
+  },
+  "state": {
+    "artifacts": {
+      "finalization": "completed",
+      "initial_modelling_folder": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1yrf_karlsberg/initial_modelling/",
+      "results_dat": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1yrf_karlsberg/results.dat",
+      "results_pickle": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1yrf_karlsberg/results.pkl",
+      "workdir": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1yrf_karlsberg/"
+    },
+    "reason": null,
+    "record": {
+      "artifact_paths": {
+        "initial_modelling_folder": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1yrf_karlsberg/initial_modelling/",
+        "manifest_path": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1yrf_karlsberg/flat_scheduler_manifest.json",
+        "results_dat": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1yrf_karlsberg/results.dat",
+        "results_pickle": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1yrf_karlsberg/results.pkl"
+      },
+      "cpu_budget": 1,
+      "policy": {
+        "continue_after_pac_failure": false,
+        "initial_charmm_failure": "abort_state",
+        "pac_charmm_failure": "abort_state"
+      },
+      "protocol": [
+        [
+          7,
+          "h_min"
+        ]
+      ],
+      "state_id": "1yrf_karlsberg",
+      "workdir": "/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1yrf_karlsberg/"
+    },
+    "status": "succeeded",
+    "transitions": [
+      {
+        "reason": null,
+        "status": "preparing",
+        "timestamp": "2026-06-23T14:35:21.505376+00:00"
+      },
+      {
+        "reason": null,
+        "status": "prepared",
+        "timestamp": "2026-06-23T14:35:21.508242+00:00"
+      },
+      {
+        "reason": null,
+        "status": "running_pacs",
+        "timestamp": "2026-06-23T14:35:21.510028+00:00"
+      },
+      {
+        "reason": null,
+        "status": "finalizing",
+        "timestamp": "2026-06-23T14:37:05.710486+00:00"
+      },
+      {
+        "reason": null,
+        "status": "succeeded",
+        "timestamp": "2026-06-23T14:37:09.324217+00:00"
+      }
+    ]
+  },
+  "updated_at": "2026-06-23T14:37:09.324234+00:00",
+  "version": 1
+}

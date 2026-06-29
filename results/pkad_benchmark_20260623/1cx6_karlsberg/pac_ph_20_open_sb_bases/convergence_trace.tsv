@@ -1,0 +1,3 @@
+iteration	changed_residues_count	hamming_distance	signature_hash	stop_reason
+1	51	51	fc1f20d0daa647af	
+2	0	0	fc1f20d0daa647af	converged

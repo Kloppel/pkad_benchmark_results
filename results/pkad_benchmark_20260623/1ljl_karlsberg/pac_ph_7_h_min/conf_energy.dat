@@ -1,0 +1,11 @@
+For this calculation coulomb energy from CHARMM will be used! 
+Protonation pattern found 
+Starting conformational energy calculation with APBS 
+Everything is fine! Here are the results:
+ 
+The method is  
+apbs 
+Conformational energy calculation done in /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1ljl_karlsberg/pac_ph_7_h_min/apbs/ 
+Conformational energy is (kJ/mol) 
+E_conf= -37657.18163046201 
+# Pac run for 20 open_sb_bases 

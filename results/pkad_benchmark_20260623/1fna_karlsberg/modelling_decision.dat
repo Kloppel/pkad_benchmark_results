@@ -1,0 +1,25 @@
+
+### The following changes have been applied to the structure. ###
+# Capping of termini will be decided here. Should they be caped?
+  Decision: cap_termini
+  Options:  cap - Apply patches in Charmm to cap termini if not true termini. (default)
+            dont_cap  - Do nothing, apply regular termini patches!
+
+  Chosen:   cap for segname A
+
+# There are 9 protein and 0 ligand atoms missing. Should they be modelled?:
+  Missing atoms: ARG-6_A:  CB  CG  CD  NE  CZ NH1 NH2 
+                 DPP-7_A: OD1 OD2 
+  Decision: missing_atoms
+  Options:  model - Model all missing atoms. (default)
+            [keep  - Do not model any (non hydrogen) atoms.] option currently not available
+  Chosen:   model
+
+# There are 696 protein, 0 ligand and 0 water hydrogens missing. Should they be modelled?:
+  Decision: missing_hydrogens
+  Options:  model - Model and optimize all hydrogens. (default)
+            rebuild_all - Strip all present hydrogens first, then rebuild and optimize them.
+            rebuild_selected - Strip only selected hydrogens first, then rebuild and optimize them.
+            disabled - Do not rebuild hydrogens again after a one-shot rebuild.
+  Chosen:   model
+

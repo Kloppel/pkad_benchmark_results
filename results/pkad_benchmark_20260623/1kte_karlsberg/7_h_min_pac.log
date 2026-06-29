@@ -1,0 +1,29 @@
+# Initial energy calculation for this PAC! 
+Starting prot_energy job to determine protonation 
+Starting Karlsbergg 
+/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1kte_karlsberg/pac_ph_7_h_min/init_calc/karlsberg/ 
+
+# Starting self-consistent-cycle! 
+
+***Starting iteration 1*** 
+previous_protonation 
+{('LYS', 8, 'A'): None, ('LYS', 13, 'A'): None, ('LYS', 19, 'A'): None, ('ARG', 26, 'A'): None, ('LYS', 27, 'A'): None, ('EPP', 30, 'A'): None, ('LYS', 38, 'A'): None, ('EPP', 39, 'A'): None, ('EPP', 43, 'A'): None, ('DPP', 46, 'A'): None, ('DPP', 52, 'A'): None, ('EPP', 55, 'A'): None, ('DPP', 58, 'A'): None, ('TYR', 59, 'A'): None, ('ARG', 67, 'A'): None, ('ARG', 71, 'A'): None, ('LYS', 76, 'A'): None, ('EPP', 77, 'A'): None, ('CYS', 78, 'A'): None, ('CYS', 82, 'A'): None, ('DPP', 84, 'A'): None, ('EPP', 86, 'A'): None, ('HSP', 89, 'A'): None, ('LYS', 90, 'A'): None, ('ARG', 91, 'A'): None, ('EPP', 93, 'A'): None, ('ARG', 97, 'A'): None, ('LYS', 105, 'A'): None, ('NTE', 1, 'A'): None, ('CTE', 105, 'A'): None} 
+current_protonation 
+{('LYS', 8, 'A'): 1, ('LYS', 13, 'A'): 1, ('LYS', 19, 'A'): 1, ('ARG', 26, 'A'): 1, ('LYS', 27, 'A'): 1, ('EPP', 30, 'A'): 1, ('LYS', 38, 'A'): 1, ('EPP', 39, 'A'): 1, ('EPP', 43, 'A'): 1, ('DPP', 46, 'A'): 1, ('DPP', 52, 'A'): 1, ('EPP', 55, 'A'): 1, ('DPP', 58, 'A'): 1, ('TYR', 59, 'A'): 0, ('ARG', 67, 'A'): 1, ('ARG', 71, 'A'): 1, ('LYS', 76, 'A'): 1, ('EPP', 77, 'A'): 1, ('CYS', 78, 'A'): 0, ('CYS', 82, 'A'): 0, ('DPP', 84, 'A'): 1, ('EPP', 86, 'A'): 1, ('HSP', 89, 'A'): 2, ('LYS', 90, 'A'): 1, ('ARG', 91, 'A'): 1, ('EPP', 93, 'A'): 1, ('ARG', 97, 'A'): 1, ('LYS', 105, 'A'): 1, ('NTE', 1, 'A'): 1, ('CTE', 105, 'A'): 1} 
+Residues that have changed the protonation state are: 
+[('LYS', 8, 'A'), ('LYS', 13, 'A'), ('LYS', 19, 'A'), ('ARG', 26, 'A'), ('LYS', 27, 'A'), ('EPP', 30, 'A'), ('LYS', 38, 'A'), ('EPP', 39, 'A'), ('EPP', 43, 'A'), ('DPP', 46, 'A'), ('DPP', 52, 'A'), ('EPP', 55, 'A'), ('DPP', 58, 'A'), ('TYR', 59, 'A'), ('ARG', 67, 'A'), ('ARG', 71, 'A'), ('LYS', 76, 'A'), ('EPP', 77, 'A'), ('CYS', 78, 'A'), ('CYS', 82, 'A'), ('DPP', 84, 'A'), ('EPP', 86, 'A'), ('HSP', 89, 'A'), ('LYS', 90, 'A'), ('ARG', 91, 'A'), ('EPP', 93, 'A'), ('ARG', 97, 'A'), ('LYS', 105, 'A'), ('NTE', 1, 'A'), ('CTE', 105, 'A')] 
+# Snapshot saved: /net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1kte_karlsberg/pac_ph_7_h_min/snapshots/iter1_start.pkl 
+# Starting PAC modelling 
+Only hydrogens are minimzied! Iteration 1 
+Starting prot_energy job to determine protonation 
+Starting Karlsbergg 
+/net/work/jones/Karlsberg3/benchmarking/pkad_benchmark/results/pkad_benchmark_20260623/1kte_karlsberg/pac_ph_7_h_min/iter1/karlsberg/ 
+
+
+***Starting iteration 2*** 
+previous_protonation 
+{('LYS', 8, 'A'): 1, ('LYS', 13, 'A'): 1, ('LYS', 19, 'A'): 1, ('ARG', 26, 'A'): 1, ('LYS', 27, 'A'): 1, ('EPP', 30, 'A'): 1, ('LYS', 38, 'A'): 1, ('EPP', 39, 'A'): 1, ('EPP', 43, 'A'): 1, ('DPP', 46, 'A'): 1, ('DPP', 52, 'A'): 1, ('EPP', 55, 'A'): 1, ('DPP', 58, 'A'): 1, ('TYR', 59, 'A'): 0, ('ARG', 67, 'A'): 1, ('ARG', 71, 'A'): 1, ('LYS', 76, 'A'): 1, ('EPP', 77, 'A'): 1, ('CYS', 78, 'A'): 0, ('CYS', 82, 'A'): 0, ('DPP', 84, 'A'): 1, ('EPP', 86, 'A'): 1, ('HSP', 89, 'A'): 2, ('LYS', 90, 'A'): 1, ('ARG', 91, 'A'): 1, ('EPP', 93, 'A'): 1, ('ARG', 97, 'A'): 1, ('LYS', 105, 'A'): 1, ('NTE', 1, 'A'): 1, ('CTE', 105, 'A'): 1} 
+current_protonation 
+{('LYS', 8, 'A'): 1, ('LYS', 13, 'A'): 1, ('LYS', 19, 'A'): 1, ('ARG', 26, 'A'): 1, ('LYS', 27, 'A'): 1, ('EPP', 30, 'A'): 1, ('LYS', 38, 'A'): 1, ('EPP', 39, 'A'): 1, ('EPP', 43, 'A'): 1, ('DPP', 46, 'A'): 1, ('DPP', 52, 'A'): 1, ('EPP', 55, 'A'): 1, ('DPP', 58, 'A'): 1, ('TYR', 59, 'A'): 0, ('ARG', 67, 'A'): 1, ('ARG', 71, 'A'): 1, ('LYS', 76, 'A'): 1, ('EPP', 77, 'A'): 1, ('CYS', 78, 'A'): 0, ('CYS', 82, 'A'): 0, ('DPP', 84, 'A'): 1, ('EPP', 86, 'A'): 1, ('HSP', 89, 'A'): 2, ('LYS', 90, 'A'): 1, ('ARG', 91, 'A'): 1, ('EPP', 93, 'A'): 1, ('ARG', 97, 'A'): 1, ('LYS', 105, 'A'): 1, ('NTE', 1, 'A'): 1, ('CTE', 105, 'A'): 1} 
+
+Pac 7_h_min completed! 
